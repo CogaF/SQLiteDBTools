@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="ar" name="العربية">
+    <entry key="About" value="حول"/>
+    <entry key="Changes" value="التغييرات"/>
+    <entry key="Compliance" value="الامتثال"/>
+    <entry key="Dependencies" value="التبعيات"/>
+    <entry key="License" value="الترخيص"/>
+    <entry key="System" value="النظام"/>
+    <entry key="Third-party notices" value="إشعارات الجهات الخارجية"/>
+    <entry key="About %s" value="حول %s"/>
+    <entry key="Version %s - commit %d, built %s (%s)" value="الإصدار %s - الإيداع %d، بُني في %s (%s)"/>
+    <entry key="Active" value="نشط"/>
+    <entry key="Full access account name:" value="اسم حساب الوصول الكامل:"/>
+    <entry key="Created" value="تاريخ الإنشاء"/>
+    <entry key="Created by" value="أنشأه"/>
+    <entry key="Full name" value="الاسم الكامل"/>
+    <entry key="Level" value="المستوى"/>
+    <entry key="Name" value="الاسم"/>
+    <entry key="Status" value="الحالة"/>
+    <entry key="The accounts are on. Log in now with one of them." value="تم تشغيل الحسابات. سجّل الدخول الآن بأحدها."/>
+    <entry key="With accounts, everyone who opens this database logs in with a name and a password, can do only what the level of the account allows, and every operation is recorded with the account. Two accounts are made now: a Master account, which only manages the accounts, and a Full access account for the work. Accounts are never deleted (an account can be locked). Keep the Master password safe: nobody can recover it." value="مع الحسابات، يسجّل كل من يفتح قاعدة البيانات هذه الدخول باسم وكلمة مرور، ولا يمكنه إلا ما يسمح به مستوى حسابه، وتُسجَّل كل عملية مع الحساب. يُنشأ الآن حسابان: حساب رئيسي يدير الحسابات فقط، وحساب وصول كامل للعمل. لا تُحذف الحسابات أبداً (يمكن قفل الحساب). احتفظ بكلمة مرور الحساب الرئيسي في مكان آمن: لا يمكن لأحد استردادها."/>
+    <entry key="Switch on the accounts" value="تشغيل الحسابات"/>
+    <entry key="Full name:" value="الاسم الكامل:"/>
+    <entry key="Change level..." value="تغيير المستوى..."/>
+    <entry key="New level of %s:" value="المستوى الجديد لـ %s:"/>
+    <entry key="Level:" value="المستوى:"/>
+    <entry key="Level of the account" value="مستوى الحساب"/>
+    <entry key="Locked" value="مقفل"/>
+    <entry key="Lock" value="قفل"/>
+    <entry key="Lock the account %s? It can no longer log in until it is unlocked." value="هل تريد قفل الحساب %s؟ لن يتمكن من تسجيل الدخول حتى يُلغى قفله."/>
+    <entry key="Logged in as %s (%s)." value="تم تسجيل الدخول باسم %s (%s)."/>
+    <entry key="Master account name:" value="اسم الحساب الرئيسي:"/>
+    <entry key="Name:" value="الاسم:"/>
+    <entry key="New account..." value="حساب جديد..."/>
+    <entry key="New account" value="حساب جديد"/>
+    <entry key="Master manages every account; Full access manages Read only, Entry only and Modify data accounts. Accounts are never deleted: lock the ones no longer used (their names stay in the operations log)." value="يدير الحساب الرئيسي كل الحسابات؛ ويدير حساب الوصول الكامل حسابات القراءة فقط والإدخال فقط وتعديل البيانات. لا تُحذف الحسابات أبداً: اقفل الحسابات التي لم تعد مستخدمة (تبقى أسماؤها في سجل العمليات)."/>
+    <entry key="New password..." value="كلمة مرور جديدة..."/>
+    <entry key="New password of %s:" value="كلمة المرور الجديدة لـ %s:"/>
+    <entry key="The password was changed." value="تم تغيير كلمة المرور."/>
+    <entry key="New password" value="كلمة مرور جديدة"/>
+    <entry key="Users and access" value="المستخدمون والوصول"/>
+    <entry key="Unlock" value="إلغاء القفل"/>
+    <entry key="Current password:" value="كلمة المرور الحالية:"/>
+    <entry key="This name cannot be used for an account." value="لا يمكن استخدام هذا الاسم لحساب."/>
+    <entry key="An account with this name already exists." value="يوجد حساب بهذا الاسم بالفعل."/>
+    <entry key="Your account is not allowed to do this." value="لا يُسمح لحسابك بتنفيذ هذا الإجراء."/>
+    <entry key="The account does not exist." value="الحساب غير موجود."/>
+    <entry key="You cannot change the level of your own account or lock it." value="لا يمكنك تغيير مستوى حسابك أو قفله."/>
+    <entry key="The password must have at least %d characters." value="يجب أن تتكون كلمة المرور من %d أحرف على الأقل."/>
+    <entry key="New password:" value="كلمة المرور الجديدة:"/>
+    <entry key="Password:" value="كلمة المرور:"/>
+    <entry key="Add column..." value="إضافة عمود..."/>
+    <entry key="Admin password:" value="كلمة مرور المسؤول:"/>
+    <entry key="Apply" value="تطبيق"/>
+    <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="لا يُطبَّق التغيير بالكامل إلا عند بدء تشغيل التطبيق.&#10;&#10;إعادة التشغيل الآن: حفظه وإعادة تشغيل التطبيق تلقائياً.&#10;الاستخدام الآن: حفظه واستخدامه فوراً - بعض الأجزاء لا تتغير إلا عند التشغيل التالي.&#10;الحفظ للتشغيل التالي: حفظه فقط."/>
+    <entry key="Apply changes" value="تطبيق التغييرات"/>
+    <entry key="Any file" value="أي ملف"/>
+    <entry key="Archives (zip, 7z, rar, tar, gz, ...)" value="الأرشيفات (zip, 7z, rar, tar, gz, ...)"/>
+    <entry key="Choose the file for %s" value="اختر الملف لـ %s"/>
+    <entry key="Spreadsheets (xls, xlsx, ods, csv)" value="جداول البيانات (xls, xlsx, ods, csv)"/>
+    <entry key="All files" value="كل الملفات"/>
+    <entry key="Accepted files" value="الملفات المقبولة"/>
+    <entry key="Images (jpg, png, gif, bmp, tif, webp, svg, ...)" value="الصور (jpg, png, gif, bmp, tif, webp, svg, ...)"/>
+    <entry key="Files accepted:" value="الملفات المقبولة:"/>
+    <entry key="PDF documents" value="مستندات PDF"/>
+    <entry key="Text files (txt, md, xml, json, log)" value="الملفات النصية (txt, md, xml, json, log)"/>
+    <entry key="Documents (doc, docx, odt, rtf)" value="المستندات (doc, docx, odt, rtf)"/>
+    <entry key="Check Again" value="فحص مرة أخرى"/>
+    <entry key="All %s attached files of %s records are in %s." value="جميع الملفات المرفقة (%s) لـ %s سجل موجودة في %s."/>
+    <entry key="The record keeps a %s file: choose a file of that kind (the name it keeps does not change)." value="يحتفظ السجل بملف %s: اختر ملفًا من هذا النوع (لا يتغير الاسم المحفوظ)."/>
+    <entry key="The attachments could not all be checked." value="تعذر فحص جميع المرفقات."/>
+    <entry key="Fixed" value="تم الإصلاح"/>
+    <entry key="The file could not be put into the attachment folder." value="تعذر وضع الملف في مجلد المرفقات."/>
+    <entry key="Fix %s..." value="إصلاح %s..."/>
+    <entry key="Every file attached to the records is looked for in the attachment folder. The records whose files are missing are listed below, their missing files in red: &quot;Fix&quot; puts back the file you choose under the name the record keeps (the record itself does not change)." value="يتم البحث عن كل ملف مرفق بالسجلات في مجلد المرفقات. السجلات التي تنقصها ملفات مدرجة أدناه، مع الملفات المفقودة باللون الأحمر: &quot;إصلاح&quot; يعيد الملف الذي تختاره بالاسم الذي يحتفظ به السجل (لا يتغير السجل نفسه)."/>
+    <entry key="%s of %s attached files are missing (in %s records) from %s." value="%s من %s ملف مرفق مفقودة (في %s سجل) من %s."/>
+    <entry key="... and %s more records: fix these, then check again." value="... و%s سجل آخر: أصلح هذه، ثم افحص مرة أخرى."/>
+    <entry key="Attachment Check" value="فحص المرفقات"/>
+    <entry key="%s - %d record(s) with missing files" value="%s - %d سجل بملفات مفقودة"/>
+    <entry key="Attention" value="تنبيه"/>
+    <entry key="This folder cannot be used: give a full path (e.g. D:\Files\Stock)." value="لا يمكن استخدام هذا المجلد: أدخل مساراً كاملاً (مثل D:\Files\Stock)."/>
+    <entry key="Relative to the folder of the database (default: &lt;name&gt;.files next to it)" value="نسبةً إلى مجلد قاعدة البيانات (الافتراضي: &lt;name&gt;.files بجانبها)"/>
+    <entry key="A folder of my choice" value="مجلد من اختياري"/>
+    <entry key="Relative to the folder of the program" value="نسبةً إلى مجلد البرنامج"/>
+    <entry key="This database keeps its attachments in:&#10;%s&#10;&#10;That folder is outside the folder of the database. Use it on this computer?&#10;&#10;No: the attachments are looked for in %s this time." value="تحفظ قاعدة البيانات هذه مرفقاتها في:&#10;%s&#10;&#10;هذا المجلد خارج مجلد قاعدة البيانات. هل تريد استخدامه على هذا الكمبيوتر؟&#10;&#10;لا: يتم البحث عن المرفقات في %s هذه المرة."/>
+    <entry key="Copy them into the new folder (the old folder stays as it is)" value="نسخها إلى المجلد الجديد (يبقى المجلد القديم كما هو)"/>
+    <entry key="The files could not all be copied; the folder was not changed.&#10;&#10;%s" value="تعذّر نسخ جميع الملفات؛ لم يتم تغيير المجلد.&#10;&#10;%s"/>
+    <entry key="Attachments are now kept in:&#10;%s&#10;&#10;%d file(s) moved or copied, %d left in the old folder because a file of the same name was already in the new one." value="تُحفظ المرفقات الآن في:&#10;%s&#10;&#10;تم نقل أو نسخ %d ملف، وتُرك %d في المجلد القديم لأن ملفاً بالاسم نفسه كان موجوداً في المجلد الجديد."/>
+    <entry key="The folder exists." value="المجلد موجود."/>
+    <entry key="The current folder holds attached files:&#10;%s&#10;What should happen to them?" value="يحتوي المجلد الحالي على ملفات مرفقة:&#10;%s&#10;ماذا تريد أن تفعل بها؟"/>
+    <entry key="Files already attached" value="ملفات مرفقة مسبقاً"/>
+    <entry key="Full path: %s" value="المسار الكامل: %s"/>
+    <entry key="Where the files attached to the records of this database are kept. The database stores only their names, so the folder can be moved with it." value="مكان حفظ الملفات المرفقة بسجلات قاعدة البيانات هذه. تخزن قاعدة البيانات أسماءها فقط، لذا يمكن نقل المجلد معها."/>
+    <entry key="Leave them where they are (they will be missing until moved by hand)" value="تركها في مكانها (ستكون مفقودة حتى يتم نقلها يدوياً)"/>
+    <entry key="Move them into the new folder" value="نقلها إلى المجلد الجديد"/>
+    <entry key="The folder does not exist yet: it is created with the first attachment." value="المجلد غير موجود بعد: يتم إنشاؤه مع أول مرفق."/>
+    <entry key="Outside the folder of the database: other computers use it only after confirming it." value="خارج مجلد قاعدة البيانات: لا تستخدمه أجهزة الكمبيوتر الأخرى إلا بعد تأكيده."/>
+    <entry key="Folder:" value="المجلد:"/>
+    <entry key="Attachment Folder" value="مجلد المرفقات"/>
+    <entry key="The lock covers the window and keeps the tabs and the work open: the password of the account (or of the database) uncovers it. A warning appears 30 seconds before. Default: 600 (10 minutes)." value="يغطي القفل النافذة ويُبقي علامات التبويب والعمل مفتوحة: تكشفها كلمة مرور الحساب (أو قاعدة البيانات). يظهر تحذير قبل 30 ثانية. الافتراضي: 600 (10 دقائق)."/>
+    <entry key="Lock the window after this many seconds without activity (0 = never):" value="قفل النافذة بعد هذا العدد من الثواني دون نشاط (0 = أبداً):"/>
+    <entry key="add a record to another table" value="إضافة سجل إلى جدول آخر"/>
+    <entry key="Then:" value="ثم:"/>
+    <entry key="refuse the change with a message" value="رفض التغيير مع رسالة"/>
+    <entry key="set values of the same record" value="تعيين قيم السجل نفسه"/>
+    <entry key="change records of another table" value="تغيير سجلات جدول آخر"/>
+    <entry key="(any)" value="(أي)"/>
+    <entry key="Check" value="تحقق"/>
+    <entry key="The automation is correct." value="الأتمتة صحيحة."/>
+    <entry key="Condition:" value="الشرط:"/>
+    <entry key="Automation" value="أتمتة"/>
+    <entry key="Switched on" value="قيد التشغيل"/>
+    <entry key="added" value="أُضيف"/>
+    <entry key="{AUTO_EVENT_CHANGED}changed" value="تغيّر"/>
+    <entry key="deleted" value="حُذف"/>
+    <entry key="Values are expressions: {Column} is a value of the record (when it is changed or deleted, {old.Column} is the value before), {Reference&gt;Column} a value of the record it refers to, numbers, 'texts', + - * /, &amp; joins texts, and the functions round(x, n), abs, min, max, coalesce, upper, lower, length, trim, substr, today(), now(), date, year, month, day, days(from, to). Example: when a movement is added, change the Items whose Code = {Item}: Stock -= {Qty}." value="القيم تعبيرات: {العمود} قيمة من السجل (عند تغييره أو حذفه، {old.العمود} هي القيمة السابقة)، و{المرجع&gt;العمود} قيمة من السجل الذي يشير إليه، والأرقام، و'النصوص'، و+ - * /، و&amp; يربط النصوص، والدوال round(x, n), abs, min, max, coalesce, upper, lower, length, trim, substr, today(), now(), date, year, month, day, days(from, to). مثال: عند إضافة حركة، غيّر الأصناف التي Code = {Item}: Stock -= {Qty}."/>
+    <entry key="Its records where:" value="سجلاته التي:"/>
+    <entry key="Message:" value="الرسالة:"/>
+    <entry key="+=" value="+="/>
+    <entry key="=" value="="/>
+    <entry key="-=" value="-="/>
+    <entry key="Name:" value="الاسم:"/>
+    <entry key="Give the automation a name." value="أدخل اسماً للأتمتة."/>
+    <entry key="only if" value="فقط إذا"/>
+    <entry key="Other table:" value="الجدول الآخر:"/>
+    <entry key="Digits (zero padded, 0 = none):" value="الأرقام (مع أصفار بادئة، 0 = بدون):"/>
+    <entry key="Remove the automation &quot;%s&quot;? No data is changed." value="هل تريد إزالة الأتمتة &quot;%s&quot;؟ لن تتغير أي بيانات."/>
+    <entry key="Automation &quot;%s&quot; saved." value="تم حفظ الأتمتة &quot;%s&quot;."/>
+    <entry key="Columns set (column, how, value)" value="الأعمدة المعيّنة (العمود، الطريقة، القيمة)"/>
+    <entry key="Start:" value="البداية:"/>
+    <entry key="Step:" value="الخطوة:"/>
+    <entry key="Table:" value="الجدول:"/>
+    <entry key="column:" value="العمود:"/>
+    <entry key="When a record is:" value="عندما يكون السجل:"/>
+    <entry key="Working... %d%% (%d s)" value="جارٍ العمل... %d%% (%d ث)"/>
+    <entry key="Working... %d s" value="جارٍ العمل... %d ث"/>
+    <entry key="Stopping..." value="جارٍ الإيقاف..."/>
+    <entry key="Stop" value="إيقاف"/>
+    <entry key="Development (Debug)" value="تطوير (Debug)"/>
+    <entry key="Final release" value="الإصدار النهائي"/>
+    <entry key="Release candidate" value="إصدار مرشّح"/>
+    <entry key="Cancel" value="إلغاء"/>
+    <entry key="The database is not re-encrypted; the recovery key stays valid." value="لا يُعاد تشفير قاعدة البيانات؛ ويبقى مفتاح الاسترداد صالحاً."/>
+    <entry key="Change the admin password" value="تغيير كلمة مرور المسؤول"/>
+    <entry key="Choices (one per line):" value="الاختيارات (واحد في كل سطر):"/>
+    <entry key="Choose the table:" value="اختر الجدول:"/>
+    <entry key="How: AES-256 in CBC mode; the key is stretched with a SHA-based function (the defaults of SQLite3 Multiple Ciphers).&#10;&#10;Pros:&#10;- AES, the most familiar cipher;&#10;- the format of wxSQLite3 applications.&#10;&#10;Cons:&#10;- pages are NOT authenticated: a tampered file is not detected as reliably as with the other formats;&#10;- not SQLCipher compatible;&#10;- the oldest scheme of the three; fewer tools.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers and wxSQLite3 (AES-256 mode) and this application. Choose it only if another program of yours needs it." value="الطريقة: AES-256 بوضع CBC؛ ويُقوّى المفتاح بدالة مبنية على SHA (الإعدادات الافتراضية لـ SQLite3 Multiple Ciphers).&#10;&#10;المزايا:&#10;- AES، التشفير الأكثر شيوعاً؛&#10;- تنسيق تطبيقات wxSQLite3.&#10;&#10;العيوب:&#10;- الصفحات غير موثّقة: لا يُكتشف الملف المعدَّل بالموثوقية نفسها كما في التنسيقات الأخرى؛&#10;- غير متوافق مع SQLCipher؛&#10;- أقدم المخططات الثلاثة؛ أدوات أقل.&#10;&#10;متوافق مع: البرامج المبنية على SQLite3 Multiple Ciphers وwxSQLite3 (وضع AES-256) وهذا التطبيق. اختره فقط إذا احتاجه برنامج آخر لديك."/>
+    <entry key="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)" value="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)"/>
+    <entry key="How: ChaCha20 stream cipher with Poly1305 authentication on every page; the file has no readable header (it looks like random data).&#10;&#10;Pros:&#10;- fast also on PCs without AES hardware;&#10;- modern, authenticated cipher;&#10;- nothing in the file says it is a database.&#10;&#10;Cons:&#10;- not SQLCipher compatible: the standard DB Browser for SQLite and the SQLCipher tools cannot open it;&#10;- fewer programs support it.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers (its own shell, wxSQLite3 applications, libraries and bindings based on it) and this application." value="الطريقة: تشفير التدفق ChaCha20 مع توثيق Poly1305 لكل صفحة؛ لا يحتوي الملف على ترويسة مقروءة (يبدو كبيانات عشوائية).&#10;&#10;المزايا:&#10;- سريع حتى على الأجهزة التي لا تدعم AES في العتاد؛&#10;- تشفير حديث وموثّق؛&#10;- لا شيء في الملف يدل على أنه قاعدة بيانات.&#10;&#10;العيوب:&#10;- غير متوافق مع SQLCipher: لا يمكن لبرنامج DB Browser for SQLite القياسي ولا لأدوات SQLCipher فتحه؛&#10;- عدد أقل من البرامج يدعمه.&#10;&#10;متوافق مع: البرامج المبنية على SQLite3 Multiple Ciphers (واجهة الأوامر الخاصة به، وتطبيقات wxSQLite3، والمكتبات والروابط المبنية عليه) وهذا التطبيق."/>
+    <entry key="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)" value="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)"/>
+    <entry key="How: AES-256 in CBC mode with HMAC-SHA512 on every page; the key is stretched with PBKDF2-SHA512 (256000 rounds).&#10;&#10;Pros:&#10;- the most widely supported encrypted SQLite format;&#10;- every page is authenticated: a modified file is detected;&#10;- opens with the standard SQLCipher tools.&#10;&#10;Cons:&#10;- a program without SQLCipher support (plain SQLite) cannot read it;&#10;- opening takes a moment longer (key stretching).&#10;&#10;Compatible with: DB Browser for SQLite (choose &quot;SQLCipher 4 defaults&quot;), the sqlcipher shell 4.x, SQLCipher libraries for Python, .NET, Java, Android and iOS, and every tool based on SQLite3 Multiple Ciphers." value="الطريقة: AES-256 بوضع CBC مع HMAC-SHA512 لكل صفحة؛ ويُقوّى المفتاح بـ PBKDF2-SHA512 (256000 دورة).&#10;&#10;المزايا:&#10;- تنسيق SQLite المشفّر الأوسع دعماً؛&#10;- كل صفحة موثّقة: يُكتشف الملف المعدَّل؛&#10;- يُفتح بأدوات SQLCipher القياسية.&#10;&#10;العيوب:&#10;- لا يمكن لبرنامج لا يدعم SQLCipher (SQLite العادي) قراءته؛&#10;- يستغرق الفتح وقتاً أطول قليلاً (تقوية المفتاح).&#10;&#10;متوافق مع: DB Browser for SQLite (اختر &quot;SQLCipher 4 defaults&quot;)، وواجهة أوامر sqlcipher 4.x، ومكتبات SQLCipher لـ Python و.NET وJava وAndroid وiOS، وكل أداة مبنية على SQLite3 Multiple Ciphers."/>
+    <entry key="SQLCipher 4 (recommended)" value="SQLCipher 4 (موصى به)"/>
+    <entry key="This database already has a table %s (%s records). What should happen?" value="تحتوي قاعدة البيانات هذه بالفعل على جدول %s (%s سجل). ماذا تريد أن تفعل؟"/>
+    <entry key="The table %s cannot be replaced: it is still needed by %s. Rename it instead, or remove those references first." value="لا يمكن استبدال الجدول %s: لا يزال مطلوباً من %s. أعد تسميته بدلاً من ذلك، أو أزل هذه المراجع أولاً."/>
+    <entry key="Give the copied table another name:" value="إعطاء الجدول المنسوخ اسماً آخر:"/>
+    <entry key="Rename the table of this database to:" value="إعادة تسمية جدول قاعدة البيانات هذه إلى:"/>
+    <entry key="Replace the table of this database" value="استبدال جدول قاعدة البيانات هذه"/>
+    <entry key="Delete the table %s and its %s records permanently?&#10;&#10;This cannot be undone." value="هل تريد حذف الجدول %s وسجلاته البالغة %s نهائياً؟&#10;&#10;لا يمكن التراجع عن هذا الإجراء."/>
+    <entry key="Replace removes the table %s with its %s records, its automations and print profiles: they are lost permanently and cannot be recovered." value="يؤدي الاستبدال إلى حذف الجدول %s مع سجلاته البالغة %s وعمليات الأتمتة وملفات تعريف الطباعة الخاصة به: تُفقد نهائياً ولا يمكن استعادتها."/>
+    <entry key="A Table with This Name" value="جدول بهذا الاسم"/>
+    <entry key="Clear" value="مسح"/>
+    <entry key="Clear Log" value="مسح السجل"/>
+    <entry key="Close" value="إغلاق"/>
+    <entry key="Existing columns cannot be removed: tables only grow." value="لا يمكن إزالة الأعمدة الموجودة: الجداول تنمو فقط."/>
+    <entry key="Detail %d" value="تفصيل %d"/>
+    <entry key="Help text (optional):" value="نص التعليمات (اختياري):"/>
+    <entry key="Shown as (optional):" value="يُعرض باسم (اختياري):"/>
+    <entry key="Write at least one choice." value="اكتب اختياراً واحداً على الأقل."/>
+    <entry key="The fixed value is not valid for this column: %s" value="القيمة الثابتة غير صالحة لهذا العمود: %s"/>
+    <entry key="Choose at least one kind of file." value="اختر نوعاً واحداً على الأقل من الملفات."/>
+    <entry key="The smallest value is larger than the largest." value="أصغر قيمة أكبر من أكبر قيمة."/>
+    <entry key="&quot;%s&quot; is not a number." value="&quot;%s&quot; ليس رقماً."/>
+    <entry key="The pattern is not a valid regular expression." value="النمط ليس تعبيراً نمطياً صالحاً."/>
+    <entry key="Choose the table and the column referred to." value="اختر الجدول والعمود المشار إليه."/>
+    <entry key="A unique column cannot have the same fixed value for every record: choose another default." value="لا يمكن أن يحمل عمود فريد القيمة الثابتة نفسها لكل السجلات: اختر قيمة افتراضية أخرى."/>
+    <entry key="Name:" value="الاسم:"/>
+    <entry key="Required (cannot be empty)" value="مطلوب (لا يمكن أن يكون فارغاً)"/>
+    <entry key="Column" value="عمود"/>
+    <entry key="Type:" value="النوع:"/>
+    <entry key="Unique (no two records with the same value)" value="فريد (لا يوجد سجلان بالقيمة نفسها)"/>
+    <entry key="Default" value="الافتراضي"/>
+    <entry key="Name" value="الاسم"/>
+    <entry key="Rules" value="القواعد"/>
+    <entry key="State" value="الحالة"/>
+    <entry key="Type" value="النوع"/>
+    <entry key="changed" value="معدَّل"/>
+    <entry key="new" value="جديد"/>
+    <entry key="Do the same for all the next conflicts (%d record(s) left)" value="افعل الشيء نفسه لكل التعارضات التالية (متبقٍ %d سجل)"/>
+    <entry key="Record here" value="السجل هنا"/>
+    <entry key="Merged record" value="السجل المدمج"/>
+    <entry key="Record #%lld of the merged database has %s = &quot;%s&quot;, which record #%lld here already has (the column is unique)." value="السجل رقم %lld من قاعدة البيانات المدمجة له %s = &quot;%s&quot;، وهي قيمة يحملها السجل رقم %lld هنا بالفعل (العمود فريد)."/>
+    <entry key="Keep both (change the value)" value="الاحتفاظ بالاثنين (تغيير القيمة)"/>
+    <entry key="Overwrite the record here" value="الكتابة فوق السجل هنا"/>
+    <entry key="Skip it" value="تخطٍّ"/>
+    <entry key="Stop merging" value="إيقاف الدمج"/>
+    <entry key="Conflict" value="تعارض"/>
+    <entry key="Create table" value="إنشاء جدول"/>
+    <entry key="Current admin password:" value="كلمة مرور المسؤول الحالية:"/>
+    <entry key="Date format:" value="تنسيق التاريخ:"/>
+    <entry key="Choose how the database is encrypted. You can change it at any time: the whole database is converted (a few seconds) and your choice is saved in the settings. The key and the admin password do not change. The admin password is asked to confirm." value="اختر طريقة تشفير قاعدة البيانات. يمكنك تغييرها في أي وقت: تُحوَّل قاعدة البيانات بأكملها (بضع ثوانٍ) ويُحفظ اختيارك في الإعدادات. لا يتغير المفتاح ولا كلمة مرور المسؤول. تُطلب كلمة مرور المسؤول للتأكيد."/>
+    <entry key=" (in use)" value=" (قيد الاستخدام)"/>
+    <entry key="Database format" value="تنسيق قاعدة البيانات"/>
+    <entry key="The password is right, but the database did not open in the format set in the settings: %s.&#10;&#10;The file may be in another format. Try all the available formats? The one that matches is converted to the format of the settings." value="كلمة المرور صحيحة، لكن قاعدة البيانات لم تُفتح بالتنسيق المحدد في الإعدادات: %s.&#10;&#10;قد يكون الملف بتنسيق آخر. هل تريد تجربة كل التنسيقات المتاحة؟ يُحوَّل التنسيق المطابق إلى تنسيق الإعدادات."/>
+    <entry key="To show the key of the database (for opening a copy with another tool) the admin password is asked every time. Anyone who knows this key and has a copy of the database can read it: show it only when needed and do not keep it." value="لعرض مفتاح قاعدة البيانات (لفتح نسخة بأداة أخرى) تُطلب كلمة مرور المسؤول في كل مرة. يمكن لأي شخص يعرف هذا المفتاح ولديه نسخة من قاعدة البيانات قراءتها: اعرضه فقط عند الحاجة ولا تحتفظ به."/>
+    <entry key="Format of this database: %s" value="تنسيق قاعدة البيانات هذه: %s"/>
+    <entry key="In DB Browser for SQLite: open a COPY of the database; in the SQLCipher window choose &quot;SQLCipher 4 defaults&quot;, set the key type to passphrase (plain text), paste this text as the password and press OK." value="في DB Browser for SQLite: افتح نسخة من قاعدة البيانات؛ في نافذة SQLCipher اختر &quot;SQLCipher 4 defaults&quot;، واضبط نوع المفتاح على عبارة مرور (نص عادي)، والصق هذا النص ككلمة مرور واضغط OK."/>
+    <entry key="This format (%s) is not SQLCipher: the standard DB Browser for SQLite and the SQLCipher tools cannot open it. Open a COPY with a program built on SQLite3 Multiple Ciphers, selecting this cipher and entering the text as a passphrase - or choose SQLCipher 4 in Database &gt; Security &gt; Database Format." value="هذا التنسيق (%s) ليس SQLCipher: لا يمكن لبرنامج DB Browser for SQLite القياسي ولا لأدوات SQLCipher فتحه. افتح نسخة ببرنامج مبني على SQLite3 Multiple Ciphers، مع تحديد هذا التشفير وإدخال النص كعبارة مرور - أو اختر SQLCipher 4 في قاعدة البيانات &gt; الأمان &gt; تنسيق قاعدة البيانات."/>
+    <entry key="This is the passphrase of the database file (64 characters). It is not the admin password. It stays valid until you use Database &gt; Security &gt; Rotate the Encryption Key." value="هذه عبارة مرور ملف قاعدة البيانات (64 حرفاً). وهي ليست كلمة مرور المسؤول. تبقى صالحة حتى تستخدم قاعدة البيانات &gt; الأمان &gt; تدوير مفتاح التشفير."/>
+    <entry key="Database key" value="مفتاح قاعدة البيانات"/>
+    <entry key="SQLite DB Tools: create, open, protect and work on SQLite databases - tables, records, connections between tables, import, export, merge, SQL, statistics, prints, accounts - up to 255 tables of 255 columns and 522,003 records per database." value="SQLite DB Tools: إنشاء قواعد بيانات SQLite وفتحها وحمايتها والعمل عليها - الجداول، والسجلات، والروابط بين الجداول، والاستيراد، والتصدير، والدمج، وSQL، والإحصاءات، والطباعة، والحسابات - حتى 255 جدولاً بـ 255 عموداً و522,003 سجلاً لكل قاعدة بيانات."/>
+    <entry key="Developed by %s." value="تطوير %s."/>
+    <entry key="All rights reserved. Free of charge: see the License tab." value="جميع الحقوق محفوظة. مجاني: راجع علامة التبويب الترخيص."/>
+    <entry key="How the licenses of the components are respected:&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1): an LGPL with an exception that allows distributing applications linked with it, statically or dynamically, under their own terms. Its copyright notice is in THIRD-PARTY-NOTICES.md.&#10;- SQLite (public domain): no conditions.&#10;- SQLite3 Multiple Ciphers (MIT): its copyright and permission notice is shipped in THIRD-PARTY-NOTICES.md (next to the exe) and shown in the Third-party notices tab.&#10;- libsodium (ISC): its copyright and permission notice is shipped the same way.&#10;- PoDoFo (LGPL 2.0+ or MPL 2.0, used under the MPL 2.0): unmodified; its source is public at github.com/podofo/podofo. The libraries it links (OpenSSL - Apache 2.0, FreeType, libxml2, Fontconfig, Little CMS, zlib, libpng, libjpeg, libtiff) are under permissive licences; their notices are in THIRD-PARTY-NOTICES.md.&#10;- Microsoft Visual C++ runtime: redistributed under the Visual Studio license terms (Visual C++ Redistributable).&#10;&#10;No component is under a license that would require publishing the source code of this application. Cryptography: the application uses standard published algorithms (AES-256, ChaCha20-Poly1305, Argon2id); check the export rules of your country before taking it abroad." value="كيف تُحترم تراخيص المكونات:&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1): ترخيص LGPL مع استثناء يسمح بتوزيع التطبيقات المرتبطة بها، بشكل ثابت أو ديناميكي، وفق شروطها الخاصة. إشعار حقوق النشر الخاص بها موجود في THIRD-PARTY-NOTICES.md.&#10;- SQLite (ملكية عامة): بلا شروط.&#10;- SQLite3 Multiple Ciphers (MIT): يُشحن إشعار حقوق النشر والإذن الخاص بها في THIRD-PARTY-NOTICES.md (بجوار ملف exe) ويُعرض في علامة التبويب إشعارات الجهات الخارجية.&#10;- libsodium (ISC): يُشحن إشعار حقوق النشر والإذن الخاص بها بالطريقة نفسها.&#10;- PoDoFo (LGPL 2.0+ أو MPL 2.0، مستخدمة بموجب MPL 2.0): دون تعديل؛ شفرتها المصدرية متاحة للعموم على github.com/podofo/podofo. المكتبات التي ترتبط بها (OpenSSL - Apache 2.0، وFreeType، وlibxml2، وFontconfig، وLittle CMS، وzlib، وlibpng، وlibjpeg، وlibtiff) تخضع لتراخيص متساهلة؛ وإشعاراتها موجودة في THIRD-PARTY-NOTICES.md.&#10;- Microsoft Visual C++ runtime: يُعاد توزيعها بموجب شروط ترخيص Visual Studio (Visual C++ Redistributable).&#10;&#10;لا يخضع أي مكون لترخيص يتطلب نشر الشفرة المصدرية لهذا التطبيق. التشفير: يستخدم التطبيق خوارزميات قياسية منشورة (AES-256، ChaCha20-Poly1305، Argon2id)؛ تحقق من قواعد التصدير في بلدك قبل نقله إلى الخارج."/>
+    <entry key="One database is open at a time: %s was opened, these were left out (open another copy of SQLite DB Tools for them):" value="تُفتح قاعدة بيانات واحدة في كل مرة: تم فتح %s، وتُركت هذه الملفات (افتح نسخة أخرى من SQLite DB Tools لها):"/>
+    <entry key="SQLite DB Tools does not open these files:" value="لا يفتح SQLite DB Tools هذه الملفات:"/>
+    <entry key="Only the first %d records and %d columns of each table are exported." value="يتم تصدير أول %d سجل و%d عمود فقط من كل جدول."/>
+    <entry key="Add SQLite DB Tools to 'Open with'" value="إضافة SQLite DB Tools إلى 'فتح باستخدام'"/>
+    <entry key="Done: databases and files to import list SQLite DB Tools in 'Open with' (choose 'Always' to make it their program)." value="تم: أصبحت قواعد البيانات والملفات القابلة للاستيراد تعرض SQLite DB Tools في 'فتح باستخدام' (اختر 'دائماً' لجعله برنامجها)."/>
+    <entry key="Double click: Windows can offer SQLite DB Tools for databases and the files it imports (CSV, text, Excel, OpenDocument): choose once 'Open with &gt; Choose another app &gt; SQLite DB Tools &gt; Always'. Files can also be dropped on the window." value="النقر المزدوج: يمكن لـ Windows أن يقترح SQLite DB Tools لقواعد البيانات وللملفات التي يستوردها (CSV، نص، Excel، OpenDocument): اختر مرة واحدة 'فتح باستخدام &gt; اختيار تطبيق آخر &gt; SQLite DB Tools &gt; دائماً'. يمكن أيضاً إفلات الملفات على النافذة."/>
+    <entry key="SQLite DB Tools was removed from the 'Open with' lists." value="تمت إزالة SQLite DB Tools من قوائم 'فتح باستخدام'."/>
+    <entry key=" - only the first %d records are shown" value=" - يتم عرض أول %d سجل فقط"/>
+    <entry key="Data" value="البيانات"/>
+    <entry key="Database" value="قاعدة البيانات"/>
+    <entry key="New (plain, with an admin password and recovery key, or with a passphrase), open, close, lock." value="جديدة (عادية، أو بكلمة مرور المسؤول ومفتاح استرداد، أو بعبارة مرور)، فتح، إغلاق، قفل."/>
+    <entry key="Tables from CSV / text / Excel / OpenDocument files, export, merge another database, SQL queries, statistics, prints, the operations log, attached files." value="جداول من ملفات CSV / نصية / Excel / OpenDocument، تصدير، دمج قاعدة بيانات أخرى، استعلامات SQL، إحصاءات، طباعة، سجل العمليات، الملفات المرفقة."/>
+    <entry key="Recent databases" value="قواعد البيانات الأخيرة"/>
+    <entry key="Accounts and protection" value="الحسابات والحماية"/>
+    <entry key="Accounts with their levels, passwords, the protection of the file." value="الحسابات ومستوياتها، كلمات المرور، حماية الملف."/>
+    <entry key="Tables and records" value="الجداول والسجلات"/>
+    <entry key="Tables and their columns, the connections between the tables of this database (references, relations, indexes, automations), records." value="الجداول وأعمدتها، والروابط بين جداول قاعدة البيانات هذه (المراجع، العلاقات، الفهارس، الأتمتة)، والسجلات."/>
+    <entry key="Account: %s (%s)" value="الحساب: %s (%s)"/>
+    <entry key="Attachments: %s" value="المرفقات: %s"/>
+    <entry key="Attachments: %s (the folder named by the database, %s, was not confirmed)" value="المرفقات: %s (لم يتم تأكيد المجلد الذي حددته قاعدة البيانات، %s)"/>
+    <entry key="%d table(s) - protection: %s - operations log: %s" value="%d جدول - الحماية: %s - سجل العمليات: %s"/>
+    <entry key="SQLite databases, encrypted or not: one at a time in this window (open another copy of the program for another one). Every table, form, search, query and log opens in its own tab; this tab stays." value="قواعد بيانات SQLite، مشفّرة أو غير مشفّرة: واحدة في كل مرة في هذه النافذة (افتح نسخة أخرى من البرنامج لقاعدة بيانات أخرى). كل جدول ونموذج وبحث واستعلام وسجل يُفتح في علامة تبويب خاصة به؛ وتبقى علامة التبويب هذه."/>
+    <entry key="Records: %s of %s - tables: %s of %s - columns per table: at most %d" value="السجلات: %s من %s - الجداول: %s من %s - الأعمدة لكل جدول: %d كحد أقصى"/>
+    <entry key="not available" value="غير متاح"/>
+    <entry key="recorded" value="مُسجَّل"/>
+    <entry key="No database open" value="لا توجد قاعدة بيانات مفتوحة"/>
+    <entry key="Create a new one or open one (also by dropping it on the window); the actions below wait for it." value="أنشئ قاعدة بيانات جديدة أو افتح واحدة (أيضاً بإفلاتها على النافذة)؛ الإجراءات أدناه بانتظارها."/>
+    <entry key="Open: %s" value="مفتوحة: %s"/>
+    <entry key="Read-only: this database is beyond the limits of SQLite DB Tools." value="للقراءة فقط: قاعدة البيانات هذه تتجاوز حدود SQLite DB Tools."/>
+    <entry key="SQLite DB Tools is free of charge: anyone may use it, at home or at work, on any number of computers, with no license key. It remains the property of its author and its source code is not published: modifying it, reverse engineering it or selling it is not allowed; unmodified copies may be passed on free of charge. It comes without warranty: back up your databases, their attachment folders, key files and passwords - a lost password or key file makes an encrypted database unreadable for ever. The full text is in LICENSE.md." value="SQLite DB Tools مجاني: يمكن لأي شخص استخدامه في المنزل أو العمل، على أي عدد من أجهزة الكمبيوتر، دون مفتاح ترخيص. يبقى ملكاً لمؤلفه ولا تُنشر شيفرته المصدرية: لا يُسمح بتعديله أو إجراء هندسة عكسية له أو بيعه؛ ويمكن تمرير نسخ غير معدّلة مجاناً. يُقدَّم دون أي ضمان: احتفظ بنسخ احتياطية من قواعد بياناتك ومجلدات مرفقاتها وملفات المفاتيح وكلمات المرور - فقدان كلمة مرور أو ملف مفتاح يجعل قاعدة البيانات المشفّرة غير قابلة للقراءة إلى الأبد. النص الكامل موجود في LICENSE.md."/>
+    <entry key="Limits of SQLite DB Tools" value="حدود SQLite DB Tools"/>
+    <entry key="Closes the database: logging in again is needed. When work is pending, the same password is needed here and the work is discarded." value="يغلق قاعدة البيانات: يلزم تسجيل الدخول مرة أخرى. عند وجود عمل معلّق، تلزم كلمة المرور نفسها هنا ويتم تجاهل العمل."/>
+    <entry key="SQLite DB Tools is locked" value="SQLite DB Tools مقفل"/>
+    <entry key="A new SQLite database: its name and folder; then how it is protected." value="قاعدة بيانات SQLite جديدة: اسمها ومجلدها؛ ثم طريقة حمايتها."/>
+    <entry key="1 routine (tabs, searches), 2 normal (records added or changed), 3 notable (prints, exports, deletions, structure), 4 high (accounts, privileges, wrong passwords), 5 critical (passwords and keys of the database)" value="1 روتيني (علامات التبويب، عمليات البحث)، 2 عادي (سجلات مضافة أو معدّلة)، 3 ملحوظ (الطباعة، التصدير، الحذف، البنية)، 4 مرتفع (الحسابات، الصلاحيات، كلمات المرور الخاطئة)، 5 حرج (كلمات المرور ومفاتيح قاعدة البيانات)"/>
+    <entry key="- a table with %d columns (at most %d)" value="- جدول يحتوي على %d عمود (%d كحد أقصى)"/>
+    <entry key="This database is beyond the limits of SQLite DB Tools:&#10;%s&#10;It is open read-only: it can be browsed, searched and exported, not changed. Each table shows at most its first %s records and %d columns." value="قاعدة البيانات هذه تتجاوز حدود SQLite DB Tools:&#10;%s&#10;وهي مفتوحة للقراءة فقط: يمكن استعراضها والبحث فيها وتصديرها، ولا يمكن تغييرها. يعرض كل جدول أول %s سجل و%d عمود كحد أقصى."/>
+    <entry key="- %s records (at most %s)" value="- %s سجل (%s كحد أقصى)"/>
+    <entry key="- %s tables (at most %s)" value="- %s جدول (%s كحد أقصى)"/>
+    <entry key="Some tabs have changes that were not saved. Discard them?" value="بعض علامات التبويب تحتوي على تغييرات لم تُحفظ. هل تريد تجاهلها؟"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools: it was converted to the format of this version. The file as it was is kept next to it as %s (the versions 1.x open only that one)." value="أُنشئ %s بإصدار سابق من SQLite DB Tools: حُوِّل إلى تنسيق هذا الإصدار. يُحتفظ بالملف كما كان بجانبه باسم %s (الإصدارات 1.x تفتح ذلك الملف فقط)."/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and could not be converted to the format of this version (%s). The file was not changed." value="أُنشئ %s بإصدار سابق من SQLite DB Tools وتعذّر تحويله إلى تنسيق هذا الإصدار (%s). لم يُغيَّر الملف."/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and must be converted to the format of this version, but it cannot be written (a read-only file or folder). Copy it where it can be written, then open it again." value="أُنشئ %s بإصدار سابق من SQLite DB Tools ويجب تحويله إلى تنسيق هذا الإصدار، لكن لا يمكن الكتابة فيه (ملف أو مجلد للقراءة فقط). انسخه إلى مكان تمكن الكتابة فيه، ثم افتحه مرة أخرى."/>
+    <entry key="Databases (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|All files (*.*)|*.*" value="قواعد البيانات (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|كل الملفات (*.*)|*.*"/>
+    <entry key="Database locked" value="تم قفل قاعدة البيانات"/>
+    <entry key="The window will be locked in %d s because of inactivity. The tabs and the work open are kept." value="سيتم قفل النافذة خلال %d ث بسبب عدم النشاط. يتم الاحتفاظ بعلامات التبويب والعمل المفتوح."/>
+    <entry key="The value does not exist in %s." value="القيمة غير موجودة في %s."/>
+    <entry key="The database holds at most %s records in all its tables together: no more can be added." value="تحتوي قاعدة البيانات على %s سجل كحد أقصى في جميع جداولها معاً: لا يمكن إضافة المزيد."/>
+    <entry key="Records of %s still refer to it: change or delete them first." value="لا تزال سجلات من %s تشير إليه: قم بتغييرها أو حذفها أولاً."/>
+    <entry key="Refused by an automation: %s" value="رفضته أتمتة: %s"/>
+    <entry key="%s could not be read: it is not a database, or it is encrypted and the passphrase or format given does not open it." value="تعذّرت قراءة %s: ليس قاعدة بيانات، أو أنه مشفّر وعبارة المرور أو التنسيق المُعطى لا يفتحه."/>
+    <entry key="The database %s does not exist (moved or renamed?)." value="قاعدة البيانات %s غير موجودة (هل نُقلت أو أُعيدت تسميتها؟)."/>
+    <entry key="%s could not be opened:&#10;%s" value="تعذّر فتح %s:&#10;%s"/>
+    <entry key="Decimals:" value="المنازل العشرية:"/>
+    <entry key="Value of new records" value="قيمة السجلات الجديدة"/>
+    <entry key="Value:" value="القيمة:"/>
+    <entry key="Example: %s" value="مثال: %s"/>
+    <entry key="Auto-increment number" value="رقم تزايد تلقائي"/>
+    <entry key="Same as the last record" value="مثل السجل الأخير"/>
+    <entry key="A fixed value" value="قيمة ثابتة"/>
+    <entry key="Empty" value="فارغ"/>
+    <entry key="Now (date and time)" value="الآن (التاريخ والوقت)"/>
+    <entry key="Template (other columns, counter, date, ...)" value="قالب (أعمدة أخرى، عدّاد، تاريخ، ...)"/>
+    <entry key="Today" value="اليوم"/>
+    <entry key="Windows user name" value="اسم مستخدم Windows"/>
+    <entry key="Unique code (UUID)" value="رمز فريد (UUID)"/>
+    <entry key="Fixed value / template:" value="قيمة ثابتة / قالب:"/>
+    <entry key="Component" value="المكوّن"/>
+    <entry key="License" value="الترخيص"/>
+    <entry key="Owner / authors" value="المالك / المؤلفون"/>
+    <entry key="Used for" value="يُستخدم لـ"/>
+    <entry key="encrypted databases" value="قواعد البيانات المشفّرة"/>
+    <entry key="database engine" value="محرك قاعدة البيانات"/>
+    <entry key="user interface" value="واجهة المستخدم"/>
+    <entry key="PDF documents and reports" value="مستندات وتقارير PDF"/>
+    <entry key="C++ runtime" value="وقت تشغيل C++"/>
+    <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="كلمة مرور المسؤول ومفتاح الاسترداد (Argon2id، XChaCha20-Poly1305)"/>
+    <entry key="Version in use" value="الإصدار المستخدم"/>
+    <entry key="Website" value="موقع الويب"/>
+    <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="نقر مزدوج: موقع ويب المالك. كل مكوّن ملك لأصحابه ويُستخدم بموجب ترخيصه."/>
+    <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="الأتمتة قواعد تنفّذها قاعدة البيانات كلما تمت إضافة سجل أو تغييره أو حذفه - من هذا البرنامج أو أي برنامج آخر. مثلاً: تخصم الحركة كميتها من مخزون الصنف؛ قيمة الصنف دائماً المخزون x السعر؛ يُرفض أي تغيير يجعل المخزون سالباً."/>
+    <entry key="Automations" value="الأتمتة"/>
+    <entry key="Change..." value="تغيير..."/>
+    <entry key="Does" value="الإجراء"/>
+    <entry key="Column" value="العمود"/>
+    <entry key="Columns" value="الأعمدة"/>
+    <entry key="Index" value="الفهرس"/>
+    <entry key="Name" value="الاسم"/>
+    <entry key="When it is deleted" value="عند حذفه"/>
+    <entry key="When its value changes" value="عند تغيّر قيمته"/>
+    <entry key="Records" value="السجلات"/>
+    <entry key="Refers to" value="يشير إلى"/>
+    <entry key="References" value="المراجع"/>
+    <entry key="State" value="الحالة"/>
+    <entry key="Table" value="الجدول"/>
+    <entry key="Type" value="النوع"/>
+    <entry key="When" value="متى"/>
+    <entry key="Change..." value="تغيير..."/>
+    <entry key="An index makes searching and sorting on a column faster on large tables (unique columns always have one). Double-click a column to add or remove its index." value="يجعل الفهرس البحث والفرز على عمود أسرع في الجداول الكبيرة (للأعمدة الفريدة فهرس دائماً). انقر نقراً مزدوجاً على عمود لإضافة فهرسه أو إزالته."/>
+    <entry key="Indexes" value="الفهارس"/>
+    <entry key="-" value="-"/>
+    <entry key="Indexed (unique)" value="مفهرس (فريد)"/>
+    <entry key="A unique column always has an index." value="العمود الفريد له فهرس دائماً."/>
+    <entry key="Indexed" value="مفهرس"/>
+    <entry key="New automation..." value="أتمتة جديدة..."/>
+    <entry key="(no Reference column: add one to a table to link it to another)" value="(لا يوجد عمود مرجع: أضف واحداً إلى جدول لربطه بجدول آخر)"/>
+    <entry key="Off" value="متوقف"/>
+    <entry key="On" value="يعمل"/>
+    <entry key="A Reference column links a record to a record of another table (an item to its supplier, a movement to its item). The database itself guarantees the link: a value that does not exist is refused, and you choose what happens when the referenced record is deleted or its value changes. Double-click a relation to change it." value="يربط عمود المرجع سجلاً بسجل من جدول آخر (صنف بمورّده، حركة بصنفها). قاعدة البيانات نفسها تضمن الربط: تُرفض القيمة غير الموجودة، وأنت تختار ما يحدث عند حذف السجل المُشار إليه أو تغيّر قيمته. انقر نقراً مزدوجاً على علاقة لتغييرها."/>
+    <entry key="Relations" value="العلاقات"/>
+    <entry key="Remove" value="إزالة"/>
+    <entry key="Edit database" value="تحرير قاعدة البيانات"/>
+    <entry key="The tables of the database. Double-click a table to change its structure (columns can be added, renamed and changed, never removed)." value="جداول قاعدة البيانات. انقر نقراً مزدوجاً على جدول لتغيير بنيته (يمكن إضافة الأعمدة وإعادة تسميتها وتغييرها، ولا يمكن إزالتها أبداً)."/>
+    <entry key="Tables" value="الجداول"/>
+    <entry key="Switch on / off" value="تشغيل / إيقاف"/>
+    <entry key="Add / remove index" value="إضافة / إزالة فهرس"/>
+    <entry key="Discard" value="تجاهل"/>
+    <entry key="Add to %s" value="إضافة إلى %s"/>
+    <entry key="No database is open for the %d file(s) to import. Create a new database for their tables, or open an existing one?" value="لا توجد قاعدة بيانات مفتوحة للملفات (%d) المراد استيرادها. هل تريد إنشاء قاعدة بيانات جديدة لجداولها، أم فتح قاعدة بيانات موجودة؟"/>
+    <entry key="%d file(s) to import: each as new table(s), or their rows added to the table %s?" value="%d ملف للاستيراد: كل منها كجدول (جداول) جديد، أم تُضاف صفوفها إلى الجدول %s؟"/>
+    <entry key="New database..." value="قاعدة بيانات جديدة..."/>
+    <entry key="New tables" value="جداول جديدة"/>
+    <entry key="Open a database..." value="فتح قاعدة بيانات..."/>
+    <entry key="Files dropped" value="ملفات تم إفلاتها"/>
+    <entry key="about %ld minutes" value="حوالي %ld دقيقة"/>
+    <entry key="about %ld seconds" value="حوالي %ld ثانية"/>
+    <entry key="Edit..." value="تحرير..."/>
+    <entry key="The database is no longer encrypted." value="لم تعد قاعدة البيانات مشفّرة."/>
+    <entry key="Choose the file (or press Enter in the field)" value="اختر الملف (أو اضغط Enter في الحقل)"/>
+    <entry key="Discard the values typed in this form?" value="هل تريد تجاهل القيم المكتوبة في هذا النموذج؟"/>
+    <entry key="Correct these values (the first one is selected):" value="صحّح هذه القيم (القيمة الأولى محددة):"/>
+    <entry key="The record cannot be saved" value="لا يمكن حفظ السجل"/>
+    <entry key="Tab or Enter: next field. Enter on the last field, or Shift+Enter anywhere: save. Ctrl+Enter: new line in a long text." value="Tab أو Enter: الحقل التالي. Enter في الحقل الأخير، أو Shift+Enter في أي مكان: حفظ. Ctrl+Enter: سطر جديد في نص طويل."/>
+    <entry key="Keep the values after saving" value="الاحتفاظ بالقيم بعد الحفظ"/>
+    <entry key="Move the attached files into the attachment folder (unticked: copy them, the originals stay)" value="نقل الملفات المرفقة إلى مجلد المرفقات (عند إلغاء التحديد: يتم نسخها، وتبقى الأصلية)"/>
+    <entry key="Filled in from record #%lld: change what differs and save." value="تمت التعبئة من السجل #%lld: غيّر ما يختلف واحفظ."/>
+    <entry key="Record #%lld saved." value="تم حفظ السجل #%lld."/>
+    <entry key="Save (Shift+Enter)" value="حفظ (Shift+Enter)"/>
+    <entry key="Table:" value="الجدول:"/>
+    <entry key="Add: %s" value="إضافة: %s"/>
+    <entry key="Copied: paste it into an e-mail or a message." value="تم النسخ: الصقه في بريد إلكتروني أو رسالة."/>
+    <entry key="Copy the report" value="نسخ التقرير"/>
+    <entry key="The operation failed. Nothing was changed by it." value="فشلت العملية. لم يتغير شيء بسببها."/>
+    <entry key="The program goes on working. To get help, copy the report below and send it to whoever looks after the program (it has no passwords)." value="يواصل البرنامج العمل. للحصول على المساعدة، انسخ التقرير أدناه وأرسله إلى من يتولى رعاية البرنامج (لا يحتوي على كلمات مرور)."/>
+    <entry key="Something went wrong" value="حدث خطأ ما"/>
+    <entry key="An unexpected error stopped the operation. The program goes on working; what was saved before is kept." value="أوقف خطأ غير متوقع العملية. يواصل البرنامج العمل؛ ويتم الاحتفاظ بما حُفظ سابقاً."/>
+    <entry key="Error" value="خطأ"/>
+    <entry key="must be at most %s" value="يجب ألا يتجاوز %s"/>
+    <entry key="must be a date and time like %s hh:mm" value="يجب أن يكون تاريخاً ووقتاً مثل %s hh:mm"/>
+    <entry key="must be a date like %s" value="يجب أن يكون تاريخاً مثل %s"/>
+    <entry key="the pattern of this column is not valid" value="نمط هذا العمود غير صالح"/>
+    <entry key="must be a time like hh:mm" value="يجب أن يكون وقتاً مثل hh:mm"/>
+    <entry key="must be at least %s" value="يجب ألا يقل عن %s"/>
+    <entry key="is used already by another record" value="مستخدم بالفعل في سجل آخر"/>
+    <entry key="this kind of file is not accepted here" value="هذا النوع من الملفات غير مقبول هنا"/>
+    <entry key="must be one line" value="يجب أن يكون سطراً واحداً"/>
+    <entry key="must be Yes or No" value="يجب أن يكون نعم أو لا"/>
+    <entry key="must be one of the choices" value="يجب أن يكون أحد الاختيارات"/>
+    <entry key="must be a whole number" value="يجب أن يكون عدداً صحيحاً"/>
+    <entry key="must be a number" value="يجب أن يكون رقماً"/>
+    <entry key="does not exist in %s" value="غير موجود في %s"/>
+    <entry key="does not match the pattern %s" value="لا يطابق النمط %s"/>
+    <entry key="is required" value="مطلوب"/>
+    <entry key="must have at most %d characters" value="يجب ألا يتجاوز %d حرفاً"/>
+    <entry key="must have at least %d characters" value="يجب ألا يقل عن %d حرفاً"/>
+    <entry key="Exit" value="خروج"/>
+    <entry key="Exit the program? Anything not saved yet (records being edited, open forms and windows) will probably be lost." value="هل تريد الخروج من البرنامج؟ أي شيء لم يُحفظ بعد (سجلات قيد التحرير، نماذج ونوافذ مفتوحة) سيُفقد على الأرجح."/>
+    <entry key="Exit" value="خروج"/>
+    <entry key="Some tabs have changes that were not saved: they will be lost." value="بعض علامات التبويب تحتوي على تغييرات لم تُحفظ: ستُفقد."/>
+    <entry key="Copy the attached files too (into the folder &lt;name&gt;.files)" value="نسخ الملفات المرفقة أيضاً (إلى المجلد &lt;name&gt;.files)"/>
+    <entry key="Encrypt the copy with a passphrase" value="تشفير النسخة بعبارة مرور"/>
+    <entry key="Separator:" value="الفاصل:"/>
+    <entry key="Records (INSERT)" value="السجلات (INSERT)"/>
+    <entry key="Exported %d table(s), %lld record(s) and %d attached file(s) to:&#10;%s" value="تم تصدير %d جدول و%lld سجل و%d ملف مرفق إلى:&#10;%s"/>
+    <entry key="The export failed: %s" value="فشل التصدير: %s"/>
+    <entry key="Copy of the database (SQLite file, plain or encrypted)" value="نسخة من قاعدة البيانات (ملف SQLite، عادي أو مشفّر)"/>
+    <entry key="CSV for Excel (one file per table)" value="CSV لـ Excel (ملف واحد لكل جدول)"/>
+    <entry key="JSON" value="JSON"/>
+    <entry key="SQL script - MySQL / MariaDB" value="برنامج نصي SQL - MySQL / MariaDB"/>
+    <entry key="SQL script - PostgreSQL" value="برنامج نصي SQL - PostgreSQL"/>
+    <entry key="SQL script - SQLite" value="برنامج نصي SQL - SQLite"/>
+    <entry key="SQL script - Microsoft SQL Server" value="برنامج نصي SQL - Microsoft SQL Server"/>
+    <entry key="Format:" value="التنسيق:"/>
+    <entry key="Choose at least one table." value="اختر جدولاً واحداً على الأقل."/>
+    <entry key="%lld record(s) written..." value="تمت كتابة %lld سجل..."/>
+    <entry key="Table definitions (CREATE TABLE)" value="تعريفات الجداول (CREATE TABLE)"/>
+    <entry key="Tables:" value="الجداول:"/>
+    <entry key="Export to" value="تصدير إلى"/>
+    <entry key="Export" value="تصدير"/>
+    <entry key="%s: %s" value="%s: %s"/>
+    <entry key="The name of this column, last before the extension" value="اسم هذا العمود، أخيرًا قبل الامتداد"/>
+    <entry key="column" value="عمود"/>
+    <entry key="nothing chosen: Table_Record_Column, the default" value="لم يتم اختيار شيء: Table_Record_Column، الافتراضي"/>
+    <entry key="Example: %s (a name already taken gets _01, _02 ...; files attached before keep their names)" value="مثال: %s (يُضاف _01, _02 ... إلى الاسم المستخدم مسبقًا؛ تحتفظ الملفات المرفقة سابقًا بأسمائها)"/>
+    <entry key="Name of a new attached file, in this order:" value="اسم الملف المرفق الجديد، بهذا الترتيب:"/>
+    <entry key="The record number" value="رقم السجل"/>
+    <entry key="The name of the table" value="اسم الجدول"/>
+    <entry key="table" value="جدول"/>
+    <entry key="The values of these columns of the record, in this order:" value="قيم هذه الأعمدة من السجل، بهذا الترتيب:"/>
+    <entry key="Windows did not accept the change: %s" value="لم يقبل Windows التغيير: %s"/>
+    <entry key="Remove it" value="إزالته"/>
+    <entry key="empty" value="فارغ"/>
+    <entry key="a text..." value="نص..."/>
+    <entry key="the text &quot;%s&quot;" value="النص &quot;%s&quot;"/>
+    <entry key="the merged database's name" value="اسم قاعدة البيانات المدمجة"/>
+    <entry key="the merged table's name" value="اسم الجدول المدمج"/>
+    <entry key="this database's name" value="اسم قاعدة البيانات هذه"/>
+    <entry key="this table's name" value="اسم هذا الجدول"/>
+    <entry key="The text:" value="النص:"/>
+    <entry key="The column &quot;%s&quot; becomes required: what value do the %lld existing record(s) that have none get?" value="أصبح العمود &quot;%s&quot; مطلوباً: ما القيمة التي تحصل عليها السجلات الموجودة (%lld) التي لا تحتوي على قيمة؟"/>
+    <entry key="Value for the existing records" value="قيمة السجلات الموجودة"/>
+    <entry key="Forgot the password..." value="نسيت كلمة المرور..."/>
+    <entry key="%zu record(s) updated." value="تم تحديث %zu سجل."/>
+    <entry key="Apply modifications" value="تطبيق التعديلات"/>
+    <entry key="Apply modifications of this row" value="تطبيق تعديلات هذا الصف"/>
+    <entry key="The file %s is not in the attachment folder." value="الملف %s غير موجود في مجلد المرفقات."/>
+    <entry key="Cancel edits" value="إلغاء التعديلات"/>
+    <entry key="Cancel the edit of this row" value="إلغاء تحرير هذا الصف"/>
+    <entry key="Choose another file..." value="اختيار ملف آخر..."/>
+    <entry key="Remove the attachment" value="إزالة المرفق"/>
+    <entry key="Clear the selection" value="مسح التحديد"/>
+    <entry key="%ld records copied to the clipboard." value="تم نسخ %ld سجل إلى الحافظة."/>
+    <entry key="Copy the value" value="نسخ القيمة"/>
+    <entry key="Copy the selected records (for a spreadsheet)" value="نسخ السجلات المحددة (لجدول بيانات)"/>
+    <entry key="Copy to a new entry" value="نسخ إلى إدخال جديد"/>
+    <entry key="%zu record(s)" value="%zu سجل"/>
+    <entry key="%zu record(s) deleted." value="تم حذف %zu سجل."/>
+    <entry key="Delete..." value="حذف..."/>
+    <entry key="Delete %zu record(s)? Their attached files are moved to the _deleted subfolder of the attachment folder." value="حذف %zu سجل؟ تُنقل ملفاتها المرفقة إلى المجلد الفرعي _deleted في مجلد المرفقات."/>
+    <entry key="Delete the selected records..." value="حذف السجلات المحددة..."/>
+    <entry key="Edit" value="تحرير"/>
+    <entry key="Edit the selected records" value="تحرير السجلات المحددة"/>
+    <entry key="%zu value(s) must be corrected (the first one is selected):" value="يجب تصحيح %zu قيمة (الأولى محددة):"/>
+    <entry key="The modifications cannot be applied" value="تعذّر تطبيق التعديلات"/>
+    <entry key="text in any column" value="نص في أي عمود"/>
+    <entry key="Find:" value="بحث:"/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="انقر بزر الماوس الأيمن على صف لعرض إجراءاته. في صف قيد التحرير، انقر نقرًا مزدوجًا على خلية (أو اكتب فيها) لتغييرها. المفاتيح: F2 تحرير، Ctrl+S تطبيق، Esc إلغاء، Del حذف، Ctrl+D نسخ إلى إدخال جديد."/>
+    <entry key="History of this record..." value="محفوظات هذا السجل..."/>
+    <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="ينطبق هذا على %ld سجل ويستغرق %s (يتوقف الوقت على الكمبيوتر). يظهر التقدم والوقت في شريط الحالة، مع زر الإيقاف.&#10;&#10;هل تريد المتابعة؟"/>
+    <entry key="Open the attachment" value="فتح المرفق"/>
+    <entry key=" - %zu row(s) in edit, %zu changed" value=" - %zu صف قيد التحرير، %zu تم تغييره"/>
+    <entry key="Print..." value="طباعة..."/>
+    <entry key="Print the selected records..." value="طباعة السجلات المحددة..."/>
+    <entry key="Refresh" value="تحديث"/>
+    <entry key="%ld records selected" value="%ld سجل محدد"/>
+    <entry key="Select all&#9;Ctrl+A" value="تحديد الكل&#9;Ctrl+A"/>
+    <entry key="Show the attachment in its folder" value="إظهار المرفق في مجلده"/>
+    <entry key="Stopped: nothing was changed." value="تم الإيقاف: لم يتم تغيير أي شيء."/>
+    <entry key="This tab has modifications not applied yet. Discard them?" value="تحتوي علامة التبويب هذه على تعديلات لم تُطبَّق بعد. هل تريد تجاهلها؟"/>
+    <entry key="Group %d:" value="المجموعة %d:"/>
+    <entry key="Operation:" value="العملية:"/>
+    <entry key="Part of:" value="جزء من:"/>
+    <entry key="Reason:" value="السبب:"/>
+    <entry key="Browse" value="استعراض"/>
+    <entry key="Edit structure..." value="تحرير البنية..."/>
+    <entry key="New table..." value="جدول جديد..."/>
+    <entry key="Home" value="الرئيسية"/>
+    <entry key="Add image..." value="إضافة صورة..."/>
+    <entry key="Choose an image (logo, stamp, signature ...)" value="اختيار صورة (شعار، ختم، توقيع ...)"/>
+    <entry key="Also as watermark" value="أيضًا كعلامة مائية"/>
+    <entry key="Uses the selected image a second time, as a faint watermark behind the text." value="يستخدم الصورة المحددة مرة ثانية، كعلامة مائية باهتة خلف النص."/>
+    <entry key="Bottom centre" value="أسفل الوسط"/>
+    <entry key="Bottom left" value="أسفل اليسار"/>
+    <entry key="Bottom right" value="أسفل اليمين"/>
+    <entry key="Images (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff" value="الصور (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff"/>
+    <entry key="fill it, cutting the edges" value="ملؤه مع قص الحواف"/>
+    <entry key="To that shape:" value="إلى هذا الشكل:"/>
+    <entry key="keep the whole image, stretched" value="الاحتفاظ بالصورة كاملة، مع تمديدها"/>
+    <entry key="keep the whole image (empty margins)" value="الاحتفاظ بالصورة كاملة (هوامش فارغة)"/>
+    <entry key="x %.0f mm high (at most %.0f x %.0f mm here)" value="x %.0f مم ارتفاعًا (بحد أقصى %.0f x %.0f مم هنا)"/>
+    <entry key="%d x %d pixels, shape %s. Usual shape nearest: %s; normal width here: %.0f mm." value="%d x %d بكسل، الشكل %s. أقرب شكل معتاد: %s؛ العرض العادي هنا: %.0f مم."/>
+    <entry key="The image could not be read." value="تعذّرت قراءة الصورة."/>
+    <entry key="No image: add a logo, a stamp or a watermark." value="لا توجد صورة: أضف شعارًا أو ختمًا أو علامة مائية."/>
+    <entry key="Opacity %:" value="العتامة %:"/>
+    <entry key="Other pages, size %:" value="الصفحات الأخرى، الحجم %:"/>
+    <entry key="A logo at the top is printed also on every page after the first, at this percent of its size (0 = first page only)" value="يُطبع الشعار الموجود في الأعلى أيضًا في كل صفحة بعد الأولى، بهذه النسبة المئوية من حجمه (0 = الصفحة الأولى فقط)"/>
+    <entry key="Place:" value="الموضع:"/>
+    <entry key="Remove" value="إزالة"/>
+    <entry key="Make it %s, cutting the edges" value="جعلها %s، مع قص الحواف"/>
+    <entry key="Keep its own shape (%s)" value="الاحتفاظ بشكلها الأصلي (%s)"/>
+    <entry key="The image is %d x %d pixels (shape %s). The usual shape nearest to it is %s. How should it be printed?" value="الصورة %d x %d بكسل (الشكل %s). أقرب شكل معتاد إليها هو %s. كيف يجب طباعتها؟"/>
+    <entry key="Shape of the image" value="شكل الصورة"/>
+    <entry key="Make it %s, keeping the whole image" value="جعلها %s، مع الاحتفاظ بالصورة كاملة"/>
+    <entry key="other:" value="آخر:"/>
+    <entry key="Shape (width : height):" value="الشكل (العرض : الارتفاع):"/>
+    <entry key="the image's own" value="شكل الصورة الأصلي"/>
+    <entry key="Use the suggestion" value="استخدام الاقتراح"/>
+    <entry key="Top centre" value="أعلى الوسط"/>
+    <entry key="Top left" value="أعلى اليسار"/>
+    <entry key="Top right" value="أعلى اليمين"/>
+    <entry key="Watermark (behind the text)" value="علامة مائية (خلف النص)"/>
+    <entry key="Width (mm):" value="العرض (مم):"/>
+    <entry key="%d rows added to the table %s." value="تمت إضافة %d صف إلى الجدول %s."/>
+    <entry key="The rows of the file are added to the table: each column of the table takes the column of the file with the same name. The file may have fewer columns (the required values it lacks are asked before the import); columns the table does not have are left out only if you agree. Every row is checked against the table's rules before anything is written." value="تُضاف صفوف الملف إلى الجدول: يأخذ كل عمود في الجدول عمود الملف الذي يحمل الاسم نفسه. قد يحتوي الملف على أعمدة أقل (تُطلب القيم المطلوبة الناقصة قبل الاستيراد)؛ ولا تُستبعد الأعمدة غير الموجودة في الجدول إلا بموافقتك. يُتحقق من كل صف وفق قواعد الجدول قبل كتابة أي شيء."/>
+    <entry key="&lt; Back" value="&lt; رجوع"/>
+    <entry key="Change the columns" value="تغيير الأعمدة"/>
+    <entry key="Choose a file first." value="اختر ملفًا أولاً."/>
+    <entry key="Check at least one sheet." value="حدد ورقة واحدة على الأقل."/>
+    <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="أعمدة الجدول الجديد، مستنتجة من القيم: النوع، و&quot;مطلوب&quot; (بلا قيمة فارغة) و&quot;فريد&quot; (كل قيمة مختلفة). تحقق منها، وغيّر ما هو خاطئ، وألغِ تحديد الأعمدة المراد استبعادها. لا يُكتب شيء قبل الاستيراد."/>
+    <entry key="Examples" value="أمثلة"/>
+    <entry key="Filled" value="مملوءة"/>
+    <entry key="Import" value="استيراد"/>
+    <entry key="Column" value="عمود"/>
+    <entry key="{Column}Required" value="مطلوب"/>
+    <entry key="Type" value="النوع"/>
+    <entry key="Unique" value="فريد"/>
+    <entry key="%d rows imported into the new table %s." value="تم استيراد %d صف إلى الجدول الجديد %s."/>
+    <entry key="The file has columns the table does not have: %s.&#10;&#10;Leave them out and import only the columns the table has?" value="يحتوي الملف على أعمدة غير موجودة في الجدول: %s.&#10;&#10;هل تريد استبعادها واستيراد أعمدة الجدول فقط؟"/>
+    <entry key="Leave them out and import the other columns" value="استبعادها واستيراد الأعمدة الأخرى"/>
+    <entry key="Columns of the file the table does not have: %s." value="أعمدة الملف غير الموجودة في الجدول: %s."/>
+    <entry key="Nothing was imported: %s" value="لم يتم استيراد أي شيء: %s"/>
+    <entry key="Tables (%s)|%s|All files (*.*)|*.*" value="الجداول (%s)|%s|كل الملفات (*.*)|*.*"/>
+    <entry key="Choose the file: a CSV or text file (values separated by commas, semicolons, tabs or bars) or a spreadsheet: Excel (.xlsx, and .xls of Excel 97-2003) or OpenDocument (.ods, LibreOffice / OpenOffice). The first rows are shown below." value="اختر الملف: ملف CSV أو ملف نصي (قيم مفصولة بفواصل أو فواصل منقوطة أو علامات جدولة أو أشرطة) أو جدول بيانات: Excel (.xlsx، و.xls الخاص بـ Excel 97-2003) أو OpenDocument (.ods، LibreOffice / OpenOffice). تظهر الصفوف الأولى أدناه."/>
+    <entry key="leave it empty" value="تركه فارغًا"/>
+    <entry key="the name of the file: %s" value="اسم الملف: %s"/>
+    <entry key="The table keeps in the column %s the sheet each row came from. For the rows of this file:" value="يحتفظ الجدول في العمود %s بالورقة التي جاء منها كل صف. لصفوف هذا الملف:"/>
+    <entry key="the name of the sheet: %s" value="اسم الورقة: %s"/>
+    <entry key="write:" value="كتابة:"/>
+    <entry key="Column of the table" value="عمود الجدول"/>
+    <entry key="its default value" value="قيمته الافتراضية"/>
+    <entry key="{Import}empty" value="فارغ"/>
+    <entry key="from the file" value="من الملف"/>
+    <entry key="From the file" value="من الملف"/>
+    <entry key="REQUIRED and missing in the file" value="مطلوب وغير موجود في الملف"/>
+    <entry key="the sheet column: as chosen below" value="عمود الورقة: كما هو مختار أدناه"/>
+    <entry key="How" value="الطريقة"/>
+    <entry key="Tab goes down the column (else along the row)" value="ينتقل Tab إلى أسفل العمود (وإلا على طول الصف)"/>
+    <entry key="Confirm and import" value="تأكيد واستيراد"/>
+    <entry key="Copy" value="نسخ"/>
+    <entry key="The rows of the file with empty required cells (*). Type in the yellow cells; the others are read-only, but can be copied (Ctrl+C or right click) and pasted into an empty cell (Ctrl+V). Tab goes to the next empty cell. Confirm when none is left." value="صفوف الملف التي تحتوي على خلايا مطلوبة فارغة (*). اكتب في الخلايا الصفراء؛ الخلايا الأخرى للقراءة فقط، لكن يمكن نسخها (Ctrl+C أو النقر بزر الماوس الأيمن) ولصقها في خلية فارغة (Ctrl+V). ينتقل Tab إلى الخلية الفارغة التالية. أكّد عندما لا يتبقى أي منها."/>
+    <entry key="Next 10 &gt;" value="التالي 10 &gt;"/>
+    <entry key="Paste" value="لصق"/>
+    <entry key="&lt; Previous 10" value="&lt; السابق 10"/>
+    <entry key="Page %d of %d - %d empty cells left" value="الصفحة %d من %d - تبقّى %d خلية فارغة"/>
+    <entry key="Fill in the required values" value="ملء القيم المطلوبة"/>
+    <entry key="The first row holds the names of the columns" value="يحتوي الصف الأول على أسماء الأعمدة"/>
+    <entry key="The same value everywhere:" value="القيمة نفسها في كل مكان:"/>
+    <entry key="By hand, cell by cell (10 rows at a time)" value="يدويًا، خلية بخلية (10 صفوف في كل مرة)"/>
+    <entry key="%d empty" value="%d فارغة"/>
+    <entry key="%d required cells are empty in the file. Give them a value now, or leave their rows out." value="توجد %d خلية مطلوبة فارغة في الملف. أعطها قيمة الآن، أو استبعد صفوفها."/>
+    <entry key="Leave the rows with empty required cells out" value="استبعاد الصفوف التي تحتوي على خلايا مطلوبة فارغة"/>
+    <entry key="%d cells to fill by hand: it takes long. Completing the original file and reading it again is safer (nothing typed here is kept in the file).&#10;&#10;Fill them by hand anyway?" value="%d خلية لملئها يدويًا: سيستغرق ذلك وقتًا طويلاً. إكمال الملف الأصلي وقراءته مرة أخرى أكثر أمانًا (لا يُحفظ أي شيء تكتبه هنا في الملف).&#10;&#10;هل تريد ملأها يدويًا على أي حال؟"/>
+    <entry key="A value for each column (where that column is empty):" value="قيمة لكل عمود (حيث يكون ذلك العمود فارغًا):"/>
+    <entry key="Required values missing" value="قيم مطلوبة مفقودة"/>
+    <entry key="Import" value="استيراد"/>
+    <entry key="Import the other %d rows" value="استيراد الصفوف الأخرى (%d)"/>
+    <entry key="Import into %s" value="استيراد إلى %s"/>
+    <entry key="%d rows were left out." value="تم استبعاد %d صف."/>
+    <entry key="The file lacks required columns of the table: %s. Their values are asked before the import." value="يفتقد الملف إلى أعمدة مطلوبة في الجدول: %s. تُطلب قيمها قبل الاستيراد."/>
+    <entry key="... and %d more." value="... و%d أخرى."/>
+    <entry key="Next &gt;" value="التالي &gt;"/>
+    <entry key="Table %s made. Now sheet %d of %d: its columns." value="تم إنشاء الجدول %s. الآن الورقة %d من %d: أعمدتها."/>
+    <entry key="The file holds no table (every sheet is empty)." value="لا يحتوي الملف على أي جدول (كل الأوراق فارغة)."/>
+    <entry key="No row is left to import." value="لم يتبقَّ أي صف للاستيراد."/>
+    <entry key="Importing makes a table and its records: it needs the Structure and Insert permissions." value="الاستيراد ينشئ جدولاً وسجلاته: يتطلب ذلك إذنَي البنية والإدراج."/>
+    <entry key="Tick at least one column." value="حدد عمودًا واحدًا على الأقل."/>
+    <entry key="Text in quotes:" value="النص بين علامات الاقتباس:"/>
+    <entry key="none" value="بلا"/>
+    <entry key="Read the file again" value="قراءة الملف مرة أخرى"/>
+    <entry key="The file cannot be read: %s" value="تعذّرت قراءة الملف: %s"/>
+    <entry key="%d rows of %d do not fit the columns as they are:" value="%d صف من %d لا تتوافق مع الأعمدة كما هي:"/>
+    <entry key="row %d, %s &quot;%s&quot;: %s" value="الصف %d، %s &quot;%s&quot;: %s"/>
+    <entry key="Separator:" value="الفاصل:"/>
+    <entry key="Found by itself" value="يُكتشف تلقائيًا"/>
+    <entry key="Comma ," value="فاصلة ,"/>
+    <entry key="Found: %s" value="تم العثور على: %s"/>
+    <entry key="Bar |" value="شريط |"/>
+    <entry key="Semicolon ;" value="فاصلة منقوطة ;"/>
+    <entry key="Tab" value="علامة جدولة"/>
+    <entry key="The checked sheets do not all have matching columns: the columns a sheet does not have will be empty for its rows." value="لا تحتوي كل الأوراق المحددة على أعمدة متطابقة: ستكون الأعمدة غير الموجودة في ورقة ما فارغة لصفوفها."/>
+    <entry key="The workbook has several sheets. The checked ones become one table: sheets with matching columns (same group) fit together - a column a sheet does not have stays empty for its rows. The largest group is checked." value="يحتوي المصنف على عدة أوراق. تصبح الأوراق المحددة جدولاً واحدًا: الأوراق ذات الأعمدة المتطابقة (المجموعة نفسها) تتلاءم معًا - والعمود غير الموجود في ورقة ما يبقى فارغًا لصفوفها. أكبر مجموعة محددة."/>
+    <entry key="Make a table of each checked sheet" value="إنشاء جدول لكل ورقة محددة"/>
+    <entry key="Put the checked sheets together in one table" value="جمع الأوراق المحددة في جدول واحد"/>
+    <entry key="%s - %d columns, %d rows (group %d)" value="%s - %d عمود، %d صف (المجموعة %d)"/>
+    <entry key="Add a column with the name of the sheet each row comes from" value="إضافة عمود يحمل اسم الورقة التي جاء منها كل صف"/>
+    <entry key="Sheet" value="ورقة"/>
+    <entry key="For example a column &quot;Warehouse&quot; holding Milano or Roma, the names of the sheets. Text by default." value="على سبيل المثال عمود &quot;المستودع&quot; يحتوي على Milano أو Roma، وهي أسماء الأوراق. نص بشكل افتراضي."/>
+    <entry key="Put the name of each row's sheet in the column %s" value="وضع اسم ورقة كل صف في العمود %s"/>
+    <entry key="Its name:" value="اسمه:"/>
+    <entry key="Give a name to the column with the sheet's name." value="أعطِ اسمًا للعمود الذي يحمل اسم الورقة."/>
+    <entry key="Type:" value="النوع:"/>
+    <entry key="This database has no tables yet. Make its first table from a file (CSV, text, Excel or OpenDocument)?" value="لا تحتوي قاعدة البيانات هذه على جداول بعد. هل تريد إنشاء أول جدول فيها من ملف (CSV أو نص أو Excel أو OpenDocument)؟"/>
+    <entry key="%d rows added to %s:" value="تمت إضافة %d صف إلى %s:"/>
+    <entry key="%d rows" value="%d صف"/>
+    <entry key="skipped" value="تم التخطي"/>
+    <entry key="A table %s exists already: choose another name." value="يوجد جدول %s بالفعل: اختر اسمًا آخر."/>
+    <entry key="Name of the new table:" value="اسم الجدول الجديد:"/>
+    <entry key="Give a name to the new table." value="أعطِ اسمًا للجدول الجديد."/>
+    <entry key="For a text file: the separator, the quotes and the first row can be changed; the encoding (UTF-8, UTF-16, Windows) is recognised." value="للملف النصي: يمكن تغيير الفاصل وعلامات الاقتباس والصف الأول؛ ويتم التعرّف على الترميز (UTF-8، UTF-16، Windows)."/>
+    <entry key="Import from a file" value="استيراد من ملف"/>
+    <entry key="This kind of file cannot be read: choose a CSV / text file or a spreadsheet (.xlsx, .xls, .ods)." value="لا يمكن قراءة هذا النوع من الملفات: اختر ملف CSV / ملفًا نصيًا أو جدول بيانات (.xlsx، .xls، .ods)."/>
+    <entry key="Insert..." value="إدراج..."/>
+    <entry key="Keep working" value="متابعة العمل"/>
+    <entry key="The database %s is encrypted, but its key file %s is missing, so it cannot be opened. Restore the key file from a backup (it must always be saved together with the database)." value="قاعدة البيانات %s مشفّرة، لكن ملف مفتاحها %s مفقود، لذا لا يمكن فتحها. استعد ملف المفتاح من نسخة احتياطية (يجب حفظه دائمًا مع قاعدة البيانات)."/>
+    <entry key="The language file for &quot;%s&quot; could not be loaded - the current language is kept." value="تعذّر تحميل ملف اللغة لـ &quot;%s&quot; - تم الاحتفاظ باللغة الحالية."/>
+    <entry key="Select the language:" value="اختر اللغة:"/>
+    <entry key="Language" value="اللغة"/>
+    <entry key="Close and discard the work" value="إغلاق وتجاهل العمل"/>
+    <entry key="The changes not saved and the work pending in the tabs will be lost. Close?" value="ستُفقد التغييرات غير المحفوظة والعمل المعلّق في علامات التبويب. هل تريد الإغلاق؟"/>
+    <entry key="Work is pending: type the password first to close and discard it." value="يوجد عمل معلّق: اكتب كلمة المرور أولاً لإغلاقه وتجاهله."/>
+    <entry key="Work is pending: unlock first (or close and discard it with the password) before exiting." value="يوجد عمل معلّق: ألغِ القفل أولاً (أو أغلقه وتجاهله باستخدام كلمة المرور) قبل الخروج."/>
+    <entry key="Type the password of the account to unlock:" value="اكتب كلمة مرور الحساب لإلغاء القفل:"/>
+    <entry key="Type the admin password of the database to unlock:" value="اكتب كلمة مرور المسؤول لقاعدة البيانات لإلغاء القفل:"/>
+    <entry key="Type the passphrase of the database to unlock:" value="اكتب عبارة مرور قاعدة البيانات لإلغاء القفل:"/>
+    <entry key="The tabs and the work open are kept as they were." value="تم الاحتفاظ بعلامات التبويب والعمل المفتوح كما كانت."/>
+    <entry key="This database has no password: anyone at this PC can unlock it." value="لا تحتوي قاعدة البيانات هذه على كلمة مرور: يمكن لأي شخص على هذا الكمبيوتر إلغاء قفلها."/>
+    <entry key="Unlock" value="إلغاء القفل"/>
+    <entry key="%s - account %s" value="%s - الحساب %s"/>
+    <entry key="Wrong password." value="كلمة مرور خاطئة."/>
+    <entry key="Wrong password. Wait %d s before the next attempt." value="كلمة مرور خاطئة. انتظر %d ثانية قبل المحاولة التالية."/>
+    <entry key="%s has accounts: log in with your name and password." value="تحتوي %s على حسابات: سجّل الدخول باسمك وكلمة المرور."/>
+    <entry key="This account is locked. Ask whoever manages the accounts." value="هذا الحساب مقفل. اسأل من يدير الحسابات."/>
+    <entry key="Log in" value="تسجيل الدخول"/>
+    <entry key="Wrong name or password." value="اسم أو كلمة مرور خاطئة."/>
+    <entry key="The log was written to %s. Send it to whoever looks after the program." value="تمت كتابة السجل في %s. أرسله إلى المسؤول عن البرنامج."/>
+    <entry key="Export..." value="تصدير..."/>
+    <entry key="The log file could not be written." value="تعذّرت كتابة ملف السجل."/>
+    <entry key="Export the log" value="تصدير السجل"/>
+    <entry key="Log files (*.log)|*.log|All files (*.*)|*.*" value="ملفات السجل (*.log)|*.log|كل الملفات (*.*)|*.*"/>
+    <entry key="Level now: %s (Settings &gt; Log Level)." value="المستوى الآن: %s (الإعدادات &gt; مستوى السجل)."/>
+    <entry key="Write to the log messages up to:" value="كتابة رسائل في السجل حتى:"/>
+    <entry key="Warning and Info write more lines: the program may be slightly slower. The level is Error again at the next start." value="يكتب Warning وInfo سطورًا أكثر: قد يصبح البرنامج أبطأ قليلاً. يعود المستوى إلى Error عند بدء التشغيل التالي."/>
+    <entry key="Debug, Verbose and Trace write what every function does: the program becomes drastically slower while this level is on. It is for understanding a problem, then back to Error. The level is Error again at the next start." value="يكتب Debug وVerbose وTrace ما تفعله كل دالة: يصبح البرنامج أبطأ بشكل كبير طوال تشغيل هذا المستوى. وهو مخصص لفهم مشكلة، ثم العودة إلى Error. يعود المستوى إلى Error عند بدء التشغيل التالي."/>
+    <entry key="Log Level" value="مستوى السجل"/>
+    <entry key="Log" value="السجل"/>
+    <entry key="The user manual %s was not found next to the program." value="لم يتم العثور على دليل المستخدم %s بجانب البرنامج."/>
+    <entry key="Longest (characters, 0 = any):" value="الحد الأقصى (أحرف، 0 = أي طول):"/>
+    <entry key="Most rows shown by an SQL query:" value="أقصى عدد من الصفوف يعرضه استعلام SQL:"/>
+    <entry key="Largest (empty = any):" value="الأكبر (فارغ = أي قيمة):"/>
+    <entry key="&amp;About..." value="حول(&amp;A)..."/>
+    <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="إضافة إدخال(&amp;A)...&#9;Ctrl-Shift-N"/>
+    <entry key="Attac&amp;hment Folder Location..." value="موقع مجلد المرفقات(&amp;H)..."/>
+    <entry key="&amp;Browse Records...&#9;Ctrl-B" value="استعراض السجلات(&amp;B)...&#9;Ctrl-B"/>
+    <entry key="Change &amp;My Password..." value="تغيير كلمة المرور الخاصة بي(&amp;M)..."/>
+    <entry key="&amp;Change the Passphrase..." value="تغيير عبارة المرور(&amp;C)..."/>
+    <entry key="Change the Admin &amp;Password..." value="تغيير كلمة مرور المسؤول(&amp;P)..."/>
+    <entry key="Chec&amp;k Attachments..." value="فحص المرفقات(&amp;K)..."/>
+    <entry key="&amp;Close Database" value="إغلاق قاعدة البيانات(&amp;C)"/>
+    <entry key="Close &amp;Tab&#9;Ctrl-W" value="إغلاق علامة التبويب(&amp;T)&#9;Ctrl-W"/>
+    <entry key="&amp;Database" value="قاعدة البيانات(&amp;D)"/>
+    <entry key="Database &amp;Format..." value="تنسيق قاعدة البيانات(&amp;F)..."/>
+    <entry key="Edit &amp;Database (relations, indexes, automations)...&#9;Ctrl-Shift-D" value="تحرير قاعدة البيانات(&amp;D) (العلاقات، الفهارس، الأتمتة)...&#9;Ctrl-Shift-D"/>
+    <entry key="&amp;Edit Table Structure..." value="تحرير بنية الجدول(&amp;E)..."/>
+    <entry key="E&amp;xit&#9;Alt-X" value="خروج(&amp;X)&#9;Alt-X"/>
+    <entry key="&amp;Export...&#9;Ctrl-E" value="تصدير(&amp;E)...&#9;Ctrl-E"/>
+    <entry key="&amp;File" value="ملف(&amp;F)"/>
+    <entry key="&amp;Help" value="تعليمات(&amp;H)"/>
+    <entry key="&amp;Import tables from a file..." value="استيراد جداول من ملف(&amp;I)..."/>
+    <entry key="&amp;Language..." value="اللغة(&amp;L)..."/>
+    <entry key="&amp;Lock Now&#9;Ctrl-L" value="قفل الآن(&amp;L)&#9;Ctrl-L"/>
+    <entry key="Log Le&amp;vel..." value="مستوى السجل(&amp;V)..."/>
+    <entry key="User &amp;Manual&#9;F1" value="دليل المستخدم(&amp;M)&#9;F1"/>
+    <entry key="&amp;Merge Another Database..." value="دمج قاعدة بيانات أخرى(&amp;M)..."/>
+    <entry key="&amp;New Database...&#9;Ctrl-N" value="قاعدة بيانات جديدة(&amp;N)...&#9;Ctrl-N"/>
+    <entry key="New &amp;Recovery Key..." value="مفتاح استرداد جديد(&amp;R)..."/>
+    <entry key="New &amp;Table..." value="جدول جديد(&amp;T)..."/>
+    <entry key="Open the Attachment &amp;Folder" value="فتح مجلد المرفقات(&amp;F)"/>
+    <entry key="Open &amp;Data Folder" value="فتح مجلد البيانات(&amp;D)"/>
+    <entry key="&amp;Open Database...&#9;Ctrl-O" value="فتح قاعدة بيانات(&amp;O)...&#9;Ctrl-O"/>
+    <entry key="&amp;Operations Log...&#9;Ctrl-Shift-H" value="سجل العمليات(&amp;O)...&#9;Ctrl-Shift-H"/>
+    <entry key="&amp;Application preferences..." value="تفضيلات التطبيق(&amp;A)..."/>
+    <entry key="&amp;Print Selected Records...&#9;Ctrl-P" value="طباعة السجلات المحددة(&amp;P)...&#9;Ctrl-P"/>
+    <entry key="Print P&amp;rofiles..." value="ملفات تعريف الطباعة(&amp;R)..."/>
+    <entry key="Protect with an &amp;Admin Password..." value="حماية بكلمة مرور المسؤول(&amp;A)..."/>
+    <entry key="Protect with a Passp&amp;hrase..." value="حماية بعبارة مرور(&amp;H)..."/>
+    <entry key="Open &amp;Recent" value="فتح الأخيرة(&amp;R)"/>
+    <entry key="Re&amp;move the Encryption..." value="إزالة التشفير(&amp;M)..."/>
+    <entry key="Rotate the &amp;Encryption Key..." value="تدوير مفتاح التشفير(&amp;E)..."/>
+    <entry key="&amp;Sample Databases..." value="قواعد بيانات نموذجية(&amp;S)..."/>
+    <entry key="&amp;Search...&#9;Ctrl-F" value="بحث(&amp;S)...&#9;Ctrl-F"/>
+    <entry key="Se&amp;curity" value="الأمان(&amp;C)"/>
+    <entry key="&amp;Settings" value="الإعدادات(&amp;S)"/>
+    <entry key="Show the Database &amp;Key..." value="إظهار مفتاح قاعدة البيانات(&amp;K)..."/>
+    <entry key="Application L&amp;og" value="سجل التطبيق(&amp;O)"/>
+    <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="استعلام SQL (للقراءة فقط)(&amp;Q)...&#9;Ctrl-Q"/>
+    <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="الإحصاءات(&amp;I)...&#9;Ctrl-Shift-T"/>
+    <entry key="S&amp;witch User..." value="تبديل المستخدم(&amp;W)..."/>
+    <entry key="&amp;Theme..." value="السمة(&amp;T)..."/>
+    <entry key="&amp;Users and Access..." value="المستخدمون والوصول(&amp;U)..."/>
+    <entry key="&amp;Version Info..." value="معلومات الإصدار(&amp;V)..."/>
+    <entry key="Copy the attached files of the merged records" value="نسخ الملفات المرفقة بالسجلات المدمجة"/>
+    <entry key="Choose..." value="اختيار..."/>
+    <entry key="Choose the database to merge in" value="اختر قاعدة البيانات المراد دمجها"/>
+    <entry key="New column: the records already here get" value="عمود جديد: السجلات الموجودة هنا تحصل على"/>
+    <entry key="Empty values of the merged records become" value="القيم الفارغة في السجلات المدمجة تصبح"/>
+    <entry key="Note" value="ملاحظة"/>
+    <entry key="Column in the result" value="العمود في النتيجة"/>
+    <entry key="Filled from" value="يُملأ من"/>
+    <entry key="The two tables have the same columns: the records can be merged as they are." value="للجدولين الأعمدة نفسها: يمكن دمج السجلات كما هي."/>
+    <entry key="The tables are different: %d column(s) only in the database to merge, %d only in this one, %d with types that do not match. Choose below what happens to each column (click a cell to change it)." value="الجدولان مختلفان: %d عمود (أعمدة) في قاعدة البيانات المراد دمجها فقط، و%d في هذه فقط، و%d بأنواع غير متطابقة. اختر أدناه ما يحدث لكل عمود (انقر خلية لتغييرها)."/>
+    <entry key="Merge finished: %lld added, %lld overwritten, %lld kept both (value changed), %lld skipped." value="اكتمل الدمج: %lld مضاف، %lld مستبدل، %lld احتُفظ بكليهما (تغيّرت القيمة)، %lld متخطى."/>
+    <entry key="(drop this column)" value="(إسقاط هذا العمود)"/>
+    <entry key="The merge stopped: %s" value="توقف الدمج: %s"/>
+    <entry key="(nothing)" value="(لا شيء)"/>
+    <entry key="(new table &quot;%s&quot;)" value="(جدول جديد &quot;%s&quot;)"/>
+    <entry key="The table does not exist here: it is created with the columns below." value="الجدول غير موجود هنا: يُنشأ بالأعمدة أدناه."/>
+    <entry key="only in this database" value="في قاعدة البيانات هذه فقط"/>
+    <entry key="new column" value="عمود جديد"/>
+    <entry key="renamed from &quot;%s&quot;" value="أُعيدت تسميته من &quot;%s&quot;"/>
+    <entry key="types differ: %s / %s" value="الأنواع مختلفة: %s / %s"/>
+    <entry key="Preview..." value="معاينة..."/>
+    <entry key="Show every incoming record in a tab, to edit, leave out or choose them before anything is written" value="عرض كل سجل وارد في علامة تبويب، لتحريرها أو استبعادها أو اختيارها قبل كتابة أي شيء"/>
+    <entry key="%zu record(s) could not be merged:" value="تعذّر دمج %zu سجل (سجلات):"/>
+    <entry key="%lld of %lld record(s)..." value="%lld من %lld سجل (سجلات)..."/>
+    <entry key="Merge" value="دمج"/>
+    <entry key="This is the database already open: choose another one." value="هذه هي قاعدة البيانات المفتوحة بالفعل: اختر قاعدة أخرى."/>
+    <entry key="%d automations copied" value="نُسخت %d عملية أتمتة"/>
+    <entry key="Copy Several Tables..." value="نسخ عدة جداول..."/>
+    <entry key="The tables to copy as they are into this database:" value="الجداول التي ستُنسخ كما هي إلى قاعدة البيانات هذه:"/>
+    <entry key="%s: %lld records copied, %lld left out" value="%s: نُسخ %lld سجل، واستُبعد %lld"/>
+    <entry key="Copy tables of the other database as they are (structure, records, attachments, the relations and automations among them)" value="نسخ جداول قاعدة البيانات الأخرى كما هي (البنية، والسجلات، والمرفقات، والعلاقات وعمليات الأتمتة فيما بينها)"/>
+    <entry key="Database to merge in:" value="قاعدة البيانات المراد دمجها:"/>
+    <entry key="Its table:" value="جدولها:"/>
+    <entry key="Into this table:" value="في هذا الجدول:"/>
+    <entry key="Merge another database" value="دمج قاعدة بيانات أخرى"/>
+    <entry key="Shortest (characters, 0 = any):" value="الأقصر (أحرف، 0 = أي طول):"/>
+    <entry key="Smallest (empty = any):" value="الأصغر (فارغ = أي قيمة):"/>
+    <entry key="Attachments: move the original file into the attachment folder by default (unticked: copy it)" value="المرفقات: نقل الملف الأصلي إلى مجلد المرفقات افتراضياً (بدون تحديد: نسخه)"/>
+    <entry key="Down" value="لأسفل"/>
+    <entry key="Up" value="لأعلى"/>
+    <entry key="The name contains control characters." value="يحتوي الاسم على أحرف تحكم."/>
+    <entry key="This name is used already." value="هذا الاسم مستخدم بالفعل."/>
+    <entry key="The name is empty." value="الاسم فارغ."/>
+    <entry key="Names starting with _ or sqlite_, and rowid / oid, are reserved." value="الأسماء التي تبدأ بـ _ أو sqlite_، وكذلك rowid / oid، محجوزة."/>
+    <entry key="The name is longer than 64 characters." value="الاسم أطول من 64 حرفاً."/>
+    <entry key="Browse..." value="استعراض..."/>
+    <entry key="%s already exists. It is never overwritten: what should be done?" value="%s موجود بالفعل. لا يُستبدل أبداً: ماذا تريد أن تفعل؟"/>
+    <entry key="A file with this name exists already: you will be asked what to do." value="يوجد ملف بهذا الاسم بالفعل: ستُسأل عمّا تريد فعله."/>
+    <entry key="Folder:" value="المجلد:"/>
+    <entry key="The folder does not exist." value="المجلد غير موجود."/>
+    <entry key="The name is free." value="الاسم متاح."/>
+    <entry key="Name:" value="الاسم:"/>
+    <entry key="Type a name." value="اكتب اسماً."/>
+    <entry key="Open the existing one" value="فتح الموجود"/>
+    <entry key="Change the name" value="تغيير الاسم"/>
+    <entry key="New database" value="قاعدة بيانات جديدة"/>
+    <entry key="Create %s" value="إنشاء %s"/>
+    <entry key="New admin password:" value="كلمة مرور المسؤول الجديدة:"/>
+    <entry key="The current recovery key stops working. Enter the admin password to make a new one." value="سيتوقف مفتاح الاسترداد الحالي عن العمل. أدخل كلمة مرور المسؤول لإنشاء مفتاح جديد."/>
+    <entry key="New recovery key" value="مفتاح استرداد جديد"/>
+    <entry key="No" value="لا"/>
+    <entry key="This database has no table yet: create one first." value="لا تحتوي قاعدة البيانات هذه على أي جدول بعد: أنشئ جدولاً أولاً."/>
+    <entry key="No" value="لا"/>
+    <entry key="OK" value="موافق"/>
+    <entry key="Open a database" value="فتح قاعدة بيانات"/>
+    <entry key="Open folder" value="فتح المجلد"/>
+    <entry key="(all)" value="(الكل)"/>
+    <entry key="(every session)" value="(كل الجلسات)"/>
+    <entry key="Select a session first." value="حدد جلسة أولاً."/>
+    <entry key="Computer" value="الكمبيوتر"/>
+    <entry key="Details" value="التفاصيل"/>
+    <entry key="Ended" value="الانتهاء"/>
+    <entry key="Importance" value="الأهمية"/>
+    <entry key="Operation" value="العملية"/>
+    <entry key="Record" value="السجل"/>
+    <entry key="{OPS_COL_SESSION}#" value="#"/>
+    <entry key="Started" value="البدء"/>
+    <entry key="Details" value="التفاصيل"/>
+    <entry key="Table" value="الجدول"/>
+    <entry key="Time" value="الوقت"/>
+    <entry key="User" value="المستخدم"/>
+    <entry key="%d operation(s). Select one to see its details." value="%d عملية (عمليات). حدد واحدة لعرض تفاصيلها."/>
+    <entry key="%s - %s - %s (session %lld)" value="%s - %s - %s (الجلسة %lld)"/>
+    <entry key="History %s #%lld" value="المحفوظات %s #%lld"/>
+    <entry key="routine" value="روتينية"/>
+    <entry key="normal" value="عادية"/>
+    <entry key="notable" value="ملحوظة"/>
+    <entry key="high" value="عالية"/>
+    <entry key="critical" value="حرجة"/>
+    <entry key="Every importance" value="كل مستويات الأهمية"/>
+    <entry key="Normal and above" value="عادية فأعلى"/>
+    <entry key="Notable and above" value="ملحوظة فأعلى"/>
+    <entry key="High and above" value="عالية فأعلى"/>
+    <entry key="Critical only" value="حرجة فقط"/>
+    <entry key="Accounts switched on" value="تشغيل الحسابات"/>
+    <entry key="Account created" value="إنشاء حساب"/>
+    <entry key="Account level changed" value="تغيير مستوى حساب"/>
+    <entry key="Account locked" value="قفل حساب"/>
+    <entry key="Password changed" value="تغيير كلمة المرور"/>
+    <entry key="Account unlocked" value="إلغاء قفل حساب"/>
+    <entry key="Table changed" value="تغيير جدول"/>
+    <entry key="Automation saved" value="حفظ أتمتة"/>
+    <entry key="Automation removed" value="إزالة أتمتة"/>
+    <entry key="Closed" value="إغلاق"/>
+    <entry key="Relation / index changed" value="تغيير علاقة / فهرس"/>
+    <entry key="Database created" value="إنشاء قاعدة البيانات"/>
+    <entry key="Table created" value="إنشاء جدول"/>
+    <entry key="Deleted" value="حذف"/>
+    <entry key="Exported" value="تصدير"/>
+    <entry key="Added" value="إضافة"/>
+    <entry key="Operation:" value="العملية:"/>
+    <entry key="Locked" value="قفل"/>
+    <entry key="Logged in" value="تسجيل الدخول"/>
+    <entry key="Login refused" value="رفض تسجيل الدخول"/>
+    <entry key="Merged" value="دمج"/>
+    <entry key="Opened" value="فتح"/>
+    <entry key="Document printed" value="طباعة مستند"/>
+    <entry key="{Log}Search" value="بحث"/>
+    <entry key="Statistics report" value="تقرير إحصاءات"/>
+    <entry key="Unlock refused" value="رفض إلغاء القفل"/>
+    <entry key="Changed" value="تغيير"/>
+    <entry key="Log looked at" value="عرض السجل"/>
+    <entry key="Tab opened" value="فتح علامة تبويب"/>
+    <entry key="Table looked at" value="عرض جدول"/>
+    <entry key="PDF of this list..." value="PDF لهذه القائمة..."/>
+    <entry key="The operations log of this database could not be opened." value="تعذّر فتح سجل العمليات لقاعدة البيانات هذه."/>
+    <entry key="Record:" value="السجل:"/>
+    <entry key="(running)" value="(قيد التشغيل)"/>
+    <entry key="Sessions (select one to see only its operations):" value="الجلسات (حدد جلسة لعرض عملياتها فقط):"/>
+    <entry key="Database %s - user %s on %s - from %s to %s" value="قاعدة البيانات %s - المستخدم %s على %s - من %s إلى %s"/>
+    <entry key="PDF of the session..." value="PDF للجلسة..."/>
+    <entry key="Session %lld" value="الجلسة %lld"/>
+    <entry key="Show" value="عرض"/>
+    <entry key="Operations log" value="سجل العمليات"/>
+    <entry key="Table:" value="الجدول:"/>
+    <entry key="{OPS_TITLE}Operations log" value="سجل العمليات"/>
+    <entry key="User:" value="المستخدم:"/>
+    <entry key="Device time %s - UTC %s - device %s - importance %s" value="وقت الجهاز %s - UTC %s - الجهاز %s - الأهمية %s"/>
+    <entry key="contains" value="يحتوي على"/>
+    <entry key="is empty" value="فارغ"/>
+    <entry key="ends with" value="ينتهي بـ"/>
+    <entry key="is" value="يساوي"/>
+    <entry key="is more than" value="أكبر من"/>
+    <entry key="is at least" value="على الأقل"/>
+    <entry key="is less than" value="أصغر من"/>
+    <entry key="is at most" value="على الأكثر"/>
+    <entry key="is not empty" value="غير فارغ"/>
+    <entry key="is not" value="لا يساوي"/>
+    <entry key="starts with" value="يبدأ بـ"/>
+    <entry key="Detect automatically (tries every format)" value="اكتشاف تلقائي (يجرّب كل التنسيقات)"/>
+    <entry key="The passphrase was changed." value="تم تغيير عبارة المرور."/>
+    <entry key="Enter a passphrase." value="أدخل عبارة مرور."/>
+    <entry key="Encryption format:" value="تنسيق التشفير:"/>
+    <entry key="Passphrase:" value="عبارة المرور:"/>
+    <entry key="Choose the passphrase. It is never stored: if it is lost, nobody can open the database." value="اختر عبارة المرور. لا تُخزَّن أبداً: إذا فُقدت، فلن يتمكن أحد من فتح قاعدة البيانات."/>
+    <entry key="%s is encrypted with a passphrase. Enter it." value="%s مشفّر بعبارة مرور. أدخلها."/>
+    <entry key="Repeat the passphrase:" value="أعد إدخال عبارة المرور:"/>
+    <entry key="Use at least 8 characters." value="استخدم 8 أحرف على الأقل."/>
+    <entry key="Show the passphrase" value="إظهار عبارة المرور"/>
+    <entry key="Passphrase" value="عبارة المرور"/>
+    <entry key="The passphrase is wrong, or the file is in another format. Check the passphrase, or choose the format." value="عبارة المرور خاطئة، أو الملف بتنسيق آخر. تحقق من عبارة المرور، أو اختر التنسيق."/>
+    <entry key="The two passwords are different." value="كلمتا المرور مختلفتان."/>
+    <entry key="The admin password was changed." value="تم تغيير كلمة مرور المسؤول."/>
+    <entry key="The password is too weak: use at least 12 characters, not just a few repeated ones." value="كلمة المرور ضعيفة جداً: استخدم 12 حرفاً على الأقل، وليس بضعة أحرف مكررة فقط."/>
+    <entry key="Wrong password." value="كلمة مرور خاطئة."/>
+    <entry key="e.g. [A-Z]{3}-\d{4} accepts ABC-1234" value="مثال: [A-Z]{3}-\d{4} يقبل ABC-1234"/>
+    <entry key="Pattern (regular expression, optional):" value="النمط (تعبير عادي، اختياري):"/>
+    <entry key="The PDF could not be written: %s" value="تعذّرت كتابة ملف PDF: %s"/>
+    <entry key="PDF files (*.pdf)|*.pdf" value="ملفات PDF (*.pdf)|*.pdf"/>
+    <entry key="%s %s - %s - PDF created with %s" value="%s %s - %s - تم إنشاء PDF باستخدام %s"/>
+    <entry key="Page %d of %d" value="الصفحة %d من %d"/>
+    <entry key="The PDF is protected: it opens with the PDF password of the sensitive database." value="ملف PDF محمي: يُفتح بكلمة مرور PDF الخاصة بقاعدة البيانات الحساسة."/>
+    <entry key="Save the PDF" value="حفظ ملف PDF"/>
+    <entry key="Action" value="الإجراء"/>
+    <entry key="Merge" value="دمج"/>
+    <entry key="Here: %s - incoming: %s" value="هنا: %s - الوارد: %s"/>
+    <entry key="Close the preview without merging anything?" value="إغلاق المعاينة دون دمج أي شيء؟"/>
+    <entry key="Leave these rows out" value="استبعاد هذه الصفوف"/>
+    <entry key="Exclude All" value="استبعاد الكل"/>
+    <entry key="here #%lld" value="هنا رقم %lld"/>
+    <entry key="The text to replace in %s (%d rows):" value="النص المراد استبداله في %s (%d صف):"/>
+    <entry key="Merge these rows" value="دمج هذه الصفوف"/>
+    <entry key="Include All" value="تضمين الكل"/>
+    <entry key="The records of %s - %s, as they will be merged into %s. Nothing is written until Apply. Edit any value; untick a row to leave it out; a red value cannot be saved (select it to see why). A record whose unique value exists here has the existing record under it: the green value is the one kept (right click to choose, cell by cell or for the whole column)." value="سجلات %s - %s، كما ستُدمج في %s. لا يُكتب شيء حتى تطبيق. حرّر أي قيمة؛ ألغِ تحديد صف لاستبعاده؛ القيمة الحمراء لا يمكن حفظها (حدّدها لمعرفة السبب). السجل الذي توجد قيمته الفريدة هنا بالفعل يظهر تحته السجل الموجود: القيمة الخضراء هي التي يُحتفظ بها (انقر بزر الماوس الأيمن للاختيار، خلية بخلية أو للعمود بأكمله)."/>
+    <entry key="Keep the existing value" value="الاحتفاظ بالقيمة الموجودة"/>
+    <entry key="Keep the existing values of this column (every record already here)" value="الاحتفاظ بالقيم الموجودة لهذا العمود (كل سجل موجود هنا بالفعل)"/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Merge the others?" value="%s صف بها قيم لا يمكن حفظها: سيتم استبعادها. هل تريد دمج البقية؟"/>
+    <entry key="Only rows with problems or already here" value="الصفوف التي بها مشكلات أو الموجودة هنا بالفعل فقط"/>
+    <entry key="Replace a text..." value="استبدال نص..."/>
+    <entry key="Replace &quot;%s&quot; with:" value="استبدال &quot;%s&quot; بـ:"/>
+    <entry key="Set a value..." value="تعيين قيمة..."/>
+    <entry key="The value of %s in %d rows:" value="قيمة %s في %d صف:"/>
+    <entry key="%s records - %s to merge - %s already here - %s with values that cannot be saved" value="%s سجل - %s للدمج - %s موجود هنا بالفعل - %s بقيم لا يمكن حفظها"/>
+    <entry key="Merge into %s" value="الدمج في %s"/>
+    <entry key="Take the incoming value" value="أخذ القيمة الواردة"/>
+    <entry key="Take the incoming values of this column (every record already here)" value="أخذ القيم الواردة لهذا العمود (كل سجل موجود هنا بالفعل)"/>
+    <entry key="centre" value="توسيط"/>
+    <entry key="Alignment:" value="المحاذاة:"/>
+    <entry key="left" value="يسار"/>
+    <entry key="right" value="يمين"/>
+    <entry key="Its heading:" value="عنوانه:"/>
+    <entry key="An expression such as {Qty} * {Price} (empty = no amounts). The amounts are added up at the end." value="تعبير مثل {Qty} * {Price} (فارغ = بدون مبالغ). تُجمع المبالغ في النهاية."/>
+    <entry key="Amount of each record:" value="مبلغ كل سجل:"/>
+    <entry key="Suggested changes:%s&#10;&#10;%s&#10;&#10;Apply them (also the column widths)?" value="التغييرات المقترحة:%s&#10;&#10;%s&#10;&#10;هل تريد تطبيقها (وكذلك عروض الأعمدة)؟"/>
+    <entry key="Analyze best print settings" value="تحليل أفضل إعدادات الطباعة"/>
+    <entry key="The columns fit: headers and values on one line." value="الأعمدة مناسبة: العناوين والقيم على سطر واحد."/>
+    <entry key="Looks at the records of the table as they would print and suggests the paper, orientation, margins, text size and column widths that fit them." value="يفحص سجلات الجدول كما ستُطبع ويقترح الورق والاتجاه والهوامش وحجم النص وعروض الأعمدة المناسبة لها."/>
+    <entry key="Still on two lines: %d header(s), %d value(s)." value="لا يزال على سطرين: %d عنوان (عناوين)، %d قيمة (قيم)."/>
+    <entry key="Ask for a client when printing" value="السؤال عن عميل عند الطباعة"/>
+    <entry key="Bold" value="غامق"/>
+    <entry key="Print profiles of %s (how the document looks; saved in the database):" value="ملفات تعريف الطباعة لـ %s (شكل المستند؛ محفوظة في قاعدة البيانات):"/>
+    <entry key="Choose the client from %s:" value="اختر العميل من %s:"/>
+    <entry key="Columns printed in the client box (ticked, in this order):" value="الأعمدة المطبوعة في مربع العميل (المحددة، بهذا الترتيب):"/>
+    <entry key="A record of %s" value="سجل من %s"/>
+    <entry key="That table has no records." value="لا يحتوي ذلك الجدول على سجلات."/>
+    <entry key="Is this document for a client?" value="هل هذا المستند لعميل؟"/>
+    <entry key="Where is the client?" value="أين العميل؟"/>
+    <entry key="Clients usually from:" value="العملاء عادةً من:"/>
+    <entry key="Client" value="العميل"/>
+    <entry key="(typed by hand)" value="(مكتوب يدوياً)"/>
+    <entry key="The client (name on the first line, then the address):" value="العميل (الاسم في السطر الأول، ثم العنوان):"/>
+    <entry key="An empty heading prints the column's name. Width: 2 is twice as wide as 1 (table layout)." value="العنوان الفارغ يطبع اسم العمود. العرض: 2 ضعف عرض 1 (تخطيط الجدول)."/>
+    <entry key="Ticked columns are printed, in this order:" value="تُطبع الأعمدة المحددة بهذا الترتيب:"/>
+    <entry key="The selected column" value="العمود المحدد"/>
+    <entry key="Copy..." value="نسخ..."/>
+    <entry key="Currency:" value="العملة:"/>
+    <entry key="Date" value="التاريخ"/>
+    <entry key="decimals:" value="المنازل العشرية:"/>
+    <entry key="Amount" value="المبلغ"/>
+    <entry key="VAT" value="ضريبة القيمة المضافة"/>
+    <entry key="Delete" value="حذف"/>
+    <entry key="Delete the print profile &quot;%s&quot;?" value="هل تريد حذف ملف تعريف الطباعة &quot;%s&quot;؟"/>
+    <entry key="Demo Print" value="طباعة تجريبية"/>
+    <entry key="(demo)" value="(تجريبي)"/>
+    <entry key="The same document marked DEMO on every page: the number is shown but not used, nothing is recorded as printed." value="المستند نفسه مع علامة DEMO على كل صفحة: يُعرض الرقم لكن لا يُستخدم، ولا يُسجَّل شيء على أنه مطبوع."/>
+    <entry key="Down" value="لأسفل"/>
+    <entry key="Change..." value="تغيير..."/>
+    <entry key="Text size (pt):" value="حجم النص (نقطة):"/>
+    <entry key="Your company: name on the first line, then address, VAT number ..." value="شركتك: الاسم في السطر الأول، ثم العنوان، والرقم الضريبي ..."/>
+    <entry key="Issuer:" value="المُصدِر:"/>
+    <entry key="Heading:" value="العنوان:"/>
+    <entry key="Landscape" value="أفقي"/>
+    <entry key="Bigger text" value="نص أكبر"/>
+    <entry key="You are printing %ld records: about %ld pages, ready in %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Print anyway? (A search or a statistics report can make it shorter.)" value="أنت تطبع %ld سجل: حوالي %ld صفحة، جاهزة خلال %s (يعتمد الوقت على الكمبيوتر). التقدم والوقت في شريط الحالة، مع زر الإيقاف.&#10;&#10;هل تريد الطباعة على أي حال؟ (يمكن لبحث أو تقرير إحصاءات أن يجعله أقصر.)"/>
+    <entry key="Layout:" value="التخطيط:"/>
+    <entry key="One column per line: each record as a block" value="عمود واحد في كل سطر: كل سجل ككتلة"/>
+    <entry key="A table: one row per record" value="جدول: صف واحد لكل سجل"/>
+    <entry key="Margins (mm):" value="الهوامش (مم):"/>
+    <entry key="Bottom" value="أسفل"/>
+    <entry key="Left" value="يسار"/>
+    <entry key="Right" value="يمين"/>
+    <entry key="Top" value="أعلى"/>
+    <entry key="Profile name:" value="اسم ملف التعريف:"/>
+    <entry key="Give the profile a name." value="أعطِ ملف التعريف اسماً."/>
+    <entry key="New..." value="جديد..."/>
+    <entry key="next {seq}:" value="التالي {seq}:"/>
+    <entry key="Notes at the end:" value="ملاحظات في النهاية:"/>
+    <entry key="Tick at least one column to print." value="حدد عموداً واحداً على الأقل للطباعة."/>
+    <entry key="A template, e.g. INV-{date:YYYY}-{seq:4}; empty = no number." value="قالب، مثلاً INV-{date:YYYY}-{seq:4}؛ فارغ = بدون رقم."/>
+    <entry key="Number:" value="الرقم:"/>
+    <entry key="Number" value="الرقم"/>
+    <entry key="Orientation:" value="الاتجاه:"/>
+    <entry key="Amounts" value="المبالغ"/>
+    <entry key="Client" value="العميل"/>
+    <entry key="Columns" value="الأعمدة"/>
+    <entry key="Default settings" value="الإعدادات الافتراضية"/>
+    <entry key="Document" value="المستند"/>
+    <entry key="Images" value="الصور"/>
+    <entry key="Size and margins" value="الحجم والهوامش"/>
+    <entry key="Paper:" value="الورق:"/>
+    <entry key="Portrait" value="عمودي"/>
+    <entry key="Print" value="طباعة"/>
+    <entry key="Print profiles" value="ملفات تعريف الطباعة"/>
+    <entry key="Print profile" value="ملف تعريف الطباعة"/>
+    <entry key="Scale (%):" value="المقياس (%):"/>
+    <entry key="Select the records to print in a table tab first (or right-click them and choose Print)." value="حدد أولاً السجلات المراد طباعتها في علامة تبويب جدول (أو انقر بزر الماوس الأيمن عليها واختر طباعة)."/>
+    <entry key="Print the total" value="طباعة الإجمالي"/>
+    <entry key="The print was stopped: no file was written." value="تم إيقاف الطباعة: لم تتم كتابة أي ملف."/>
+    <entry key="Subtotal" value="الإجمالي الفرعي"/>
+    <entry key="Tax %:" value="الضريبة %:"/>
+    <entry key="named:" value="باسم:"/>
+    <entry key="Print" value="طباعة"/>
+    <entry key="Title printed:" value="العنوان المطبوع:"/>
+    <entry key="Total" value="الإجمالي"/>
+    <entry key="To" value="إلى"/>
+    <entry key="Up" value="لأعلى"/>
+    <entry key="Width (relative):" value="العرض (نسبي):"/>
+    <entry key="The database is now encrypted." value="أصبحت قاعدة البيانات الآن مشفّرة."/>
+    <entry key="not encrypted" value="غير مشفّرة"/>
+    <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="كيف تريد حماية %s؟ يمكن تغيير ذلك لاحقاً (قاعدة البيانات &gt; الأمان)."/>
+    <entry key="To switch to an admin password, the passphrase encryption is removed first and the database is then encrypted again with the new key. Continue?" value="للتبديل إلى كلمة مرور المسؤول، تتم إزالة التشفير بعبارة المرور أولاً ثم تُشفَّر قاعدة البيانات مجدداً بالمفتاح الجديد. هل تريد المتابعة؟"/>
+    <entry key="Not encrypted - anyone who has the file can read it" value="غير مشفّرة - يمكن لأي شخص لديه الملف قراءته"/>
+    <entry key="Attached files (pictures, PDFs, ...) are stored in a normal folder next to the database: they are not encrypted." value="تُخزَّن الملفات المرفقة (الصور، ملفات PDF، ...) في مجلد عادي بجوار قاعدة البيانات: وهي غير مشفّرة."/>
+    <entry key="A passphrase only - the same passphrase also opens the file in other tools (e.g. DB Browser for SQLite)" value="عبارة مرور فقط - تفتح عبارة المرور نفسها الملف أيضاً في أدوات أخرى (مثل DB Browser for SQLite)"/>
+    <entry key="Protection" value="الحماية"/>
+    <entry key="Admin password + recovery key (recommended) - the key file %s is kept next to the database" value="كلمة مرور المسؤول + مفتاح الاسترداد (مستحسن) - يُحفظ ملف المفتاح %s بجوار قاعدة البيانات"/>
+    <entry key="A quantity changes only through an operation (it starts at zero)." value="لا تتغير الكمية إلا من خلال عملية (تبدأ من الصفر)."/>
+    <entry key="+ Condition" value="+ شرط"/>
+    <entry key="and" value="و"/>
+    <entry key="Search in a new tab" value="بحث في علامة تبويب جديدة"/>
+    <entry key="or" value="أو"/>
+    <entry key="Remove this condition" value="إزالة هذا الشرط"/>
+    <entry key="Search" value="بحث"/>
+    <entry key="#%lld %s: %s" value="#%lld %s: %s"/>
+    <entry key="To check that you wrote it down correctly, type group %d and group %d:" value="للتحقق من أنك دوّنته بشكل صحيح، اكتب المجموعة %d والمجموعة %d:"/>
+    <entry key="That is not a valid recovery key: 32 letters and digits, in 8 groups of 4." value="هذا ليس مفتاح استرداد صالحاً: 32 حرفاً ورقماً، في 8 مجموعات من 4."/>
+    <entry key="Recovery key:" value="مفتاح الاسترداد:"/>
+    <entry key="The recovery key is shown only once. Write it down and type the two groups to continue." value="يُعرض مفتاح الاسترداد مرة واحدة فقط. دوّنه واكتب المجموعتين للمتابعة."/>
+    <entry key="Write this recovery key down (or print it) and keep it somewhere safe, away from this PC. If the admin password is forgotten, it is the ONLY way to open the database. It is shown only now and is not stored anywhere." value="دوّن مفتاح الاسترداد هذا (أو اطبعه) واحتفظ به في مكان آمن بعيداً عن هذا الكمبيوتر. إذا نُسيت كلمة مرور المسؤول، فهو الطريقة الوحيدة لفتح قاعدة البيانات. يُعرض الآن فقط ولا يُخزَّن في أي مكان."/>
+    <entry key="Your recovery key" value="مفتاح الاسترداد الخاص بك"/>
+    <entry key="Wrong recovery key." value="مفتاح استرداد خاطئ."/>
+    <entry key="Type the recovery key you saved when the database was protected, then choose a new admin password. A new recovery key is made afterwards." value="اكتب مفتاح الاسترداد الذي حفظته عند حماية قاعدة البيانات، ثم اختر كلمة مرور جديدة للمسؤول. يتم إنشاء مفتاح استرداد جديد بعد ذلك."/>
+    <entry key="Recover with the recovery key" value="الاسترداد باستخدام مفتاح الاسترداد"/>
+    <entry key="Column:" value="العمود:"/>
+    <entry key="%d found" value="تم العثور على %d"/>
+    <entry key="Record" value="السجل"/>
+    <entry key="The first %d shown: type more to narrow the search." value="يتم عرض أول %d: اكتب المزيد لتضييق البحث."/>
+    <entry key="Choose from %s" value="اختر من %s"/>
+    <entry key="Choose from the referenced records: type to search, or press F4 / ... to search in a list." value="اختر من السجلات المرجعية: اكتب للبحث، أو اضغط F4 / ... للبحث في قائمة."/>
+    <entry key="Choose %s" value="اختر %s"/>
+    <entry key="Value" value="القيمة"/>
+    <entry key="Table:" value="الجدول:"/>
+    <entry key="Delete them too" value="حذفها أيضاً"/>
+    <entry key="They follow the new value" value="تتبع القيمة الجديدة"/>
+    <entry key="%s refers to %s. What happens to the records that refer to a record:" value="يشير %s إلى %s. ماذا يحدث للسجلات التي تشير إلى سجل:"/>
+    <entry key="&quot;Delete them too&quot; deletes records without asking: use it only for records that make no sense alone (the lines of an order). The rules are kept by the database file, so they apply to every program that writes to it." value="يحذف &quot;حذفها أيضاً&quot; السجلات دون سؤال: استخدمه فقط للسجلات التي لا معنى لها بمفردها (بنود طلب ما). يحتفظ ملف قاعدة البيانات بالقواعد، لذا تنطبق على كل برنامج يكتب فيه."/>
+    <entry key="when it is deleted:" value="عند حذفه:"/>
+    <entry key="when its value changes:" value="عند تغيّر قيمته:"/>
+    <entry key="Refuse while records refer to it" value="الرفض ما دامت هناك سجلات تشير إليه"/>
+    <entry key="They lose the reference (empty)" value="تفقد المرجع (فارغ)"/>
+    <entry key="Relation" value="علاقة"/>
+    <entry key="Remove" value="إزالة"/>
+    <entry key="Remove the encryption of %s? From then on anyone who has the file can read it." value="هل تريد إزالة تشفير %s؟ بعد ذلك يمكن لأي شخص لديه الملف قراءته."/>
+    <entry key="Open the last database when the application starts" value="فتح آخر قاعدة بيانات عند بدء تشغيل التطبيق"/>
+    <entry key="Repeat the password:" value="أعد كتابة كلمة المرور:"/>
+    <entry key="Made by %s on %s" value="أعدّه %s في %s"/>
+    <entry key="Records containing &quot;%s&quot;" value="السجلات التي تحتوي على &quot;%s&quot;"/>
+    <entry key="Database %s - %s" value="قاعدة البيانات %s - %s"/>
+    <entry key="%s from %s to %s" value="%s من %s إلى %s"/>
+    <entry key="Restart now" value="إعادة التشغيل الآن"/>
+    <entry key="Entry only" value="إدخال فقط"/>
+    <entry key="only adds new records" value="يضيف سجلات جديدة فقط"/>
+    <entry key="Full access" value="وصول كامل"/>
+    <entry key="everything: deletes, structure, security, manages the lower levels" value="كل شيء: الحذف، والبنية، والأمان، وإدارة المستويات الأدنى"/>
+    <entry key="Master" value="رئيسي"/>
+    <entry key="manages the accounts only, no work on the data" value="يدير الحسابات فقط، دون أي عمل على البيانات"/>
+    <entry key="Modify data" value="تعديل البيانات"/>
+    <entry key="reads, adds and changes records (no deleting)" value="يقرأ السجلات ويضيفها ويغيّرها (دون حذف)"/>
+    <entry key="(not logged in)" value="(لم يتم تسجيل الدخول)"/>
+    <entry key="Read only" value="للقراءة فقط"/>
+    <entry key="browses, searches, exports, statistics" value="الاستعراض، والبحث، والتصدير، والإحصائيات"/>
+    <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="تمت إعادة تشفير قاعدة البيانات بمفتاح جديد. يلي ذلك مفتاح الاسترداد الجديد."/>
+    <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="ينشئ مفتاح تشفير جديداً، ويعيد تشفير قاعدة البيانات بالكامل به، وينشئ مفتاح استرداد جديداً. استخدمه إذا كان من المحتمل أن تكون نسخة من قاعدة البيانات مع ملف مفتاحها (أو كلمة مرور المسؤول) قد تسرّبت: تبقى النسخ المأخوذة سابقاً قابلة للقراءة بالأسرار القديمة، لكن كل ما يأتي من الآن فصاعداً يحتاج إلى المفتاح الجديد. أدخل كلمة مرور المسؤول للمتابعة."/>
+    <entry key="Rotate the encryption key" value="تدوير مفتاح التشفير"/>
+    <entry key="Rules" value="القواعد"/>
+    <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="لديك بالفعل نسخة من قاعدة البيانات النموذجية هذه:&#10;%s&#10;&#10;هل تريد فتحها مع تغييراتك، أم البدء من جديد من نسخة جديدة (ستفقد تغييراتك عليها)؟"/>
+    <entry key="The sample database could not be copied." value="تعذّر نسخ قاعدة البيانات النموذجية."/>
+    <entry key="Fresh Copy" value="نسخة جديدة"/>
+    <entry key="The sample database is not where it should be:&#10;%s" value="قاعدة البيانات النموذجية ليست في مكانها الصحيح:&#10;%s"/>
+    <entry key="Open My Copy" value="فتح نسختي"/>
+    <entry key="Open a sample database to try SQLite DB Tools (the User Manual has a tour of each). You work on a copy: the original stays as it is." value="افتح قاعدة بيانات نموذجية لتجربة SQLite DB Tools (يتضمن دليل المستخدم جولة في كل منها). أنت تعمل على نسخة: يبقى الأصل كما هو."/>
+    <entry key="Sample Databases" value="قواعد بيانات نموذجية"/>
+    <entry key="Calibration - measuring instruments, their calibrations, certificates and movements" value="Calibration - أدوات القياس ومعايراتها وشهاداتها وحركاتها"/>
+    <entry key="Library - books, authors, members and loans" value="Library - الكتب والمؤلفون والأعضاء والإعارات"/>
+    <entry key="Shop - items, suppliers, customers and stock movements" value="Shop - الأصناف والموردون والعملاء وحركات المخزون"/>
+    <entry key="Save for next start" value="حفظ لبدء التشغيل التالي"/>
+    <entry key="The name &quot;%s&quot; cannot be used: it is empty, too long, starts with _, is reserved or is used already." value="لا يمكن استخدام الاسم &quot;%s&quot;: فهو فارغ، أو طويل جداً، أو يبدأ بـ _، أو محجوز، أو مستخدم بالفعل."/>
+    <entry key="A table can have at most %d columns." value="يمكن أن يحتوي الجدول على %d عموداً كحد أقصى."/>
+    <entry key="The existing records do not fit the new definition: %s" value="السجلات الموجودة لا تتوافق مع التعريف الجديد: %s"/>
+    <entry key="The table is still needed by: %s. Remove those references or automations first." value="لا يزال الجدول مطلوباً من: %s. أزل هذه المراجع أو عمليات الأتمتة أولاً."/>
+    <entry key="This table was made by another program: only new columns without Required / Unique can be added to it." value="تم إنشاء هذا الجدول بواسطة برنامج آخر: لا يمكن أن تُضاف إليه إلا أعمدة جديدة بدون مطلوب / فريد."/>
+    <entry key="A table needs at least one column." value="يحتاج الجدول إلى عمود واحد على الأقل."/>
+    <entry key="The column &quot;%s&quot; refers to a table or column that does not exist." value="يشير العمود &quot;%s&quot; إلى جدول أو عمود غير موجود."/>
+    <entry key="The column &quot;%s&quot; was removed: tables only grow." value="تمت إزالة العمود &quot;%s&quot;: الجداول تنمو فقط."/>
+    <entry key="The database refused the change: %s" value="رفضت قاعدة البيانات التغيير: %s"/>
+    <entry key="A database can have at most %s tables." value="يمكن أن تحتوي قاعدة البيانات على %s جدولاً كحد أقصى."/>
+    <entry key="Search: %s" value="بحث: %s"/>
+    <entry key="Preferences" value="التفضيلات"/>
+    <entry key="Choose an admin password: it is asked every time the database is opened. It is never stored anywhere - nobody can recover it for you (the recovery key made next is the only way back). Use at least 12 characters; a few words together work well." value="اختر كلمة مرور للمسؤول: تُطلب في كل مرة تُفتح فيها قاعدة البيانات. لا تُخزَّن في أي مكان - لا أحد يستطيع استردادها لك (مفتاح الاسترداد الذي يُنشأ بعد ذلك هو الطريق الوحيد للعودة). استخدم 12 حرفاً على الأقل؛ بضع كلمات معاً تفي بالغرض جيداً."/>
+    <entry key="The data already in the database is encrypted too; nothing is lost." value="البيانات الموجودة بالفعل في قاعدة البيانات تُشفَّر أيضاً؛ لا يُفقد شيء."/>
+    <entry key="Protect the database" value="حماية قاعدة البيانات"/>
+    <entry key="Error: %s" value="خطأ: %s"/>
+    <entry key="Read-only: only queries that read (SELECT, SQLite syntax) run here; writing, ATTACH and PRAGMA are refused. Ctrl+Enter runs the query." value="للقراءة فقط: يتم هنا تشغيل الاستعلامات التي تقرأ فقط (SELECT، بصيغة SQLite)؛ وتُرفض الكتابة وATTACH وPRAGMA. يشغّل Ctrl+Enter الاستعلام."/>
+    <entry key="only one statement can be run at a time" value="لا يمكن تشغيل إلا عبارة واحدة في كل مرة"/>
+    <entry key="only queries that read (SELECT) can be run here" value="لا يمكن تشغيل إلا الاستعلامات التي تقرأ (SELECT) هنا"/>
+    <entry key="%zu row(s)" value="%zu صف(وف)"/>
+    <entry key="Run" value="تشغيل"/>
+    <entry key="Tables and columns (double-click to insert the name):" value="الجداول والأعمدة (انقر نقراً مزدوجاً لإدراج الاسم):"/>
+    <entry key="SQL query" value="استعلام SQL"/>
+    <entry key=" - there are more, not shown" value=" - توجد صفوف أخرى غير معروضة"/>
+    <entry key="Add" value="إضافة"/>
+    <entry key="(all the records)" value="(كل السجلات)"/>
+    <entry key="Calculate" value="حساب"/>
+    <entry key="Calculate to see the chart." value="قم بالحساب لرؤية المخطط البياني."/>
+    <entry key="Chart:" value="المخطط البياني:"/>
+    <entry key="Line" value="خط"/>
+    <entry key="{STATS_CLEAR_CONDITIONS_BTN}Clear" value="مسح"/>
+    <entry key="Only when" value="فقط عندما"/>
+    <entry key="Records containing:" value="السجلات التي تحتوي على:"/>
+    <entry key="Save as CSV..." value="حفظ بتنسيق CSV..."/>
+    <entry key="Date column:" value="عمود التاريخ:"/>
+    <entry key="Decimals" value="المنازل العشرية"/>
+    <entry key="Delete" value="حذف"/>
+    <entry key="Delete the saved statistic &quot;%s&quot;?" value="هل تريد حذف الإحصائية المحفوظة &quot;%s&quot;؟"/>
+    <entry key="descending" value="تنازلي"/>
+    <entry key="End:" value="النهاية:"/>
+    <entry key="Value" value="القيمة"/>
+    <entry key="The statistic cannot be calculated: %s" value="تعذّر حساب الإحصائية: %s"/>
+    <entry key="Average" value="المتوسط"/>
+    <entry key="Count" value="العدد"/>
+    <entry key="Count of different values" value="عدد القيم المختلفة"/>
+    <entry key="First value" value="القيمة الأولى"/>
+    <entry key="Formula of the measures" value="صيغة المقاييس"/>
+    <entry key="Last value" value="القيمة الأخيرة"/>
+    <entry key="Maximum" value="الحد الأقصى"/>
+    <entry key="Median" value="الوسيط"/>
+    <entry key="Minimum" value="الحد الأدنى"/>
+    <entry key="(none)" value="(لا شيء)"/>
+    <entry key="Product" value="حاصل الضرب"/>
+    <entry key="Standard deviation (sample)" value="الانحراف المعياري (عينة)"/>
+    <entry key="Standard deviation (all)" value="الانحراف المعياري (الكل)"/>
+    <entry key="Sum" value="المجموع"/>
+    <entry key="Variance (sample)" value="التباين (عينة)"/>
+    <entry key="Variance (all)" value="التباين (الكل)"/>
+    <entry key="from" value="من"/>
+    <entry key="Functions..." value="الدوال..."/>
+    <entry key="A value, a group or a condition is a formula of the columns of the record, written {Column}; {Reference&gt;Column} is a column of the referenced record. Texts are written in quotes: &quot;ACME&quot;.&#10;&#10;Operators: + - * /   &amp; joins texts   = &lt;&gt; &lt; &lt;= &gt; &gt;= compare (texts without regard to case)   and   or   not&#10;&#10;Logic: if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) (the first that is not empty)&#10;&#10;Numbers: round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;Texts: upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;Dates: today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) (1 = Sunday)  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;Measures: Count, Sum, Average, Minimum, Maximum, Count of different values, Median, Standard deviation and Variance (of a sample or of all the values), Product, First / Last value (by record number). &quot;Only when&quot; counts only the records where its condition holds (as SUMIF / COUNTIF / AVERAGEIF): {Kind} = &quot;Sale&quot; and {Qty} &gt; 0.&#10;&#10;Formula of the measures: a calculation on the other measures of the same row, written {M1}, {M2}... or by their heading: {M1} / {M2}, ({Revenue} - {Cost}) / {Revenue} * 100.&#10;&#10;Shown as: the value, its share of the total, the running total, the rank, the difference or the change from the row before (in the order of the rows)." value="القيمة أو المجموعة أو الشرط صيغة من أعمدة السجل، تُكتب {Column}؛ أما {Reference&gt;Column} فهو عمود من السجل المرجعي. تُكتب النصوص بين علامتي اقتباس: &quot;ACME&quot;.&#10;&#10;العوامل: + - * /   &amp; يدمج النصوص   = &lt;&gt; &lt; &lt;= &gt; &gt;= للمقارنة (النصوص دون تمييز بين الأحرف الكبيرة والصغيرة)   and   or   not&#10;&#10;المنطق: if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) (الأول غير الفارغ)&#10;&#10;الأرقام: round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;النصوص: upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;التواريخ: today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) (1 = الأحد)  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;المقاييس: العدد، المجموع، المتوسط، الحد الأدنى، الحد الأقصى، عدد القيم المختلفة، الوسيط، الانحراف المعياري والتباين (لعينة أو لكل القيم)، حاصل الضرب، القيمة الأولى / الأخيرة (حسب رقم السجل). &quot;فقط عندما&quot; يحسب فقط السجلات التي يتحقق فيها شرطه (مثل SUMIF / COUNTIF / AVERAGEIF): {Kind} = &quot;Sale&quot; and {Qty} &gt; 0.&#10;&#10;صيغة المقاييس: عملية حسابية على المقاييس الأخرى في الصف نفسه، تُكتب {M1}، {M2}... أو بعنوانها: {M1} / {M2}، ({Revenue} - {Cost}) / {Revenue} * 100.&#10;&#10;العرض كـ: القيمة، أو نسبتها من الإجمالي، أو الإجمالي التراكمي، أو الترتيب، أو الفرق أو التغير عن الصف السابق (بترتيب الصفوف)."/>
+    <entry key="Functions of the formulas" value="دوال الصيغ"/>
+    <entry key="Function" value="الدالة"/>
+    <entry key="Grouped by" value="مجمّعة حسب"/>
+    <entry key="Heading" value="العنوان"/>
+    <entry key="Group by a column ({Category}), a column of a referenced table ({Item&gt;Supplier}) or a date by month, quarter or year; measure a value such as {Qty} * {Price} (Sum, Average, Median...), only when a condition holds ({Kind} = &quot;Sale&quot;), or as a formula of the other measures ({M1} / {M2}). Example - monthly income: group {Date} by month, measure Sum of {Qty} * {Price}. Functions... lists everything a formula can use." value="جمّع حسب عمود ({Category})، أو عمود من جدول مرجعي ({Item&gt;Supplier}) أو تاريخ حسب الشهر أو الربع أو السنة؛ وقِس قيمة مثل {Qty} * {Price} (المجموع، المتوسط، الوسيط...)، فقط عندما يتحقق شرط ({Kind} = &quot;Sale&quot;)، أو كصيغة من المقاييس الأخرى ({M1} / {M2}). مثال - الدخل الشهري: جمّع {Date} حسب الشهر، وقِس مجموع {Qty} * {Price}. يعرض زر الدوال... كل ما يمكن أن تستخدمه الصيغة."/>
+    <entry key="Measures" value="المقاييس"/>
+    <entry key="Name:" value="الاسم:"/>
+    <entry key="Give the statistic a name to save it." value="أعطِ الإحصائية اسماً لحفظها."/>
+    <entry key="(no date range)" value="(بدون نطاق تاريخ)"/>
+    <entry key="Choose at least one measure (for example Count)." value="اختر مقياساً واحداً على الأقل (مثل العدد)."/>
+    <entry key="PDF report..." value="تقرير PDF..."/>
+    <entry key="day" value="يوم"/>
+    <entry key="Dates by" value="التواريخ حسب"/>
+    <entry key="month" value="شهر"/>
+    <entry key="(the value)" value="(القيمة)"/>
+    <entry key="quarter" value="ربع سنة"/>
+    <entry key="week" value="أسبوع"/>
+    <entry key="year" value="سنة"/>
+    <entry key="%d row(s)." value="%d صف(وف)."/>
+    <entry key="Saved:" value="المحفوظة:"/>
+    <entry key="Saved." value="تم الحفظ."/>
+    <entry key="Save" value="حفظ"/>
+    <entry key="change (%) from the row before" value="التغير (%) عن الصف السابق"/>
+    <entry key="difference from the row before" value="الفرق عن الصف السابق"/>
+    <entry key="Shown as" value="العرض كـ"/>
+    <entry key="% of the total" value="النسبة من الإجمالي (%)"/>
+    <entry key="rank (1 = the largest)" value="الترتيب (1 = الأكبر)"/>
+    <entry key="running total" value="الإجمالي التراكمي"/>
+    <entry key="the value" value="القيمة"/>
+    <entry key="the groups" value="المجموعات"/>
+    <entry key="Sort by:" value="فرز حسب:"/>
+    <entry key="measure %d" value="المقياس %d"/>
+    <entry key="the records active in each period" value="السجلات النشطة في كل فترة"/>
+    <entry key="the last record up to each period" value="آخر سجل حتى كل فترة"/>
+    <entry key="the past values of a column (operations log)" value="القيم السابقة لعمود (سجل العمليات)"/>
+    <entry key="Each period counts the records active in it: started on or before its end, and not ended before its start (staff, contracts, rentals). The first group splits them." value="تَعُدّ كل فترة السجلات النشطة فيها: التي بدأت في نهايتها أو قبلها ولم تنتهِ قبل بدايتها (الموظفون، العقود، الإيجارات). التجميع الأول يقسّمها."/>
+    <entry key="Each period takes the last record dated up to its end, carried forward until a newer one (a price list, readings); one for every value of the first group." value="تأخذ كل فترة آخر سجل مؤرخ حتى نهايتها، ويستمر حتى يأتي سجل أحدث (قائمة أسعار، قراءات)؛ واحد لكل قيمة من التجميع الأول."/>
+    <entry key="Each period takes the value the column had at its end, from the changes kept in the operations log (before the first change: the value it had then). Use the column in a measure: Average of {Price}." value="تأخذ كل فترة القيمة التي كانت للعمود في نهايتها، من التغييرات المحفوظة في سجل العمليات (قبل التغيير الأول: القيمة التي كانت له حينها). استخدم العمود في مقياس: المتوسط لـ {Price}."/>
+    <entry key="The records grouped by the values below; the measures over each group." value="السجلات مجمّعة حسب القيم أدناه؛ والمقاييس على كل مجموعة."/>
+    <entry key="Made of:" value="مكوّنة من:"/>
+    <entry key="the records, grouped" value="السجلات، مجمّعة"/>
+    <entry key="Date / start:" value="التاريخ / البداية:"/>
+    <entry key="Every:" value="كل:"/>
+    <entry key="Statistics" value="الإحصائيات"/>
+    <entry key="Table:" value="الجدول:"/>
+    <entry key="Period" value="الفترة"/>
+    <entry key="Statistics" value="الإحصائيات"/>
+    <entry key="Total" value="الإجمالي"/>
+    <entry key="to" value="إلى"/>
+    <entry key="Column:" value="العمود:"/>
+    <entry key="Only records where:" value="فقط السجلات التي:"/>
+    <entry key="%s - locked" value="%s - مقفلة"/>
+    <entry key="No database open" value="لا توجد قاعدة بيانات مفتوحة"/>
+    <entry key="Ready" value="جاهز"/>
+    <entry key="Computer" value="الكمبيوتر"/>
+    <entry key="Copy to the clipboard" value="نسخ إلى الحافظة"/>
+    <entry key="Architecture" value="البنية"/>
+    <entry key="Data folder" value="مجلد البيانات"/>
+    <entry key="Database open" value="قاعدة البيانات المفتوحة"/>
+    <entry key="Program" value="البرنامج"/>
+    <entry key="Language" value="اللغة"/>
+    <entry key="Memory" value="الذاكرة"/>
+    <entry key="Operating system" value="نظام التشغيل"/>
+    <entry key="Screen scale" value="مقياس الشاشة"/>
+    <entry key="User" value="المستخدم"/>
+    <entry key="Table %s changed." value="تم تغيير الجدول %s."/>
+    <entry key="Columns (double-click to edit; their order is the order of the entry form):" value="الأعمدة (انقر نقراً مزدوجاً للتحرير؛ ترتيبها هو ترتيب نموذج الإدخال):"/>
+    <entry key="Table %s created." value="تم إنشاء الجدول %s."/>
+    <entry key="Items" value="الأصناف"/>
+    <entry key="Discard the changes to this structure?" value="هل تريد تجاهل التغييرات على هذه البنية؟"/>
+    <entry key="Shown as (optional):" value="يُعرض باسم (اختياري):"/>
+    <entry key="Structure: %s" value="البنية: %s"/>
+    <entry key="%lld record(s). Existing columns cannot be removed. Changing the type, Required or Unique of a column converts and checks every record." value="%lld سجل(ات). لا يمكن إزالة الأعمدة الموجودة. تغيير النوع أو مطلوب أو فريد لعمود يحوّل كل سجل ويتحقق منه."/>
+    <entry key="Every record gets a record number (#) by itself. Tables only grow: columns can be added, renamed and changed later, but never removed." value="يحصل كل سجل على رقم سجل (#) تلقائياً. الجداول تنمو فقط: يمكن إضافة الأعمدة وإعادة تسميتها وتغييرها لاحقاً، لكن لا يمكن إزالتها أبداً."/>
+    <entry key="Create or apply the table first: the rows of a file are added to the table as it is saved." value="أنشئ الجدول أو طبّقه أولاً: تُضاف صفوف الملف إلى الجدول كما هو محفوظ."/>
+    <entry key="Import from file..." value="استيراد من ملف..."/>
+    <entry key="Table name:" value="اسم الجدول:"/>
+    <entry key="New table" value="جدول جديد"/>
+    <entry key="Create the columns" value="إنشاء الأعمدة"/>
+    <entry key="How many details (columns) does an item have?" value="كم عدد التفاصيل (الأعمدة) التي يحتوي عليها الصنف؟"/>
+    <entry key="Close the tab" value="إغلاق علامة التبويب"/>
+    <entry key="Work is running on the database: the tab can be closed when it ends." value="يجري عمل على قاعدة البيانات: يمكن إغلاق علامة التبويب عند انتهائه."/>
+    <entry key="The tab &quot;%s&quot; has work pending:&#10;&#10;%s&#10;Close it anyway?" value="علامة التبويب &quot;%s&quot; بها عمل معلّق:&#10;&#10;%s&#10;هل تريد إغلاقها على أي حال؟"/>
+    <entry key="Keep it open" value="إبقاؤها مفتوحة"/>
+    <entry key="a query typed and not run" value="استعلام مكتوب ولم يتم تشغيله"/>
+    <entry key="changes not applied yet" value="تغييرات لم تُطبَّق بعد"/>
+    <entry key="{Column} the value of another column, {Column:3} its first 3 characters, {Column:-3} its last 3, {Column|upper} in capitals; {seq} a counter, {seq:4} as 0001; {date}, {date:YYYYMMDD}, {time}, {user}, {table}, {db}, {uuid}." value="{العمود} قيمة عمود آخر، {العمود:3} أول 3 أحرف منه، {العمود:-3} آخر 3 أحرف، {العمود|upper} بأحرف كبيرة؛ {seq} عدّاد، {seq:4} بالشكل 0001؛ {date}، {date:YYYYMMDD}، {time}، {user}، {table}، {db}، {uuid}."/>
+    <entry key="Dark" value="داكن"/>
+    <entry key="Light" value="فاتح"/>
+    <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="تُستخدم السمة الجديدة لألوان التطبيق، بما في ذلك النوافذ التي تُفتح من الآن فصاعداً. الأجزاء التي يرسمها النظام (أشرطة العنوان، أشرطة التمرير) تتغير عند بدء التشغيل التالي."/>
+    <entry key="Select the theme:" value="حدد السمة:"/>
+    <entry key="Theme" value="السمة"/>
+    <entry key="Attachment (file)" value="مرفق (ملف)"/>
+    <entry key="Yes / No" value="نعم / لا"/>
+    <entry key="Choice from a list" value="اختيار من قائمة"/>
+    <entry key="Date" value="تاريخ"/>
+    <entry key="Date and time" value="التاريخ والوقت"/>
+    <entry key="Decimal number" value="رقم عشري"/>
+    <entry key="Whole number" value="عدد صحيح"/>
+    <entry key="Long text (several lines)" value="نص طويل (عدة أسطر)"/>
+    <entry key="Reference to another table" value="مرجع إلى جدول آخر"/>
+    <entry key="Text (one line)" value="نص (سطر واحد)"/>
+    <entry key="Time" value="وقت"/>
+    <entry key="Enter the admin password to open the database." value="أدخل كلمة مرور المسؤول لفتح قاعدة البيانات."/>
+    <entry key="Unlock the database" value="إلغاء قفل قاعدة البيانات"/>
+    <entry key="Wait %d s before the next attempt." value="انتظر %d ث قبل المحاولة التالية."/>
+    <entry key="Use now" value="استخدام الآن"/>
+    <entry key="The key file is damaged." value="ملف المفتاح تالف."/>
+    <entry key="The operation failed - see the application log." value="فشلت العملية - راجع سجل التطبيق."/>
+    <entry key="A file could not be read or written." value="تعذّرت قراءة ملف أو كتابته."/>
+    <entry key="The key file does not belong to this database (one of the two was replaced or restored without the other)." value="ملف المفتاح لا يخص قاعدة البيانات هذه (تم استبدال أحدهما أو استعادته دون الآخر)."/>
+    <entry key="This is not possible now." value="هذا غير ممكن الآن."/>
+    <entry key="The database did not open in the format set in the settings. Choose the right format, or answer Yes to try all the formats." value="لم تُفتح قاعدة البيانات بالتنسيق المحدد في الإعدادات. اختر التنسيق الصحيح، أو أجب بنعم لتجربة كل التنسيقات."/>
+    <entry key="Version history (newest first):" value="سجل الإصدارات (الأحدث أولاً):"/>
+    <entry key="Version: %s&#10;Commit: %d (built %s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="الإصدار: %s&#10;الإيداع: %d (بُني في %s)&#10;نوع البنية: %s&#10;المصدر (git): %s&#10;مجلد البيانات: %s"/>
+    <entry key="Version Information" value="معلومات الإصدار"/>
+    <entry key="An attached file could not be copied: %s" value="تعذّر نسخ ملف مرفق: %s"/>
+    <entry key="Not enough quantity: there is only %s." value="الكمية غير كافية: يوجد %s فقط."/>
+    <entry key="A table of this database can hold at most %d records: no more can be added (Home shows the limits of the program)." value="يمكن أن يحتوي جدول في قاعدة البيانات هذه على %d سجلاً كحد أقصى: لا يمكن إضافة المزيد (تعرض الرئيسية حدود البرنامج)."/>
+    <entry key="This table is changed through its operations (Perform operation): they check every value and keep the documents. Only an account with Full access writes it directly." value="يتم تغيير هذا الجدول من خلال عملياته (تنفيذ عملية): فهي تتحقق من كل قيمة وتحتفظ بالمستندات. لا يكتب فيه مباشرةً إلا حساب لديه وصول كامل."/>
+    <entry key="Quantities change only through operations (with a reason): they cannot be typed in a form, the grid or a merge." value="لا تتغير الكميات إلا من خلال العمليات (مع سبب): لا يمكن كتابتها في نموذج أو في الشبكة أو في دمج."/>
+    <entry key="This table has more columns than the program allows: it can be read, not changed (Home shows the limits of the program)." value="يحتوي هذا الجدول على أعمدة أكثر مما يسمح به البرنامج: يمكن قراءته، لا تغييره (تعرض الرئيسية حدود البرنامج)."/>
+    <entry key="Yes" value="نعم"/>
+    <entry key="Yes" value="نعم"/>
+</translation>

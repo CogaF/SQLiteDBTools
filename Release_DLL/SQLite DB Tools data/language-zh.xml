@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="zh" name="中文 (简体)">
+    <entry key="About" value="关于"/>
+    <entry key="Changes" value="更改内容"/>
+    <entry key="Compliance" value="合规性"/>
+    <entry key="Dependencies" value="依赖项"/>
+    <entry key="License" value="许可证"/>
+    <entry key="System" value="系统"/>
+    <entry key="Third-party notices" value="第三方声明"/>
+    <entry key="About %s" value="关于 %s"/>
+    <entry key="Version %s - commit %d, built %s (%s)" value="版本 %s - 第 %d 次提交，生成于 %s (%s)"/>
+    <entry key="Active" value="活动"/>
+    <entry key="Full access account name:" value="完全访问账户名称："/>
+    <entry key="Created" value="创建时间"/>
+    <entry key="Created by" value="创建者"/>
+    <entry key="Full name" value="全名"/>
+    <entry key="Level" value="级别"/>
+    <entry key="Name" value="名称"/>
+    <entry key="Status" value="状态"/>
+    <entry key="The accounts are on. Log in now with one of them." value="账户已启用。请立即使用其中一个账户登录。"/>
+    <entry key="With accounts, everyone who opens this database logs in with a name and a password, can do only what the level of the account allows, and every operation is recorded with the account. Two accounts are made now: a Master account, which only manages the accounts, and a Full access account for the work. Accounts are never deleted (an account can be locked). Keep the Master password safe: nobody can recover it." value="启用账户后，每个打开此数据库的人都必须使用名称和密码登录，只能执行账户级别允许的操作，并且每项操作都会与账户一起记录。现在将创建两个账户：一个只管理账户的主账户，以及一个用于日常工作的完全访问账户。账户永远不会被删除（可以锁定账户）。请妥善保管主账户密码：任何人都无法恢复它。"/>
+    <entry key="Switch on the accounts" value="启用账户"/>
+    <entry key="Full name:" value="全名："/>
+    <entry key="Change level..." value="更改级别..."/>
+    <entry key="New level of %s:" value="%s 的新级别："/>
+    <entry key="Level:" value="级别："/>
+    <entry key="Level of the account" value="账户级别"/>
+    <entry key="Locked" value="已锁定"/>
+    <entry key="Lock" value="锁定"/>
+    <entry key="Lock the account %s? It can no longer log in until it is unlocked." value="锁定账户 %s？在解锁之前，该账户将无法登录。"/>
+    <entry key="Logged in as %s (%s)." value="已作为 %s (%s) 登录。"/>
+    <entry key="Master account name:" value="主账户名称："/>
+    <entry key="Name:" value="名称："/>
+    <entry key="New account..." value="新建账户..."/>
+    <entry key="New account" value="新建账户"/>
+    <entry key="Master manages every account; Full access manages Read only, Entry only and Modify data accounts. Accounts are never deleted: lock the ones no longer used (their names stay in the operations log)." value="主账户管理所有账户；完全访问账户管理只读、仅录入和修改数据账户。账户永远不会被删除：请锁定不再使用的账户（其名称会保留在操作日志中）。"/>
+    <entry key="New password..." value="新密码..."/>
+    <entry key="New password of %s:" value="%s 的新密码："/>
+    <entry key="The password was changed." value="密码已更改。"/>
+    <entry key="New password" value="新密码"/>
+    <entry key="Users and access" value="用户和访问权限"/>
+    <entry key="Unlock" value="解锁"/>
+    <entry key="Current password:" value="当前密码："/>
+    <entry key="This name cannot be used for an account." value="此名称不能用作账户名称。"/>
+    <entry key="An account with this name already exists." value="已存在同名账户。"/>
+    <entry key="Your account is not allowed to do this." value="你的账户无权执行此操作。"/>
+    <entry key="The account does not exist." value="该账户不存在。"/>
+    <entry key="You cannot change the level of your own account or lock it." value="不能更改自己账户的级别，也不能锁定自己的账户。"/>
+    <entry key="The password must have at least %d characters." value="密码至少需要 %d 个字符。"/>
+    <entry key="New password:" value="新密码："/>
+    <entry key="Password:" value="密码："/>
+    <entry key="Add column..." value="添加列..."/>
+    <entry key="Admin password:" value="管理员密码："/>
+    <entry key="Apply" value="应用"/>
+    <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="只有在应用程序启动时，此更改才会完全生效。&#10;&#10;立即重启：保存更改并自动重启应用程序。&#10;立即使用：保存更改并马上使用 - 某些部分要到下次启动时才会更改。&#10;下次启动时生效：仅保存更改。"/>
+    <entry key="Apply changes" value="应用更改"/>
+    <entry key="Any file" value="任何文件"/>
+    <entry key="Archives (zip, 7z, rar, tar, gz, ...)" value="压缩文件 (zip, 7z, rar, tar, gz, ...)"/>
+    <entry key="Choose the file for %s" value="为 %s 选择文件"/>
+    <entry key="Spreadsheets (xls, xlsx, ods, csv)" value="电子表格 (xls, xlsx, ods, csv)"/>
+    <entry key="All files" value="所有文件"/>
+    <entry key="Accepted files" value="接受的文件"/>
+    <entry key="Images (jpg, png, gif, bmp, tif, webp, svg, ...)" value="图像 (jpg, png, gif, bmp, tif, webp, svg, ...)"/>
+    <entry key="Files accepted:" value="接受的文件："/>
+    <entry key="PDF documents" value="PDF 文档"/>
+    <entry key="Text files (txt, md, xml, json, log)" value="文本文件 (txt, md, xml, json, log)"/>
+    <entry key="Documents (doc, docx, odt, rtf)" value="文档 (doc, docx, odt, rtf)"/>
+    <entry key="Check Again" value="重新检查"/>
+    <entry key="All %s attached files of %s records are in %s." value="%s 个附件文件（%s 条记录）全部在 %s 中。"/>
+    <entry key="The record keeps a %s file: choose a file of that kind (the name it keeps does not change)." value="该记录保存的是 %s 文件：请选择该类型的文件（保存的名称不变）。"/>
+    <entry key="The attachments could not all be checked." value="无法检查所有附件。"/>
+    <entry key="Fixed" value="已修复"/>
+    <entry key="The file could not be put into the attachment folder." value="无法将文件放入附件文件夹。"/>
+    <entry key="Fix %s..." value="修复 %s..."/>
+    <entry key="Every file attached to the records is looked for in the attachment folder. The records whose files are missing are listed below, their missing files in red: &quot;Fix&quot; puts back the file you choose under the name the record keeps (the record itself does not change)." value="在附件文件夹中查找记录所附的每个文件。缺少文件的记录列在下方，缺少的文件显示为红色：&quot;修复&quot; 会将您选择的文件以记录保存的名称放回（记录本身不变）。"/>
+    <entry key="%s of %s attached files are missing (in %s records) from %s." value="%s 个附件文件（共 %s 个，涉及 %s 条记录）不在 %s 中。"/>
+    <entry key="... and %s more records: fix these, then check again." value="... 另有 %s 条记录：请先修复这些，然后重新检查。"/>
+    <entry key="Attachment Check" value="附件检查"/>
+    <entry key="%s - %d record(s) with missing files" value="%s - %d 条记录缺少文件"/>
+    <entry key="Attention" value="注意"/>
+    <entry key="This folder cannot be used: give a full path (e.g. D:\Files\Stock)." value="无法使用此文件夹：请提供完整路径（例如 D:\Files\Stock）。"/>
+    <entry key="Relative to the folder of the database (default: &lt;name&gt;.files next to it)" value="相对于数据库所在的文件夹（默认：数据库旁边的 &lt;name&gt;.files）"/>
+    <entry key="A folder of my choice" value="我自己选择的文件夹"/>
+    <entry key="Relative to the folder of the program" value="相对于程序所在的文件夹"/>
+    <entry key="This database keeps its attachments in:&#10;%s&#10;&#10;That folder is outside the folder of the database. Use it on this computer?&#10;&#10;No: the attachments are looked for in %s this time." value="此数据库的附件保存在：&#10;%s&#10;&#10;该文件夹位于数据库文件夹之外。是否在此计算机上使用它？&#10;&#10;否：本次在 %s 中查找附件。"/>
+    <entry key="Copy them into the new folder (the old folder stays as it is)" value="将它们复制到新文件夹（旧文件夹保持不变）"/>
+    <entry key="The files could not all be copied; the folder was not changed.&#10;&#10;%s" value="未能复制所有文件；文件夹未更改。&#10;&#10;%s"/>
+    <entry key="Attachments are now kept in:&#10;%s&#10;&#10;%d file(s) moved or copied, %d left in the old folder because a file of the same name was already in the new one." value="附件现在保存在：&#10;%s&#10;&#10;已移动或复制 %d 个文件，%d 个文件留在旧文件夹中，因为新文件夹中已有同名文件。"/>
+    <entry key="The folder exists." value="文件夹已存在。"/>
+    <entry key="The current folder holds attached files:&#10;%s&#10;What should happen to them?" value="当前文件夹中有附加的文件：&#10;%s&#10;要如何处理它们？"/>
+    <entry key="Files already attached" value="已附加的文件"/>
+    <entry key="Full path: %s" value="完整路径：%s"/>
+    <entry key="Where the files attached to the records of this database are kept. The database stores only their names, so the folder can be moved with it." value="此数据库记录的附件文件保存的位置。数据库只存储文件名，因此文件夹可以随数据库一起移动。"/>
+    <entry key="Leave them where they are (they will be missing until moved by hand)" value="保留在原处（在手动移动之前它们将缺失）"/>
+    <entry key="Move them into the new folder" value="将它们移到新文件夹"/>
+    <entry key="The folder does not exist yet: it is created with the first attachment." value="文件夹尚不存在：将在添加第一个附件时创建。"/>
+    <entry key="Outside the folder of the database: other computers use it only after confirming it." value="位于数据库文件夹之外：其他计算机需确认后才会使用它。"/>
+    <entry key="Folder:" value="文件夹："/>
+    <entry key="Attachment Folder" value="附件文件夹"/>
+    <entry key="The lock covers the window and keeps the tabs and the work open: the password of the account (or of the database) uncovers it. A warning appears 30 seconds before. Default: 600 (10 minutes)." value="锁定会遮盖窗口，同时保持选项卡和工作处于打开状态：使用账户（或数据库）的密码即可解除。锁定前 30 秒会显示警告。默认值：600（10 分钟）。"/>
+    <entry key="Lock the window after this many seconds without activity (0 = never):" value="在无活动多少秒后锁定窗口（0 = 从不）："/>
+    <entry key="add a record to another table" value="向另一个表添加记录"/>
+    <entry key="Then:" value="然后："/>
+    <entry key="refuse the change with a message" value="拒绝更改并显示消息"/>
+    <entry key="set values of the same record" value="设置同一记录的值"/>
+    <entry key="change records of another table" value="更改另一个表的记录"/>
+    <entry key="(any)" value="(任意)"/>
+    <entry key="Check" value="检查"/>
+    <entry key="The automation is correct." value="自动化正确无误。"/>
+    <entry key="Condition:" value="条件："/>
+    <entry key="Automation" value="自动化"/>
+    <entry key="Switched on" value="已启用"/>
+    <entry key="added" value="添加"/>
+    <entry key="{AUTO_EVENT_CHANGED}changed" value="更改"/>
+    <entry key="deleted" value="删除"/>
+    <entry key="Values are expressions: {Column} is a value of the record (when it is changed or deleted, {old.Column} is the value before), {Reference&gt;Column} a value of the record it refers to, numbers, 'texts', + - * /, &amp; joins texts, and the functions round(x, n), abs, min, max, coalesce, upper, lower, length, trim, substr, today(), now(), date, year, month, day, days(from, to). Example: when a movement is added, change the Items whose Code = {Item}: Stock -= {Qty}." value="值是表达式：{列名} 是记录中的一个值（记录被更改或删除时，{old.列名} 是更改前的值），{引用&gt;列名} 是所引用记录中的一个值，还可以使用数字、'文本'、+ - * /、&amp; 连接文本，以及函数 round(x, n)、abs、min、max、coalesce、upper、lower、length、trim、substr、today()、now()、date、year、month、day、days(from, to)。示例：添加一条出入库记录时，更改 物品 中 代码 = {物品} 的记录：库存 -= {数量}。"/>
+    <entry key="Its records where:" value="其中满足以下条件的记录："/>
+    <entry key="Message:" value="消息："/>
+    <entry key="+=" value="+="/>
+    <entry key="=" value="="/>
+    <entry key="-=" value="-="/>
+    <entry key="Name:" value="名称："/>
+    <entry key="Give the automation a name." value="请为自动化命名。"/>
+    <entry key="only if" value="仅当"/>
+    <entry key="Other table:" value="其他表："/>
+    <entry key="Digits (zero padded, 0 = none):" value="位数（以零补齐，0 = 不补齐）："/>
+    <entry key="Remove the automation &quot;%s&quot;? No data is changed." value="删除自动化“%s”？不会更改任何数据。"/>
+    <entry key="Automation &quot;%s&quot; saved." value="自动化“%s”已保存。"/>
+    <entry key="Columns set (column, how, value)" value="设置的列（列、方式、值）"/>
+    <entry key="Start:" value="起始值："/>
+    <entry key="Step:" value="步长："/>
+    <entry key="Table:" value="表："/>
+    <entry key="column:" value="列："/>
+    <entry key="When a record is:" value="当记录被："/>
+    <entry key="Working... %d%% (%d s)" value="正在处理... %d%% (%d 秒)"/>
+    <entry key="Working... %d s" value="正在处理... %d 秒"/>
+    <entry key="Stopping..." value="正在停止..."/>
+    <entry key="Stop" value="停止"/>
+    <entry key="Development (Debug)" value="开发版 (Debug)"/>
+    <entry key="Final release" value="正式版"/>
+    <entry key="Release candidate" value="候选发布版"/>
+    <entry key="Cancel" value="取消"/>
+    <entry key="The database is not re-encrypted; the recovery key stays valid." value="数据库不会重新加密；恢复密钥仍然有效。"/>
+    <entry key="Change the admin password" value="更改管理员密码"/>
+    <entry key="Choices (one per line):" value="选项（每行一个）："/>
+    <entry key="Choose the table:" value="选择表："/>
+    <entry key="How: AES-256 in CBC mode; the key is stretched with a SHA-based function (the defaults of SQLite3 Multiple Ciphers).&#10;&#10;Pros:&#10;- AES, the most familiar cipher;&#10;- the format of wxSQLite3 applications.&#10;&#10;Cons:&#10;- pages are NOT authenticated: a tampered file is not detected as reliably as with the other formats;&#10;- not SQLCipher compatible;&#10;- the oldest scheme of the three; fewer tools.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers and wxSQLite3 (AES-256 mode) and this application. Choose it only if another program of yours needs it." value="方式：CBC 模式的 AES-256；密钥通过基于 SHA 的函数进行拉伸（SQLite3 Multiple Ciphers 的默认设置）。&#10;&#10;优点：&#10;- AES，最为人熟知的加密算法；&#10;- wxSQLite3 应用程序使用的格式。&#10;&#10;缺点：&#10;- 页面未经过认证：被篡改的文件不如其他格式那样能被可靠地检测出来；&#10;- 与 SQLCipher 不兼容；&#10;- 三种方案中最旧的一种；支持的工具较少。&#10;&#10;兼容：基于 SQLite3 Multiple Ciphers 和 wxSQLite3（AES-256 模式）构建的程序以及本应用程序。仅当你的其他程序需要时才选择它。"/>
+    <entry key="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)" value="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)"/>
+    <entry key="How: ChaCha20 stream cipher with Poly1305 authentication on every page; the file has no readable header (it looks like random data).&#10;&#10;Pros:&#10;- fast also on PCs without AES hardware;&#10;- modern, authenticated cipher;&#10;- nothing in the file says it is a database.&#10;&#10;Cons:&#10;- not SQLCipher compatible: the standard DB Browser for SQLite and the SQLCipher tools cannot open it;&#10;- fewer programs support it.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers (its own shell, wxSQLite3 applications, libraries and bindings based on it) and this application." value="方式：ChaCha20 流加密，每个页面都使用 Poly1305 认证；文件没有可读的文件头（看起来像随机数据）。&#10;&#10;优点：&#10;- 在没有 AES 硬件加速的电脑上也很快；&#10;- 现代的认证加密算法；&#10;- 文件中没有任何内容表明它是数据库。&#10;&#10;缺点：&#10;- 与 SQLCipher 不兼容：标准的 DB Browser for SQLite 和 SQLCipher 工具无法打开它；&#10;- 支持它的程序较少。&#10;&#10;兼容：基于 SQLite3 Multiple Ciphers 构建的程序（其自带的 shell、wxSQLite3 应用程序、基于它的库和绑定）以及本应用程序。"/>
+    <entry key="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)" value="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)"/>
+    <entry key="How: AES-256 in CBC mode with HMAC-SHA512 on every page; the key is stretched with PBKDF2-SHA512 (256000 rounds).&#10;&#10;Pros:&#10;- the most widely supported encrypted SQLite format;&#10;- every page is authenticated: a modified file is detected;&#10;- opens with the standard SQLCipher tools.&#10;&#10;Cons:&#10;- a program without SQLCipher support (plain SQLite) cannot read it;&#10;- opening takes a moment longer (key stretching).&#10;&#10;Compatible with: DB Browser for SQLite (choose &quot;SQLCipher 4 defaults&quot;), the sqlcipher shell 4.x, SQLCipher libraries for Python, .NET, Java, Android and iOS, and every tool based on SQLite3 Multiple Ciphers." value="方式：CBC 模式的 AES-256，每个页面都使用 HMAC-SHA512；密钥通过 PBKDF2-SHA512（256000 轮）进行拉伸。&#10;&#10;优点：&#10;- 支持最广泛的加密 SQLite 格式；&#10;- 每个页面都经过认证：被修改的文件会被检测出来；&#10;- 可以用标准的 SQLCipher 工具打开。&#10;&#10;缺点：&#10;- 不支持 SQLCipher 的程序（普通 SQLite）无法读取它；&#10;- 打开时稍慢一些（密钥拉伸）。&#10;&#10;兼容：DB Browser for SQLite（选择“SQLCipher 4 defaults”）、sqlcipher shell 4.x、适用于 Python、.NET、Java、Android 和 iOS 的 SQLCipher 库，以及所有基于 SQLite3 Multiple Ciphers 的工具。"/>
+    <entry key="SQLCipher 4 (recommended)" value="SQLCipher 4（推荐）"/>
+    <entry key="This database already has a table %s (%s records). What should happen?" value="此数据库已有表 %s（%s 条记录）。要如何处理？"/>
+    <entry key="The table %s cannot be replaced: it is still needed by %s. Rename it instead, or remove those references first." value="无法替换表 %s：它仍被 %s 使用。请改为重命名，或先删除这些引用。"/>
+    <entry key="Give the copied table another name:" value="为复制的表另取名称："/>
+    <entry key="Rename the table of this database to:" value="将此数据库的表重命名为："/>
+    <entry key="Replace the table of this database" value="替换此数据库的表"/>
+    <entry key="Delete the table %s and its %s records permanently?&#10;&#10;This cannot be undone." value="永久删除表 %s 及其 %s 条记录？&#10;&#10;此操作无法撤消。"/>
+    <entry key="Replace removes the table %s with its %s records, its automations and print profiles: they are lost permanently and cannot be recovered." value="替换将删除表 %s 及其 %s 条记录、自动化和打印配置文件：它们将永久丢失，无法恢复。"/>
+    <entry key="A Table with This Name" value="同名的表"/>
+    <entry key="Clear" value="清除"/>
+    <entry key="Clear Log" value="清除日志"/>
+    <entry key="Close" value="关闭"/>
+    <entry key="Existing columns cannot be removed: tables only grow." value="不能删除现有的列：表只能增加列。"/>
+    <entry key="Detail %d" value="详细信息 %d"/>
+    <entry key="Help text (optional):" value="帮助文本（可选）："/>
+    <entry key="Shown as (optional):" value="显示为（可选）："/>
+    <entry key="Write at least one choice." value="请至少填写一个选项。"/>
+    <entry key="The fixed value is not valid for this column: %s" value="该固定值对此列无效：%s"/>
+    <entry key="Choose at least one kind of file." value="请至少选择一种文件类型。"/>
+    <entry key="The smallest value is larger than the largest." value="最小值大于最大值。"/>
+    <entry key="&quot;%s&quot; is not a number." value="“%s”不是数字。"/>
+    <entry key="The pattern is not a valid regular expression." value="该模式不是有效的正则表达式。"/>
+    <entry key="Choose the table and the column referred to." value="请选择所引用的表和列。"/>
+    <entry key="A unique column cannot have the same fixed value for every record: choose another default." value="唯一列不能让每条记录都使用相同的固定值：请选择其他默认值。"/>
+    <entry key="Name:" value="名称："/>
+    <entry key="Required (cannot be empty)" value="必填（不能为空）"/>
+    <entry key="Column" value="列"/>
+    <entry key="Type:" value="类型："/>
+    <entry key="Unique (no two records with the same value)" value="唯一（不能有两条记录的值相同）"/>
+    <entry key="Default" value="默认值"/>
+    <entry key="Name" value="名称"/>
+    <entry key="Rules" value="规则"/>
+    <entry key="State" value="状态"/>
+    <entry key="Type" value="类型"/>
+    <entry key="changed" value="已更改"/>
+    <entry key="new" value="新建"/>
+    <entry key="Do the same for all the next conflicts (%d record(s) left)" value="对接下来的所有冲突执行相同操作（剩余 %d 条记录）"/>
+    <entry key="Record here" value="此处的记录"/>
+    <entry key="Merged record" value="合并的记录"/>
+    <entry key="Record #%lld of the merged database has %s = &quot;%s&quot;, which record #%lld here already has (the column is unique)." value="合并数据库中的第 %lld 条记录的 %s = “%s”，而此处的第 %lld 条记录已经使用了该值（该列是唯一列）。"/>
+    <entry key="Keep both (change the value)" value="保留两者（更改该值）"/>
+    <entry key="Overwrite the record here" value="覆盖此处的记录"/>
+    <entry key="Skip it" value="跳过"/>
+    <entry key="Stop merging" value="停止合并"/>
+    <entry key="Conflict" value="冲突"/>
+    <entry key="Create table" value="创建表"/>
+    <entry key="Current admin password:" value="当前管理员密码："/>
+    <entry key="Date format:" value="日期格式："/>
+    <entry key="Choose how the database is encrypted. You can change it at any time: the whole database is converted (a few seconds) and your choice is saved in the settings. The key and the admin password do not change. The admin password is asked to confirm." value="选择数据库的加密方式。你可以随时更改：整个数据库都会被转换（几秒钟），你的选择会保存在设置中。密钥和管理员密码不会更改。需要输入管理员密码进行确认。"/>
+    <entry key=" (in use)" value="（使用中）"/>
+    <entry key="Database format" value="数据库格式"/>
+    <entry key="The password is right, but the database did not open in the format set in the settings: %s.&#10;&#10;The file may be in another format. Try all the available formats? The one that matches is converted to the format of the settings." value="密码正确，但数据库无法以设置中指定的格式打开：%s。&#10;&#10;该文件可能是其他格式。是否尝试所有可用格式？匹配的格式会被转换为设置中的格式。"/>
+    <entry key="To show the key of the database (for opening a copy with another tool) the admin password is asked every time. Anyone who knows this key and has a copy of the database can read it: show it only when needed and do not keep it." value="每次显示数据库的密钥（用于使用其他工具打开副本）时都需要输入管理员密码。任何知道此密钥并拥有数据库副本的人都可以读取它：仅在需要时显示，且不要保存它。"/>
+    <entry key="Format of this database: %s" value="此数据库的格式：%s"/>
+    <entry key="In DB Browser for SQLite: open a COPY of the database; in the SQLCipher window choose &quot;SQLCipher 4 defaults&quot;, set the key type to passphrase (plain text), paste this text as the password and press OK." value="在 DB Browser for SQLite 中：打开数据库的副本；在 SQLCipher 窗口中选择“SQLCipher 4 defaults”，将密钥类型设置为密码短语（纯文本），将此文本粘贴为密码，然后按“OK”。"/>
+    <entry key="This format (%s) is not SQLCipher: the standard DB Browser for SQLite and the SQLCipher tools cannot open it. Open a COPY with a program built on SQLite3 Multiple Ciphers, selecting this cipher and entering the text as a passphrase - or choose SQLCipher 4 in Database &gt; Security &gt; Database Format." value="此格式 (%s) 不是 SQLCipher：标准的 DB Browser for SQLite 和 SQLCipher 工具无法打开它。请使用基于 SQLite3 Multiple Ciphers 构建的程序打开副本，选择此加密算法并将该文本作为密码短语输入 - 或者在“数据库 &gt; 安全 &gt; 数据库格式”中选择 SQLCipher 4。"/>
+    <entry key="This is the passphrase of the database file (64 characters). It is not the admin password. It stays valid until you use Database &gt; Security &gt; Rotate the Encryption Key." value="这是数据库文件的密码短语（64 个字符）。它不是管理员密码。在你使用“数据库 &gt; 安全 &gt; 轮换加密密钥”之前，它一直有效。"/>
+    <entry key="Database key" value="数据库密钥"/>
+    <entry key="SQLite DB Tools: create, open, protect and work on SQLite databases - tables, records, connections between tables, import, export, merge, SQL, statistics, prints, accounts - up to 255 tables of 255 columns and 522,003 records per database." value="SQLite DB Tools：创建、打开、保护和处理 SQLite 数据库 - 表、记录、表之间的连接、导入、导出、合并、SQL、统计、打印、账户 - 每个数据库最多 255 个表（每个表最多 255 列）和 522,003 条记录。"/>
+    <entry key="Developed by %s." value="由 %s 开发。"/>
+    <entry key="All rights reserved. Free of charge: see the License tab." value="保留所有权利。免费使用：请参阅“许可证”选项卡。"/>
+    <entry key="How the licenses of the components are respected:&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1): an LGPL with an exception that allows distributing applications linked with it, statically or dynamically, under their own terms. Its copyright notice is in THIRD-PARTY-NOTICES.md.&#10;- SQLite (public domain): no conditions.&#10;- SQLite3 Multiple Ciphers (MIT): its copyright and permission notice is shipped in THIRD-PARTY-NOTICES.md (next to the exe) and shown in the Third-party notices tab.&#10;- libsodium (ISC): its copyright and permission notice is shipped the same way.&#10;- PoDoFo (LGPL 2.0+ or MPL 2.0, used under the MPL 2.0): unmodified; its source is public at github.com/podofo/podofo. The libraries it links (OpenSSL - Apache 2.0, FreeType, libxml2, Fontconfig, Little CMS, zlib, libpng, libjpeg, libtiff) are under permissive licences; their notices are in THIRD-PARTY-NOTICES.md.&#10;- Microsoft Visual C++ runtime: redistributed under the Visual Studio license terms (Visual C++ Redistributable).&#10;&#10;No component is under a license that would require publishing the source code of this application. Cryptography: the application uses standard published algorithms (AES-256, ChaCha20-Poly1305, Argon2id); check the export rules of your country before taking it abroad." value="如何遵守各组件的许可证：&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1)：一种带有例外条款的 LGPL，允许以自己的条款分发静态或动态链接它的应用程序。其版权声明见 THIRD-PARTY-NOTICES.md。&#10;- SQLite（公共领域）：没有任何条件。&#10;- SQLite3 Multiple Ciphers (MIT)：其版权和许可声明随附在 THIRD-PARTY-NOTICES.md 中（位于 exe 旁边），并显示在“第三方声明”选项卡中。&#10;- libsodium (ISC)：其版权和许可声明以相同方式随附。&#10;- PoDoFo（LGPL 2.0+ 或 MPL 2.0，依据 MPL 2.0 使用）：未经修改；其源代码公开于 github.com/podofo/podofo。它链接的库（OpenSSL - Apache 2.0、FreeType、libxml2、Fontconfig、Little CMS、zlib、libpng、libjpeg、libtiff）均采用宽松许可证；其声明见 THIRD-PARTY-NOTICES.md。&#10;- Microsoft Visual C++ 运行时：依据 Visual Studio 许可条款（Visual C++ Redistributable）重新分发。&#10;&#10;没有任何组件采用会要求公开本应用程序源代码的许可证。加密：本应用程序使用公开发布的标准算法（AES-256、ChaCha20-Poly1305、Argon2id）；将其带往国外之前，请查阅你所在国家/地区的出口规定。"/>
+    <entry key="One database is open at a time: %s was opened, these were left out (open another copy of SQLite DB Tools for them):" value="一次只能打开一个数据库：已打开 %s，以下文件未打开（请为它们另外打开一个 SQLite DB Tools）："/>
+    <entry key="SQLite DB Tools does not open these files:" value="SQLite DB Tools 无法打开以下文件："/>
+    <entry key="Only the first %d records and %d columns of each table are exported." value="每个表只导出前 %d 条记录和 %d 列。"/>
+    <entry key="Add SQLite DB Tools to 'Open with'" value="将 SQLite DB Tools 添加到“打开方式”"/>
+    <entry key="Done: databases and files to import list SQLite DB Tools in 'Open with' (choose 'Always' to make it their program)." value="完成：数据库和要导入的文件已在“打开方式”中列出 SQLite DB Tools（选择“始终”可将其设为它们的默认程序）。"/>
+    <entry key="Double click: Windows can offer SQLite DB Tools for databases and the files it imports (CSV, text, Excel, OpenDocument): choose once 'Open with &gt; Choose another app &gt; SQLite DB Tools &gt; Always'. Files can also be dropped on the window." value="双击：Windows 可以为数据库及其导入的文件（CSV、文本、Excel、OpenDocument）提供 SQLite DB Tools：只需选择一次“打开方式 &gt; 选择其他应用 &gt; SQLite DB Tools &gt; 始终”。也可以将文件拖放到窗口上。"/>
+    <entry key="SQLite DB Tools was removed from the 'Open with' lists." value="已从“打开方式”列表中删除 SQLite DB Tools。"/>
+    <entry key=" - only the first %d records are shown" value=" - 仅显示前 %d 条记录"/>
+    <entry key="Data" value="数据"/>
+    <entry key="Database" value="数据库"/>
+    <entry key="New (plain, with an admin password and recovery key, or with a passphrase), open, close, lock." value="新建（普通数据库、使用管理员密码和恢复密钥，或使用密码短语）、打开、关闭、锁定。"/>
+    <entry key="Tables from CSV / text / Excel / OpenDocument files, export, merge another database, SQL queries, statistics, prints, the operations log, attached files." value="从 CSV/文本/Excel/OpenDocument 文件创建表、导出、合并另一个数据库、SQL 查询、统计、打印、操作日志、附件。"/>
+    <entry key="Recent databases" value="最近使用的数据库"/>
+    <entry key="Accounts and protection" value="账户和保护"/>
+    <entry key="Accounts with their levels, passwords, the protection of the file." value="账户及其级别、密码、文件的保护。"/>
+    <entry key="Tables and records" value="表和记录"/>
+    <entry key="Tables and their columns, the connections between the tables of this database (references, relations, indexes, automations), records." value="表及其列、此数据库中表之间的连接（引用、关系、索引、自动化）、记录。"/>
+    <entry key="Account: %s (%s)" value="账户：%s (%s)"/>
+    <entry key="Attachments: %s" value="附件：%s"/>
+    <entry key="Attachments: %s (the folder named by the database, %s, was not confirmed)" value="附件：%s（数据库指定的文件夹 %s 未经确认）"/>
+    <entry key="%d table(s) - protection: %s - operations log: %s" value="%d 个表 - 保护：%s - 操作日志：%s"/>
+    <entry key="SQLite databases, encrypted or not: one at a time in this window (open another copy of the program for another one). Every table, form, search, query and log opens in its own tab; this tab stays." value="SQLite 数据库，无论是否加密：此窗口中一次只能打开一个（要打开另一个，请再打开一个程序副本）。每个表、表单、搜索、查询和日志都在各自的选项卡中打开；此选项卡始终保留。"/>
+    <entry key="Records: %s of %s - tables: %s of %s - columns per table: at most %d" value="记录：%s / %s - 表：%s / %s - 每个表的列数：最多 %d"/>
+    <entry key="not available" value="不可用"/>
+    <entry key="recorded" value="已记录"/>
+    <entry key="No database open" value="未打开数据库"/>
+    <entry key="Create a new one or open one (also by dropping it on the window); the actions below wait for it." value="新建一个数据库或打开一个数据库（也可以将其拖放到窗口上）；下面的操作需要先打开数据库。"/>
+    <entry key="Open: %s" value="已打开：%s"/>
+    <entry key="Read-only: this database is beyond the limits of SQLite DB Tools." value="只读：此数据库超出了 SQLite DB Tools 的限制。"/>
+    <entry key="SQLite DB Tools is free of charge: anyone may use it, at home or at work, on any number of computers, with no license key. It remains the property of its author and its source code is not published: modifying it, reverse engineering it or selling it is not allowed; unmodified copies may be passed on free of charge. It comes without warranty: back up your databases, their attachment folders, key files and passwords - a lost password or key file makes an encrypted database unreadable for ever. The full text is in LICENSE.md." value="SQLite DB Tools 免费提供：任何人都可以在家中或工作中使用它，可安装在任意数量的计算机上，无需许可证密钥。它仍归其作者所有，源代码不公开：不允许修改、逆向工程或出售；可以免费转交未经修改的副本。本软件不提供任何担保：请备份你的数据库、其附件文件夹、密钥文件和密码 - 丢失密码或密钥文件将使加密数据库永远无法读取。完整文本见 LICENSE.md。"/>
+    <entry key="Limits of SQLite DB Tools" value="SQLite DB Tools 的限制"/>
+    <entry key="Closes the database: logging in again is needed. When work is pending, the same password is needed here and the work is discarded." value="关闭数据库：需要重新登录。如果有未完成的工作，需要在此输入同一密码，且这些工作将被放弃。"/>
+    <entry key="SQLite DB Tools is locked" value="SQLite DB Tools 已锁定"/>
+    <entry key="A new SQLite database: its name and folder; then how it is protected." value="新的 SQLite 数据库：先指定名称和文件夹，然后选择保护方式。"/>
+    <entry key="1 routine (tabs, searches), 2 normal (records added or changed), 3 notable (prints, exports, deletions, structure), 4 high (accounts, privileges, wrong passwords), 5 critical (passwords and keys of the database)" value="1 例行（选项卡、搜索），2 普通（添加或更改记录），3 值得注意（打印、导出、删除、结构），4 高（账户、权限、错误密码），5 关键（数据库的密码和密钥）"/>
+    <entry key="- a table with %d columns (at most %d)" value="- 一个有 %d 列的表（最多 %d 列）"/>
+    <entry key="This database is beyond the limits of SQLite DB Tools:&#10;%s&#10;It is open read-only: it can be browsed, searched and exported, not changed. Each table shows at most its first %s records and %d columns." value="此数据库超出了 SQLite DB Tools 的限制：&#10;%s&#10;它以只读方式打开：可以浏览、搜索和导出，但不能更改。每个表最多显示其前 %s 条记录和 %d 列。"/>
+    <entry key="- %s records (at most %s)" value="- %s 条记录（最多 %s 条）"/>
+    <entry key="- %s tables (at most %s)" value="- %s 个表（最多 %s 个）"/>
+    <entry key="Some tabs have changes that were not saved. Discard them?" value="某些选项卡中有未保存的更改。是否放弃这些更改？"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools: it was converted to the format of this version. The file as it was is kept next to it as %s (the versions 1.x open only that one)." value="%s 由较早版本的 SQLite DB Tools 创建：已转换为此版本的格式。原来的文件保存在旁边，名为 %s（1.x 版本只能打开该文件）。"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and could not be converted to the format of this version (%s). The file was not changed." value="%s 由较早版本的 SQLite DB Tools 创建，无法转换为此版本的格式（%s）。文件未被更改。"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and must be converted to the format of this version, but it cannot be written (a read-only file or folder). Copy it where it can be written, then open it again." value="%s 由较早版本的 SQLite DB Tools 创建，需要转换为此版本的格式，但无法写入（只读文件或文件夹）。请将其复制到可写入的位置，然后重新打开。"/>
+    <entry key="Databases (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|All files (*.*)|*.*" value="数据库 (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|所有文件 (*.*)|*.*"/>
+    <entry key="Database locked" value="数据库已锁定"/>
+    <entry key="The window will be locked in %d s because of inactivity. The tabs and the work open are kept." value="由于无活动，窗口将在 %d 秒后锁定。打开的选项卡和工作会保留。"/>
+    <entry key="The value does not exist in %s." value="该值在 %s 中不存在。"/>
+    <entry key="The database holds at most %s records in all its tables together: no more can be added." value="数据库的所有表加起来最多只能有 %s 条记录：无法再添加。"/>
+    <entry key="Records of %s still refer to it: change or delete them first." value="%s 中仍有记录引用它：请先更改或删除这些记录。"/>
+    <entry key="Refused by an automation: %s" value="被自动化拒绝：%s"/>
+    <entry key="%s could not be read: it is not a database, or it is encrypted and the passphrase or format given does not open it." value="无法读取 %s：它不是数据库，或者它已加密，而提供的密码短语或格式无法打开它。"/>
+    <entry key="The database %s does not exist (moved or renamed?)." value="数据库 %s 不存在（已移动或重命名？）。"/>
+    <entry key="%s could not be opened:&#10;%s" value="无法打开 %s：&#10;%s"/>
+    <entry key="Decimals:" value="小数位数："/>
+    <entry key="Value of new records" value="新记录的值"/>
+    <entry key="Value:" value="值："/>
+    <entry key="Example: %s" value="示例：%s"/>
+    <entry key="Auto-increment number" value="自动递增编号"/>
+    <entry key="Same as the last record" value="与上一条记录相同"/>
+    <entry key="A fixed value" value="固定值"/>
+    <entry key="Empty" value="空"/>
+    <entry key="Now (date and time)" value="现在（日期和时间）"/>
+    <entry key="Template (other columns, counter, date, ...)" value="模板（其他列、计数器、日期、...）"/>
+    <entry key="Today" value="今天"/>
+    <entry key="Windows user name" value="Windows 用户名"/>
+    <entry key="Unique code (UUID)" value="唯一代码 (UUID)"/>
+    <entry key="Fixed value / template:" value="固定值/模板："/>
+    <entry key="Component" value="组件"/>
+    <entry key="License" value="许可证"/>
+    <entry key="Owner / authors" value="所有者/作者"/>
+    <entry key="Used for" value="用途"/>
+    <entry key="encrypted databases" value="加密数据库"/>
+    <entry key="database engine" value="数据库引擎"/>
+    <entry key="user interface" value="用户界面"/>
+    <entry key="PDF documents and reports" value="PDF 文档和报表"/>
+    <entry key="C++ runtime" value="C++ 运行时"/>
+    <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="管理员密码和恢复密钥 (Argon2id, XChaCha20-Poly1305)"/>
+    <entry key="Version in use" value="使用的版本"/>
+    <entry key="Website" value="网站"/>
+    <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="双击：打开所有者的网站。每个组件都归其所有者所有，并依据其许可证使用。"/>
+    <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="自动化是由数据库在每次添加、更改或删除记录时执行的规则 - 无论操作来自本程序还是其他任何程序。例如：一条出入库记录从物品的库存中扣除其数量；物品的价值始终为库存 x 价格；会使库存变为负数的更改将被拒绝。"/>
+    <entry key="Automations" value="自动化"/>
+    <entry key="Change..." value="更改..."/>
+    <entry key="Does" value="执行"/>
+    <entry key="Column" value="列"/>
+    <entry key="Columns" value="列"/>
+    <entry key="Index" value="索引"/>
+    <entry key="Name" value="名称"/>
+    <entry key="When it is deleted" value="删除时"/>
+    <entry key="When its value changes" value="值更改时"/>
+    <entry key="Records" value="记录"/>
+    <entry key="Refers to" value="引用"/>
+    <entry key="References" value="引用"/>
+    <entry key="State" value="状态"/>
+    <entry key="Table" value="表"/>
+    <entry key="Type" value="类型"/>
+    <entry key="When" value="时机"/>
+    <entry key="Change..." value="更改..."/>
+    <entry key="An index makes searching and sorting on a column faster on large tables (unique columns always have one). Double-click a column to add or remove its index." value="索引可以加快大型表中按列搜索和排序的速度（唯一列始终有索引）。双击某一列可添加或删除其索引。"/>
+    <entry key="Indexes" value="索引"/>
+    <entry key="-" value="-"/>
+    <entry key="Indexed (unique)" value="已索引（唯一）"/>
+    <entry key="A unique column always has an index." value="唯一列始终有索引。"/>
+    <entry key="Indexed" value="已索引"/>
+    <entry key="New automation..." value="新建自动化..."/>
+    <entry key="(no Reference column: add one to a table to link it to another)" value="（没有引用列：在表中添加一个引用列即可将其链接到另一个表）"/>
+    <entry key="Off" value="关"/>
+    <entry key="On" value="开"/>
+    <entry key="A Reference column links a record to a record of another table (an item to its supplier, a movement to its item). The database itself guarantees the link: a value that does not exist is refused, and you choose what happens when the referenced record is deleted or its value changes. Double-click a relation to change it." value="引用列将一条记录链接到另一个表中的一条记录（物品链接到其供应商，出入库记录链接到其物品）。链接由数据库本身保证：不存在的值会被拒绝，你可以选择在被引用的记录被删除或其值更改时如何处理。双击某个关系可更改它。"/>
+    <entry key="Relations" value="关系"/>
+    <entry key="Remove" value="删除"/>
+    <entry key="Edit database" value="编辑数据库"/>
+    <entry key="The tables of the database. Double-click a table to change its structure (columns can be added, renamed and changed, never removed)." value="数据库中的表。双击某个表可更改其结构（可以添加、重命名和更改列，但不能删除列）。"/>
+    <entry key="Tables" value="表"/>
+    <entry key="Switch on / off" value="启用/禁用"/>
+    <entry key="Add / remove index" value="添加/删除索引"/>
+    <entry key="Discard" value="放弃"/>
+    <entry key="Add to %s" value="添加到 %s"/>
+    <entry key="No database is open for the %d file(s) to import. Create a new database for their tables, or open an existing one?" value="没有为要导入的 %d 个文件打开数据库。是为其表新建一个数据库，还是打开现有数据库？"/>
+    <entry key="%d file(s) to import: each as new table(s), or their rows added to the table %s?" value="要导入 %d 个文件：每个文件作为新表导入，还是将其行添加到表 %s 中？"/>
+    <entry key="New database..." value="新建数据库..."/>
+    <entry key="New tables" value="新建表"/>
+    <entry key="Open a database..." value="打开数据库..."/>
+    <entry key="Files dropped" value="拖放的文件"/>
+    <entry key="about %ld minutes" value="约 %ld 分钟"/>
+    <entry key="about %ld seconds" value="约 %ld 秒"/>
+    <entry key="Edit..." value="编辑..."/>
+    <entry key="The database is no longer encrypted." value="数据库已不再加密。"/>
+    <entry key="Choose the file (or press Enter in the field)" value="选择文件（或在字段中按 Enter）"/>
+    <entry key="Discard the values typed in this form?" value="放弃在此表单中输入的值？"/>
+    <entry key="Correct these values (the first one is selected):" value="请更正以下值（已选中第一个）："/>
+    <entry key="The record cannot be saved" value="无法保存记录"/>
+    <entry key="Tab or Enter: next field. Enter on the last field, or Shift+Enter anywhere: save. Ctrl+Enter: new line in a long text." value="Tab 或 Enter：下一个字段。在最后一个字段按 Enter，或在任意位置按 Shift+Enter：保存。Ctrl+Enter：在长文本中换行。"/>
+    <entry key="Keep the values after saving" value="保存后保留这些值"/>
+    <entry key="Move the attached files into the attachment folder (unticked: copy them, the originals stay)" value="将附件移动到附件文件夹（不勾选：复制附件，原文件保留）"/>
+    <entry key="Filled in from record #%lld: change what differs and save." value="已根据第 %lld 条记录填写：更改不同之处后保存。"/>
+    <entry key="Record #%lld saved." value="第 %lld 条记录已保存。"/>
+    <entry key="Save (Shift+Enter)" value="保存 (Shift+Enter)"/>
+    <entry key="Table:" value="表："/>
+    <entry key="Add: %s" value="添加：%s"/>
+    <entry key="Copied: paste it into an e-mail or a message." value="已复制：将其粘贴到电子邮件或消息中。"/>
+    <entry key="Copy the report" value="复制报告"/>
+    <entry key="The operation failed. Nothing was changed by it." value="操作失败。该操作未做任何更改。"/>
+    <entry key="The program goes on working. To get help, copy the report below and send it to whoever looks after the program (it has no passwords)." value="程序会继续运行。如需帮助，请复制下面的报告并发送给负责维护本程序的人员（报告中不包含任何密码）。"/>
+    <entry key="Something went wrong" value="出现问题"/>
+    <entry key="An unexpected error stopped the operation. The program goes on working; what was saved before is kept." value="一个意外错误中止了该操作。程序会继续运行；之前已保存的内容会保留。"/>
+    <entry key="Error" value="错误"/>
+    <entry key="must be at most %s" value="不能大于 %s"/>
+    <entry key="must be a date and time like %s hh:mm" value="必须是类似 %s hh:mm 的日期和时间"/>
+    <entry key="must be a date like %s" value="必须是类似 %s 的日期"/>
+    <entry key="the pattern of this column is not valid" value="此列的模式无效"/>
+    <entry key="must be a time like hh:mm" value="必须是类似 hh:mm 的时间"/>
+    <entry key="must be at least %s" value="不能小于 %s"/>
+    <entry key="is used already by another record" value="已被另一条记录使用"/>
+    <entry key="this kind of file is not accepted here" value="此处不接受这种类型的文件"/>
+    <entry key="must be one line" value="必须为单行"/>
+    <entry key="must be Yes or No" value="必须为“是”或“否”"/>
+    <entry key="must be one of the choices" value="必须是其中一个选项"/>
+    <entry key="must be a whole number" value="必须是整数"/>
+    <entry key="must be a number" value="必须是数字"/>
+    <entry key="does not exist in %s" value="在 %s 中不存在"/>
+    <entry key="does not match the pattern %s" value="与模式 %s 不匹配"/>
+    <entry key="is required" value="为必填项"/>
+    <entry key="must have at most %d characters" value="最多只能有 %d 个字符"/>
+    <entry key="must have at least %d characters" value="至少需要 %d 个字符"/>
+    <entry key="Exit" value="退出"/>
+    <entry key="Exit the program? Anything not saved yet (records being edited, open forms and windows) will probably be lost." value="退出程序？任何尚未保存的内容（正在编辑的记录、打开的表单和窗口）可能都会丢失。"/>
+    <entry key="Exit" value="退出"/>
+    <entry key="Some tabs have changes that were not saved: they will be lost." value="某些选项卡中有未保存的更改：它们将会丢失。"/>
+    <entry key="Copy the attached files too (into the folder &lt;name&gt;.files)" value="同时复制附件（到文件夹 &lt;名称&gt;.files 中）"/>
+    <entry key="Encrypt the copy with a passphrase" value="使用密码短语加密副本"/>
+    <entry key="Separator:" value="分隔符："/>
+    <entry key="Records (INSERT)" value="记录 (INSERT)"/>
+    <entry key="Exported %d table(s), %lld record(s) and %d attached file(s) to:&#10;%s" value="已导出 %d 个表、%lld 条记录和 %d 个附件到：&#10;%s"/>
+    <entry key="The export failed: %s" value="导出失败：%s"/>
+    <entry key="Copy of the database (SQLite file, plain or encrypted)" value="数据库副本（SQLite 文件，普通或加密）"/>
+    <entry key="CSV for Excel (one file per table)" value="用于 Excel 的 CSV（每个表一个文件）"/>
+    <entry key="JSON" value="JSON"/>
+    <entry key="SQL script - MySQL / MariaDB" value="SQL 脚本 - MySQL / MariaDB"/>
+    <entry key="SQL script - PostgreSQL" value="SQL 脚本 - PostgreSQL"/>
+    <entry key="SQL script - SQLite" value="SQL 脚本 - SQLite"/>
+    <entry key="SQL script - Microsoft SQL Server" value="SQL 脚本 - Microsoft SQL Server"/>
+    <entry key="Format:" value="格式："/>
+    <entry key="Choose at least one table." value="请至少选择一个表。"/>
+    <entry key="%lld record(s) written..." value="已写入 %lld 条记录..."/>
+    <entry key="Table definitions (CREATE TABLE)" value="表定义 (CREATE TABLE)"/>
+    <entry key="Tables:" value="表："/>
+    <entry key="Export to" value="导出到"/>
+    <entry key="Export" value="导出"/>
+    <entry key="%s: %s" value="%s：%s"/>
+    <entry key="The name of this column, last before the extension" value="此列的名称，位于扩展名之前的最后"/>
+    <entry key="column" value="列"/>
+    <entry key="nothing chosen: Table_Record_Column, the default" value="未选择：Table_Record_Column，默认值"/>
+    <entry key="Example: %s (a name already taken gets _01, _02 ...; files attached before keep their names)" value="示例：%s（已被占用的名称会加上 _01, _02 ...；之前附加的文件保留其名称）"/>
+    <entry key="Name of a new attached file, in this order:" value="新附件文件的名称，按此顺序："/>
+    <entry key="The record number" value="记录编号"/>
+    <entry key="The name of the table" value="表的名称"/>
+    <entry key="table" value="表"/>
+    <entry key="The values of these columns of the record, in this order:" value="记录中这些列的值，按此顺序："/>
+    <entry key="Windows did not accept the change: %s" value="Windows 未接受此更改：%s"/>
+    <entry key="Remove it" value="删除"/>
+    <entry key="empty" value="空"/>
+    <entry key="a text..." value="一段文本..."/>
+    <entry key="the text &quot;%s&quot;" value="文本“%s”"/>
+    <entry key="the merged database's name" value="被合并数据库的名称"/>
+    <entry key="the merged table's name" value="被合并表的名称"/>
+    <entry key="this database's name" value="此数据库的名称"/>
+    <entry key="this table's name" value="此表的名称"/>
+    <entry key="The text:" value="文本："/>
+    <entry key="The column &quot;%s&quot; becomes required: what value do the %lld existing record(s) that have none get?" value="列“%s”将变为必填：没有值的 %lld 条现有记录应填入什么值？"/>
+    <entry key="Value for the existing records" value="现有记录的值"/>
+    <entry key="Forgot the password..." value="忘记密码..."/>
+    <entry key="%zu record(s) updated." value="已更新 %zu 条记录。"/>
+    <entry key="Apply modifications" value="应用修改"/>
+    <entry key="Apply modifications of this row" value="应用此行的修改"/>
+    <entry key="The file %s is not in the attachment folder." value="文件 %s 不在附件文件夹中。"/>
+    <entry key="Cancel edits" value="取消编辑"/>
+    <entry key="Cancel the edit of this row" value="取消此行的编辑"/>
+    <entry key="Choose another file..." value="选择其他文件..."/>
+    <entry key="Remove the attachment" value="删除附件"/>
+    <entry key="Clear the selection" value="清除选择"/>
+    <entry key="%ld records copied to the clipboard." value="已将 %ld 条记录复制到剪贴板。"/>
+    <entry key="Copy the value" value="复制值"/>
+    <entry key="Copy the selected records (for a spreadsheet)" value="复制所选记录（用于电子表格）"/>
+    <entry key="Copy to a new entry" value="复制到新条目"/>
+    <entry key="%zu record(s)" value="%zu 条记录"/>
+    <entry key="%zu record(s) deleted." value="已删除 %zu 条记录。"/>
+    <entry key="Delete..." value="删除..."/>
+    <entry key="Delete %zu record(s)? Their attached files are moved to the _deleted subfolder of the attachment folder." value="删除 %zu 条记录？它们的附件将被移到附件文件夹的 _deleted 子文件夹中。"/>
+    <entry key="Delete the selected records..." value="删除所选记录..."/>
+    <entry key="Edit" value="编辑"/>
+    <entry key="Edit the selected records" value="编辑所选记录"/>
+    <entry key="%zu value(s) must be corrected (the first one is selected):" value="有 %zu 个值必须更正（已选中第一个）："/>
+    <entry key="The modifications cannot be applied" value="无法应用修改"/>
+    <entry key="text in any column" value="任意列中的文本"/>
+    <entry key="Find:" value="查找："/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="右键单击某行可查看其操作。在正在编辑的行中，双击单元格（或直接输入）即可更改。快捷键：F2 编辑，Ctrl+S 应用，Esc 取消，Del 删除，Ctrl+D 复制到新条目。"/>
+    <entry key="History of this record..." value="此记录的历史记录..."/>
+    <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="此操作将应用于 %ld 条记录，需要 %s（时间取决于计算机）。进度和时间显示在状态栏中，并提供“停止”按钮。&#10;&#10;是否继续？"/>
+    <entry key="Open the attachment" value="打开附件"/>
+    <entry key=" - %zu row(s) in edit, %zu changed" value=" - %zu 行正在编辑，%zu 行已更改"/>
+    <entry key="Print..." value="打印..."/>
+    <entry key="Print the selected records..." value="打印所选记录..."/>
+    <entry key="Refresh" value="刷新"/>
+    <entry key="%ld records selected" value="已选择 %ld 条记录"/>
+    <entry key="Select all&#9;Ctrl+A" value="全选&#9;Ctrl+A"/>
+    <entry key="Show the attachment in its folder" value="在文件夹中显示附件"/>
+    <entry key="Stopped: nothing was changed." value="已停止：未做任何更改。"/>
+    <entry key="This tab has modifications not applied yet. Discard them?" value="此选项卡中有尚未应用的修改。是否放弃这些修改？"/>
+    <entry key="Group %d:" value="组 %d："/>
+    <entry key="Operation:" value="操作："/>
+    <entry key="Part of:" value="所属："/>
+    <entry key="Reason:" value="原因："/>
+    <entry key="Browse" value="浏览"/>
+    <entry key="Edit structure..." value="编辑结构..."/>
+    <entry key="New table..." value="新建表..."/>
+    <entry key="Home" value="主页"/>
+    <entry key="Add image..." value="添加图像..."/>
+    <entry key="Choose an image (logo, stamp, signature ...)" value="选择图像（徽标、印章、签名 ...）"/>
+    <entry key="Also as watermark" value="同时用作水印"/>
+    <entry key="Uses the selected image a second time, as a faint watermark behind the text." value="再次使用所选图像，作为文本后面的淡色水印。"/>
+    <entry key="Bottom centre" value="底部居中"/>
+    <entry key="Bottom left" value="左下"/>
+    <entry key="Bottom right" value="右下"/>
+    <entry key="Images (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff" value="图像 (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff"/>
+    <entry key="fill it, cutting the edges" value="填满，裁掉边缘"/>
+    <entry key="To that shape:" value="适应该形状："/>
+    <entry key="keep the whole image, stretched" value="保留整个图像，拉伸"/>
+    <entry key="keep the whole image (empty margins)" value="保留整个图像（留空边距）"/>
+    <entry key="x %.0f mm high (at most %.0f x %.0f mm here)" value="x 高 %.0f mm（此处最大 %.0f x %.0f mm）"/>
+    <entry key="%d x %d pixels, shape %s. Usual shape nearest: %s; normal width here: %.0f mm." value="%d x %d 像素，形状 %s。最接近的常用形状：%s；此处的正常宽度：%.0f mm。"/>
+    <entry key="The image could not be read." value="无法读取该图像。"/>
+    <entry key="No image: add a logo, a stamp or a watermark." value="没有图像：添加徽标、印章或水印。"/>
+    <entry key="Opacity %:" value="不透明度 %："/>
+    <entry key="Other pages, size %:" value="其他页面，大小 %："/>
+    <entry key="A logo at the top is printed also on every page after the first, at this percent of its size (0 = first page only)" value="位于顶部的徽标也会打印在第一页之后的每一页上，大小为原大小的此百分比（0 = 仅第一页）"/>
+    <entry key="Place:" value="位置："/>
+    <entry key="Remove" value="删除"/>
+    <entry key="Make it %s, cutting the edges" value="改为 %s，裁掉边缘"/>
+    <entry key="Keep its own shape (%s)" value="保持其原有形状 (%s)"/>
+    <entry key="The image is %d x %d pixels (shape %s). The usual shape nearest to it is %s. How should it be printed?" value="该图像为 %d x %d 像素（形状 %s）。最接近它的常用形状是 %s。应如何打印？"/>
+    <entry key="Shape of the image" value="图像的形状"/>
+    <entry key="Make it %s, keeping the whole image" value="改为 %s，保留整个图像"/>
+    <entry key="other:" value="其他："/>
+    <entry key="Shape (width : height):" value="形状（宽 : 高）："/>
+    <entry key="the image's own" value="图像原有形状"/>
+    <entry key="Use the suggestion" value="使用建议"/>
+    <entry key="Top centre" value="顶部居中"/>
+    <entry key="Top left" value="左上"/>
+    <entry key="Top right" value="右上"/>
+    <entry key="Watermark (behind the text)" value="水印（位于文本后面）"/>
+    <entry key="Width (mm):" value="宽度 (mm)："/>
+    <entry key="%d rows added to the table %s." value="%d 行已添加到表 %s 中。"/>
+    <entry key="The rows of the file are added to the table: each column of the table takes the column of the file with the same name. The file may have fewer columns (the required values it lacks are asked before the import); columns the table does not have are left out only if you agree. Every row is checked against the table's rules before anything is written." value="文件中的行将被添加到表中：表的每一列从文件中同名的列取值。文件的列可以少一些（文件缺少的必填值会在导入前询问）；表中没有的列只有在你同意时才会被略去。在写入任何内容之前，每一行都会按照表的规则进行检查。"/>
+    <entry key="&lt; Back" value="&lt; 上一步"/>
+    <entry key="Change the columns" value="更改列"/>
+    <entry key="Choose a file first." value="请先选择一个文件。"/>
+    <entry key="Check at least one sheet." value="请至少勾选一个工作表。"/>
+    <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="新表的列，根据值推测而来：类型、“必填”（没有空值）和“唯一”（每个值都不同）。请检查它们，更改不正确之处，取消勾选要略去的列。在“导入”之前不会写入任何内容。"/>
+    <entry key="Examples" value="示例"/>
+    <entry key="Filled" value="已填写"/>
+    <entry key="Import" value="导入"/>
+    <entry key="Column" value="列"/>
+    <entry key="{Column}Required" value="必填"/>
+    <entry key="Type" value="类型"/>
+    <entry key="Unique" value="唯一"/>
+    <entry key="%d rows imported into the new table %s." value="已将 %d 行导入新表 %s。"/>
+    <entry key="The file has columns the table does not have: %s.&#10;&#10;Leave them out and import only the columns the table has?" value="文件中有表中没有的列：%s。&#10;&#10;略去这些列，只导入表中已有的列？"/>
+    <entry key="Leave them out and import the other columns" value="略去这些列并导入其他列"/>
+    <entry key="Columns of the file the table does not have: %s." value="文件中有而表中没有的列：%s。"/>
+    <entry key="Nothing was imported: %s" value="未导入任何内容：%s"/>
+    <entry key="Tables (%s)|%s|All files (*.*)|*.*" value="表格 (%s)|%s|所有文件 (*.*)|*.*"/>
+    <entry key="Choose the file: a CSV or text file (values separated by commas, semicolons, tabs or bars) or a spreadsheet: Excel (.xlsx, and .xls of Excel 97-2003) or OpenDocument (.ods, LibreOffice / OpenOffice). The first rows are shown below." value="选择文件：CSV 或文本文件（值以逗号、分号、制表符或竖线分隔），或者电子表格：Excel（.xlsx，以及 Excel 97-2003 的 .xls）或 OpenDocument（.ods，LibreOffice / OpenOffice）。下方显示前几行。"/>
+    <entry key="leave it empty" value="保留为空"/>
+    <entry key="the name of the file: %s" value="文件名：%s"/>
+    <entry key="The table keeps in the column %s the sheet each row came from. For the rows of this file:" value="该表在列 %s 中保存每一行来自的工作表。对于此文件中的行："/>
+    <entry key="the name of the sheet: %s" value="工作表名称：%s"/>
+    <entry key="write:" value="写入："/>
+    <entry key="Column of the table" value="表的列"/>
+    <entry key="its default value" value="其默认值"/>
+    <entry key="{Import}empty" value="空"/>
+    <entry key="from the file" value="来自文件"/>
+    <entry key="From the file" value="来自文件"/>
+    <entry key="REQUIRED and missing in the file" value="必填，但文件中缺少"/>
+    <entry key="the sheet column: as chosen below" value="工作表列：按下方的选择"/>
+    <entry key="How" value="方式"/>
+    <entry key="Tab goes down the column (else along the row)" value="Tab 沿列向下移动（否则沿行移动）"/>
+    <entry key="Confirm and import" value="确认并导入"/>
+    <entry key="Copy" value="复制"/>
+    <entry key="The rows of the file with empty required cells (*). Type in the yellow cells; the others are read-only, but can be copied (Ctrl+C or right click) and pasted into an empty cell (Ctrl+V). Tab goes to the next empty cell. Confirm when none is left." value="文件中必填单元格 (*) 为空的行。请在黄色单元格中输入；其他单元格为只读，但可以复制（Ctrl+C 或右键单击）并粘贴到空单元格中（Ctrl+V）。Tab 跳到下一个空单元格。没有剩余空单元格时请确认。"/>
+    <entry key="Next 10 &gt;" value="后 10 行 &gt;"/>
+    <entry key="Paste" value="粘贴"/>
+    <entry key="&lt; Previous 10" value="&lt; 前 10 行"/>
+    <entry key="Page %d of %d - %d empty cells left" value="第 %d 页，共 %d 页 - 剩余 %d 个空单元格"/>
+    <entry key="Fill in the required values" value="填写必填值"/>
+    <entry key="The first row holds the names of the columns" value="第一行是列名"/>
+    <entry key="The same value everywhere:" value="所有位置使用相同的值："/>
+    <entry key="By hand, cell by cell (10 rows at a time)" value="手动逐个单元格填写（每次 10 行）"/>
+    <entry key="%d empty" value="%d 个为空"/>
+    <entry key="%d required cells are empty in the file. Give them a value now, or leave their rows out." value="文件中有 %d 个必填单元格为空。现在为它们指定值，或略去这些行。"/>
+    <entry key="Leave the rows with empty required cells out" value="略去必填单元格为空的行"/>
+    <entry key="%d cells to fill by hand: it takes long. Completing the original file and reading it again is safer (nothing typed here is kept in the file).&#10;&#10;Fill them by hand anyway?" value="有 %d 个单元格需要手动填写：这需要很长时间。补全原始文件并重新读取会更稳妥（在此输入的任何内容都不会保存到文件中）。&#10;&#10;仍然手动填写？"/>
+    <entry key="A value for each column (where that column is empty):" value="为每一列指定一个值（用于该列为空之处）："/>
+    <entry key="Required values missing" value="缺少必填值"/>
+    <entry key="Import" value="导入"/>
+    <entry key="Import the other %d rows" value="导入其他 %d 行"/>
+    <entry key="Import into %s" value="导入到 %s"/>
+    <entry key="%d rows were left out." value="已略去 %d 行。"/>
+    <entry key="The file lacks required columns of the table: %s. Their values are asked before the import." value="文件缺少表的必填列：%s。导入前会询问它们的值。"/>
+    <entry key="... and %d more." value="... 以及其他 %d 个。"/>
+    <entry key="Next &gt;" value="下一步 &gt;"/>
+    <entry key="Table %s made. Now sheet %d of %d: its columns." value="已创建表 %s。现在是第 %d 个工作表（共 %d 个）：它的列。"/>
+    <entry key="The file holds no table (every sheet is empty)." value="文件中不包含任何表（所有工作表均为空）。"/>
+    <entry key="No row is left to import." value="没有剩余可导入的行。"/>
+    <entry key="Importing makes a table and its records: it needs the Structure and Insert permissions." value="导入会创建表及其记录：需要“结构”和“插入”权限。"/>
+    <entry key="Tick at least one column." value="请至少勾选一列。"/>
+    <entry key="Text in quotes:" value="文本引号："/>
+    <entry key="none" value="无"/>
+    <entry key="Read the file again" value="重新读取文件"/>
+    <entry key="The file cannot be read: %s" value="无法读取文件：%s"/>
+    <entry key="%d rows of %d do not fit the columns as they are:" value="%d 行（共 %d 行）不符合当前的列："/>
+    <entry key="row %d, %s &quot;%s&quot;: %s" value="第 %d 行，%s“%s”：%s"/>
+    <entry key="Separator:" value="分隔符："/>
+    <entry key="Found by itself" value="自动检测"/>
+    <entry key="Comma ," value="逗号 ,"/>
+    <entry key="Found: %s" value="已检测到：%s"/>
+    <entry key="Bar |" value="竖线 |"/>
+    <entry key="Semicolon ;" value="分号 ;"/>
+    <entry key="Tab" value="制表符"/>
+    <entry key="The checked sheets do not all have matching columns: the columns a sheet does not have will be empty for its rows." value="勾选的工作表并非都具有相同的列：某个工作表没有的列，在其行中将为空。"/>
+    <entry key="The workbook has several sheets. The checked ones become one table: sheets with matching columns (same group) fit together - a column a sheet does not have stays empty for its rows. The largest group is checked." value="该工作簿有多个工作表。勾选的工作表将合并为一个表：列相同的工作表（同一组）可以合并 - 某个工作表没有的列，在其行中保持为空。默认勾选最大的组。"/>
+    <entry key="Make a table of each checked sheet" value="为每个勾选的工作表创建一个表"/>
+    <entry key="Put the checked sheets together in one table" value="将勾选的工作表合并到一个表中"/>
+    <entry key="%s - %d columns, %d rows (group %d)" value="%s - %d 列，%d 行（组 %d）"/>
+    <entry key="Add a column with the name of the sheet each row comes from" value="添加一列，记录每一行来自的工作表名称"/>
+    <entry key="Sheet" value="工作表"/>
+    <entry key="For example a column &quot;Warehouse&quot; holding Milano or Roma, the names of the sheets. Text by default." value="例如，一个“仓库”列，其值为工作表的名称 Milano 或 Roma。默认为文本。"/>
+    <entry key="Put the name of each row's sheet in the column %s" value="将每一行的工作表名称放入列 %s"/>
+    <entry key="Its name:" value="其名称："/>
+    <entry key="Give a name to the column with the sheet's name." value="请为保存工作表名称的列命名。"/>
+    <entry key="Type:" value="类型："/>
+    <entry key="This database has no tables yet. Make its first table from a file (CSV, text, Excel or OpenDocument)?" value="此数据库还没有表。是否从文件（CSV、文本、Excel 或 OpenDocument）创建第一个表？"/>
+    <entry key="%d rows added to %s:" value="%d 行已添加到 %s："/>
+    <entry key="%d rows" value="%d 行"/>
+    <entry key="skipped" value="已跳过"/>
+    <entry key="A table %s exists already: choose another name." value="表 %s 已存在：请选择其他名称。"/>
+    <entry key="Name of the new table:" value="新表的名称："/>
+    <entry key="Give a name to the new table." value="请为新表命名。"/>
+    <entry key="For a text file: the separator, the quotes and the first row can be changed; the encoding (UTF-8, UTF-16, Windows) is recognised." value="对于文本文件：可以更改分隔符、引号和第一行；编码（UTF-8、UTF-16、Windows）会自动识别。"/>
+    <entry key="Import from a file" value="从文件导入"/>
+    <entry key="This kind of file cannot be read: choose a CSV / text file or a spreadsheet (.xlsx, .xls, .ods)." value="无法读取此类文件：请选择 CSV/文本文件或电子表格（.xlsx、.xls、.ods）。"/>
+    <entry key="Insert..." value="插入..."/>
+    <entry key="Keep working" value="继续工作"/>
+    <entry key="The database %s is encrypted, but its key file %s is missing, so it cannot be opened. Restore the key file from a backup (it must always be saved together with the database)." value="数据库 %s 已加密，但缺少其密钥文件 %s，因此无法打开。请从备份中恢复密钥文件（它必须始终与数据库一起保存）。"/>
+    <entry key="The language file for &quot;%s&quot; could not be loaded - the current language is kept." value="无法加载“%s”的语言文件 - 保留当前语言。"/>
+    <entry key="Select the language:" value="选择语言："/>
+    <entry key="Language" value="语言"/>
+    <entry key="Close and discard the work" value="关闭并放弃工作"/>
+    <entry key="The changes not saved and the work pending in the tabs will be lost. Close?" value="未保存的更改以及选项卡中未完成的工作都将丢失。是否关闭？"/>
+    <entry key="Work is pending: type the password first to close and discard it." value="有未完成的工作：请先输入密码，才能关闭并放弃这些工作。"/>
+    <entry key="Work is pending: unlock first (or close and discard it with the password) before exiting." value="有未完成的工作：退出前请先解锁（或使用密码关闭并放弃这些工作）。"/>
+    <entry key="Type the password of the account to unlock:" value="输入账户密码以解锁："/>
+    <entry key="Type the admin password of the database to unlock:" value="输入数据库的管理员密码以解锁："/>
+    <entry key="Type the passphrase of the database to unlock:" value="输入数据库的密码短语以解锁："/>
+    <entry key="The tabs and the work open are kept as they were." value="打开的选项卡和工作都会保持原样。"/>
+    <entry key="This database has no password: anyone at this PC can unlock it." value="此数据库没有密码：这台电脑前的任何人都可以解锁它。"/>
+    <entry key="Unlock" value="解锁"/>
+    <entry key="%s - account %s" value="%s - 账户 %s"/>
+    <entry key="Wrong password." value="密码错误。"/>
+    <entry key="Wrong password. Wait %d s before the next attempt." value="密码错误。请等待 %d 秒后再试。"/>
+    <entry key="%s has accounts: log in with your name and password." value="%s 使用账户：请使用你的名称和密码登录。"/>
+    <entry key="This account is locked. Ask whoever manages the accounts." value="此账户已锁定。请联系账户管理人员。"/>
+    <entry key="Log in" value="登录"/>
+    <entry key="Wrong name or password." value="名称或密码错误。"/>
+    <entry key="The log was written to %s. Send it to whoever looks after the program." value="日志已写入 %s。请将其发送给负责维护本程序的人员。"/>
+    <entry key="Export..." value="导出..."/>
+    <entry key="The log file could not be written." value="无法写入日志文件。"/>
+    <entry key="Export the log" value="导出日志"/>
+    <entry key="Log files (*.log)|*.log|All files (*.*)|*.*" value="日志文件 (*.log)|*.log|所有文件 (*.*)|*.*"/>
+    <entry key="Level now: %s (Settings &gt; Log Level)." value="当前级别：%s（设置 &gt; 日志级别）。"/>
+    <entry key="Write to the log messages up to:" value="写入日志的消息级别最高到："/>
+    <entry key="Warning and Info write more lines: the program may be slightly slower. The level is Error again at the next start." value="Warning 和 Info 会写入更多行：程序可能会稍微变慢。下次启动时级别会重新变为 Error。"/>
+    <entry key="Debug, Verbose and Trace write what every function does: the program becomes drastically slower while this level is on. It is for understanding a problem, then back to Error. The level is Error again at the next start." value="Debug、Verbose 和 Trace 会写入每个函数所做的操作：启用此级别时，程序会变得非常慢。它用于分析问题，之后请改回 Error。下次启动时级别会重新变为 Error。"/>
+    <entry key="Log Level" value="日志级别"/>
+    <entry key="Log" value="日志"/>
+    <entry key="The user manual %s was not found next to the program." value="在程序旁边找不到用户手册 %s。"/>
+    <entry key="Longest (characters, 0 = any):" value="最长（字符数，0 = 不限）："/>
+    <entry key="Most rows shown by an SQL query:" value="SQL 查询最多显示的行数："/>
+    <entry key="Largest (empty = any):" value="最大值（空 = 不限）："/>
+    <entry key="&amp;About..." value="关于(&amp;A)..."/>
+    <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="添加条目(&amp;A)...&#9;Ctrl-Shift-N"/>
+    <entry key="Attac&amp;hment Folder Location..." value="附件文件夹位置(&amp;H)..."/>
+    <entry key="&amp;Browse Records...&#9;Ctrl-B" value="浏览记录(&amp;B)...&#9;Ctrl-B"/>
+    <entry key="Change &amp;My Password..." value="更改我的密码(&amp;M)..."/>
+    <entry key="&amp;Change the Passphrase..." value="更改密码短语(&amp;C)..."/>
+    <entry key="Change the Admin &amp;Password..." value="更改管理员密码(&amp;P)..."/>
+    <entry key="Chec&amp;k Attachments..." value="检查附件(&amp;K)..."/>
+    <entry key="&amp;Close Database" value="关闭数据库(&amp;C)"/>
+    <entry key="Close &amp;Tab&#9;Ctrl-W" value="关闭选项卡(&amp;T)&#9;Ctrl-W"/>
+    <entry key="&amp;Database" value="数据库(&amp;D)"/>
+    <entry key="Database &amp;Format..." value="数据库格式(&amp;F)..."/>
+    <entry key="Edit &amp;Database (relations, indexes, automations)...&#9;Ctrl-Shift-D" value="编辑数据库（关系、索引、自动化）(&amp;D)...&#9;Ctrl-Shift-D"/>
+    <entry key="&amp;Edit Table Structure..." value="编辑表结构(&amp;E)..."/>
+    <entry key="E&amp;xit&#9;Alt-X" value="退出(&amp;X)&#9;Alt-X"/>
+    <entry key="&amp;Export...&#9;Ctrl-E" value="导出(&amp;E)...&#9;Ctrl-E"/>
+    <entry key="&amp;File" value="文件(&amp;F)"/>
+    <entry key="&amp;Help" value="帮助(&amp;H)"/>
+    <entry key="&amp;Import tables from a file..." value="从文件导入表(&amp;I)..."/>
+    <entry key="&amp;Language..." value="语言(&amp;L)..."/>
+    <entry key="&amp;Lock Now&#9;Ctrl-L" value="立即锁定(&amp;L)&#9;Ctrl-L"/>
+    <entry key="Log Le&amp;vel..." value="日志级别(&amp;V)..."/>
+    <entry key="User &amp;Manual&#9;F1" value="用户手册(&amp;M)&#9;F1"/>
+    <entry key="&amp;Merge Another Database..." value="合并另一个数据库(&amp;M)..."/>
+    <entry key="&amp;New Database...&#9;Ctrl-N" value="新建数据库(&amp;N)...&#9;Ctrl-N"/>
+    <entry key="New &amp;Recovery Key..." value="新建恢复密钥(&amp;R)..."/>
+    <entry key="New &amp;Table..." value="新建表(&amp;T)..."/>
+    <entry key="Open the Attachment &amp;Folder" value="打开附件文件夹(&amp;F)"/>
+    <entry key="Open &amp;Data Folder" value="打开数据文件夹(&amp;D)"/>
+    <entry key="&amp;Open Database...&#9;Ctrl-O" value="打开数据库(&amp;O)...&#9;Ctrl-O"/>
+    <entry key="&amp;Operations Log...&#9;Ctrl-Shift-H" value="操作日志(&amp;O)...&#9;Ctrl-Shift-H"/>
+    <entry key="&amp;Application preferences..." value="应用程序首选项(&amp;A)..."/>
+    <entry key="&amp;Print Selected Records...&#9;Ctrl-P" value="打印所选记录(&amp;P)...&#9;Ctrl-P"/>
+    <entry key="Print P&amp;rofiles..." value="打印配置文件(&amp;R)..."/>
+    <entry key="Protect with an &amp;Admin Password..." value="使用管理员密码保护(&amp;A)..."/>
+    <entry key="Protect with a Passp&amp;hrase..." value="使用密码短语保护(&amp;H)..."/>
+    <entry key="Open &amp;Recent" value="最近打开(&amp;R)"/>
+    <entry key="Re&amp;move the Encryption..." value="取消加密(&amp;M)..."/>
+    <entry key="Rotate the &amp;Encryption Key..." value="轮换加密密钥(&amp;E)..."/>
+    <entry key="&amp;Sample Databases..." value="示例数据库(&amp;S)..."/>
+    <entry key="&amp;Search...&#9;Ctrl-F" value="搜索(&amp;S)...&#9;Ctrl-F"/>
+    <entry key="Se&amp;curity" value="安全(&amp;C)"/>
+    <entry key="&amp;Settings" value="设置(&amp;S)"/>
+    <entry key="Show the Database &amp;Key..." value="显示数据库密钥(&amp;K)..."/>
+    <entry key="Application L&amp;og" value="应用程序日志(&amp;O)"/>
+    <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="SQL 查询（只读）(&amp;Q)...&#9;Ctrl-Q"/>
+    <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="统计(&amp;I)...&#9;Ctrl-Shift-T"/>
+    <entry key="S&amp;witch User..." value="切换用户(&amp;W)..."/>
+    <entry key="&amp;Theme..." value="主题(&amp;T)..."/>
+    <entry key="&amp;Users and Access..." value="用户和访问权限(&amp;U)..."/>
+    <entry key="&amp;Version Info..." value="版本信息(&amp;V)..."/>
+    <entry key="Copy the attached files of the merged records" value="复制被合并记录的附件"/>
+    <entry key="Choose..." value="选择..."/>
+    <entry key="Choose the database to merge in" value="选择要合并的数据库"/>
+    <entry key="New column: the records already here get" value="新列：此处已有的记录获得"/>
+    <entry key="Empty values of the merged records become" value="被合并记录的空值变为"/>
+    <entry key="Note" value="备注"/>
+    <entry key="Column in the result" value="结果中的列"/>
+    <entry key="Filled from" value="填充来源"/>
+    <entry key="The two tables have the same columns: the records can be merged as they are." value="两个表的列相同：记录可以按原样合并。"/>
+    <entry key="The tables are different: %d column(s) only in the database to merge, %d only in this one, %d with types that do not match. Choose below what happens to each column (click a cell to change it)." value="两个表不同：%d 列仅存在于要合并的数据库中，%d 列仅存在于此数据库中，%d 列的类型不匹配。请在下方选择每一列的处理方式（单击单元格可更改）。"/>
+    <entry key="Merge finished: %lld added, %lld overwritten, %lld kept both (value changed), %lld skipped." value="合并完成：添加 %lld 条，覆盖 %lld 条，保留两者 %lld 条（值已更改），跳过 %lld 条。"/>
+    <entry key="(drop this column)" value="（舍弃此列）"/>
+    <entry key="The merge stopped: %s" value="合并已停止：%s"/>
+    <entry key="(nothing)" value="（无）"/>
+    <entry key="(new table &quot;%s&quot;)" value="（新表“%s”）"/>
+    <entry key="The table does not exist here: it is created with the columns below." value="此处不存在该表：将使用下方的列创建它。"/>
+    <entry key="only in this database" value="仅在此数据库中"/>
+    <entry key="new column" value="新列"/>
+    <entry key="renamed from &quot;%s&quot;" value="由“%s”重命名而来"/>
+    <entry key="types differ: %s / %s" value="类型不同：%s / %s"/>
+    <entry key="Preview..." value="预览..."/>
+    <entry key="Show every incoming record in a tab, to edit, leave out or choose them before anything is written" value="在选项卡中显示每条传入记录，以便在写入任何内容之前编辑、排除或选择它们"/>
+    <entry key="%zu record(s) could not be merged:" value="有 %zu 条记录无法合并："/>
+    <entry key="%lld of %lld record(s)..." value="%lld / %lld 条记录..."/>
+    <entry key="Merge" value="合并"/>
+    <entry key="This is the database already open: choose another one." value="这是已经打开的数据库：请选择其他数据库。"/>
+    <entry key="%d automations copied" value="已复制 %d 个自动化"/>
+    <entry key="Copy Several Tables..." value="复制多个表..."/>
+    <entry key="The tables to copy as they are into this database:" value="要按原样复制到此数据库的表："/>
+    <entry key="%s: %lld records copied, %lld left out" value="%s：已复制 %lld 条记录，略过 %lld 条"/>
+    <entry key="Copy tables of the other database as they are (structure, records, attachments, the relations and automations among them)" value="按原样复制另一个数据库的表（结构、记录、附件以及它们之间的关系和自动化）"/>
+    <entry key="Database to merge in:" value="要合并的数据库："/>
+    <entry key="Its table:" value="其表："/>
+    <entry key="Into this table:" value="合并到此表："/>
+    <entry key="Merge another database" value="合并另一个数据库"/>
+    <entry key="Shortest (characters, 0 = any):" value="最短（字符数，0 = 不限）："/>
+    <entry key="Smallest (empty = any):" value="最小值（空 = 不限）："/>
+    <entry key="Attachments: move the original file into the attachment folder by default (unticked: copy it)" value="附件：默认将原始文件移到附件文件夹（不勾选：复制文件）"/>
+    <entry key="Down" value="下移"/>
+    <entry key="Up" value="上移"/>
+    <entry key="The name contains control characters." value="名称中包含控制字符。"/>
+    <entry key="This name is used already." value="此名称已被使用。"/>
+    <entry key="The name is empty." value="名称为空。"/>
+    <entry key="Names starting with _ or sqlite_, and rowid / oid, are reserved." value="以 _ 或 sqlite_ 开头的名称以及 rowid / oid 是保留名称。"/>
+    <entry key="The name is longer than 64 characters." value="名称超过 64 个字符。"/>
+    <entry key="Browse..." value="浏览..."/>
+    <entry key="%s already exists. It is never overwritten: what should be done?" value="%s 已存在。它永远不会被覆盖：应如何处理？"/>
+    <entry key="A file with this name exists already: you will be asked what to do." value="已存在同名文件：届时会询问你如何处理。"/>
+    <entry key="Folder:" value="文件夹："/>
+    <entry key="The folder does not exist." value="该文件夹不存在。"/>
+    <entry key="The name is free." value="该名称可用。"/>
+    <entry key="Name:" value="名称："/>
+    <entry key="Type a name." value="请输入名称。"/>
+    <entry key="Open the existing one" value="打开现有文件"/>
+    <entry key="Change the name" value="更改名称"/>
+    <entry key="New database" value="新建数据库"/>
+    <entry key="Create %s" value="创建 %s"/>
+    <entry key="New admin password:" value="新管理员密码："/>
+    <entry key="The current recovery key stops working. Enter the admin password to make a new one." value="当前的恢复密钥将失效。请输入管理员密码以创建新的恢复密钥。"/>
+    <entry key="New recovery key" value="新建恢复密钥"/>
+    <entry key="No" value="否"/>
+    <entry key="This database has no table yet: create one first." value="此数据库还没有表：请先创建一个表。"/>
+    <entry key="No" value="否"/>
+    <entry key="OK" value="确定"/>
+    <entry key="Open a database" value="打开数据库"/>
+    <entry key="Open folder" value="打开文件夹"/>
+    <entry key="(all)" value="（全部）"/>
+    <entry key="(every session)" value="（所有会话）"/>
+    <entry key="Select a session first." value="请先选择一个会话。"/>
+    <entry key="Computer" value="计算机"/>
+    <entry key="Details" value="详细信息"/>
+    <entry key="Ended" value="结束时间"/>
+    <entry key="Importance" value="重要性"/>
+    <entry key="Operation" value="操作"/>
+    <entry key="Record" value="记录"/>
+    <entry key="{OPS_COL_SESSION}#" value="#"/>
+    <entry key="Started" value="开始时间"/>
+    <entry key="Details" value="详细信息"/>
+    <entry key="Table" value="表"/>
+    <entry key="Time" value="时间"/>
+    <entry key="User" value="用户"/>
+    <entry key="%d operation(s). Select one to see its details." value="%d 项操作。选择一项可查看其详细信息。"/>
+    <entry key="%s - %s - %s (session %lld)" value="%s - %s - %s（会话 %lld）"/>
+    <entry key="History %s #%lld" value="历史记录 %s #%lld"/>
+    <entry key="routine" value="例行"/>
+    <entry key="normal" value="普通"/>
+    <entry key="notable" value="值得注意"/>
+    <entry key="high" value="高"/>
+    <entry key="critical" value="关键"/>
+    <entry key="Every importance" value="所有重要性"/>
+    <entry key="Normal and above" value="普通及以上"/>
+    <entry key="Notable and above" value="值得注意及以上"/>
+    <entry key="High and above" value="高及以上"/>
+    <entry key="Critical only" value="仅关键"/>
+    <entry key="Accounts switched on" value="已启用账户"/>
+    <entry key="Account created" value="已创建账户"/>
+    <entry key="Account level changed" value="已更改账户级别"/>
+    <entry key="Account locked" value="已锁定账户"/>
+    <entry key="Password changed" value="已更改密码"/>
+    <entry key="Account unlocked" value="已解锁账户"/>
+    <entry key="Table changed" value="已更改表"/>
+    <entry key="Automation saved" value="已保存自动化"/>
+    <entry key="Automation removed" value="已删除自动化"/>
+    <entry key="Closed" value="已关闭"/>
+    <entry key="Relation / index changed" value="已更改关系/索引"/>
+    <entry key="Database created" value="已创建数据库"/>
+    <entry key="Table created" value="已创建表"/>
+    <entry key="Deleted" value="已删除"/>
+    <entry key="Exported" value="已导出"/>
+    <entry key="Added" value="已添加"/>
+    <entry key="Operation:" value="操作："/>
+    <entry key="Locked" value="已锁定"/>
+    <entry key="Logged in" value="已登录"/>
+    <entry key="Login refused" value="登录被拒绝"/>
+    <entry key="Merged" value="已合并"/>
+    <entry key="Opened" value="已打开"/>
+    <entry key="Document printed" value="已打印文档"/>
+    <entry key="{Log}Search" value="搜索"/>
+    <entry key="Statistics report" value="统计报告"/>
+    <entry key="Unlock refused" value="解锁被拒绝"/>
+    <entry key="Changed" value="已更改"/>
+    <entry key="Log looked at" value="已查看日志"/>
+    <entry key="Tab opened" value="已打开选项卡"/>
+    <entry key="Table looked at" value="已查看表"/>
+    <entry key="PDF of this list..." value="此列表的 PDF..."/>
+    <entry key="The operations log of this database could not be opened." value="无法打开此数据库的操作日志。"/>
+    <entry key="Record:" value="记录："/>
+    <entry key="(running)" value="（进行中）"/>
+    <entry key="Sessions (select one to see only its operations):" value="会话（选择一个会话可只查看其操作）："/>
+    <entry key="Database %s - user %s on %s - from %s to %s" value="数据库 %s - 用户 %s，计算机 %s - 从 %s 到 %s"/>
+    <entry key="PDF of the session..." value="会话的 PDF..."/>
+    <entry key="Session %lld" value="会话 %lld"/>
+    <entry key="Show" value="显示"/>
+    <entry key="Operations log" value="操作日志"/>
+    <entry key="Table:" value="表："/>
+    <entry key="{OPS_TITLE}Operations log" value="操作日志"/>
+    <entry key="User:" value="用户："/>
+    <entry key="Device time %s - UTC %s - device %s - importance %s" value="设备时间 %s - UTC %s - 设备 %s - 重要性 %s"/>
+    <entry key="contains" value="包含"/>
+    <entry key="is empty" value="为空"/>
+    <entry key="ends with" value="结尾是"/>
+    <entry key="is" value="等于"/>
+    <entry key="is more than" value="大于"/>
+    <entry key="is at least" value="至少为"/>
+    <entry key="is less than" value="小于"/>
+    <entry key="is at most" value="至多为"/>
+    <entry key="is not empty" value="不为空"/>
+    <entry key="is not" value="不等于"/>
+    <entry key="starts with" value="开头是"/>
+    <entry key="Detect automatically (tries every format)" value="自动检测（尝试所有格式）"/>
+    <entry key="The passphrase was changed." value="密码短语已更改。"/>
+    <entry key="Enter a passphrase." value="请输入密码短语。"/>
+    <entry key="Encryption format:" value="加密格式："/>
+    <entry key="Passphrase:" value="密码短语："/>
+    <entry key="Choose the passphrase. It is never stored: if it is lost, nobody can open the database." value="选择密码短语。它永远不会被存储：一旦丢失，任何人都无法打开数据库。"/>
+    <entry key="%s is encrypted with a passphrase. Enter it." value="%s 已使用密码短语加密。请输入密码短语。"/>
+    <entry key="Repeat the passphrase:" value="再次输入密码短语："/>
+    <entry key="Use at least 8 characters." value="请至少使用 8 个字符。"/>
+    <entry key="Show the passphrase" value="显示密码短语"/>
+    <entry key="Passphrase" value="密码短语"/>
+    <entry key="The passphrase is wrong, or the file is in another format. Check the passphrase, or choose the format." value="密码短语错误，或者文件为其他格式。请检查密码短语，或选择格式。"/>
+    <entry key="The two passwords are different." value="两次输入的密码不一致。"/>
+    <entry key="The admin password was changed." value="管理员密码已更改。"/>
+    <entry key="The password is too weak: use at least 12 characters, not just a few repeated ones." value="密码太弱：请至少使用 12 个字符，且不要只是几个重复的字符。"/>
+    <entry key="Wrong password." value="密码错误。"/>
+    <entry key="e.g. [A-Z]{3}-\d{4} accepts ABC-1234" value="例如 [A-Z]{3}-\d{4} 接受 ABC-1234"/>
+    <entry key="Pattern (regular expression, optional):" value="模式（正则表达式，可选）："/>
+    <entry key="The PDF could not be written: %s" value="无法写入 PDF：%s"/>
+    <entry key="PDF files (*.pdf)|*.pdf" value="PDF 文件 (*.pdf)|*.pdf"/>
+    <entry key="%s %s - %s - PDF created with %s" value="%s %s - %s - PDF 由 %s 创建"/>
+    <entry key="Page %d of %d" value="第 %d 页，共 %d 页"/>
+    <entry key="The PDF is protected: it opens with the PDF password of the sensitive database." value="该 PDF 受保护：使用敏感数据库的 PDF 密码即可打开。"/>
+    <entry key="Save the PDF" value="保存 PDF"/>
+    <entry key="Action" value="操作"/>
+    <entry key="Merge" value="合并"/>
+    <entry key="Here: %s - incoming: %s" value="此处：%s - 传入：%s"/>
+    <entry key="Close the preview without merging anything?" value="关闭预览而不合并任何内容？"/>
+    <entry key="Leave these rows out" value="排除这些行"/>
+    <entry key="Exclude All" value="全部排除"/>
+    <entry key="here #%lld" value="此处第 %lld 条"/>
+    <entry key="The text to replace in %s (%d rows):" value="要在 %s 中替换的文本（%d 行）："/>
+    <entry key="Merge these rows" value="合并这些行"/>
+    <entry key="Include All" value="全部包含"/>
+    <entry key="The records of %s - %s, as they will be merged into %s. Nothing is written until Apply. Edit any value; untick a row to leave it out; a red value cannot be saved (select it to see why). A record whose unique value exists here has the existing record under it: the green value is the one kept (right click to choose, cell by cell or for the whole column)." value="%s - %s 的记录，即将合并到 %s 中的样子。在点击“应用”之前不会写入任何内容。可编辑任何值；取消勾选某行即可将其排除；红色的值无法保存（选中它可查看原因）。如果某条记录的唯一值在此处已存在，其下方会显示现有记录：绿色的值是将保留的值（右键单击可逐个单元格或为整列进行选择）。"/>
+    <entry key="Keep the existing value" value="保留现有的值"/>
+    <entry key="Keep the existing values of this column (every record already here)" value="保留此列的现有值（此处已有的每条记录）"/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Merge the others?" value="%s 行含有无法保存的值：这些行将被排除。是否合并其他行？"/>
+    <entry key="Only rows with problems or already here" value="仅显示有问题或此处已有的行"/>
+    <entry key="Replace a text..." value="替换文本..."/>
+    <entry key="Replace &quot;%s&quot; with:" value="将“%s”替换为："/>
+    <entry key="Set a value..." value="设置值..."/>
+    <entry key="The value of %s in %d rows:" value="%s 在 %d 行中的值："/>
+    <entry key="%s records - %s to merge - %s already here - %s with values that cannot be saved" value="%s 条记录 - %s 条待合并 - %s 条此处已有 - %s 条含无法保存的值"/>
+    <entry key="Merge into %s" value="合并到 %s"/>
+    <entry key="Take the incoming value" value="采用传入的值"/>
+    <entry key="Take the incoming values of this column (every record already here)" value="采用此列的传入值（此处已有的每条记录）"/>
+    <entry key="centre" value="居中"/>
+    <entry key="Alignment:" value="对齐方式："/>
+    <entry key="left" value="左对齐"/>
+    <entry key="right" value="右对齐"/>
+    <entry key="Its heading:" value="其标题："/>
+    <entry key="An expression such as {Qty} * {Price} (empty = no amounts). The amounts are added up at the end." value="一个表达式，例如 {数量} * {价格}（空 = 无金额）。金额会在末尾汇总。"/>
+    <entry key="Amount of each record:" value="每条记录的金额："/>
+    <entry key="Suggested changes:%s&#10;&#10;%s&#10;&#10;Apply them (also the column widths)?" value="建议的更改：%s&#10;&#10;%s&#10;&#10;应用这些更改（包括列宽）？"/>
+    <entry key="Analyze best print settings" value="分析最佳打印设置"/>
+    <entry key="The columns fit: headers and values on one line." value="列宽合适：标题和值都在一行内。"/>
+    <entry key="Looks at the records of the table as they would print and suggests the paper, orientation, margins, text size and column widths that fit them." value="按打印时的样子检查表中的记录，并建议适合它们的纸张、方向、边距、文字大小和列宽。"/>
+    <entry key="Still on two lines: %d header(s), %d value(s)." value="仍占两行：%d 个标题，%d 个值。"/>
+    <entry key="Ask for a client when printing" value="打印时询问客户"/>
+    <entry key="Bold" value="粗体"/>
+    <entry key="Print profiles of %s (how the document looks; saved in the database):" value="%s 的打印配置文件（文档的外观；保存在数据库中）："/>
+    <entry key="Choose the client from %s:" value="从 %s 中选择客户："/>
+    <entry key="Columns printed in the client box (ticked, in this order):" value="在客户框中打印的列（已勾选的，按此顺序）："/>
+    <entry key="A record of %s" value="%s 中的一条记录"/>
+    <entry key="That table has no records." value="该表没有记录。"/>
+    <entry key="Is this document for a client?" value="此文档是给客户的吗？"/>
+    <entry key="Where is the client?" value="客户在哪里？"/>
+    <entry key="Clients usually from:" value="客户通常来自："/>
+    <entry key="Client" value="客户"/>
+    <entry key="(typed by hand)" value="（手动输入）"/>
+    <entry key="The client (name on the first line, then the address):" value="客户（第一行为名称，然后是地址）："/>
+    <entry key="An empty heading prints the column's name. Width: 2 is twice as wide as 1 (table layout)." value="标题为空时打印列名。宽度：2 是 1 的两倍宽（表格布局）。"/>
+    <entry key="Ticked columns are printed, in this order:" value="已勾选的列将按此顺序打印："/>
+    <entry key="The selected column" value="所选的列"/>
+    <entry key="Copy..." value="复制..."/>
+    <entry key="Currency:" value="货币："/>
+    <entry key="Date" value="日期"/>
+    <entry key="decimals:" value="小数位数："/>
+    <entry key="Amount" value="金额"/>
+    <entry key="VAT" value="增值税"/>
+    <entry key="Delete" value="删除"/>
+    <entry key="Delete the print profile &quot;%s&quot;?" value="删除打印配置文件“%s”？"/>
+    <entry key="Demo Print" value="演示打印"/>
+    <entry key="(demo)" value="（演示）"/>
+    <entry key="The same document marked DEMO on every page: the number is shown but not used, nothing is recorded as printed." value="相同的文档，但每一页都标有 DEMO：会显示编号但不会占用，也不会记录为已打印。"/>
+    <entry key="Down" value="下移"/>
+    <entry key="Change..." value="更改..."/>
+    <entry key="Text size (pt):" value="文字大小 (pt)："/>
+    <entry key="Your company: name on the first line, then address, VAT number ..." value="你的公司：第一行为名称，然后是地址、增值税号 ..."/>
+    <entry key="Issuer:" value="开具方："/>
+    <entry key="Heading:" value="标题："/>
+    <entry key="Landscape" value="横向"/>
+    <entry key="Bigger text" value="较大的文字"/>
+    <entry key="You are printing %ld records: about %ld pages, ready in %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Print anyway? (A search or a statistics report can make it shorter.)" value="你正在打印 %ld 条记录：约 %ld 页，需要 %s 完成（时间取决于计算机）。进度和时间显示在状态栏中，并提供“停止”按钮。&#10;&#10;仍然打印？（搜索或统计报告可以缩短内容。）"/>
+    <entry key="Layout:" value="布局："/>
+    <entry key="One column per line: each record as a block" value="每列一行：每条记录为一个块"/>
+    <entry key="A table: one row per record" value="表格：每条记录一行"/>
+    <entry key="Margins (mm):" value="边距 (mm)："/>
+    <entry key="Bottom" value="下"/>
+    <entry key="Left" value="左"/>
+    <entry key="Right" value="右"/>
+    <entry key="Top" value="上"/>
+    <entry key="Profile name:" value="配置文件名称："/>
+    <entry key="Give the profile a name." value="请为配置文件命名。"/>
+    <entry key="New..." value="新建..."/>
+    <entry key="next {seq}:" value="下一个 {seq}："/>
+    <entry key="Notes at the end:" value="末尾的备注："/>
+    <entry key="Tick at least one column to print." value="请至少勾选一列进行打印。"/>
+    <entry key="A template, e.g. INV-{date:YYYY}-{seq:4}; empty = no number." value="一个模板，例如 INV-{date:YYYY}-{seq:4}；空 = 无编号。"/>
+    <entry key="Number:" value="编号："/>
+    <entry key="Number" value="编号"/>
+    <entry key="Orientation:" value="方向："/>
+    <entry key="Amounts" value="金额"/>
+    <entry key="Client" value="客户"/>
+    <entry key="Columns" value="列"/>
+    <entry key="Default settings" value="默认设置"/>
+    <entry key="Document" value="文档"/>
+    <entry key="Images" value="图像"/>
+    <entry key="Size and margins" value="大小和边距"/>
+    <entry key="Paper:" value="纸张："/>
+    <entry key="Portrait" value="纵向"/>
+    <entry key="Print" value="打印"/>
+    <entry key="Print profiles" value="打印配置文件"/>
+    <entry key="Print profile" value="打印配置文件"/>
+    <entry key="Scale (%):" value="缩放 (%)："/>
+    <entry key="Select the records to print in a table tab first (or right-click them and choose Print)." value="请先在表选项卡中选择要打印的记录（或者右键单击它们并选择“打印”）。"/>
+    <entry key="Print the total" value="打印合计"/>
+    <entry key="The print was stopped: no file was written." value="打印已停止：未写入任何文件。"/>
+    <entry key="Subtotal" value="小计"/>
+    <entry key="Tax %:" value="税率 %："/>
+    <entry key="named:" value="名称："/>
+    <entry key="Print" value="打印"/>
+    <entry key="Title printed:" value="打印的标题："/>
+    <entry key="Total" value="合计"/>
+    <entry key="To" value="致"/>
+    <entry key="Up" value="上移"/>
+    <entry key="Width (relative):" value="宽度（相对）："/>
+    <entry key="The database is now encrypted." value="数据库现已加密。"/>
+    <entry key="not encrypted" value="未加密"/>
+    <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="应如何保护 %s？以后可以更改（数据库 &gt; 安全）。"/>
+    <entry key="To switch to an admin password, the passphrase encryption is removed first and the database is then encrypted again with the new key. Continue?" value="要改用管理员密码，需要先取消密码短语加密，然后使用新密钥重新加密数据库。是否继续？"/>
+    <entry key="Not encrypted - anyone who has the file can read it" value="不加密 - 任何拥有该文件的人都可以读取它"/>
+    <entry key="Attached files (pictures, PDFs, ...) are stored in a normal folder next to the database: they are not encrypted." value="附件（图片、PDF、...）存储在数据库旁边的普通文件夹中：它们不会被加密。"/>
+    <entry key="A passphrase only - the same passphrase also opens the file in other tools (e.g. DB Browser for SQLite)" value="仅使用密码短语 - 同一密码短语也可以在其他工具中打开该文件（例如 DB Browser for SQLite）"/>
+    <entry key="Protection" value="保护"/>
+    <entry key="Admin password + recovery key (recommended) - the key file %s is kept next to the database" value="管理员密码 + 恢复密钥（推荐）- 密钥文件 %s 保存在数据库旁边"/>
+    <entry key="A quantity changes only through an operation (it starts at zero)." value="数量只能通过操作更改（从零开始）。"/>
+    <entry key="+ Condition" value="+ 条件"/>
+    <entry key="and" value="且"/>
+    <entry key="Search in a new tab" value="在新选项卡中搜索"/>
+    <entry key="or" value="或"/>
+    <entry key="Remove this condition" value="删除此条件"/>
+    <entry key="Search" value="搜索"/>
+    <entry key="#%lld %s: %s" value="#%lld %s：%s"/>
+    <entry key="To check that you wrote it down correctly, type group %d and group %d:" value="为了确认你已正确记下，请输入第 %d 组和第 %d 组："/>
+    <entry key="That is not a valid recovery key: 32 letters and digits, in 8 groups of 4." value="这不是有效的恢复密钥：应为 32 个字母和数字，分为 8 组，每组 4 个。"/>
+    <entry key="Recovery key:" value="恢复密钥："/>
+    <entry key="The recovery key is shown only once. Write it down and type the two groups to continue." value="恢复密钥只显示一次。请记下它并输入这两组以继续。"/>
+    <entry key="Write this recovery key down (or print it) and keep it somewhere safe, away from this PC. If the admin password is forgotten, it is the ONLY way to open the database. It is shown only now and is not stored anywhere." value="请记下此恢复密钥（或将其打印出来），并保存在远离这台电脑的安全位置。如果忘记了管理员密码，它是打开数据库的唯一方法。它只在此时显示，不会存储在任何地方。"/>
+    <entry key="Your recovery key" value="你的恢复密钥"/>
+    <entry key="Wrong recovery key." value="恢复密钥错误。"/>
+    <entry key="Type the recovery key you saved when the database was protected, then choose a new admin password. A new recovery key is made afterwards." value="输入保护数据库时保存的恢复密钥，然后选择新的管理员密码。之后会生成新的恢复密钥。"/>
+    <entry key="Recover with the recovery key" value="使用恢复密钥进行恢复"/>
+    <entry key="Column:" value="列："/>
+    <entry key="%d found" value="找到 %d 个"/>
+    <entry key="Record" value="记录"/>
+    <entry key="The first %d shown: type more to narrow the search." value="显示前 %d 个：输入更多内容以缩小搜索范围。"/>
+    <entry key="Choose from %s" value="从 %s 中选择"/>
+    <entry key="Choose from the referenced records: type to search, or press F4 / ... to search in a list." value="从被引用的记录中选择：输入内容进行搜索，或按 F4 / ... 在列表中搜索。"/>
+    <entry key="Choose %s" value="选择 %s"/>
+    <entry key="Value" value="值"/>
+    <entry key="Table:" value="表："/>
+    <entry key="Delete them too" value="一并删除"/>
+    <entry key="They follow the new value" value="随新值更新"/>
+    <entry key="%s refers to %s. What happens to the records that refer to a record:" value="%s 引用 %s。对于引用某条记录的记录："/>
+    <entry key="&quot;Delete them too&quot; deletes records without asking: use it only for records that make no sense alone (the lines of an order). The rules are kept by the database file, so they apply to every program that writes to it." value="“一并删除”会不经询问地删除记录：仅用于单独存在没有意义的记录（例如订单的明细行）。这些规则由数据库文件保存，因此适用于所有写入该文件的程序。"/>
+    <entry key="when it is deleted:" value="该记录被删除时："/>
+    <entry key="when its value changes:" value="该记录的值更改时："/>
+    <entry key="Refuse while records refer to it" value="仍有记录引用时拒绝"/>
+    <entry key="They lose the reference (empty)" value="失去引用（置空）"/>
+    <entry key="Relation" value="关系"/>
+    <entry key="Remove" value="删除"/>
+    <entry key="Remove the encryption of %s? From then on anyone who has the file can read it." value="取消 %s 的加密？此后任何拥有该文件的人都可以读取它。"/>
+    <entry key="Open the last database when the application starts" value="应用程序启动时打开上次的数据库"/>
+    <entry key="Repeat the password:" value="再次输入密码："/>
+    <entry key="Made by %s on %s" value="由 %s 于 %s 生成"/>
+    <entry key="Records containing &quot;%s&quot;" value="包含“%s”的记录"/>
+    <entry key="Database %s - %s" value="数据库 %s - %s"/>
+    <entry key="%s from %s to %s" value="%s，从 %s 到 %s"/>
+    <entry key="Restart now" value="立即重启"/>
+    <entry key="Entry only" value="仅录入"/>
+    <entry key="only adds new records" value="只能添加新记录"/>
+    <entry key="Full access" value="完全访问"/>
+    <entry key="everything: deletes, structure, security, manages the lower levels" value="所有权限：删除、结构、安全、管理较低级别"/>
+    <entry key="Master" value="主账户"/>
+    <entry key="manages the accounts only, no work on the data" value="仅管理账户，不处理数据"/>
+    <entry key="Modify data" value="修改数据"/>
+    <entry key="reads, adds and changes records (no deleting)" value="读取、添加和更改记录（不能删除）"/>
+    <entry key="(not logged in)" value="（未登录）"/>
+    <entry key="Read only" value="只读"/>
+    <entry key="browses, searches, exports, statistics" value="浏览、搜索、导出、统计"/>
+    <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="数据库已使用新密钥重新加密。接下来显示新的恢复密钥。"/>
+    <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="生成新的加密密钥，用它重新加密整个数据库，并生成新的恢复密钥。如果数据库副本及其密钥文件（或管理员密码）可能已泄露，请使用此功能：之前获取的副本仍可用旧的机密信息读取，但从现在起的所有内容都需要新密钥。请输入管理员密码以继续。"/>
+    <entry key="Rotate the encryption key" value="轮换加密密钥"/>
+    <entry key="Rules" value="规则"/>
+    <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="您已经有此示例数据库的副本：&#10;%s&#10;&#10;要打开它并保留您的更改，还是从新副本重新开始（您对它的更改将丢失）？"/>
+    <entry key="The sample database could not be copied." value="无法复制示例数据库。"/>
+    <entry key="Fresh Copy" value="新副本"/>
+    <entry key="The sample database is not where it should be:&#10;%s" value="示例数据库不在应有的位置：&#10;%s"/>
+    <entry key="Open My Copy" value="打开我的副本"/>
+    <entry key="Open a sample database to try SQLite DB Tools (the User Manual has a tour of each). You work on a copy: the original stays as it is." value="打开一个示例数据库来试用 SQLite DB Tools（用户手册中有每个示例的导览）。您操作的是副本：原始文件保持不变。"/>
+    <entry key="Sample Databases" value="示例数据库"/>
+    <entry key="Calibration - measuring instruments, their calibrations, certificates and movements" value="Calibration - 测量仪器及其校准、证书和移动记录"/>
+    <entry key="Library - books, authors, members and loans" value="Library - 图书、作者、会员和借阅"/>
+    <entry key="Shop - items, suppliers, customers and stock movements" value="Shop - 商品、供应商、客户和库存变动"/>
+    <entry key="Save for next start" value="下次启动时生效"/>
+    <entry key="The name &quot;%s&quot; cannot be used: it is empty, too long, starts with _, is reserved or is used already." value="不能使用名称“%s”：它为空、太长、以 _ 开头、是保留名称或已被使用。"/>
+    <entry key="A table can have at most %d columns." value="一个表最多只能有 %d 列。"/>
+    <entry key="The existing records do not fit the new definition: %s" value="现有记录不符合新的定义：%s"/>
+    <entry key="The table is still needed by: %s. Remove those references or automations first." value="该表仍被以下项使用：%s。请先删除这些引用或自动化。"/>
+    <entry key="This table was made by another program: only new columns without Required / Unique can be added to it." value="此表由其他程序创建：只能向其添加不带“必填”/“唯一”的新列。"/>
+    <entry key="A table needs at least one column." value="表至少需要一列。"/>
+    <entry key="The column &quot;%s&quot; refers to a table or column that does not exist." value="列“%s”引用了不存在的表或列。"/>
+    <entry key="The column &quot;%s&quot; was removed: tables only grow." value="列“%s”已被删除：表只能增加列。"/>
+    <entry key="The database refused the change: %s" value="数据库拒绝了此更改：%s"/>
+    <entry key="A database can have at most %s tables." value="一个数据库最多只能有 %s 个表。"/>
+    <entry key="Search: %s" value="搜索：%s"/>
+    <entry key="Preferences" value="首选项"/>
+    <entry key="Choose an admin password: it is asked every time the database is opened. It is never stored anywhere - nobody can recover it for you (the recovery key made next is the only way back). Use at least 12 characters; a few words together work well." value="选择管理员密码：每次打开数据库时都会要求输入。它永远不会存储在任何地方 - 任何人都无法为你找回它（接下来生成的恢复密钥是唯一的补救方法）。请至少使用 12 个字符；几个单词组合在一起效果很好。"/>
+    <entry key="The data already in the database is encrypted too; nothing is lost." value="数据库中已有的数据也会被加密；不会丢失任何内容。"/>
+    <entry key="Protect the database" value="保护数据库"/>
+    <entry key="Error: %s" value="错误：%s"/>
+    <entry key="Read-only: only queries that read (SELECT, SQLite syntax) run here; writing, ATTACH and PRAGMA are refused. Ctrl+Enter runs the query." value="只读：此处只能运行读取数据的查询（SELECT，SQLite 语法）；写入、ATTACH 和 PRAGMA 会被拒绝。Ctrl+Enter 运行查询。"/>
+    <entry key="only one statement can be run at a time" value="一次只能运行一条语句"/>
+    <entry key="only queries that read (SELECT) can be run here" value="此处只能运行读取数据的查询 (SELECT)"/>
+    <entry key="%zu row(s)" value="%zu 行"/>
+    <entry key="Run" value="运行"/>
+    <entry key="Tables and columns (double-click to insert the name):" value="表和列（双击可插入名称）："/>
+    <entry key="SQL query" value="SQL 查询"/>
+    <entry key=" - there are more, not shown" value=" - 还有更多行未显示"/>
+    <entry key="Add" value="添加"/>
+    <entry key="(all the records)" value="（所有记录）"/>
+    <entry key="Calculate" value="计算"/>
+    <entry key="Calculate to see the chart." value="计算后即可查看图表。"/>
+    <entry key="Chart:" value="图表："/>
+    <entry key="Line" value="折线"/>
+    <entry key="{STATS_CLEAR_CONDITIONS_BTN}Clear" value="清除"/>
+    <entry key="Only when" value="仅当"/>
+    <entry key="Records containing:" value="包含以下内容的记录："/>
+    <entry key="Save as CSV..." value="另存为 CSV..."/>
+    <entry key="Date column:" value="日期列："/>
+    <entry key="Decimals" value="小数位数"/>
+    <entry key="Delete" value="删除"/>
+    <entry key="Delete the saved statistic &quot;%s&quot;?" value="删除已保存的统计“%s”？"/>
+    <entry key="descending" value="降序"/>
+    <entry key="End:" value="结束："/>
+    <entry key="Value" value="值"/>
+    <entry key="The statistic cannot be calculated: %s" value="无法计算该统计：%s"/>
+    <entry key="Average" value="平均值"/>
+    <entry key="Count" value="计数"/>
+    <entry key="Count of different values" value="不同值的计数"/>
+    <entry key="First value" value="第一个值"/>
+    <entry key="Formula of the measures" value="度量的公式"/>
+    <entry key="Last value" value="最后一个值"/>
+    <entry key="Maximum" value="最大值"/>
+    <entry key="Median" value="中位数"/>
+    <entry key="Minimum" value="最小值"/>
+    <entry key="(none)" value="（无）"/>
+    <entry key="Product" value="乘积"/>
+    <entry key="Standard deviation (sample)" value="标准差（样本）"/>
+    <entry key="Standard deviation (all)" value="标准差（全部）"/>
+    <entry key="Sum" value="求和"/>
+    <entry key="Variance (sample)" value="方差（样本）"/>
+    <entry key="Variance (all)" value="方差（全部）"/>
+    <entry key="from" value="从"/>
+    <entry key="Functions..." value="函数..."/>
+    <entry key="A value, a group or a condition is a formula of the columns of the record, written {Column}; {Reference&gt;Column} is a column of the referenced record. Texts are written in quotes: &quot;ACME&quot;.&#10;&#10;Operators: + - * /   &amp; joins texts   = &lt;&gt; &lt; &lt;= &gt; &gt;= compare (texts without regard to case)   and   or   not&#10;&#10;Logic: if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) (the first that is not empty)&#10;&#10;Numbers: round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;Texts: upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;Dates: today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) (1 = Sunday)  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;Measures: Count, Sum, Average, Minimum, Maximum, Count of different values, Median, Standard deviation and Variance (of a sample or of all the values), Product, First / Last value (by record number). &quot;Only when&quot; counts only the records where its condition holds (as SUMIF / COUNTIF / AVERAGEIF): {Kind} = &quot;Sale&quot; and {Qty} &gt; 0.&#10;&#10;Formula of the measures: a calculation on the other measures of the same row, written {M1}, {M2}... or by their heading: {M1} / {M2}, ({Revenue} - {Cost}) / {Revenue} * 100.&#10;&#10;Shown as: the value, its share of the total, the running total, the rank, the difference or the change from the row before (in the order of the rows)." value="值、分组或条件是由记录的列组成的公式，列写作 {Column}；{Reference&gt;Column} 是被引用记录的列。文本写在引号中：&quot;ACME&quot;。&#10;&#10;运算符：+ - * /   &amp; 连接文本   = &lt;&gt; &lt; &lt;= &gt; &gt;= 比较（文本不区分大小写）   and   or   not&#10;&#10;逻辑：if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) （第一个非空值）&#10;&#10;数字：round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;文本：upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;日期：today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) （1 = 星期日）  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;度量：计数、求和、平均值、最小值、最大值、不同值的计数、中位数、标准差和方差（样本或全部值）、乘积、第一个 / 最后一个值（按记录编号）。“仅当”只统计其条件成立的记录（类似 SUMIF / COUNTIF / AVERAGEIF）：{Kind} = &quot;Sale&quot; and {Qty} &gt; 0。&#10;&#10;度量的公式：基于同一行其他度量的计算，写作 {M1}、{M2}... 或使用其标题：{M1} / {M2}，({Revenue} - {Cost}) / {Revenue} * 100。&#10;&#10;显示为：值本身、占合计的百分比、累计合计、排名、与上一行的差值或变化（按行的顺序）。"/>
+    <entry key="Functions of the formulas" value="公式的函数"/>
+    <entry key="Function" value="函数"/>
+    <entry key="Grouped by" value="分组依据"/>
+    <entry key="Heading" value="标题"/>
+    <entry key="Group by a column ({Category}), a column of a referenced table ({Item&gt;Supplier}) or a date by month, quarter or year; measure a value such as {Qty} * {Price} (Sum, Average, Median...), only when a condition holds ({Kind} = &quot;Sale&quot;), or as a formula of the other measures ({M1} / {M2}). Example - monthly income: group {Date} by month, measure Sum of {Qty} * {Price}. Functions... lists everything a formula can use." value="按列（{Category}）、被引用表的列（{Item&gt;Supplier}）或按月、季度、年份的日期分组；度量某个值，例如 {Qty} * {Price}（求和、平均值、中位数...），可以仅当某个条件成立时度量（{Kind} = &quot;Sale&quot;），也可以作为其他度量的公式（{M1} / {M2}）。示例 - 每月收入：将 {Date} 按月分组，度量 {Qty} * {Price} 的求和。“函数...”列出公式可以使用的所有内容。"/>
+    <entry key="Measures" value="度量"/>
+    <entry key="Name:" value="名称："/>
+    <entry key="Give the statistic a name to save it." value="请为统计命名以便保存。"/>
+    <entry key="(no date range)" value="（无日期范围）"/>
+    <entry key="Choose at least one measure (for example Count)." value="请至少选择一个度量（例如“计数”）。"/>
+    <entry key="PDF report..." value="PDF 报告..."/>
+    <entry key="day" value="日"/>
+    <entry key="Dates by" value="日期按"/>
+    <entry key="month" value="月"/>
+    <entry key="(the value)" value="（值本身）"/>
+    <entry key="quarter" value="季度"/>
+    <entry key="week" value="周"/>
+    <entry key="year" value="年"/>
+    <entry key="%d row(s)." value="%d 行。"/>
+    <entry key="Saved:" value="已保存："/>
+    <entry key="Saved." value="已保存。"/>
+    <entry key="Save" value="保存"/>
+    <entry key="change (%) from the row before" value="与上一行相比的变化 (%)"/>
+    <entry key="difference from the row before" value="与上一行的差值"/>
+    <entry key="Shown as" value="显示为"/>
+    <entry key="% of the total" value="占合计的百分比 (%)"/>
+    <entry key="rank (1 = the largest)" value="排名（1 = 最大）"/>
+    <entry key="running total" value="累计合计"/>
+    <entry key="the value" value="值本身"/>
+    <entry key="the groups" value="分组"/>
+    <entry key="Sort by:" value="排序依据："/>
+    <entry key="measure %d" value="度量 %d"/>
+    <entry key="the records active in each period" value="每个期间内有效的记录"/>
+    <entry key="the last record up to each period" value="截至每个期间的最后一条记录"/>
+    <entry key="the past values of a column (operations log)" value="某列的历史值（操作日志）"/>
+    <entry key="Each period counts the records active in it: started on or before its end, and not ended before its start (staff, contracts, rentals). The first group splits them." value="每个期间统计其中有效的记录：在期间结束前（含）开始，且未在期间开始前结束（员工、合同、租赁）。第一个分组将其拆分。"/>
+    <entry key="Each period takes the last record dated up to its end, carried forward until a newer one (a price list, readings); one for every value of the first group." value="每个期间取截至其结束日期的最后一条记录，并沿用到出现更新的记录为止（价目表、读数）；第一个分组的每个值各取一条。"/>
+    <entry key="Each period takes the value the column had at its end, from the changes kept in the operations log (before the first change: the value it had then). Use the column in a measure: Average of {Price}." value="每个期间取该列在期间结束时的值，依据操作日志中保存的更改（第一次更改之前：取当时的值）。请在度量中使用该列：{Price} 的平均值。"/>
+    <entry key="The records grouped by the values below; the measures over each group." value="按下方的值分组的记录；对每组计算度量。"/>
+    <entry key="Made of:" value="数据来源："/>
+    <entry key="the records, grouped" value="记录，分组"/>
+    <entry key="Date / start:" value="日期 / 开始："/>
+    <entry key="Every:" value="每："/>
+    <entry key="Statistics" value="统计"/>
+    <entry key="Table:" value="表："/>
+    <entry key="Period" value="期间"/>
+    <entry key="Statistics" value="统计"/>
+    <entry key="Total" value="合计"/>
+    <entry key="to" value="到"/>
+    <entry key="Column:" value="列："/>
+    <entry key="Only records where:" value="仅限满足以下条件的记录："/>
+    <entry key="%s - locked" value="%s - 已锁定"/>
+    <entry key="No database open" value="未打开数据库"/>
+    <entry key="Ready" value="就绪"/>
+    <entry key="Computer" value="计算机"/>
+    <entry key="Copy to the clipboard" value="复制到剪贴板"/>
+    <entry key="Architecture" value="体系结构"/>
+    <entry key="Data folder" value="数据文件夹"/>
+    <entry key="Database open" value="打开的数据库"/>
+    <entry key="Program" value="程序"/>
+    <entry key="Language" value="语言"/>
+    <entry key="Memory" value="内存"/>
+    <entry key="Operating system" value="操作系统"/>
+    <entry key="Screen scale" value="屏幕缩放"/>
+    <entry key="User" value="用户"/>
+    <entry key="Table %s changed." value="表 %s 已更改。"/>
+    <entry key="Columns (double-click to edit; their order is the order of the entry form):" value="列（双击可编辑；其顺序即录入表单中的顺序）："/>
+    <entry key="Table %s created." value="表 %s 已创建。"/>
+    <entry key="Items" value="物品"/>
+    <entry key="Discard the changes to this structure?" value="放弃对此结构的更改？"/>
+    <entry key="Shown as (optional):" value="显示为（可选）："/>
+    <entry key="Structure: %s" value="结构：%s"/>
+    <entry key="%lld record(s). Existing columns cannot be removed. Changing the type, Required or Unique of a column converts and checks every record." value="%lld 条记录。不能删除现有的列。更改列的类型、“必填”或“唯一”会转换并检查每条记录。"/>
+    <entry key="Every record gets a record number (#) by itself. Tables only grow: columns can be added, renamed and changed later, but never removed." value="每条记录都会自动获得一个记录编号 (#)。表只能增加列：以后可以添加、重命名和更改列，但不能删除列。"/>
+    <entry key="Create or apply the table first: the rows of a file are added to the table as it is saved." value="请先创建或应用该表：文件中的行将按表保存后的结构添加到表中。"/>
+    <entry key="Import from file..." value="从文件导入..."/>
+    <entry key="Table name:" value="表名称："/>
+    <entry key="New table" value="新建表"/>
+    <entry key="Create the columns" value="创建列"/>
+    <entry key="How many details (columns) does an item have?" value="一个物品有多少项详细信息（列）？"/>
+    <entry key="Close the tab" value="关闭选项卡"/>
+    <entry key="Work is running on the database: the tab can be closed when it ends." value="数据库上正在执行工作：完成后才能关闭该选项卡。"/>
+    <entry key="The tab &quot;%s&quot; has work pending:&#10;&#10;%s&#10;Close it anyway?" value="选项卡“%s”有未完成的工作：&#10;&#10;%s&#10;仍然关闭？"/>
+    <entry key="Keep it open" value="保持打开"/>
+    <entry key="a query typed and not run" value="已输入但尚未运行的查询"/>
+    <entry key="changes not applied yet" value="尚未应用的更改"/>
+    <entry key="{Column} the value of another column, {Column:3} its first 3 characters, {Column:-3} its last 3, {Column|upper} in capitals; {seq} a counter, {seq:4} as 0001; {date}, {date:YYYYMMDD}, {time}, {user}, {table}, {db}, {uuid}." value="{列名} 另一列的值，{列名:3} 其前 3 个字符，{列名:-3} 其后 3 个字符，{列名|upper} 大写；{seq} 计数器，{seq:4} 格式为 0001；{date}、{date:YYYYMMDD}、{time}、{user}、{table}、{db}、{uuid}。"/>
+    <entry key="Dark" value="深色"/>
+    <entry key="Light" value="浅色"/>
+    <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="新主题将用于应用程序的颜色，包括从现在起打开的窗口。由系统绘制的部分（标题栏、滚动条）在下次启动时更改。"/>
+    <entry key="Select the theme:" value="选择主题："/>
+    <entry key="Theme" value="主题"/>
+    <entry key="Attachment (file)" value="附件（文件）"/>
+    <entry key="Yes / No" value="是/否"/>
+    <entry key="Choice from a list" value="从列表中选择"/>
+    <entry key="Date" value="日期"/>
+    <entry key="Date and time" value="日期和时间"/>
+    <entry key="Decimal number" value="小数"/>
+    <entry key="Whole number" value="整数"/>
+    <entry key="Long text (several lines)" value="长文本（多行）"/>
+    <entry key="Reference to another table" value="引用另一个表"/>
+    <entry key="Text (one line)" value="文本（单行）"/>
+    <entry key="Time" value="时间"/>
+    <entry key="Enter the admin password to open the database." value="输入管理员密码以打开数据库。"/>
+    <entry key="Unlock the database" value="解锁数据库"/>
+    <entry key="Wait %d s before the next attempt." value="请等待 %d 秒后再试。"/>
+    <entry key="Use now" value="立即使用"/>
+    <entry key="The key file is damaged." value="密钥文件已损坏。"/>
+    <entry key="The operation failed - see the application log." value="操作失败 - 请查看应用程序日志。"/>
+    <entry key="A file could not be read or written." value="无法读取或写入某个文件。"/>
+    <entry key="The key file does not belong to this database (one of the two was replaced or restored without the other)." value="密钥文件不属于此数据库（两者之一已被替换，或在没有另一个的情况下被恢复）。"/>
+    <entry key="This is not possible now." value="现在无法执行此操作。"/>
+    <entry key="The database did not open in the format set in the settings. Choose the right format, or answer Yes to try all the formats." value="数据库无法以设置中指定的格式打开。请选择正确的格式，或回答“是”以尝试所有格式。"/>
+    <entry key="Version history (newest first):" value="版本历史记录（最新的在前）："/>
+    <entry key="Version: %s&#10;Commit: %d (built %s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="版本：%s&#10;提交号：%d（生成于 %s）&#10;生成类型：%s&#10;源代码 (git)：%s&#10;数据文件夹：%s"/>
+    <entry key="Version Information" value="版本信息"/>
+    <entry key="An attached file could not be copied: %s" value="无法复制附件：%s"/>
+    <entry key="Not enough quantity: there is only %s." value="数量不足：只有 %s。"/>
+    <entry key="A table of this database can hold at most %d records: no more can be added (Home shows the limits of the program)." value="此数据库的一个表最多只能包含 %d 条记录：无法再添加（主页显示程序的限制）。"/>
+    <entry key="This table is changed through its operations (Perform operation): they check every value and keep the documents. Only an account with Full access writes it directly." value="此表通过其操作进行更改（执行操作）：操作会检查每个值并保存文档。只有具有完全访问权限的账户才能直接写入。"/>
+    <entry key="Quantities change only through operations (with a reason): they cannot be typed in a form, the grid or a merge." value="数量只能通过操作（附带原因）更改：不能在表单、网格或合并中直接输入。"/>
+    <entry key="This table has more columns than the program allows: it can be read, not changed (Home shows the limits of the program)." value="此表的列数超过了程序允许的数量：只能读取，不能更改（主页显示程序的限制）。"/>
+    <entry key="Yes" value="是"/>
+    <entry key="Yes" value="是"/>
+</translation>

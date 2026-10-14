@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="it" name="Italiano">
+    <entry key="About" value="Informazioni"/>
+    <entry key="Changes" value="Modifiche"/>
+    <entry key="Compliance" value="Conformità"/>
+    <entry key="Dependencies" value="Dipendenze"/>
+    <entry key="License" value="Licenza"/>
+    <entry key="System" value="Sistema"/>
+    <entry key="Third-party notices" value="Avvisi di terze parti"/>
+    <entry key="About %s" value="Informazioni su %s"/>
+    <entry key="Version %s - commit %d, built %s (%s)" value="Versione %s - commit %d, compilata il %s (%s)"/>
+    <entry key="Active" value="Attivo"/>
+    <entry key="Full access account name:" value="Nome dell'account ad Accesso completo:"/>
+    <entry key="Created" value="Creato il"/>
+    <entry key="Created by" value="Creato da"/>
+    <entry key="Full name" value="Nome completo"/>
+    <entry key="Level" value="Livello"/>
+    <entry key="Name" value="Nome"/>
+    <entry key="Status" value="Stato"/>
+    <entry key="The accounts are on. Log in now with one of them." value="Gli account sono attivi. Ora accedi con uno di essi."/>
+    <entry key="With accounts, everyone who opens this database logs in with a name and a password, can do only what the level of the account allows, and every operation is recorded with the account. Two accounts are made now: a Master account, which only manages the accounts, and a Full access account for the work. Accounts are never deleted (an account can be locked). Keep the Master password safe: nobody can recover it." value="Con gli account, chiunque apra questo database accede con un nome e una password, può fare solo ciò che il livello del suo account consente, e ogni operazione viene registrata con l'account. Ora vengono creati due account: un account Master, che gestisce solo gli account, e un account ad Accesso completo per il lavoro. Gli account non vengono mai eliminati (un account si può bloccare). Conserva con cura la password Master: nessuno può recuperarla."/>
+    <entry key="Switch on the accounts" value="Attiva gli account"/>
+    <entry key="Full name:" value="Nome completo:"/>
+    <entry key="Change level..." value="Cambia livello..."/>
+    <entry key="New level of %s:" value="Nuovo livello di %s:"/>
+    <entry key="Level:" value="Livello:"/>
+    <entry key="Level of the account" value="Livello dell'account"/>
+    <entry key="Locked" value="Bloccato"/>
+    <entry key="Lock" value="Blocca"/>
+    <entry key="Lock the account %s? It can no longer log in until it is unlocked." value="Bloccare l'account %s? Non potrà più accedere finché non viene sbloccato."/>
+    <entry key="Logged in as %s (%s)." value="Accesso come %s (%s)."/>
+    <entry key="Master account name:" value="Nome dell'account Master:"/>
+    <entry key="Name:" value="Nome:"/>
+    <entry key="New account..." value="Nuovo account..."/>
+    <entry key="New account" value="Nuovo account"/>
+    <entry key="Master manages every account; Full access manages Read only, Entry only and Modify data accounts. Accounts are never deleted: lock the ones no longer used (their names stay in the operations log)." value="Il Master gestisce tutti gli account; l'Accesso completo gestisce gli account Sola lettura, Solo inserimento e Modifica dati. Gli account non vengono mai eliminati: blocca quelli non più usati (i loro nomi restano nel registro delle operazioni)."/>
+    <entry key="New password..." value="Nuova password..."/>
+    <entry key="New password of %s:" value="Nuova password di %s:"/>
+    <entry key="The password was changed." value="La password è stata cambiata."/>
+    <entry key="New password" value="Nuova password"/>
+    <entry key="Users and access" value="Utenti e accessi"/>
+    <entry key="Unlock" value="Sblocca"/>
+    <entry key="Current password:" value="Password attuale:"/>
+    <entry key="This name cannot be used for an account." value="Questo nome non può essere usato per un account."/>
+    <entry key="An account with this name already exists." value="Esiste già un account con questo nome."/>
+    <entry key="Your account is not allowed to do this." value="Il tuo account non può fare questa operazione."/>
+    <entry key="The account does not exist." value="L'account non esiste."/>
+    <entry key="You cannot change the level of your own account or lock it." value="Non puoi cambiare il livello del tuo account né bloccarlo."/>
+    <entry key="The password must have at least %d characters." value="La password deve avere almeno %d caratteri."/>
+    <entry key="New password:" value="Nuova password:"/>
+    <entry key="Password:" value="Password:"/>
+    <entry key="Add column..." value="Aggiungi colonna..."/>
+    <entry key="Admin password:" value="Password amministratore:"/>
+    <entry key="Apply" value="Applica"/>
+    <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="La modifica si applica completamente solo all'avvio dell'applicazione.&#10;&#10;Riavvia ora: la salva e riavvia l'applicazione automaticamente.&#10;Usa ora: la salva e la usa subito - alcune parti cambiano solo al prossimo avvio.&#10;Salva per il prossimo avvio: la salva soltanto."/>
+    <entry key="Apply changes" value="Applica modifiche"/>
+    <entry key="Any file" value="Qualsiasi file"/>
+    <entry key="Archives (zip, 7z, rar, tar, gz, ...)" value="Archivi (zip, 7z, rar, tar, gz, ...)"/>
+    <entry key="Choose the file for %s" value="Scegli il file per %s"/>
+    <entry key="Spreadsheets (xls, xlsx, ods, csv)" value="Fogli di calcolo (xls, xlsx, ods, csv)"/>
+    <entry key="All files" value="Tutti i file"/>
+    <entry key="Accepted files" value="File accettati"/>
+    <entry key="Images (jpg, png, gif, bmp, tif, webp, svg, ...)" value="Immagini (jpg, png, gif, bmp, tif, webp, svg, ...)"/>
+    <entry key="Files accepted:" value="File accettati:"/>
+    <entry key="PDF documents" value="Documenti PDF"/>
+    <entry key="Text files (txt, md, xml, json, log)" value="File di testo (txt, md, xml, json, log)"/>
+    <entry key="Documents (doc, docx, odt, rtf)" value="Documenti (doc, docx, odt, rtf)"/>
+    <entry key="Check Again" value="Verifica di nuovo"/>
+    <entry key="All %s attached files of %s records are in %s." value="Tutti i %s file allegati di %s record sono in %s."/>
+    <entry key="The record keeps a %s file: choose a file of that kind (the name it keeps does not change)." value="Il record conserva un file %s: scegli un file di quel tipo (il nome conservato non cambia)."/>
+    <entry key="The attachments could not all be checked." value="Non è stato possibile verificare tutti gli allegati."/>
+    <entry key="Fixed" value="Corretto"/>
+    <entry key="The file could not be put into the attachment folder." value="Non è stato possibile inserire il file nella cartella degli allegati."/>
+    <entry key="Fix %s..." value="Correggi %s..."/>
+    <entry key="Every file attached to the records is looked for in the attachment folder. The records whose files are missing are listed below, their missing files in red: &quot;Fix&quot; puts back the file you choose under the name the record keeps (the record itself does not change)." value="Ogni file allegato ai record viene cercato nella cartella degli allegati. I record con file mancanti sono elencati qui sotto, con i file mancanti in rosso: &quot;Correggi&quot; rimette il file scelto con il nome conservato dal record (il record stesso non cambia)."/>
+    <entry key="%s of %s attached files are missing (in %s records) from %s." value="%s file allegati su %s mancano (in %s record) da %s."/>
+    <entry key="... and %s more records: fix these, then check again." value="... e altri %s record: correggi questi, poi verifica di nuovo."/>
+    <entry key="Attachment Check" value="Verifica allegati"/>
+    <entry key="%s - %d record(s) with missing files" value="%s - %d record con file mancanti"/>
+    <entry key="Attention" value="Attenzione"/>
+    <entry key="This folder cannot be used: give a full path (e.g. D:\Files\Stock)." value="Questa cartella non può essere usata: indica un percorso completo (es. D:\Files\Stock)."/>
+    <entry key="Relative to the folder of the database (default: &lt;name&gt;.files next to it)" value="Relativa alla cartella del database (predefinita: &lt;name&gt;.files accanto al database)"/>
+    <entry key="A folder of my choice" value="Una cartella a mia scelta"/>
+    <entry key="Relative to the folder of the program" value="Relativa alla cartella del programma"/>
+    <entry key="This database keeps its attachments in:&#10;%s&#10;&#10;That folder is outside the folder of the database. Use it on this computer?&#10;&#10;No: the attachments are looked for in %s this time." value="Questo database conserva i suoi allegati in:&#10;%s&#10;&#10;Quella cartella è fuori dalla cartella del database. Usarla su questo computer?&#10;&#10;No: questa volta gli allegati vengono cercati in %s."/>
+    <entry key="Copy them into the new folder (the old folder stays as it is)" value="Copiali nella nuova cartella (la vecchia cartella resta com'è)"/>
+    <entry key="The files could not all be copied; the folder was not changed.&#10;&#10;%s" value="Non è stato possibile copiare tutti i file; la cartella non è stata cambiata.&#10;&#10;%s"/>
+    <entry key="Attachments are now kept in:&#10;%s&#10;&#10;%d file(s) moved or copied, %d left in the old folder because a file of the same name was already in the new one." value="Ora gli allegati sono conservati in:&#10;%s&#10;&#10;%d file spostati o copiati, %d lasciati nella vecchia cartella perché nella nuova c'era già un file con lo stesso nome."/>
+    <entry key="The folder exists." value="La cartella esiste."/>
+    <entry key="The current folder holds attached files:&#10;%s&#10;What should happen to them?" value="La cartella attuale contiene file allegati:&#10;%s&#10;Cosa farne?"/>
+    <entry key="Files already attached" value="File già allegati"/>
+    <entry key="Full path: %s" value="Percorso completo: %s"/>
+    <entry key="Where the files attached to the records of this database are kept. The database stores only their names, so the folder can be moved with it." value="Dove sono conservati i file allegati ai record di questo database. Il database memorizza solo i loro nomi, quindi la cartella può essere spostata insieme a esso."/>
+    <entry key="Leave them where they are (they will be missing until moved by hand)" value="Lasciali dove sono (mancheranno finché non vengono spostati a mano)"/>
+    <entry key="Move them into the new folder" value="Spostali nella nuova cartella"/>
+    <entry key="The folder does not exist yet: it is created with the first attachment." value="La cartella non esiste ancora: viene creata con il primo allegato."/>
+    <entry key="Outside the folder of the database: other computers use it only after confirming it." value="Fuori dalla cartella del database: gli altri computer la usano solo dopo averla confermata."/>
+    <entry key="Folder:" value="Cartella:"/>
+    <entry key="Attachment Folder" value="Cartella degli allegati"/>
+    <entry key="The lock covers the window and keeps the tabs and the work open: the password of the account (or of the database) uncovers it. A warning appears 30 seconds before. Default: 600 (10 minutes)." value="Il blocco copre la finestra e conserva le schede e il lavoro aperto: la password dell'account (o del database) la scopre. Un avviso appare 30 secondi prima. Predefinito: 600 (10 minuti)."/>
+    <entry key="Lock the window after this many seconds without activity (0 = never):" value="Blocca la finestra dopo questi secondi senza attività (0 = mai):"/>
+    <entry key="add a record to another table" value="aggiunge un record a un'altra tabella"/>
+    <entry key="Then:" value="Allora:"/>
+    <entry key="refuse the change with a message" value="rifiuta la modifica con un messaggio"/>
+    <entry key="set values of the same record" value="imposta valori dello stesso record"/>
+    <entry key="change records of another table" value="modifica record di un'altra tabella"/>
+    <entry key="(any)" value="(qualsiasi)"/>
+    <entry key="Check" value="Verifica"/>
+    <entry key="The automation is correct." value="L'automazione è corretta."/>
+    <entry key="Condition:" value="Condizione:"/>
+    <entry key="Automation" value="Automazione"/>
+    <entry key="Switched on" value="Attiva"/>
+    <entry key="added" value="aggiunto"/>
+    <entry key="{AUTO_EVENT_CHANGED}changed" value="modificato"/>
+    <entry key="deleted" value="eliminato"/>
+    <entry key="Values are expressions: {Column} is a value of the record (when it is changed or deleted, {old.Column} is the value before), {Reference&gt;Column} a value of the record it refers to, numbers, 'texts', + - * /, &amp; joins texts, and the functions round(x, n), abs, min, max, coalesce, upper, lower, length, trim, substr, today(), now(), date, year, month, day, days(from, to). Example: when a movement is added, change the Items whose Code = {Item}: Stock -= {Qty}." value="I valori sono espressioni: {Colonna} è un valore del record (quando viene modificato o eliminato, {old.Colonna} è il valore precedente), {Riferimento&gt;Colonna} un valore del record a cui si riferisce, numeri, 'testi', + - * /, &amp; unisce testi, e le funzioni round(x, n), abs, min, max, coalesce, upper, lower, length, trim, substr, today(), now(), date, year, month, day, days(da, a). Esempio: quando viene aggiunto un movimento, modifica gli Articoli il cui Codice = {Articolo}: Giacenza -= {Qta}."/>
+    <entry key="Its records where:" value="I suoi record dove:"/>
+    <entry key="Message:" value="Messaggio:"/>
+    <entry key="+=" value="+="/>
+    <entry key="=" value="="/>
+    <entry key="-=" value="-="/>
+    <entry key="Name:" value="Nome:"/>
+    <entry key="Give the automation a name." value="Dai un nome all'automazione."/>
+    <entry key="only if" value="solo se"/>
+    <entry key="Other table:" value="Altra tabella:"/>
+    <entry key="Digits (zero padded, 0 = none):" value="Cifre (con zeri iniziali, 0 = nessuno):"/>
+    <entry key="Remove the automation &quot;%s&quot;? No data is changed." value="Rimuovere l'automazione &quot;%s&quot;? Nessun dato viene modificato."/>
+    <entry key="Automation &quot;%s&quot; saved." value="Automazione &quot;%s&quot; salvata."/>
+    <entry key="Columns set (column, how, value)" value="Colonne impostate (colonna, come, valore)"/>
+    <entry key="Start:" value="Inizio:"/>
+    <entry key="Step:" value="Passo:"/>
+    <entry key="Table:" value="Tabella:"/>
+    <entry key="column:" value="colonna:"/>
+    <entry key="When a record is:" value="Quando un record viene:"/>
+    <entry key="Working... %d%% (%d s)" value="Elaborazione... %d%% (%d s)"/>
+    <entry key="Working... %d s" value="Elaborazione... %d s"/>
+    <entry key="Stopping..." value="Arresto in corso..."/>
+    <entry key="Stop" value="Ferma"/>
+    <entry key="Development (Debug)" value="Sviluppo (Debug)"/>
+    <entry key="Final release" value="Versione definitiva"/>
+    <entry key="Release candidate" value="Release candidate"/>
+    <entry key="Cancel" value="Annulla"/>
+    <entry key="The database is not re-encrypted; the recovery key stays valid." value="Il database non viene cifrato di nuovo; la chiave di ripristino resta valida."/>
+    <entry key="Change the admin password" value="Cambia la password di amministratore"/>
+    <entry key="Choices (one per line):" value="Scelte (una per riga):"/>
+    <entry key="Choose the table:" value="Scegli la tabella:"/>
+    <entry key="How: AES-256 in CBC mode; the key is stretched with a SHA-based function (the defaults of SQLite3 Multiple Ciphers).&#10;&#10;Pros:&#10;- AES, the most familiar cipher;&#10;- the format of wxSQLite3 applications.&#10;&#10;Cons:&#10;- pages are NOT authenticated: a tampered file is not detected as reliably as with the other formats;&#10;- not SQLCipher compatible;&#10;- the oldest scheme of the three; fewer tools.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers and wxSQLite3 (AES-256 mode) and this application. Choose it only if another program of yours needs it." value="Come: AES-256 in modalità CBC; la chiave viene rafforzata con una funzione basata su SHA (le impostazioni predefinite di SQLite3 Multiple Ciphers).&#10;&#10;Pro:&#10;- AES, il cifrario più conosciuto;&#10;- il formato delle applicazioni wxSQLite3.&#10;&#10;Contro:&#10;- le pagine NON sono autenticate: un file manomesso non viene rilevato con la stessa sicurezza degli altri formati;&#10;- non compatibile con SQLCipher;&#10;- il più vecchio dei tre schemi; meno strumenti.&#10;&#10;Compatibile con: programmi basati su SQLite3 Multiple Ciphers e wxSQLite3 (modalità AES-256) e questa applicazione. Sceglilo solo se un altro tuo programma lo richiede."/>
+    <entry key="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)" value="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)"/>
+    <entry key="How: ChaCha20 stream cipher with Poly1305 authentication on every page; the file has no readable header (it looks like random data).&#10;&#10;Pros:&#10;- fast also on PCs without AES hardware;&#10;- modern, authenticated cipher;&#10;- nothing in the file says it is a database.&#10;&#10;Cons:&#10;- not SQLCipher compatible: the standard DB Browser for SQLite and the SQLCipher tools cannot open it;&#10;- fewer programs support it.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers (its own shell, wxSQLite3 applications, libraries and bindings based on it) and this application." value="Come: cifrario a flusso ChaCha20 con autenticazione Poly1305 su ogni pagina; il file non ha un'intestazione leggibile (sembra dati casuali).&#10;&#10;Pro:&#10;- veloce anche su PC senza AES in hardware;&#10;- cifrario moderno e autenticato;&#10;- nulla nel file dice che è un database.&#10;&#10;Contro:&#10;- non compatibile con SQLCipher: il DB Browser for SQLite standard e gli strumenti SQLCipher non lo aprono;&#10;- pochi programmi lo supportano.&#10;&#10;Compatibile con: programmi basati su SQLite3 Multiple Ciphers (la sua shell, le applicazioni wxSQLite3, le librerie basate su di esso) e questa applicazione."/>
+    <entry key="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)" value="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)"/>
+    <entry key="How: AES-256 in CBC mode with HMAC-SHA512 on every page; the key is stretched with PBKDF2-SHA512 (256000 rounds).&#10;&#10;Pros:&#10;- the most widely supported encrypted SQLite format;&#10;- every page is authenticated: a modified file is detected;&#10;- opens with the standard SQLCipher tools.&#10;&#10;Cons:&#10;- a program without SQLCipher support (plain SQLite) cannot read it;&#10;- opening takes a moment longer (key stretching).&#10;&#10;Compatible with: DB Browser for SQLite (choose &quot;SQLCipher 4 defaults&quot;), the sqlcipher shell 4.x, SQLCipher libraries for Python, .NET, Java, Android and iOS, and every tool based on SQLite3 Multiple Ciphers." value="Come: AES-256 in modalità CBC con HMAC-SHA512 su ogni pagina; la chiave viene rafforzata con PBKDF2-SHA512 (256000 iterazioni).&#10;&#10;Pro:&#10;- il formato SQLite cifrato più diffuso;&#10;- ogni pagina è autenticata: un file modificato viene rilevato;&#10;- si apre con gli strumenti SQLCipher standard.&#10;&#10;Contro:&#10;- un programma senza supporto SQLCipher (SQLite semplice) non lo legge;&#10;- l'apertura richiede un attimo in più (rafforzamento della chiave).&#10;&#10;Compatibile con: DB Browser for SQLite (scegliere &quot;SQLCipher 4 defaults&quot;), la shell sqlcipher 4.x, le librerie SQLCipher per Python, .NET, Java, Android e iOS, e ogni strumento basato su SQLite3 Multiple Ciphers."/>
+    <entry key="SQLCipher 4 (recommended)" value="SQLCipher 4 (consigliato)"/>
+    <entry key="This database already has a table %s (%s records). What should happen?" value="Questo database ha già una tabella %s (%s record). Cosa fare?"/>
+    <entry key="The table %s cannot be replaced: it is still needed by %s. Rename it instead, or remove those references first." value="La tabella %s non si può sostituire: è ancora necessaria per %s. Rinominala invece, oppure rimuovi prima quei riferimenti."/>
+    <entry key="Give the copied table another name:" value="Dai un altro nome alla tabella copiata:"/>
+    <entry key="Rename the table of this database to:" value="Rinomina la tabella di questo database in:"/>
+    <entry key="Replace the table of this database" value="Sostituisci la tabella di questo database"/>
+    <entry key="Delete the table %s and its %s records permanently?&#10;&#10;This cannot be undone." value="Eliminare definitivamente la tabella %s e i suoi %s record?&#10;&#10;Questa operazione non si può annullare."/>
+    <entry key="Replace removes the table %s with its %s records, its automations and print profiles: they are lost permanently and cannot be recovered." value="Sostituire elimina la tabella %s con i suoi %s record, le sue automazioni e i suoi profili di stampa: vanno persi definitivamente e non si possono recuperare."/>
+    <entry key="A Table with This Name" value="Una tabella con questo nome"/>
+    <entry key="Clear" value="Svuota"/>
+    <entry key="Clear Log" value="Svuota il log"/>
+    <entry key="Close" value="Chiudi"/>
+    <entry key="Existing columns cannot be removed: tables only grow." value="Le colonne esistenti non si possono rimuovere: le tabelle possono solo crescere."/>
+    <entry key="Detail %d" value="Dettaglio %d"/>
+    <entry key="Help text (optional):" value="Testo di aiuto (facoltativo):"/>
+    <entry key="Shown as (optional):" value="Mostrata come (facoltativo):"/>
+    <entry key="Write at least one choice." value="Scrivi almeno una scelta."/>
+    <entry key="The fixed value is not valid for this column: %s" value="Il valore fisso non è valido per questa colonna: %s"/>
+    <entry key="Choose at least one kind of file." value="Scegli almeno un tipo di file."/>
+    <entry key="The smallest value is larger than the largest." value="Il valore minimo è maggiore del massimo."/>
+    <entry key="&quot;%s&quot; is not a number." value="&quot;%s&quot; non è un numero."/>
+    <entry key="The pattern is not a valid regular expression." value="Lo schema non è un'espressione regolare valida."/>
+    <entry key="Choose the table and the column referred to." value="Scegli la tabella e la colonna di riferimento."/>
+    <entry key="A unique column cannot have the same fixed value for every record: choose another default." value="Una colonna univoca non può avere lo stesso valore fisso per ogni record: scegli un altro predefinito."/>
+    <entry key="Name:" value="Nome:"/>
+    <entry key="Required (cannot be empty)" value="Obbligatoria (non può essere vuota)"/>
+    <entry key="Column" value="Colonna"/>
+    <entry key="Type:" value="Tipo:"/>
+    <entry key="Unique (no two records with the same value)" value="Univoca (mai due record con lo stesso valore)"/>
+    <entry key="Default" value="Predefinito"/>
+    <entry key="Name" value="Nome"/>
+    <entry key="Rules" value="Regole"/>
+    <entry key="State" value="Stato"/>
+    <entry key="Type" value="Tipo"/>
+    <entry key="changed" value="modificata"/>
+    <entry key="new" value="nuova"/>
+    <entry key="Do the same for all the next conflicts (%d record(s) left)" value="Fai lo stesso per tutti i conflitti successivi (%d record rimasti)"/>
+    <entry key="Record here" value="Record qui"/>
+    <entry key="Merged record" value="Record unito"/>
+    <entry key="Record #%lld of the merged database has %s = &quot;%s&quot;, which record #%lld here already has (the column is unique)." value="Il record #%lld del database unito ha %s = &quot;%s&quot;, che il record #%lld qui ha già (la colonna è univoca)."/>
+    <entry key="Keep both (change the value)" value="Mantieni entrambi (cambia il valore)"/>
+    <entry key="Overwrite the record here" value="Sovrascrivi il record qui"/>
+    <entry key="Skip it" value="Saltalo"/>
+    <entry key="Stop merging" value="Interrompi l'unione"/>
+    <entry key="Conflict" value="Conflitto"/>
+    <entry key="Create table" value="Crea tabella"/>
+    <entry key="Current admin password:" value="Password amministratore attuale:"/>
+    <entry key="Date format:" value="Formato data:"/>
+    <entry key="Choose how the database is encrypted. You can change it at any time: the whole database is converted (a few seconds) and your choice is saved in the settings. The key and the admin password do not change. The admin password is asked to confirm." value="Scegli come è cifrato il database. Puoi cambiarlo in qualsiasi momento: l'intero database viene convertito (pochi secondi) e la scelta è salvata nelle impostazioni. La chiave e la password amministratore non cambiano. Per confermare viene chiesta la password amministratore."/>
+    <entry key=" (in use)" value=" (in uso)"/>
+    <entry key="Database format" value="Formato del database"/>
+    <entry key="The password is right, but the database did not open in the format set in the settings: %s.&#10;&#10;The file may be in another format. Try all the available formats? The one that matches is converted to the format of the settings." value="La password è corretta, ma il database non si è aperto nel formato indicato nelle impostazioni: %s.&#10;&#10;Il file potrebbe essere in un altro formato. Provare tutti i formati disponibili? Quello che corrisponde viene convertito nel formato delle impostazioni."/>
+    <entry key="To show the key of the database (for opening a copy with another tool) the admin password is asked every time. Anyone who knows this key and has a copy of the database can read it: show it only when needed and do not keep it." value="Per mostrare la chiave del database (per aprirne una copia con un altro programma) la password amministratore viene chiesta ogni volta. Chi conosce questa chiave e ha una copia del database può leggerlo: mostrala solo quando serve e non conservarla."/>
+    <entry key="Format of this database: %s" value="Formato di questo database: %s"/>
+    <entry key="In DB Browser for SQLite: open a COPY of the database; in the SQLCipher window choose &quot;SQLCipher 4 defaults&quot;, set the key type to passphrase (plain text), paste this text as the password and press OK." value="In DB Browser for SQLite: apri una COPIA del database; nella finestra SQLCipher scegli &quot;SQLCipher 4 defaults&quot;, imposta il tipo di chiave su passphrase (testo), incolla questo testo come password e premi OK."/>
+    <entry key="This format (%s) is not SQLCipher: the standard DB Browser for SQLite and the SQLCipher tools cannot open it. Open a COPY with a program built on SQLite3 Multiple Ciphers, selecting this cipher and entering the text as a passphrase - or choose SQLCipher 4 in Database &gt; Security &gt; Database Format." value="Questo formato (%s) non è SQLCipher: il DB Browser for SQLite standard e gli strumenti SQLCipher non possono aprirlo. Apri una COPIA con un programma basato su SQLite3 Multiple Ciphers, selezionando questo cifrario e inserendo il testo come passphrase - oppure scegli SQLCipher 4 in Database &gt; Sicurezza &gt; Formato del database."/>
+    <entry key="This is the passphrase of the database file (64 characters). It is not the admin password. It stays valid until you use Database &gt; Security &gt; Rotate the Encryption Key." value="Questa è la passphrase del file del database (64 caratteri). Non è la password amministratore. Resta valida finché non usi Database &gt; Sicurezza &gt; Ruota la chiave di cifratura."/>
+    <entry key="Database key" value="Chiave del database"/>
+    <entry key="SQLite DB Tools: create, open, protect and work on SQLite databases - tables, records, connections between tables, import, export, merge, SQL, statistics, prints, accounts - up to 255 tables of 255 columns and 522,003 records per database." value="SQLite DB Tools: crea, apri, proteggi e lavora sui database SQLite - tabelle, record, collegamenti tra tabelle, importazione, esportazione, unione, SQL, statistiche, stampe, account - fino a 255 tabelle di 255 colonne e 522.003 record per database."/>
+    <entry key="Developed by %s." value="Sviluppato da %s."/>
+    <entry key="All rights reserved. Free of charge: see the License tab." value="Tutti i diritti riservati. Gratuito: vedi la scheda Licenza."/>
+    <entry key="How the licenses of the components are respected:&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1): an LGPL with an exception that allows distributing applications linked with it, statically or dynamically, under their own terms. Its copyright notice is in THIRD-PARTY-NOTICES.md.&#10;- SQLite (public domain): no conditions.&#10;- SQLite3 Multiple Ciphers (MIT): its copyright and permission notice is shipped in THIRD-PARTY-NOTICES.md (next to the exe) and shown in the Third-party notices tab.&#10;- libsodium (ISC): its copyright and permission notice is shipped the same way.&#10;- PoDoFo (LGPL 2.0+ or MPL 2.0, used under the MPL 2.0): unmodified; its source is public at github.com/podofo/podofo. The libraries it links (OpenSSL - Apache 2.0, FreeType, libxml2, Fontconfig, Little CMS, zlib, libpng, libjpeg, libtiff) are under permissive licences; their notices are in THIRD-PARTY-NOTICES.md.&#10;- Microsoft Visual C++ runtime: redistributed under the Visual Studio license terms (Visual C++ Redistributable).&#10;&#10;No component is under a license that would require publishing the source code of this application. Cryptography: the application uses standard published algorithms (AES-256, ChaCha20-Poly1305, Argon2id); check the export rules of your country before taking it abroad." value="Come sono rispettate le licenze dei componenti:&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1): una LGPL con un'eccezione che consente di distribuire le applicazioni collegate, staticamente o dinamicamente, con termini propri. La sua nota di copyright è in THIRD-PARTY-NOTICES.md.&#10;- SQLite (pubblico dominio): nessuna condizione.&#10;- SQLite3 Multiple Ciphers (MIT): la sua nota di copyright e di autorizzazione è fornita in THIRD-PARTY-NOTICES.md (accanto all'exe) e mostrata nella scheda Note di terze parti.&#10;- libsodium (ISC): la sua nota di copyright e di autorizzazione è fornita allo stesso modo.&#10;- PoDoFo (LGPL 2.0+ o MPL 2.0, usato con la MPL 2.0): non modificato; il suo sorgente è pubblico su github.com/podofo/podofo. Le librerie che collega (OpenSSL - Apache 2.0, FreeType, libxml2, Fontconfig, Little CMS, zlib, libpng, libjpeg, libtiff) hanno licenze permissive; le loro note sono in THIRD-PARTY-NOTICES.md.&#10;- Runtime di Microsoft Visual C++: ridistribuito secondo i termini di licenza di Visual Studio (Visual C++ Redistributable).&#10;&#10;Nessun componente ha una licenza che richieda di pubblicare il codice sorgente di questa applicazione. Crittografia: l'applicazione usa algoritmi standard pubblicati (AES-256, ChaCha20-Poly1305, Argon2id); verifica le regole sull'esportazione del tuo paese prima di portarla all'estero."/>
+    <entry key="One database is open at a time: %s was opened, these were left out (open another copy of SQLite DB Tools for them):" value="Si apre un database alla volta: è stato aperto %s, questi sono stati tralasciati (apri un'altra copia di SQLite DB Tools per loro):"/>
+    <entry key="SQLite DB Tools does not open these files:" value="SQLite DB Tools non apre questi file:"/>
+    <entry key="Only the first %d records and %d columns of each table are exported." value="Sono esportati solo i primi %d record e %d colonne di ogni tabella."/>
+    <entry key="Add SQLite DB Tools to 'Open with'" value="Aggiungi SQLite DB Tools ad 'Apri con'"/>
+    <entry key="Done: databases and files to import list SQLite DB Tools in 'Open with' (choose 'Always' to make it their program)." value="Fatto: i database e i file da importare elencano SQLite DB Tools in 'Apri con' (scegli 'Sempre' per renderlo il loro programma)."/>
+    <entry key="Double click: Windows can offer SQLite DB Tools for databases and the files it imports (CSV, text, Excel, OpenDocument): choose once 'Open with &gt; Choose another app &gt; SQLite DB Tools &gt; Always'. Files can also be dropped on the window." value="Doppio clic: Windows può proporre SQLite DB Tools per i database e i file che importa (CSV, testo, Excel, OpenDocument): scegli una volta &quot;Apri con &gt; Scegli un'altra app &gt; SQLite DB Tools &gt; Sempre&quot;. I file si possono anche trascinare sulla finestra."/>
+    <entry key="SQLite DB Tools was removed from the 'Open with' lists." value="SQLite DB Tools è stato tolto dagli elenchi 'Apri con'."/>
+    <entry key=" - only the first %d records are shown" value=" - sono mostrati solo i primi %d record"/>
+    <entry key="Data" value="Dati"/>
+    <entry key="Database" value="Database"/>
+    <entry key="New (plain, with an admin password and recovery key, or with a passphrase), open, close, lock." value="Nuovo (semplice, con password di amministratore e chiave di recupero, o con passphrase), apri, chiudi, blocca."/>
+    <entry key="Tables from CSV / text / Excel / OpenDocument files, export, merge another database, SQL queries, statistics, prints, the operations log, attached files." value="Tabelle da file CSV / testo / Excel / OpenDocument, esportazione, unione di un altro database, query SQL, statistiche, stampe, il registro delle operazioni, i file allegati."/>
+    <entry key="Recent databases" value="Database recenti"/>
+    <entry key="Accounts and protection" value="Account e protezione"/>
+    <entry key="Accounts with their levels, passwords, the protection of the file." value="Account con i loro livelli, password, la protezione del file."/>
+    <entry key="Tables and records" value="Tabelle e record"/>
+    <entry key="Tables and their columns, the connections between the tables of this database (references, relations, indexes, automations), records." value="Le tabelle e le loro colonne, i collegamenti tra le tabelle di questo database (riferimenti, relazioni, indici, automazioni), i record."/>
+    <entry key="Account: %s (%s)" value="Account: %s (%s)"/>
+    <entry key="Attachments: %s" value="Allegati: %s"/>
+    <entry key="Attachments: %s (the folder named by the database, %s, was not confirmed)" value="Allegati: %s (la cartella indicata dal database, %s, non è stata confermata)"/>
+    <entry key="%d table(s) - protection: %s - operations log: %s" value="%d tabelle - protezione: %s - registro delle operazioni: %s"/>
+    <entry key="SQLite databases, encrypted or not: one at a time in this window (open another copy of the program for another one). Every table, form, search, query and log opens in its own tab; this tab stays." value="Database SQLite, cifrati o no: uno alla volta in questa finestra (apri un'altra copia del programma per un altro). Ogni tabella, modulo, ricerca, query e registro si apre nella sua scheda; questa scheda resta."/>
+    <entry key="Records: %s of %s - tables: %s of %s - columns per table: at most %d" value="Record: %s di %s - tabelle: %s di %s - colonne per tabella: al massimo %d"/>
+    <entry key="not available" value="non disponibile"/>
+    <entry key="recorded" value="registrato"/>
+    <entry key="No database open" value="Nessun database aperto"/>
+    <entry key="Create a new one or open one (also by dropping it on the window); the actions below wait for it." value="Creane uno nuovo o aprine uno (anche trascinandolo sulla finestra); le azioni qui sotto lo attendono."/>
+    <entry key="Open: %s" value="Aperto: %s"/>
+    <entry key="Read-only: this database is beyond the limits of SQLite DB Tools." value="Sola lettura: questo database supera i limiti di SQLite DB Tools."/>
+    <entry key="SQLite DB Tools is free of charge: anyone may use it, at home or at work, on any number of computers, with no license key. It remains the property of its author and its source code is not published: modifying it, reverse engineering it or selling it is not allowed; unmodified copies may be passed on free of charge. It comes without warranty: back up your databases, their attachment folders, key files and passwords - a lost password or key file makes an encrypted database unreadable for ever. The full text is in LICENSE.md." value="SQLite DB Tools è gratuito: chiunque può usarlo, a casa o al lavoro, su qualsiasi numero di computer, senza chiave di licenza. Resta di proprietà del suo autore e il suo codice sorgente non è pubblicato: non è consentito modificarlo, decompilarlo né venderlo; copie non modificate possono essere passate ad altri gratuitamente. È fornito senza garanzia: fai copie di sicurezza dei database, delle loro cartelle degli allegati, dei file delle chiavi e delle password - una password o un file delle chiavi perso rende un database cifrato illeggibile per sempre. Il testo completo è in LICENSE.md."/>
+    <entry key="Limits of SQLite DB Tools" value="Limiti di SQLite DB Tools"/>
+    <entry key="Closes the database: logging in again is needed. When work is pending, the same password is needed here and the work is discarded." value="Chiude il database: serve un nuovo accesso. Quando c'è lavoro in sospeso, qui serve la stessa password e il lavoro viene scartato."/>
+    <entry key="SQLite DB Tools is locked" value="SQLite DB Tools è bloccato"/>
+    <entry key="A new SQLite database: its name and folder; then how it is protected." value="Un nuovo database SQLite: nome e cartella; poi come è protetto."/>
+    <entry key="1 routine (tabs, searches), 2 normal (records added or changed), 3 notable (prints, exports, deletions, structure), 4 high (accounts, privileges, wrong passwords), 5 critical (passwords and keys of the database)" value="1 ordinaria (schede, ricerche), 2 normale (record aggiunti o modificati), 3 rilevante (stampe, esportazioni, eliminazioni, struttura), 4 alta (account, privilegi, password errate), 5 critica (password e chiavi del database)"/>
+    <entry key="- a table with %d columns (at most %d)" value="- una tabella con %d colonne (al massimo %d)"/>
+    <entry key="This database is beyond the limits of SQLite DB Tools:&#10;%s&#10;It is open read-only: it can be browsed, searched and exported, not changed. Each table shows at most its first %s records and %d columns." value="Questo database supera i limiti di SQLite DB Tools:&#10;%s&#10;È aperto in sola lettura: si può sfogliare, cercare ed esportare, non modificare. Ogni tabella mostra al massimo i suoi primi %s record e %d colonne."/>
+    <entry key="- %s records (at most %s)" value="- %s record (al massimo %s)"/>
+    <entry key="- %s tables (at most %s)" value="- %s tabelle (al massimo %s)"/>
+    <entry key="Some tabs have changes that were not saved. Discard them?" value="Alcune schede hanno modifiche non salvate. Scartarle?"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools: it was converted to the format of this version. The file as it was is kept next to it as %s (the versions 1.x open only that one)." value="%s è stato creato da una versione precedente di SQLite DB Tools: è stato convertito nel formato di questa versione. Il file com'era è conservato accanto come %s (le versioni 1.x aprono solo quello)."/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and could not be converted to the format of this version (%s). The file was not changed." value="%s è stato creato da una versione precedente di SQLite DB Tools e non è stato possibile convertirlo nel formato di questa versione (%s). Il file non è stato modificato."/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and must be converted to the format of this version, but it cannot be written (a read-only file or folder). Copy it where it can be written, then open it again." value="%s è stato creato da una versione precedente di SQLite DB Tools e va convertito nel formato di questa versione, ma non può essere scritto (file o cartella di sola lettura). Copialo dove può essere scritto, poi aprilo di nuovo."/>
+    <entry key="Databases (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|All files (*.*)|*.*" value="Database (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|Tutti i file (*.*)|*.*"/>
+    <entry key="Database locked" value="Database bloccato"/>
+    <entry key="The window will be locked in %d s because of inactivity. The tabs and the work open are kept." value="La finestra verrà bloccata tra %d s per inattività. Le schede e il lavoro aperto vengono conservati."/>
+    <entry key="The value does not exist in %s." value="Il valore non esiste in %s."/>
+    <entry key="The database holds at most %s records in all its tables together: no more can be added." value="Il database contiene al massimo %s record in tutte le sue tabelle insieme: non se ne possono aggiungere altri."/>
+    <entry key="Records of %s still refer to it: change or delete them first." value="Ci sono ancora record di %s che vi si riferiscono: modificali o eliminali prima."/>
+    <entry key="Refused by an automation: %s" value="Rifiutato da un'automazione: %s"/>
+    <entry key="%s could not be read: it is not a database, or it is encrypted and the passphrase or format given does not open it." value="Impossibile leggere %s: non è un database, oppure è cifrato e la passphrase o il formato indicati non lo aprono."/>
+    <entry key="The database %s does not exist (moved or renamed?)." value="Il database %s non esiste (spostato o rinominato?)."/>
+    <entry key="%s could not be opened:&#10;%s" value="Impossibile aprire %s:&#10;%s"/>
+    <entry key="Decimals:" value="Decimali:"/>
+    <entry key="Value of new records" value="Valore dei nuovi record"/>
+    <entry key="Value:" value="Valore:"/>
+    <entry key="Example: %s" value="Esempio: %s"/>
+    <entry key="Auto-increment number" value="Numero auto-incrementale"/>
+    <entry key="Same as the last record" value="Come l'ultimo record"/>
+    <entry key="A fixed value" value="Un valore fisso"/>
+    <entry key="Empty" value="Vuoto"/>
+    <entry key="Now (date and time)" value="Adesso (data e ora)"/>
+    <entry key="Template (other columns, counter, date, ...)" value="Modello (altre colonne, contatore, data, ...)"/>
+    <entry key="Today" value="Oggi"/>
+    <entry key="Windows user name" value="Nome utente di Windows"/>
+    <entry key="Unique code (UUID)" value="Codice univoco (UUID)"/>
+    <entry key="Fixed value / template:" value="Valore fisso / modello:"/>
+    <entry key="Component" value="Componente"/>
+    <entry key="License" value="Licenza"/>
+    <entry key="Owner / authors" value="Proprietario / autori"/>
+    <entry key="Used for" value="Usato per"/>
+    <entry key="encrypted databases" value="database cifrati"/>
+    <entry key="database engine" value="motore del database"/>
+    <entry key="user interface" value="interfaccia utente"/>
+    <entry key="PDF documents and reports" value="documenti e report PDF"/>
+    <entry key="C++ runtime" value="runtime C++"/>
+    <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="password amministratore e chiave di ripristino (Argon2id, XChaCha20-Poly1305)"/>
+    <entry key="Version in use" value="Versione in uso"/>
+    <entry key="Website" value="Sito web"/>
+    <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="Doppio clic: il sito del proprietario. Ogni componente appartiene ai suoi proprietari ed è usato secondo la sua licenza."/>
+    <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="Le automazioni sono regole eseguite dal database ogni volta che un record viene aggiunto, modificato o eliminato - da questo programma o da qualsiasi altro. Per esempio: un movimento scala la sua quantità dalla giacenza dell'articolo; il valore di un articolo è sempre giacenza x prezzo; una modifica che renderebbe negativa la giacenza viene rifiutata."/>
+    <entry key="Automations" value="Automazioni"/>
+    <entry key="Change..." value="Modifica..."/>
+    <entry key="Does" value="Fa"/>
+    <entry key="Column" value="Colonna"/>
+    <entry key="Columns" value="Colonne"/>
+    <entry key="Index" value="Indice"/>
+    <entry key="Name" value="Nome"/>
+    <entry key="When it is deleted" value="Quando viene eliminato"/>
+    <entry key="When its value changes" value="Quando il suo valore cambia"/>
+    <entry key="Records" value="Record"/>
+    <entry key="Refers to" value="Si riferisce a"/>
+    <entry key="References" value="Riferimenti"/>
+    <entry key="State" value="Stato"/>
+    <entry key="Table" value="Tabella"/>
+    <entry key="Type" value="Tipo"/>
+    <entry key="When" value="Quando"/>
+    <entry key="Change..." value="Modifica..."/>
+    <entry key="An index makes searching and sorting on a column faster on large tables (unique columns always have one). Double-click a column to add or remove its index." value="Un indice rende più veloci la ricerca e l'ordinamento su una colonna nelle tabelle grandi (le colonne univoche ne hanno sempre uno). Fai doppio clic su una colonna per aggiungere o togliere il suo indice."/>
+    <entry key="Indexes" value="Indici"/>
+    <entry key="-" value="-"/>
+    <entry key="Indexed (unique)" value="Indicizzata (univoca)"/>
+    <entry key="A unique column always has an index." value="Una colonna univoca ha sempre un indice."/>
+    <entry key="Indexed" value="Indicizzata"/>
+    <entry key="New automation..." value="Nuova automazione..."/>
+    <entry key="(no Reference column: add one to a table to link it to another)" value="(nessuna colonna Riferimento: aggiungine una a una tabella per collegarla a un'altra)"/>
+    <entry key="Off" value="Disattivata"/>
+    <entry key="On" value="Attiva"/>
+    <entry key="A Reference column links a record to a record of another table (an item to its supplier, a movement to its item). The database itself guarantees the link: a value that does not exist is refused, and you choose what happens when the referenced record is deleted or its value changes. Double-click a relation to change it." value="Una colonna Riferimento collega un record a un record di un'altra tabella (un articolo al suo fornitore, un movimento al suo articolo). È il database stesso a garantire il collegamento: un valore che non esiste viene rifiutato, e scegli tu cosa succede quando il record riferito viene eliminato o il suo valore cambia. Fai doppio clic su una relazione per modificarla."/>
+    <entry key="Relations" value="Relazioni"/>
+    <entry key="Remove" value="Rimuovi"/>
+    <entry key="Edit database" value="Modifica database"/>
+    <entry key="The tables of the database. Double-click a table to change its structure (columns can be added, renamed and changed, never removed)." value="Le tabelle del database. Fai doppio clic su una tabella per modificarne la struttura (le colonne si possono aggiungere, rinominare e modificare, mai eliminare)."/>
+    <entry key="Tables" value="Tabelle"/>
+    <entry key="Switch on / off" value="Attiva / disattiva"/>
+    <entry key="Add / remove index" value="Aggiungi / togli indice"/>
+    <entry key="Discard" value="Scarta"/>
+    <entry key="Add to %s" value="Aggiungi a %s"/>
+    <entry key="No database is open for the %d file(s) to import. Create a new database for their tables, or open an existing one?" value="Nessun database aperto per i %d file da importare. Creare un nuovo database per le loro tabelle, o aprirne uno esistente?"/>
+    <entry key="%d file(s) to import: each as new table(s), or their rows added to the table %s?" value="%d file da importare: ognuno come nuova tabella, o le loro righe aggiunte alla tabella %s?"/>
+    <entry key="New database..." value="Nuovo database..."/>
+    <entry key="New tables" value="Nuove tabelle"/>
+    <entry key="Open a database..." value="Apri un database..."/>
+    <entry key="Files dropped" value="File trascinati"/>
+    <entry key="about %ld minutes" value="circa %ld minuti"/>
+    <entry key="about %ld seconds" value="circa %ld secondi"/>
+    <entry key="Edit..." value="Modifica..."/>
+    <entry key="The database is no longer encrypted." value="Il database non è più cifrato."/>
+    <entry key="Choose the file (or press Enter in the field)" value="Scegli il file (o premi Invio nel campo)"/>
+    <entry key="Discard the values typed in this form?" value="Scartare i valori scritti in questo modulo?"/>
+    <entry key="Correct these values (the first one is selected):" value="Correggi questi valori (il primo è selezionato):"/>
+    <entry key="The record cannot be saved" value="Impossibile salvare il record"/>
+    <entry key="Tab or Enter: next field. Enter on the last field, or Shift+Enter anywhere: save. Ctrl+Enter: new line in a long text." value="Tab o Invio: campo successivo. Invio sull'ultimo campo, o Maiusc+Invio ovunque: salva. Ctrl+Invio: nuova riga in un testo lungo."/>
+    <entry key="Keep the values after saving" value="Mantieni i valori dopo il salvataggio"/>
+    <entry key="Move the attached files into the attachment folder (unticked: copy them, the originals stay)" value="Sposta i file allegati nella cartella degli allegati (non spuntato: copiali, gli originali restano)"/>
+    <entry key="Filled in from record #%lld: change what differs and save." value="Compilato dal record #%lld: cambia ciò che differisce e salva."/>
+    <entry key="Record #%lld saved." value="Record #%lld salvato."/>
+    <entry key="Save (Shift+Enter)" value="Salva (Maiusc+Invio)"/>
+    <entry key="Table:" value="Tabella:"/>
+    <entry key="Add: %s" value="Aggiungi: %s"/>
+    <entry key="Copied: paste it into an e-mail or a message." value="Copiato: incollalo in un'e-mail o in un messaggio."/>
+    <entry key="Copy the report" value="Copia il rapporto"/>
+    <entry key="The operation failed. Nothing was changed by it." value="L'operazione non è riuscita. Non ha modificato nulla."/>
+    <entry key="The program goes on working. To get help, copy the report below and send it to whoever looks after the program (it has no passwords)." value="Il programma continua a funzionare. Per avere aiuto, copia il rapporto qui sotto e invialo a chi si occupa del programma (non contiene password)."/>
+    <entry key="Something went wrong" value="Qualcosa è andato storto"/>
+    <entry key="An unexpected error stopped the operation. The program goes on working; what was saved before is kept." value="Un errore imprevisto ha fermato l'operazione. Il programma continua a funzionare; ciò che era stato salvato prima resta."/>
+    <entry key="Error" value="Errore"/>
+    <entry key="must be at most %s" value="deve essere al massimo %s"/>
+    <entry key="must be a date and time like %s hh:mm" value="deve essere una data e ora come %s hh:mm"/>
+    <entry key="must be a date like %s" value="deve essere una data come %s"/>
+    <entry key="the pattern of this column is not valid" value="lo schema di questa colonna non è valido"/>
+    <entry key="must be a time like hh:mm" value="deve essere un'ora come hh:mm"/>
+    <entry key="must be at least %s" value="deve essere almeno %s"/>
+    <entry key="is used already by another record" value="è già usato da un altro record"/>
+    <entry key="this kind of file is not accepted here" value="questo tipo di file non è accettato qui"/>
+    <entry key="must be one line" value="deve stare su una riga"/>
+    <entry key="must be Yes or No" value="deve essere Sì o No"/>
+    <entry key="must be one of the choices" value="deve essere una delle scelte"/>
+    <entry key="must be a whole number" value="deve essere un numero intero"/>
+    <entry key="must be a number" value="deve essere un numero"/>
+    <entry key="does not exist in %s" value="non esiste in %s"/>
+    <entry key="does not match the pattern %s" value="non rispetta lo schema %s"/>
+    <entry key="is required" value="è obbligatorio"/>
+    <entry key="must have at most %d characters" value="deve avere al massimo %d caratteri"/>
+    <entry key="must have at least %d characters" value="deve avere almeno %d caratteri"/>
+    <entry key="Exit" value="Esci"/>
+    <entry key="Exit the program? Anything not saved yet (records being edited, open forms and windows) will probably be lost." value="Uscire dal programma? Quanto non ancora salvato (record in modifica, moduli e finestre aperti) andrà probabilmente perso."/>
+    <entry key="Exit" value="Esci"/>
+    <entry key="Some tabs have changes that were not saved: they will be lost." value="Alcune schede hanno modifiche non salvate: andranno perse."/>
+    <entry key="Copy the attached files too (into the folder &lt;name&gt;.files)" value="Copia anche i file allegati (nella cartella &lt;nome&gt;.files)"/>
+    <entry key="Encrypt the copy with a passphrase" value="Cifra la copia con una passphrase"/>
+    <entry key="Separator:" value="Separatore:"/>
+    <entry key="Records (INSERT)" value="Record (INSERT)"/>
+    <entry key="Exported %d table(s), %lld record(s) and %d attached file(s) to:&#10;%s" value="Esportate %d tabella/e, %lld record e %d file allegati in:&#10;%s"/>
+    <entry key="The export failed: %s" value="Esportazione non riuscita: %s"/>
+    <entry key="Copy of the database (SQLite file, plain or encrypted)" value="Copia del database (file SQLite, in chiaro o cifrato)"/>
+    <entry key="CSV for Excel (one file per table)" value="CSV per Excel (un file per tabella)"/>
+    <entry key="JSON" value="JSON"/>
+    <entry key="SQL script - MySQL / MariaDB" value="Script SQL - MySQL / MariaDB"/>
+    <entry key="SQL script - PostgreSQL" value="Script SQL - PostgreSQL"/>
+    <entry key="SQL script - SQLite" value="Script SQL - SQLite"/>
+    <entry key="SQL script - Microsoft SQL Server" value="Script SQL - Microsoft SQL Server"/>
+    <entry key="Format:" value="Formato:"/>
+    <entry key="Choose at least one table." value="Scegli almeno una tabella."/>
+    <entry key="%lld record(s) written..." value="%lld record scritti..."/>
+    <entry key="Table definitions (CREATE TABLE)" value="Definizioni delle tabelle (CREATE TABLE)"/>
+    <entry key="Tables:" value="Tabelle:"/>
+    <entry key="Export to" value="Esporta in"/>
+    <entry key="Export" value="Esporta"/>
+    <entry key="%s: %s" value="%s: %s"/>
+    <entry key="The name of this column, last before the extension" value="Il nome di questa colonna, per ultimo prima dell'estensione"/>
+    <entry key="column" value="colonna"/>
+    <entry key="nothing chosen: Table_Record_Column, the default" value="nessuna scelta: Table_Record_Column, il predefinito"/>
+    <entry key="Example: %s (a name already taken gets _01, _02 ...; files attached before keep their names)" value="Esempio: %s (un nome già usato riceve _01, _02 ...; i file allegati in precedenza mantengono il loro nome)"/>
+    <entry key="Name of a new attached file, in this order:" value="Nome di un nuovo file allegato, in questo ordine:"/>
+    <entry key="The record number" value="Il numero del record"/>
+    <entry key="The name of the table" value="Il nome della tabella"/>
+    <entry key="table" value="tabella"/>
+    <entry key="The values of these columns of the record, in this order:" value="I valori di queste colonne del record, in questo ordine:"/>
+    <entry key="Windows did not accept the change: %s" value="Windows non ha accettato la modifica: %s"/>
+    <entry key="Remove it" value="Toglilo"/>
+    <entry key="empty" value="vuoto"/>
+    <entry key="a text..." value="un testo..."/>
+    <entry key="the text &quot;%s&quot;" value="il testo &quot;%s&quot;"/>
+    <entry key="the merged database's name" value="il nome del database unito"/>
+    <entry key="the merged table's name" value="il nome della tabella unita"/>
+    <entry key="this database's name" value="il nome di questo database"/>
+    <entry key="this table's name" value="il nome di questa tabella"/>
+    <entry key="The text:" value="Il testo:"/>
+    <entry key="The column &quot;%s&quot; becomes required: what value do the %lld existing record(s) that have none get?" value="La colonna &quot;%s&quot; diventa obbligatoria: quale valore ricevono i %lld record esistenti che non ne hanno?"/>
+    <entry key="Value for the existing records" value="Valore per i record esistenti"/>
+    <entry key="Forgot the password..." value="Password dimenticata..."/>
+    <entry key="%zu record(s) updated." value="%zu record aggiornati."/>
+    <entry key="Apply modifications" value="Applica modifiche"/>
+    <entry key="Apply modifications of this row" value="Applica le modifiche di questa riga"/>
+    <entry key="The file %s is not in the attachment folder." value="Il file %s non è nella cartella degli allegati."/>
+    <entry key="Cancel edits" value="Annulla modifiche"/>
+    <entry key="Cancel the edit of this row" value="Annulla la modifica di questa riga"/>
+    <entry key="Choose another file..." value="Scegli un altro file..."/>
+    <entry key="Remove the attachment" value="Rimuovi l'allegato"/>
+    <entry key="Clear the selection" value="Annulla la selezione"/>
+    <entry key="%ld records copied to the clipboard." value="%ld record copiati negli appunti."/>
+    <entry key="Copy the value" value="Copia il valore"/>
+    <entry key="Copy the selected records (for a spreadsheet)" value="Copia i record selezionati (per un foglio di calcolo)"/>
+    <entry key="Copy to a new entry" value="Copia in una nuova voce"/>
+    <entry key="%zu record(s)" value="%zu record"/>
+    <entry key="%zu record(s) deleted." value="%zu record eliminati."/>
+    <entry key="Delete..." value="Elimina..."/>
+    <entry key="Delete %zu record(s)? Their attached files are moved to the _deleted subfolder of the attachment folder." value="Eliminare %zu record? I loro file allegati vengono spostati nella sottocartella _deleted della cartella degli allegati."/>
+    <entry key="Delete the selected records..." value="Elimina i record selezionati..."/>
+    <entry key="Edit" value="Modifica"/>
+    <entry key="Edit the selected records" value="Modifica i record selezionati"/>
+    <entry key="%zu value(s) must be corrected (the first one is selected):" value="%zu valore/i da correggere (il primo è selezionato):"/>
+    <entry key="The modifications cannot be applied" value="Impossibile applicare le modifiche"/>
+    <entry key="text in any column" value="testo in qualsiasi colonna"/>
+    <entry key="Find:" value="Trova:"/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="Clic destro su una riga per le sue azioni. In una riga in modifica, doppio clic (o digita) su una cella per cambiarla. Tasti: F2 modifica, Ctrl+S applica, Esc annulla, Canc elimina, Ctrl+D copia in una nuova voce."/>
+    <entry key="History of this record..." value="Storia di questo record..."/>
+    <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="L'operazione riguarda %ld record e richiede %s (il tempo dipende dal computer). L'avanzamento e il tempo sono nella barra di stato, con Ferma.&#10;&#10;Continuare?"/>
+    <entry key="Open the attachment" value="Apri l'allegato"/>
+    <entry key=" - %zu row(s) in edit, %zu changed" value=" - %zu riga/e in modifica, %zu cambiate"/>
+    <entry key="Print..." value="Stampa..."/>
+    <entry key="Print the selected records..." value="Stampa i record selezionati..."/>
+    <entry key="Refresh" value="Aggiorna"/>
+    <entry key="%ld records selected" value="%ld record selezionati"/>
+    <entry key="Select all&#9;Ctrl+A" value="Seleziona tutto&#9;Ctrl+A"/>
+    <entry key="Show the attachment in its folder" value="Mostra l'allegato nella sua cartella"/>
+    <entry key="Stopped: nothing was changed." value="Fermato: nulla è stato modificato."/>
+    <entry key="This tab has modifications not applied yet. Discard them?" value="Questa scheda ha modifiche non ancora applicate. Scartarle?"/>
+    <entry key="Group %d:" value="Gruppo %d:"/>
+    <entry key="Operation:" value="Operazione:"/>
+    <entry key="Part of:" value="Parte di:"/>
+    <entry key="Reason:" value="Causale:"/>
+    <entry key="Browse" value="Sfoglia"/>
+    <entry key="Edit structure..." value="Modifica struttura..."/>
+    <entry key="New table..." value="Nuova tabella..."/>
+    <entry key="Home" value="Home"/>
+    <entry key="Add image..." value="Aggiungi immagine..."/>
+    <entry key="Choose an image (logo, stamp, signature ...)" value="Scegli un'immagine (logo, timbro, firma ...)"/>
+    <entry key="Also as watermark" value="Anche come filigrana"/>
+    <entry key="Uses the selected image a second time, as a faint watermark behind the text." value="Usa l'immagine selezionata una seconda volta, come filigrana tenue dietro il testo."/>
+    <entry key="Bottom centre" value="In basso al centro"/>
+    <entry key="Bottom left" value="In basso a sinistra"/>
+    <entry key="Bottom right" value="In basso a destra"/>
+    <entry key="Images (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff" value="Immagini (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff"/>
+    <entry key="fill it, cutting the edges" value="riempila, tagliando i bordi"/>
+    <entry key="To that shape:" value="In quella forma:"/>
+    <entry key="keep the whole image, stretched" value="tieni tutta l'immagine, deformata"/>
+    <entry key="keep the whole image (empty margins)" value="tieni tutta l'immagine (margini vuoti)"/>
+    <entry key="x %.0f mm high (at most %.0f x %.0f mm here)" value="x %.0f mm di altezza (al massimo %.0f x %.0f mm qui)"/>
+    <entry key="%d x %d pixels, shape %s. Usual shape nearest: %s; normal width here: %.0f mm." value="%d x %d pixel, forma %s. Forma usuale più vicina: %s; larghezza normale qui: %.0f mm."/>
+    <entry key="The image could not be read." value="L'immagine non ha potuto essere letta."/>
+    <entry key="No image: add a logo, a stamp or a watermark." value="Nessuna immagine: aggiungi un logo, un timbro o una filigrana."/>
+    <entry key="Opacity %:" value="Opacità %:"/>
+    <entry key="Other pages, size %:" value="Altre pagine, dimensione %:"/>
+    <entry key="A logo at the top is printed also on every page after the first, at this percent of its size (0 = first page only)" value="Un logo in alto si stampa anche su ogni pagina dopo la prima, a questa percentuale della sua dimensione (0 = solo la prima pagina)"/>
+    <entry key="Place:" value="Posizione:"/>
+    <entry key="Remove" value="Rimuovi"/>
+    <entry key="Make it %s, cutting the edges" value="Rendila %s, tagliando i bordi"/>
+    <entry key="Keep its own shape (%s)" value="Tieni la sua forma (%s)"/>
+    <entry key="The image is %d x %d pixels (shape %s). The usual shape nearest to it is %s. How should it be printed?" value="L'immagine è di %d x %d pixel (forma %s). La forma usuale più vicina è %s. Come deve essere stampata?"/>
+    <entry key="Shape of the image" value="Forma dell'immagine"/>
+    <entry key="Make it %s, keeping the whole image" value="Rendila %s, tenendo tutta l'immagine"/>
+    <entry key="other:" value="altra:"/>
+    <entry key="Shape (width : height):" value="Forma (larghezza : altezza):"/>
+    <entry key="the image's own" value="quella dell'immagine"/>
+    <entry key="Use the suggestion" value="Usa il suggerimento"/>
+    <entry key="Top centre" value="In alto al centro"/>
+    <entry key="Top left" value="In alto a sinistra"/>
+    <entry key="Top right" value="In alto a destra"/>
+    <entry key="Watermark (behind the text)" value="Filigrana (dietro il testo)"/>
+    <entry key="Width (mm):" value="Larghezza (mm):"/>
+    <entry key="%d rows added to the table %s." value="%d righe aggiunte alla tabella %s."/>
+    <entry key="The rows of the file are added to the table: each column of the table takes the column of the file with the same name. The file may have fewer columns (the required values it lacks are asked before the import); columns the table does not have are left out only if you agree. Every row is checked against the table's rules before anything is written." value="Le righe del file vengono aggiunte alla tabella: ogni colonna della tabella prende la colonna del file con lo stesso nome. Il file può avere meno colonne (i valori obbligatori che mancano vengono chiesti prima dell'importazione); le colonne che la tabella non ha sono tralasciate solo se sei d'accordo. Ogni riga è controllata con le regole della tabella prima di scrivere qualsiasi cosa."/>
+    <entry key="&lt; Back" value="&lt; Indietro"/>
+    <entry key="Change the columns" value="Cambia le colonne"/>
+    <entry key="Choose a file first." value="Scegli prima un file."/>
+    <entry key="Check at least one sheet." value="Spunta almeno un foglio."/>
+    <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="Le colonne della nuova tabella, indovinate dai valori: il tipo, &quot;obbligatoria&quot; (nessun valore vuoto) e &quot;unica&quot; (ogni valore diverso). Controllale, cambia ciò che è sbagliato, togli la spunta alle colonne da tralasciare. Niente viene scritto prima di Importa."/>
+    <entry key="Examples" value="Esempi"/>
+    <entry key="Filled" value="Piene"/>
+    <entry key="Import" value="Importa"/>
+    <entry key="Column" value="Colonna"/>
+    <entry key="{Column}Required" value="Obbligatoria"/>
+    <entry key="Type" value="Tipo"/>
+    <entry key="Unique" value="Unica"/>
+    <entry key="%d rows imported into the new table %s." value="%d righe importate nella nuova tabella %s."/>
+    <entry key="The file has columns the table does not have: %s.&#10;&#10;Leave them out and import only the columns the table has?" value="Il file ha colonne che la tabella non ha: %s.&#10;&#10;Tralasciarle e importare solo le colonne che la tabella ha?"/>
+    <entry key="Leave them out and import the other columns" value="Tralasciale e importa le altre colonne"/>
+    <entry key="Columns of the file the table does not have: %s." value="Colonne del file che la tabella non ha: %s."/>
+    <entry key="Nothing was imported: %s" value="Non è stato importato nulla: %s"/>
+    <entry key="Tables (%s)|%s|All files (*.*)|*.*" value="Tabelle (%s)|%s|Tutti i file (*.*)|*.*"/>
+    <entry key="Choose the file: a CSV or text file (values separated by commas, semicolons, tabs or bars) or a spreadsheet: Excel (.xlsx, and .xls of Excel 97-2003) or OpenDocument (.ods, LibreOffice / OpenOffice). The first rows are shown below." value="Scegli il file: un file CSV o di testo (valori separati da virgole, punti e virgola, tabulazioni o barre) o un foglio di calcolo: Excel (.xlsx, e .xls di Excel 97-2003) o OpenDocument (.ods, LibreOffice / OpenOffice). Le prime righe sono mostrate sotto."/>
+    <entry key="leave it empty" value="lasciala vuota"/>
+    <entry key="the name of the file: %s" value="il nome del file: %s"/>
+    <entry key="The table keeps in the column %s the sheet each row came from. For the rows of this file:" value="La tabella tiene nella colonna %s il foglio da cui viene ogni riga. Per le righe di questo file:"/>
+    <entry key="the name of the sheet: %s" value="il nome del foglio: %s"/>
+    <entry key="write:" value="scrivi:"/>
+    <entry key="Column of the table" value="Colonna della tabella"/>
+    <entry key="its default value" value="il suo valore predefinito"/>
+    <entry key="{Import}empty" value="vuota"/>
+    <entry key="from the file" value="dal file"/>
+    <entry key="From the file" value="Dal file"/>
+    <entry key="REQUIRED and missing in the file" value="OBBLIGATORIA e assente nel file"/>
+    <entry key="the sheet column: as chosen below" value="la colonna del foglio: come scelto sotto"/>
+    <entry key="How" value="Come"/>
+    <entry key="Tab goes down the column (else along the row)" value="Tab scende lungo la colonna (altrimenti lungo la riga)"/>
+    <entry key="Confirm and import" value="Conferma e importa"/>
+    <entry key="Copy" value="Copia"/>
+    <entry key="The rows of the file with empty required cells (*). Type in the yellow cells; the others are read-only, but can be copied (Ctrl+C or right click) and pasted into an empty cell (Ctrl+V). Tab goes to the next empty cell. Confirm when none is left." value="Le righe del file con celle obbligatorie (*) vuote. Scrivi nelle celle gialle; le altre sono di sola lettura, ma si possono copiare (Ctrl+C o clic destro) e incollare in una cella vuota (Ctrl+V). Tab va alla cella vuota successiva. Conferma quando non ne resta nessuna."/>
+    <entry key="Next 10 &gt;" value="10 successive &gt;"/>
+    <entry key="Paste" value="Incolla"/>
+    <entry key="&lt; Previous 10" value="&lt; 10 precedenti"/>
+    <entry key="Page %d of %d - %d empty cells left" value="Pagina %d di %d - %d celle vuote rimaste"/>
+    <entry key="Fill in the required values" value="Inserisci i valori obbligatori"/>
+    <entry key="The first row holds the names of the columns" value="La prima riga contiene i nomi delle colonne"/>
+    <entry key="The same value everywhere:" value="Lo stesso valore ovunque:"/>
+    <entry key="By hand, cell by cell (10 rows at a time)" value="A mano, cella per cella (10 righe alla volta)"/>
+    <entry key="%d empty" value="%d vuote"/>
+    <entry key="%d required cells are empty in the file. Give them a value now, or leave their rows out." value="%d celle obbligatorie sono vuote nel file. Dai loro un valore ora, o lascia fuori le loro righe."/>
+    <entry key="Leave the rows with empty required cells out" value="Lascia fuori le righe con celle obbligatorie vuote"/>
+    <entry key="%d cells to fill by hand: it takes long. Completing the original file and reading it again is safer (nothing typed here is kept in the file).&#10;&#10;Fill them by hand anyway?" value="%d celle da riempire a mano: richiede molto tempo. Completare il file originale e rileggerlo è più sicuro (quanto scritto qui non resta nel file).&#10;&#10;Riempirle comunque a mano?"/>
+    <entry key="A value for each column (where that column is empty):" value="Un valore per ogni colonna (dove quella colonna è vuota):"/>
+    <entry key="Required values missing" value="Valori obbligatori mancanti"/>
+    <entry key="Import" value="Importa"/>
+    <entry key="Import the other %d rows" value="Importa le altre %d righe"/>
+    <entry key="Import into %s" value="Importa in %s"/>
+    <entry key="%d rows were left out." value="%d righe sono state tralasciate."/>
+    <entry key="The file lacks required columns of the table: %s. Their values are asked before the import." value="Al file mancano colonne obbligatorie della tabella: %s. I loro valori vengono chiesti prima dell'importazione."/>
+    <entry key="... and %d more." value="... e altre %d."/>
+    <entry key="Next &gt;" value="Avanti &gt;"/>
+    <entry key="Table %s made. Now sheet %d of %d: its columns." value="Tabella %s creata. Ora il foglio %d di %d: le sue colonne."/>
+    <entry key="The file holds no table (every sheet is empty)." value="Il file non contiene tabelle (ogni foglio è vuoto)."/>
+    <entry key="No row is left to import." value="Non resta nessuna riga da importare."/>
+    <entry key="Importing makes a table and its records: it needs the Structure and Insert permissions." value="Importare crea una tabella e i suoi record: servono i permessi Struttura e Inserimento."/>
+    <entry key="Tick at least one column." value="Spunta almeno una colonna."/>
+    <entry key="Text in quotes:" value="Testo tra virgolette:"/>
+    <entry key="none" value="nessuna"/>
+    <entry key="Read the file again" value="Rileggi il file"/>
+    <entry key="The file cannot be read: %s" value="Il file non può essere letto: %s"/>
+    <entry key="%d rows of %d do not fit the columns as they are:" value="%d righe su %d non corrispondono alle colonne così come sono:"/>
+    <entry key="row %d, %s &quot;%s&quot;: %s" value="riga %d, %s &quot;%s&quot;: %s"/>
+    <entry key="Separator:" value="Separatore:"/>
+    <entry key="Found by itself" value="Trovato da sé"/>
+    <entry key="Comma ," value="Virgola ,"/>
+    <entry key="Found: %s" value="Trovato: %s"/>
+    <entry key="Bar |" value="Barra |"/>
+    <entry key="Semicolon ;" value="Punto e virgola ;"/>
+    <entry key="Tab" value="Tabulazione"/>
+    <entry key="The checked sheets do not all have matching columns: the columns a sheet does not have will be empty for its rows." value="I fogli spuntati non hanno tutti colonne corrispondenti: le colonne che un foglio non ha saranno vuote per le sue righe."/>
+    <entry key="The workbook has several sheets. The checked ones become one table: sheets with matching columns (same group) fit together - a column a sheet does not have stays empty for its rows. The largest group is checked." value="La cartella di lavoro ha più fogli. Quelli spuntati diventano una tabella: i fogli con colonne corrispondenti (stesso gruppo) si uniscono - una colonna che un foglio non ha resta vuota per le sue righe. Il gruppo più grande è spuntato."/>
+    <entry key="Make a table of each checked sheet" value="Crea una tabella per ogni foglio spuntato"/>
+    <entry key="Put the checked sheets together in one table" value="Metti insieme i fogli spuntati in una tabella"/>
+    <entry key="%s - %d columns, %d rows (group %d)" value="%s - %d colonne, %d righe (gruppo %d)"/>
+    <entry key="Add a column with the name of the sheet each row comes from" value="Aggiungi una colonna con il nome del foglio da cui viene ogni riga"/>
+    <entry key="Sheet" value="Foglio"/>
+    <entry key="For example a column &quot;Warehouse&quot; holding Milano or Roma, the names of the sheets. Text by default." value="Per esempio una colonna &quot;Magazzino&quot; con Milano o Roma, i nomi dei fogli. Testo di norma."/>
+    <entry key="Put the name of each row's sheet in the column %s" value="Metti il nome del foglio di ogni riga nella colonna %s"/>
+    <entry key="Its name:" value="Il suo nome:"/>
+    <entry key="Give a name to the column with the sheet's name." value="Dai un nome alla colonna con il nome del foglio."/>
+    <entry key="Type:" value="Tipo:"/>
+    <entry key="This database has no tables yet. Make its first table from a file (CSV, text, Excel or OpenDocument)?" value="Questo database non ha ancora tabelle. Creare la prima tabella da un file (CSV, testo, Excel o OpenDocument)?"/>
+    <entry key="%d rows added to %s:" value="%d righe aggiunte a %s:"/>
+    <entry key="%d rows" value="%d righe"/>
+    <entry key="skipped" value="saltato"/>
+    <entry key="A table %s exists already: choose another name." value="Una tabella %s esiste già: scegli un altro nome."/>
+    <entry key="Name of the new table:" value="Nome della nuova tabella:"/>
+    <entry key="Give a name to the new table." value="Dai un nome alla nuova tabella."/>
+    <entry key="For a text file: the separator, the quotes and the first row can be changed; the encoding (UTF-8, UTF-16, Windows) is recognised." value="Per un file di testo: il separatore, le virgolette e la prima riga si possono cambiare; la codifica (UTF-8, UTF-16, Windows) è riconosciuta."/>
+    <entry key="Import from a file" value="Importa da un file"/>
+    <entry key="This kind of file cannot be read: choose a CSV / text file or a spreadsheet (.xlsx, .xls, .ods)." value="Questo tipo di file non può essere letto: scegli un file CSV / di testo o un foglio di calcolo (.xlsx, .xls, .ods)."/>
+    <entry key="Insert..." value="Inserisci..."/>
+    <entry key="Keep working" value="Continua a lavorare"/>
+    <entry key="The database %s is encrypted, but its key file %s is missing, so it cannot be opened. Restore the key file from a backup (it must always be saved together with the database)." value="Il database %s è cifrato, ma manca il suo file chiave %s, quindi non può essere aperto. Ripristina il file chiave da un backup (va sempre salvato insieme al database)."/>
+    <entry key="The language file for &quot;%s&quot; could not be loaded - the current language is kept." value="Non è stato possibile caricare il file della lingua &quot;%s&quot;: resta la lingua attuale."/>
+    <entry key="Select the language:" value="Scegli la lingua:"/>
+    <entry key="Language" value="Lingua"/>
+    <entry key="Close and discard the work" value="Chiudi e scarta il lavoro"/>
+    <entry key="The changes not saved and the work pending in the tabs will be lost. Close?" value="Le modifiche non salvate e il lavoro in sospeso nelle schede andranno persi. Chiudere?"/>
+    <entry key="Work is pending: type the password first to close and discard it." value="C'è lavoro in sospeso: scrivi prima la password per chiudere e scartarlo."/>
+    <entry key="Work is pending: unlock first (or close and discard it with the password) before exiting." value="C'è lavoro in sospeso: sblocca prima (o chiudi e scartalo con la password) prima di uscire."/>
+    <entry key="Type the password of the account to unlock:" value="Scrivi la password dell'account per sbloccare:"/>
+    <entry key="Type the admin password of the database to unlock:" value="Scrivi la password amministratore del database per sbloccare:"/>
+    <entry key="Type the passphrase of the database to unlock:" value="Scrivi la passphrase del database per sbloccare:"/>
+    <entry key="The tabs and the work open are kept as they were." value="Le schede e il lavoro aperto sono conservati come erano."/>
+    <entry key="This database has no password: anyone at this PC can unlock it." value="Questo database non ha password: chiunque a questo PC può sbloccarlo."/>
+    <entry key="Unlock" value="Sblocca"/>
+    <entry key="%s - account %s" value="%s - account %s"/>
+    <entry key="Wrong password." value="Password errata."/>
+    <entry key="Wrong password. Wait %d s before the next attempt." value="Password errata. Attendi %d s prima del prossimo tentativo."/>
+    <entry key="%s has accounts: log in with your name and password." value="%s ha degli account: accedi con il tuo nome e la tua password."/>
+    <entry key="This account is locked. Ask whoever manages the accounts." value="Questo account è bloccato. Rivolgiti a chi gestisce gli account."/>
+    <entry key="Log in" value="Accesso"/>
+    <entry key="Wrong name or password." value="Nome o password errati."/>
+    <entry key="The log was written to %s. Send it to whoever looks after the program." value="Il log è stato scritto in %s. Invialo a chi si occupa del programma."/>
+    <entry key="Export..." value="Esporta..."/>
+    <entry key="The log file could not be written." value="Il file del log non è stato scritto."/>
+    <entry key="Export the log" value="Esporta il log"/>
+    <entry key="Log files (*.log)|*.log|All files (*.*)|*.*" value="File di log (*.log)|*.log|Tutti i file (*.*)|*.*"/>
+    <entry key="Level now: %s (Settings &gt; Log Level)." value="Livello attuale: %s (Impostazioni &gt; Livello del log)."/>
+    <entry key="Write to the log messages up to:" value="Scrivi nel log i messaggi fino a:"/>
+    <entry key="Warning and Info write more lines: the program may be slightly slower. The level is Error again at the next start." value="Warning e Info scrivono più righe: il programma può essere leggermente più lento. Al prossimo avvio il livello è di nuovo Error."/>
+    <entry key="Debug, Verbose and Trace write what every function does: the program becomes drastically slower while this level is on. It is for understanding a problem, then back to Error. The level is Error again at the next start." value="Debug, Verbose e Trace scrivono ciò che fa ogni funzione: il programma diventa drasticamente più lento finché questo livello è attivo. Serve a capire un problema, poi si torna a Error. Al prossimo avvio il livello è di nuovo Error."/>
+    <entry key="Log Level" value="Livello del log"/>
+    <entry key="Log" value="Log"/>
+    <entry key="The user manual %s was not found next to the program." value="Il manuale utente %s non è stato trovato accanto al programma."/>
+    <entry key="Longest (characters, 0 = any):" value="Massimo (caratteri, 0 = qualsiasi):"/>
+    <entry key="Most rows shown by an SQL query:" value="Righe massime mostrate da una query SQL:"/>
+    <entry key="Largest (empty = any):" value="Massimo (vuoto = qualsiasi):"/>
+    <entry key="&amp;About..." value="&amp;Informazioni su..."/>
+    <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="&amp;Aggiungi voce...&#9;Ctrl-Shift-N"/>
+    <entry key="Attac&amp;hment Folder Location..." value="Posizione della cartella degli alle&amp;gati..."/>
+    <entry key="&amp;Browse Records...&#9;Ctrl-B" value="&amp;Sfoglia record...&#9;Ctrl-B"/>
+    <entry key="Change &amp;My Password..." value="Cambia la mia pass&amp;word..."/>
+    <entry key="&amp;Change the Passphrase..." value="Cambia la pa&amp;ssphrase..."/>
+    <entry key="Change the Admin &amp;Password..." value="Cambia la password &amp;amministratore..."/>
+    <entry key="Chec&amp;k Attachments..." value="&amp;Verifica gli allegati..."/>
+    <entry key="&amp;Close Database" value="&amp;Chiudi database"/>
+    <entry key="Close &amp;Tab&#9;Ctrl-W" value="Chiudi &amp;scheda&#9;Ctrl-W"/>
+    <entry key="&amp;Database" value="&amp;Database"/>
+    <entry key="Database &amp;Format..." value="&amp;Formato del database..."/>
+    <entry key="Edit &amp;Database (relations, indexes, automations)...&#9;Ctrl-Shift-D" value="Modifica &amp;database (relazioni, indici, automazioni)...&#9;Ctrl-Shift-D"/>
+    <entry key="&amp;Edit Table Structure..." value="&amp;Modifica struttura tabella..."/>
+    <entry key="E&amp;xit&#9;Alt-X" value="&amp;Esci&#9;Alt-X"/>
+    <entry key="&amp;Export...&#9;Ctrl-E" value="Es&amp;porta...&#9;Ctrl-E"/>
+    <entry key="&amp;File" value="&amp;File"/>
+    <entry key="&amp;Help" value="&amp;Aiuto"/>
+    <entry key="&amp;Import tables from a file..." value="&amp;Importa tabelle da un file..."/>
+    <entry key="&amp;Language..." value="&amp;Lingua..."/>
+    <entry key="&amp;Lock Now&#9;Ctrl-L" value="&amp;Blocca ora&#9;Ctrl-L"/>
+    <entry key="Log Le&amp;vel..." value="Livello &amp;log..."/>
+    <entry key="User &amp;Manual&#9;F1" value="&amp;Manuale utente&#9;F1"/>
+    <entry key="&amp;Merge Another Database..." value="&amp;Unisci un altro database..."/>
+    <entry key="&amp;New Database...&#9;Ctrl-N" value="&amp;Nuovo database...&#9;Ctrl-N"/>
+    <entry key="New &amp;Recovery Key..." value="Nuova chiave di &amp;ripristino..."/>
+    <entry key="New &amp;Table..." value="Nuova &amp;tabella..."/>
+    <entry key="Open the Attachment &amp;Folder" value="Apri la cartella degli a&amp;llegati"/>
+    <entry key="Open &amp;Data Folder" value="Apri la cartella dei &amp;dati"/>
+    <entry key="&amp;Open Database...&#9;Ctrl-O" value="&amp;Apri database...&#9;Ctrl-O"/>
+    <entry key="&amp;Operations Log...&#9;Ctrl-Shift-H" value="&amp;Registro delle operazioni...&#9;Ctrl-Shift-H"/>
+    <entry key="&amp;Application preferences..." value="Preferenze dell'&amp;applicazione..."/>
+    <entry key="&amp;Print Selected Records...&#9;Ctrl-P" value="Stam&amp;pa i record selezionati...&#9;Ctrl-P"/>
+    <entry key="Print P&amp;rofiles..." value="Pro&amp;fili di stampa..."/>
+    <entry key="Protect with an &amp;Admin Password..." value="Proteggi con una password a&amp;mministratore..."/>
+    <entry key="Protect with a Passp&amp;hrase..." value="Proteggi con una passp&amp;hrase..."/>
+    <entry key="Open &amp;Recent" value="Apri &amp;recenti"/>
+    <entry key="Re&amp;move the Encryption..." value="Rimuovi la cifra&amp;tura..."/>
+    <entry key="Rotate the &amp;Encryption Key..." value="Ruota la chiave di &amp;cifratura..."/>
+    <entry key="&amp;Sample Databases..." value="Database di &amp;esempio..."/>
+    <entry key="&amp;Search...&#9;Ctrl-F" value="&amp;Cerca...&#9;Ctrl-F"/>
+    <entry key="Se&amp;curity" value="Sic&amp;urezza"/>
+    <entry key="&amp;Settings" value="&amp;Impostazioni"/>
+    <entry key="Show the Database &amp;Key..." value="Mostra la chia&amp;ve del database..."/>
+    <entry key="Application L&amp;og" value="Log dell'&amp;applicazione"/>
+    <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="Query S&amp;QL (sola lettura)...&#9;Ctrl-Q"/>
+    <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="Stat&amp;istiche...&#9;Ctrl-Shift-T"/>
+    <entry key="S&amp;witch User..." value="Cam&amp;bia utente..."/>
+    <entry key="&amp;Theme..." value="&amp;Tema..."/>
+    <entry key="&amp;Users and Access..." value="Ut&amp;enti e accessi..."/>
+    <entry key="&amp;Version Info..." value="Informazioni sulla &amp;versione..."/>
+    <entry key="Copy the attached files of the merged records" value="Copia i file allegati dei record uniti"/>
+    <entry key="Choose..." value="Scegli..."/>
+    <entry key="Choose the database to merge in" value="Scegli il database da unire"/>
+    <entry key="New column: the records already here get" value="Nuova colonna: i record già presenti ricevono"/>
+    <entry key="Empty values of the merged records become" value="I valori vuoti dei record uniti diventano"/>
+    <entry key="Note" value="Nota"/>
+    <entry key="Column in the result" value="Colonna nel risultato"/>
+    <entry key="Filled from" value="Compilata da"/>
+    <entry key="The two tables have the same columns: the records can be merged as they are." value="Le due tabelle hanno le stesse colonne: i record si possono unire così come sono."/>
+    <entry key="The tables are different: %d column(s) only in the database to merge, %d only in this one, %d with types that do not match. Choose below what happens to each column (click a cell to change it)." value="Le tabelle sono diverse: %d colonna/e solo nel database da unire, %d solo in questo, %d con tipi che non corrispondono. Scegli qui sotto cosa succede a ogni colonna (clic su una cella per cambiarla)."/>
+    <entry key="Merge finished: %lld added, %lld overwritten, %lld kept both (value changed), %lld skipped." value="Unione terminata: %lld aggiunti, %lld sovrascritti, %lld mantenuti entrambi (valore cambiato), %lld saltati."/>
+    <entry key="(drop this column)" value="(scarta questa colonna)"/>
+    <entry key="The merge stopped: %s" value="L'unione si è fermata: %s"/>
+    <entry key="(nothing)" value="(niente)"/>
+    <entry key="(new table &quot;%s&quot;)" value="(nuova tabella &quot;%s&quot;)"/>
+    <entry key="The table does not exist here: it is created with the columns below." value="La tabella non esiste qui: viene creata con le colonne qui sotto."/>
+    <entry key="only in this database" value="solo in questo database"/>
+    <entry key="new column" value="nuova colonna"/>
+    <entry key="renamed from &quot;%s&quot;" value="rinominata da &quot;%s&quot;"/>
+    <entry key="types differ: %s / %s" value="tipi diversi: %s / %s"/>
+    <entry key="Preview..." value="Anteprima..."/>
+    <entry key="Show every incoming record in a tab, to edit, leave out or choose them before anything is written" value="Mostra ogni record in arrivo in una scheda, per modificarli, escluderli o sceglierli prima che venga scritto qualcosa"/>
+    <entry key="%zu record(s) could not be merged:" value="%zu record non si sono potuti unire:"/>
+    <entry key="%lld of %lld record(s)..." value="%lld di %lld record..."/>
+    <entry key="Merge" value="Unisci"/>
+    <entry key="This is the database already open: choose another one." value="Questo è il database già aperto: scegline un altro."/>
+    <entry key="%d automations copied" value="%d automazioni copiate"/>
+    <entry key="Copy Several Tables..." value="Copia più tabelle..."/>
+    <entry key="The tables to copy as they are into this database:" value="Le tabelle da copiare così come sono in questo database:"/>
+    <entry key="%s: %lld records copied, %lld left out" value="%s: %lld record copiati, %lld esclusi"/>
+    <entry key="Copy tables of the other database as they are (structure, records, attachments, the relations and automations among them)" value="Copia le tabelle dell'altro database così come sono (struttura, record, allegati, relazioni e automazioni tra di esse)"/>
+    <entry key="Database to merge in:" value="Database da unire:"/>
+    <entry key="Its table:" value="Sua tabella:"/>
+    <entry key="Into this table:" value="In questa tabella:"/>
+    <entry key="Merge another database" value="Unisci un altro database"/>
+    <entry key="Shortest (characters, 0 = any):" value="Minimo (caratteri, 0 = qualsiasi):"/>
+    <entry key="Smallest (empty = any):" value="Minimo (vuoto = qualsiasi):"/>
+    <entry key="Attachments: move the original file into the attachment folder by default (unticked: copy it)" value="Allegati: sposta di norma il file originale nella cartella degli allegati (non spuntato: copialo)"/>
+    <entry key="Down" value="Giù"/>
+    <entry key="Up" value="Su"/>
+    <entry key="The name contains control characters." value="Il nome contiene caratteri di controllo."/>
+    <entry key="This name is used already." value="Questo nome è già in uso."/>
+    <entry key="The name is empty." value="Il nome è vuoto."/>
+    <entry key="Names starting with _ or sqlite_, and rowid / oid, are reserved." value="I nomi che iniziano con _ o sqlite_, e rowid / oid, sono riservati."/>
+    <entry key="The name is longer than 64 characters." value="Il nome supera i 64 caratteri."/>
+    <entry key="Browse..." value="Sfoglia..."/>
+    <entry key="%s already exists. It is never overwritten: what should be done?" value="%s esiste già. Non viene mai sovrascritto: cosa fare?"/>
+    <entry key="A file with this name exists already: you will be asked what to do." value="Esiste già un file con questo nome: ti verrà chiesto cosa fare."/>
+    <entry key="Folder:" value="Cartella:"/>
+    <entry key="The folder does not exist." value="La cartella non esiste."/>
+    <entry key="The name is free." value="Il nome è libero."/>
+    <entry key="Name:" value="Nome:"/>
+    <entry key="Type a name." value="Scrivi un nome."/>
+    <entry key="Open the existing one" value="Apri quello esistente"/>
+    <entry key="Change the name" value="Cambia il nome"/>
+    <entry key="New database" value="Nuovo database"/>
+    <entry key="Create %s" value="Crea %s"/>
+    <entry key="New admin password:" value="Nuova password amministratore:"/>
+    <entry key="The current recovery key stops working. Enter the admin password to make a new one." value="La chiave di recupero attuale smette di funzionare. Inserisci la password di amministratore per crearne una nuova."/>
+    <entry key="New recovery key" value="Nuova chiave di ripristino"/>
+    <entry key="No" value="No"/>
+    <entry key="This database has no table yet: create one first." value="Questo database non ha ancora tabelle: creane prima una."/>
+    <entry key="No" value="No"/>
+    <entry key="OK" value="OK"/>
+    <entry key="Open a database" value="Apri un database"/>
+    <entry key="Open folder" value="Apri cartella"/>
+    <entry key="(all)" value="(tutte)"/>
+    <entry key="(every session)" value="(tutte le sessioni)"/>
+    <entry key="Select a session first." value="Seleziona prima una sessione."/>
+    <entry key="Computer" value="Computer"/>
+    <entry key="Details" value="Dettagli"/>
+    <entry key="Ended" value="Fine"/>
+    <entry key="Importance" value="Importanza"/>
+    <entry key="Operation" value="Operazione"/>
+    <entry key="Record" value="Record"/>
+    <entry key="{OPS_COL_SESSION}#" value="N."/>
+    <entry key="Started" value="Inizio"/>
+    <entry key="Details" value="Dettagli"/>
+    <entry key="Table" value="Tabella"/>
+    <entry key="Time" value="Ora"/>
+    <entry key="User" value="Utente"/>
+    <entry key="%d operation(s). Select one to see its details." value="%d operazioni. Selezionane una per vederne i dettagli."/>
+    <entry key="%s - %s - %s (session %lld)" value="%s - %s - %s (sessione %lld)"/>
+    <entry key="History %s #%lld" value="Storia %s n. %lld"/>
+    <entry key="routine" value="ordinaria"/>
+    <entry key="normal" value="normale"/>
+    <entry key="notable" value="rilevante"/>
+    <entry key="high" value="alta"/>
+    <entry key="critical" value="critica"/>
+    <entry key="Every importance" value="Ogni importanza"/>
+    <entry key="Normal and above" value="Normale e oltre"/>
+    <entry key="Notable and above" value="Rilevante e oltre"/>
+    <entry key="High and above" value="Alta e oltre"/>
+    <entry key="Critical only" value="Solo critica"/>
+    <entry key="Accounts switched on" value="Account attivati"/>
+    <entry key="Account created" value="Account creato"/>
+    <entry key="Account level changed" value="Livello account modificato"/>
+    <entry key="Account locked" value="Account bloccato"/>
+    <entry key="Password changed" value="Password cambiata"/>
+    <entry key="Account unlocked" value="Account sbloccato"/>
+    <entry key="Table changed" value="Tabella modificata"/>
+    <entry key="Automation saved" value="Automazione salvata"/>
+    <entry key="Automation removed" value="Automazione rimossa"/>
+    <entry key="Closed" value="Chiuso"/>
+    <entry key="Relation / index changed" value="Relazione / indice modificati"/>
+    <entry key="Database created" value="Database creato"/>
+    <entry key="Table created" value="Tabella creata"/>
+    <entry key="Deleted" value="Eliminato"/>
+    <entry key="Exported" value="Esportato"/>
+    <entry key="Added" value="Aggiunto"/>
+    <entry key="Operation:" value="Operazione:"/>
+    <entry key="Locked" value="Bloccato"/>
+    <entry key="Logged in" value="Accesso"/>
+    <entry key="Login refused" value="Accesso rifiutato"/>
+    <entry key="Merged" value="Unito"/>
+    <entry key="Opened" value="Aperto"/>
+    <entry key="Document printed" value="Documento stampato"/>
+    <entry key="{Log}Search" value="Ricerca"/>
+    <entry key="Statistics report" value="Report statistiche"/>
+    <entry key="Unlock refused" value="Sblocco rifiutato"/>
+    <entry key="Changed" value="Modificato"/>
+    <entry key="Log looked at" value="Registro consultato"/>
+    <entry key="Tab opened" value="Scheda aperta"/>
+    <entry key="Table looked at" value="Tabella consultata"/>
+    <entry key="PDF of this list..." value="PDF di questo elenco..."/>
+    <entry key="The operations log of this database could not be opened." value="Il registro delle operazioni di questo database non ha potuto essere aperto."/>
+    <entry key="Record:" value="Record:"/>
+    <entry key="(running)" value="(in corso)"/>
+    <entry key="Sessions (select one to see only its operations):" value="Sessioni (selezionane una per vedere solo le sue operazioni):"/>
+    <entry key="Database %s - user %s on %s - from %s to %s" value="Database %s - utente %s su %s - dal %s al %s"/>
+    <entry key="PDF of the session..." value="PDF della sessione..."/>
+    <entry key="Session %lld" value="Sessione %lld"/>
+    <entry key="Show" value="Mostra"/>
+    <entry key="Operations log" value="Registro operazioni"/>
+    <entry key="Table:" value="Tabella:"/>
+    <entry key="{OPS_TITLE}Operations log" value="Registro delle operazioni"/>
+    <entry key="User:" value="Utente:"/>
+    <entry key="Device time %s - UTC %s - device %s - importance %s" value="Ora del dispositivo %s - UTC %s - dispositivo %s - importanza %s"/>
+    <entry key="contains" value="contiene"/>
+    <entry key="is empty" value="è vuoto"/>
+    <entry key="ends with" value="finisce con"/>
+    <entry key="is" value="è"/>
+    <entry key="is more than" value="è maggiore di"/>
+    <entry key="is at least" value="è almeno"/>
+    <entry key="is less than" value="è minore di"/>
+    <entry key="is at most" value="è al massimo"/>
+    <entry key="is not empty" value="non è vuoto"/>
+    <entry key="is not" value="non è"/>
+    <entry key="starts with" value="inizia con"/>
+    <entry key="Detect automatically (tries every format)" value="Rileva automaticamente (prova tutti i formati)"/>
+    <entry key="The passphrase was changed." value="La passphrase è stata cambiata."/>
+    <entry key="Enter a passphrase." value="Inserisci una passphrase."/>
+    <entry key="Encryption format:" value="Formato di cifratura:"/>
+    <entry key="Passphrase:" value="Passphrase:"/>
+    <entry key="Choose the passphrase. It is never stored: if it is lost, nobody can open the database." value="Scegli la passphrase. Non viene mai salvata: se la perdi, nessuno potrà aprire il database."/>
+    <entry key="%s is encrypted with a passphrase. Enter it." value="%s è cifrato con una passphrase. Inseriscila."/>
+    <entry key="Repeat the passphrase:" value="Ripeti la passphrase:"/>
+    <entry key="Use at least 8 characters." value="Usa almeno 8 caratteri."/>
+    <entry key="Show the passphrase" value="Mostra la passphrase"/>
+    <entry key="Passphrase" value="Passphrase"/>
+    <entry key="The passphrase is wrong, or the file is in another format. Check the passphrase, or choose the format." value="La passphrase è errata, oppure il file è in un altro formato. Controlla la passphrase o scegli il formato."/>
+    <entry key="The two passwords are different." value="Le due password sono diverse."/>
+    <entry key="The admin password was changed." value="La password amministratore è stata cambiata."/>
+    <entry key="The password is too weak: use at least 12 characters, not just a few repeated ones." value="La password è troppo debole: usa almeno 12 caratteri, non solo pochi caratteri ripetuti."/>
+    <entry key="Wrong password." value="Password errata."/>
+    <entry key="e.g. [A-Z]{3}-\d{4} accepts ABC-1234" value="es. [A-Z]{3}-d{4} accetta ABC-1234"/>
+    <entry key="Pattern (regular expression, optional):" value="Schema (espressione regolare, facoltativo):"/>
+    <entry key="The PDF could not be written: %s" value="Il PDF non ha potuto essere scritto: %s"/>
+    <entry key="PDF files (*.pdf)|*.pdf" value="File PDF (*.pdf)|*.pdf"/>
+    <entry key="%s %s - %s - PDF created with %s" value="%s %s - %s - PDF creato con %s"/>
+    <entry key="Page %d of %d" value="Pagina %d di %d"/>
+    <entry key="The PDF is protected: it opens with the PDF password of the sensitive database." value="Il PDF è protetto: si apre con la password PDF del database sensibile."/>
+    <entry key="Save the PDF" value="Salva il PDF"/>
+    <entry key="Action" value="Azione"/>
+    <entry key="Merge" value="Unisci"/>
+    <entry key="Here: %s - incoming: %s" value="Qui: %s - in arrivo: %s"/>
+    <entry key="Close the preview without merging anything?" value="Chiudere l'anteprima senza unire nulla?"/>
+    <entry key="Leave these rows out" value="Escludi queste righe"/>
+    <entry key="Exclude All" value="Escludi tutte"/>
+    <entry key="here #%lld" value="qui #%lld"/>
+    <entry key="The text to replace in %s (%d rows):" value="Il testo da sostituire in %s (%d righe):"/>
+    <entry key="Merge these rows" value="Unisci queste righe"/>
+    <entry key="Include All" value="Includi tutte"/>
+    <entry key="The records of %s - %s, as they will be merged into %s. Nothing is written until Apply. Edit any value; untick a row to leave it out; a red value cannot be saved (select it to see why). A record whose unique value exists here has the existing record under it: the green value is the one kept (right click to choose, cell by cell or for the whole column)." value="I record di %s - %s, come verranno uniti in %s. Non viene scritto nulla fino ad Applica. Modifica qualsiasi valore; togli la spunta a una riga per escluderla; un valore rosso non può essere salvato (selezionalo per vedere perché). Un record il cui valore univoco esiste già qui ha sotto di sé il record esistente: il valore verde è quello mantenuto (clic destro per scegliere, cella per cella o per l'intera colonna)."/>
+    <entry key="Keep the existing value" value="Mantieni il valore esistente"/>
+    <entry key="Keep the existing values of this column (every record already here)" value="Mantieni i valori esistenti di questa colonna (ogni record già qui)"/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Merge the others?" value="%s righe hanno valori che non possono essere salvati: verranno escluse. Unire le altre?"/>
+    <entry key="Only rows with problems or already here" value="Solo righe con problemi o già presenti qui"/>
+    <entry key="Replace a text..." value="Sostituisci un testo..."/>
+    <entry key="Replace &quot;%s&quot; with:" value="Sostituisci &quot;%s&quot; con:"/>
+    <entry key="Set a value..." value="Imposta un valore..."/>
+    <entry key="The value of %s in %d rows:" value="Il valore di %s in %d righe:"/>
+    <entry key="%s records - %s to merge - %s already here - %s with values that cannot be saved" value="%s record - %s da unire - %s già qui - %s con valori che non possono essere salvati"/>
+    <entry key="Merge into %s" value="Unisci in %s"/>
+    <entry key="Take the incoming value" value="Prendi il valore in arrivo"/>
+    <entry key="Take the incoming values of this column (every record already here)" value="Prendi i valori in arrivo di questa colonna (ogni record già qui)"/>
+    <entry key="centre" value="centro"/>
+    <entry key="Alignment:" value="Allineamento:"/>
+    <entry key="left" value="sinistra"/>
+    <entry key="right" value="destra"/>
+    <entry key="Its heading:" value="La sua intestazione:"/>
+    <entry key="An expression such as {Qty} * {Price} (empty = no amounts). The amounts are added up at the end." value="Un'espressione come {Qta} * {Prezzo} (vuoto = nessun importo). Gli importi vengono sommati in fondo."/>
+    <entry key="Amount of each record:" value="Importo di ogni record:"/>
+    <entry key="Suggested changes:%s&#10;&#10;%s&#10;&#10;Apply them (also the column widths)?" value="Modifiche suggerite:%s&#10;&#10;%s&#10;&#10;Applicarle (anche la larghezza delle colonne)?"/>
+    <entry key="Analyze best print settings" value="Analizza le impostazioni di stampa migliori"/>
+    <entry key="The columns fit: headers and values on one line." value="Le colonne ci stanno: intestazioni e valori su una riga."/>
+    <entry key="Looks at the records of the table as they would print and suggests the paper, orientation, margins, text size and column widths that fit them." value="Esamina i record della tabella come verrebbero stampati e suggerisce carta, orientamento, margini, dimensione del testo e larghezza delle colonne adatti."/>
+    <entry key="Still on two lines: %d header(s), %d value(s)." value="Ancora su due righe: %d intestazione/i, %d valore/i."/>
+    <entry key="Ask for a client when printing" value="Chiedi un cliente quando si stampa"/>
+    <entry key="Bold" value="Grassetto"/>
+    <entry key="Print profiles of %s (how the document looks; saved in the database):" value="Profili di stampa di %s (l'aspetto del documento; salvati nel database):"/>
+    <entry key="Choose the client from %s:" value="Scegli il cliente da %s:"/>
+    <entry key="Columns printed in the client box (ticked, in this order):" value="Colonne stampate nel riquadro del cliente (spuntate, in quest'ordine):"/>
+    <entry key="A record of %s" value="Un record di %s"/>
+    <entry key="That table has no records." value="Quella tabella non ha record."/>
+    <entry key="Is this document for a client?" value="Questo documento è per un cliente?"/>
+    <entry key="Where is the client?" value="Dove si trova il cliente?"/>
+    <entry key="Clients usually from:" value="Clienti di solito da:"/>
+    <entry key="Client" value="Cliente"/>
+    <entry key="(typed by hand)" value="(scritto a mano)"/>
+    <entry key="The client (name on the first line, then the address):" value="Il cliente (nome sulla prima riga, poi l'indirizzo):"/>
+    <entry key="An empty heading prints the column's name. Width: 2 is twice as wide as 1 (table layout)." value="Un'intestazione vuota stampa il nome della colonna. Larghezza: 2 è larga il doppio di 1 (impaginazione a tabella)."/>
+    <entry key="Ticked columns are printed, in this order:" value="Le colonne spuntate vengono stampate, in quest'ordine:"/>
+    <entry key="The selected column" value="La colonna selezionata"/>
+    <entry key="Copy..." value="Copia..."/>
+    <entry key="Currency:" value="Valuta:"/>
+    <entry key="Date" value="Data"/>
+    <entry key="decimals:" value="decimali:"/>
+    <entry key="Amount" value="Importo"/>
+    <entry key="VAT" value="IVA"/>
+    <entry key="Delete" value="Elimina"/>
+    <entry key="Delete the print profile &quot;%s&quot;?" value="Eliminare il profilo di stampa &quot;%s&quot;?"/>
+    <entry key="Demo Print" value="Stampa demo"/>
+    <entry key="(demo)" value="(demo)"/>
+    <entry key="The same document marked DEMO on every page: the number is shown but not used, nothing is recorded as printed." value="Lo stesso documento con DEMO su ogni pagina: il numero viene mostrato ma non usato, nulla viene registrato come stampato."/>
+    <entry key="Down" value="Giù"/>
+    <entry key="Change..." value="Modifica..."/>
+    <entry key="Text size (pt):" value="Dimensione testo (pt):"/>
+    <entry key="Your company: name on the first line, then address, VAT number ..." value="La tua azienda: nome sulla prima riga, poi indirizzo, partita IVA ..."/>
+    <entry key="Issuer:" value="Emittente:"/>
+    <entry key="Heading:" value="Intestazione:"/>
+    <entry key="Landscape" value="Orizzontale"/>
+    <entry key="Bigger text" value="Testo più grande"/>
+    <entry key="You are printing %ld records: about %ld pages, ready in %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Print anyway? (A search or a statistics report can make it shorter.)" value="Stai stampando %ld record: circa %ld pagine, pronte in %s (il tempo dipende dal computer). L'avanzamento e il tempo sono nella barra di stato, con Ferma.&#10;&#10;Stampare comunque? (Una ricerca o un report statistico possono accorciarlo.)"/>
+    <entry key="Layout:" value="Impaginazione:"/>
+    <entry key="One column per line: each record as a block" value="Una colonna per riga: ogni record come un blocco"/>
+    <entry key="A table: one row per record" value="Una tabella: una riga per record"/>
+    <entry key="Margins (mm):" value="Margini (mm):"/>
+    <entry key="Bottom" value="Sotto"/>
+    <entry key="Left" value="Sinistra"/>
+    <entry key="Right" value="Destra"/>
+    <entry key="Top" value="Sopra"/>
+    <entry key="Profile name:" value="Nome del profilo:"/>
+    <entry key="Give the profile a name." value="Dai un nome al profilo."/>
+    <entry key="New..." value="Nuovo..."/>
+    <entry key="next {seq}:" value="prossimo {seq}:"/>
+    <entry key="Notes at the end:" value="Note in fondo:"/>
+    <entry key="Tick at least one column to print." value="Spunta almeno una colonna da stampare."/>
+    <entry key="A template, e.g. INV-{date:YYYY}-{seq:4}; empty = no number." value="Un modello, es. FATT-{date:YYYY}-{seq:4}; vuoto = nessun numero."/>
+    <entry key="Number:" value="Numero:"/>
+    <entry key="Number" value="Numero"/>
+    <entry key="Orientation:" value="Orientamento:"/>
+    <entry key="Amounts" value="Importi"/>
+    <entry key="Client" value="Cliente"/>
+    <entry key="Columns" value="Colonne"/>
+    <entry key="Default settings" value="Impostazioni predefinite"/>
+    <entry key="Document" value="Documento"/>
+    <entry key="Images" value="Immagini"/>
+    <entry key="Size and margins" value="Formato e margini"/>
+    <entry key="Paper:" value="Carta:"/>
+    <entry key="Portrait" value="Verticale"/>
+    <entry key="Print" value="Stampa"/>
+    <entry key="Print profiles" value="Profili di stampa"/>
+    <entry key="Print profile" value="Profilo di stampa"/>
+    <entry key="Scale (%):" value="Scala (%):"/>
+    <entry key="Select the records to print in a table tab first (or right-click them and choose Print)." value="Seleziona prima i record da stampare in una scheda di tabella (oppure fai clic destro su di essi e scegli Stampa)."/>
+    <entry key="Print the total" value="Stampa il totale"/>
+    <entry key="The print was stopped: no file was written." value="La stampa è stata fermata: nessun file è stato scritto."/>
+    <entry key="Subtotal" value="Imponibile"/>
+    <entry key="Tax %:" value="Imposta %:"/>
+    <entry key="named:" value="chiamata:"/>
+    <entry key="Print" value="Stampa"/>
+    <entry key="Title printed:" value="Titolo stampato:"/>
+    <entry key="Total" value="Totale"/>
+    <entry key="To" value="Spett.le"/>
+    <entry key="Up" value="Su"/>
+    <entry key="Width (relative):" value="Larghezza (relativa):"/>
+    <entry key="The database is now encrypted." value="Il database ora è cifrato."/>
+    <entry key="not encrypted" value="non cifrato"/>
+    <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="Come proteggere %s? Si può cambiare in seguito (Database &gt; Sicurezza)."/>
+    <entry key="To switch to an admin password, the passphrase encryption is removed first and the database is then encrypted again with the new key. Continue?" value="Per passare a una password amministratore, la cifratura con passphrase viene prima rimossa e il database viene poi cifrato di nuovo con la nuova chiave. Continuare?"/>
+    <entry key="Not encrypted - anyone who has the file can read it" value="Non cifrato - chiunque abbia il file può leggerlo"/>
+    <entry key="Attached files (pictures, PDFs, ...) are stored in a normal folder next to the database: they are not encrypted." value="I file allegati (immagini, PDF, ...) sono salvati in una normale cartella accanto al database: non sono cifrati."/>
+    <entry key="A passphrase only - the same passphrase also opens the file in other tools (e.g. DB Browser for SQLite)" value="Solo una passphrase - la stessa passphrase apre il file anche in altri programmi (es. DB Browser for SQLite)"/>
+    <entry key="Protection" value="Protezione"/>
+    <entry key="Admin password + recovery key (recommended) - the key file %s is kept next to the database" value="Password amministratore + chiave di ripristino (consigliato) - il file chiave %s resta accanto al database"/>
+    <entry key="A quantity changes only through an operation (it starts at zero)." value="Una quantità cambia solo con un'operazione (parte da zero)."/>
+    <entry key="+ Condition" value="+ Condizione"/>
+    <entry key="and" value="e"/>
+    <entry key="Search in a new tab" value="Cerca in una nuova scheda"/>
+    <entry key="or" value="o"/>
+    <entry key="Remove this condition" value="Rimuovi questa condizione"/>
+    <entry key="Search" value="Cerca"/>
+    <entry key="#%lld %s: %s" value="#%lld %s: %s"/>
+    <entry key="To check that you wrote it down correctly, type group %d and group %d:" value="Per controllare che l'hai scritta correttamente, digita il gruppo %d e il gruppo %d:"/>
+    <entry key="That is not a valid recovery key: 32 letters and digits, in 8 groups of 4." value="Non è una chiave di recupero valida: 32 lettere e cifre, in 8 gruppi da 4."/>
+    <entry key="Recovery key:" value="Chiave di recupero:"/>
+    <entry key="The recovery key is shown only once. Write it down and type the two groups to continue." value="La chiave di recupero viene mostrata una sola volta. Scrivila e digita i due gruppi per continuare."/>
+    <entry key="Write this recovery key down (or print it) and keep it somewhere safe, away from this PC. If the admin password is forgotten, it is the ONLY way to open the database. It is shown only now and is not stored anywhere." value="Annota questa chiave di ripristino (o stampala) e conservala in un luogo sicuro, lontano da questo PC. Se la password amministratore viene dimenticata, è l'UNICO modo per aprire il database. Viene mostrata solo ora e non è salvata da nessuna parte."/>
+    <entry key="Your recovery key" value="La tua chiave di recupero"/>
+    <entry key="Wrong recovery key." value="Chiave di recupero errata."/>
+    <entry key="Type the recovery key you saved when the database was protected, then choose a new admin password. A new recovery key is made afterwards." value="Digita la chiave di ripristino salvata quando il database è stato protetto, poi scegli una nuova password amministratore. Dopo viene creata una nuova chiave di ripristino."/>
+    <entry key="Recover with the recovery key" value="Recupera con la chiave di recupero"/>
+    <entry key="Column:" value="Colonna:"/>
+    <entry key="%d found" value="%d trovati"/>
+    <entry key="Record" value="Record"/>
+    <entry key="The first %d shown: type more to narrow the search." value="Mostrati i primi %d: scrivi di più per restringere la ricerca."/>
+    <entry key="Choose from %s" value="Scegli da %s"/>
+    <entry key="Choose from the referenced records: type to search, or press F4 / ... to search in a list." value="Scegli tra i record collegati: scrivi per cercare, oppure premi F4 / ... per cercare in un elenco."/>
+    <entry key="Choose %s" value="Scegli %s"/>
+    <entry key="Value" value="Valore"/>
+    <entry key="Table:" value="Tabella:"/>
+    <entry key="Delete them too" value="Elimina anche loro"/>
+    <entry key="They follow the new value" value="Seguono il nuovo valore"/>
+    <entry key="%s refers to %s. What happens to the records that refer to a record:" value="%s si riferisce a %s. Cosa succede ai record che si riferiscono a un record:"/>
+    <entry key="&quot;Delete them too&quot; deletes records without asking: use it only for records that make no sense alone (the lines of an order). The rules are kept by the database file, so they apply to every program that writes to it." value="&quot;Elimina anche loro&quot; elimina dei record senza chiedere: usalo solo per record che non hanno senso da soli (le righe di un ordine). Le regole sono mantenute dal file del database, quindi valgono per ogni programma che vi scrive."/>
+    <entry key="when it is deleted:" value="quando viene eliminato:"/>
+    <entry key="when its value changes:" value="quando il suo valore cambia:"/>
+    <entry key="Refuse while records refer to it" value="Rifiuta finché ci sono record che vi si riferiscono"/>
+    <entry key="They lose the reference (empty)" value="Perdono il riferimento (vuoto)"/>
+    <entry key="Relation" value="Relazione"/>
+    <entry key="Remove" value="Rimuovi"/>
+    <entry key="Remove the encryption of %s? From then on anyone who has the file can read it." value="Rimuovere la cifratura di %s? Da quel momento chiunque abbia il file potrà leggerlo."/>
+    <entry key="Open the last database when the application starts" value="Apri l'ultimo database all'avvio dell'applicazione"/>
+    <entry key="Repeat the password:" value="Ripeti la password:"/>
+    <entry key="Made by %s on %s" value="Fatto da %s il %s"/>
+    <entry key="Records containing &quot;%s&quot;" value="Record che contengono &quot;%s&quot;"/>
+    <entry key="Database %s - %s" value="Database %s - %s"/>
+    <entry key="%s from %s to %s" value="%s dal %s al %s"/>
+    <entry key="Restart now" value="Riavvia ora"/>
+    <entry key="Entry only" value="Solo inserimento"/>
+    <entry key="only adds new records" value="aggiunge solo nuovi record"/>
+    <entry key="Full access" value="Accesso completo"/>
+    <entry key="everything: deletes, structure, security, manages the lower levels" value="tutto: elimina, struttura, sicurezza, gestisce i livelli inferiori"/>
+    <entry key="Master" value="Master"/>
+    <entry key="manages the accounts only, no work on the data" value="gestisce solo gli account, nessun lavoro sui dati"/>
+    <entry key="Modify data" value="Modifica dati"/>
+    <entry key="reads, adds and changes records (no deleting)" value="legge, aggiunge e modifica i record (non elimina)"/>
+    <entry key="(not logged in)" value="(nessun accesso)"/>
+    <entry key="Read only" value="Sola lettura"/>
+    <entry key="browses, searches, exports, statistics" value="sfoglia, cerca, esporta, statistiche"/>
+    <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="Il database è stato cifrato di nuovo con una nuova chiave. Segue la nuova chiave di ripristino."/>
+    <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="Crea una nuova chiave di cifratura, cifra di nuovo l'intero database e crea una nuova chiave di ripristino. Usala se una copia del database con il suo file chiave (o la password amministratore) potrebbe essere stata divulgata: le copie fatte prima restano leggibili con i vecchi segreti, ma tutto da ora in poi richiede la nuova chiave. Inserisci la password amministratore per continuare."/>
+    <entry key="Rotate the encryption key" value="Ruota la chiave di cifratura"/>
+    <entry key="Rules" value="Regole"/>
+    <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="Hai già una copia di questo database di esempio:&#10;%s&#10;&#10;Aprirla con le tue modifiche o ricominciare da una copia nuova (le tue modifiche andranno perse)?"/>
+    <entry key="The sample database could not be copied." value="Impossibile copiare il database di esempio."/>
+    <entry key="Fresh Copy" value="Copia nuova"/>
+    <entry key="The sample database is not where it should be:&#10;%s" value="Il database di esempio non è dove dovrebbe essere:&#10;%s"/>
+    <entry key="Open My Copy" value="Apri la mia copia"/>
+    <entry key="Open a sample database to try SQLite DB Tools (the User Manual has a tour of each). You work on a copy: the original stays as it is." value="Apri un database di esempio per provare SQLite DB Tools (il Manuale utente contiene una visita guidata di ciascuno). Lavori su una copia: l'originale resta com'è."/>
+    <entry key="Sample Databases" value="Database di esempio"/>
+    <entry key="Calibration - measuring instruments, their calibrations, certificates and movements" value="Calibration - strumenti di misura, le loro tarature, certificati e movimenti"/>
+    <entry key="Library - books, authors, members and loans" value="Library - libri, autori, iscritti e prestiti"/>
+    <entry key="Shop - items, suppliers, customers and stock movements" value="Shop - articoli, fornitori, clienti e movimenti di magazzino"/>
+    <entry key="Save for next start" value="Salva per il prossimo avvio"/>
+    <entry key="The name &quot;%s&quot; cannot be used: it is empty, too long, starts with _, is reserved or is used already." value="Il nome &quot;%s&quot; non si può usare: è vuoto, troppo lungo, inizia con _, è riservato o è già in uso."/>
+    <entry key="A table can have at most %d columns." value="Una tabella può avere al massimo %d colonne."/>
+    <entry key="The existing records do not fit the new definition: %s" value="I record esistenti non rispettano la nuova definizione: %s"/>
+    <entry key="The table is still needed by: %s. Remove those references or automations first." value="La tabella è ancora necessaria per: %s. Rimuovi prima quei riferimenti o automazioni."/>
+    <entry key="This table was made by another program: only new columns without Required / Unique can be added to it." value="Questa tabella è stata creata da un altro programma: le si possono solo aggiungere colonne senza Obbligatorio / Univoco."/>
+    <entry key="A table needs at least one column." value="Una tabella ha bisogno di almeno una colonna."/>
+    <entry key="The column &quot;%s&quot; refers to a table or column that does not exist." value="La colonna &quot;%s&quot; fa riferimento a una tabella o colonna che non esiste."/>
+    <entry key="The column &quot;%s&quot; was removed: tables only grow." value="La colonna &quot;%s&quot; è stata rimossa: le tabelle possono solo crescere."/>
+    <entry key="The database refused the change: %s" value="Il database ha rifiutato la modifica: %s"/>
+    <entry key="A database can have at most %s tables." value="Un database può avere al massimo %s tabelle."/>
+    <entry key="Search: %s" value="Ricerca: %s"/>
+    <entry key="Preferences" value="Preferenze"/>
+    <entry key="Choose an admin password: it is asked every time the database is opened. It is never stored anywhere - nobody can recover it for you (the recovery key made next is the only way back). Use at least 12 characters; a few words together work well." value="Scegli una password amministratore: viene chiesta ogni volta che il database viene aperto. Non è mai salvata da nessuna parte - nessuno può recuperarla per te (la chiave di ripristino creata dopo è l'unica via di ritorno). Usa almeno 12 caratteri; alcune parole insieme vanno bene."/>
+    <entry key="The data already in the database is encrypted too; nothing is lost." value="Anche i dati già presenti nel database vengono cifrati; non si perde nulla."/>
+    <entry key="Protect the database" value="Proteggi il database"/>
+    <entry key="Error: %s" value="Errore: %s"/>
+    <entry key="Read-only: only queries that read (SELECT, SQLite syntax) run here; writing, ATTACH and PRAGMA are refused. Ctrl+Enter runs the query." value="Sola lettura: qui funzionano solo query che leggono (SELECT, sintassi SQLite); scrittura, ATTACH e PRAGMA sono rifiutati. Ctrl+Invio esegue la query."/>
+    <entry key="only one statement can be run at a time" value="si può eseguire una sola istruzione alla volta"/>
+    <entry key="only queries that read (SELECT) can be run here" value="qui si possono eseguire solo query che leggono (SELECT)"/>
+    <entry key="%zu row(s)" value="%zu riga/e"/>
+    <entry key="Run" value="Esegui"/>
+    <entry key="Tables and columns (double-click to insert the name):" value="Tabelle e colonne (doppio clic per inserire il nome):"/>
+    <entry key="SQL query" value="Query SQL"/>
+    <entry key=" - there are more, not shown" value=" - ce ne sono altre, non mostrate"/>
+    <entry key="Add" value="Aggiungi"/>
+    <entry key="(all the records)" value="(tutti i record)"/>
+    <entry key="Calculate" value="Calcola"/>
+    <entry key="Calculate to see the chart." value="Calcola per vedere il grafico."/>
+    <entry key="Chart:" value="Grafico:"/>
+    <entry key="Line" value="Linea"/>
+    <entry key="{STATS_CLEAR_CONDITIONS_BTN}Clear" value="Azzera"/>
+    <entry key="Only when" value="Solo quando"/>
+    <entry key="Records containing:" value="Record che contengono:"/>
+    <entry key="Save as CSV..." value="Salva come CSV..."/>
+    <entry key="Date column:" value="Colonna data:"/>
+    <entry key="Decimals" value="Decimali"/>
+    <entry key="Delete" value="Elimina"/>
+    <entry key="Delete the saved statistic &quot;%s&quot;?" value="Eliminare la statistica salvata &quot;%s&quot;?"/>
+    <entry key="descending" value="decrescente"/>
+    <entry key="End:" value="Fine:"/>
+    <entry key="Value" value="Valore"/>
+    <entry key="The statistic cannot be calculated: %s" value="La statistica non può essere calcolata: %s"/>
+    <entry key="Average" value="Media"/>
+    <entry key="Count" value="Conteggio"/>
+    <entry key="Count of different values" value="Conteggio dei valori diversi"/>
+    <entry key="First value" value="Primo valore"/>
+    <entry key="Formula of the measures" value="Formula delle misure"/>
+    <entry key="Last value" value="Ultimo valore"/>
+    <entry key="Maximum" value="Massimo"/>
+    <entry key="Median" value="Mediana"/>
+    <entry key="Minimum" value="Minimo"/>
+    <entry key="(none)" value="(nessuna)"/>
+    <entry key="Product" value="Prodotto"/>
+    <entry key="Standard deviation (sample)" value="Deviazione standard (campione)"/>
+    <entry key="Standard deviation (all)" value="Deviazione standard (tutti)"/>
+    <entry key="Sum" value="Somma"/>
+    <entry key="Variance (sample)" value="Varianza (campione)"/>
+    <entry key="Variance (all)" value="Varianza (tutti)"/>
+    <entry key="from" value="dal"/>
+    <entry key="Functions..." value="Funzioni..."/>
+    <entry key="A value, a group or a condition is a formula of the columns of the record, written {Column}; {Reference&gt;Column} is a column of the referenced record. Texts are written in quotes: &quot;ACME&quot;.&#10;&#10;Operators: + - * /   &amp; joins texts   = &lt;&gt; &lt; &lt;= &gt; &gt;= compare (texts without regard to case)   and   or   not&#10;&#10;Logic: if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) (the first that is not empty)&#10;&#10;Numbers: round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;Texts: upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;Dates: today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) (1 = Sunday)  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;Measures: Count, Sum, Average, Minimum, Maximum, Count of different values, Median, Standard deviation and Variance (of a sample or of all the values), Product, First / Last value (by record number). &quot;Only when&quot; counts only the records where its condition holds (as SUMIF / COUNTIF / AVERAGEIF): {Kind} = &quot;Sale&quot; and {Qty} &gt; 0.&#10;&#10;Formula of the measures: a calculation on the other measures of the same row, written {M1}, {M2}... or by their heading: {M1} / {M2}, ({Revenue} - {Cost}) / {Revenue} * 100.&#10;&#10;Shown as: the value, its share of the total, the running total, the rank, the difference or the change from the row before (in the order of the rows)." value="Un valore, un gruppo o una condizione è una formula delle colonne del record, scritte {Column}; {Reference&gt;Column} è una colonna del record riferito. I testi si scrivono tra virgolette: &quot;ACME&quot;.&#10;&#10;Operatori: + - * /   &amp; unisce testi   = &lt;&gt; &lt; &lt;= &gt; &gt;= confrontano (testi senza distinzione tra maiuscole e minuscole)   and   or   not&#10;&#10;Logica: if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) (il primo non vuoto)&#10;&#10;Numeri: round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;Testi: upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;Date: today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) (1 = domenica)  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;Misure: Conteggio, Somma, Media, Minimo, Massimo, Conteggio dei valori diversi, Mediana, Deviazione standard e Varianza (di un campione o di tutti i valori), Prodotto, Primo / Ultimo valore (per numero di record). &quot;Solo quando&quot; conta solo i record in cui la sua condizione è vera (come SUMIF / COUNTIF / AVERAGEIF): {Kind} = &quot;Sale&quot; and {Qty} &gt; 0.&#10;&#10;Formula delle misure: un calcolo sulle altre misure della stessa riga, scritte {M1}, {M2}... o con la loro intestazione: {M1} / {M2}, ({Revenue} - {Cost}) / {Revenue} * 100.&#10;&#10;Mostrata come: il valore, la sua percentuale del totale, il totale progressivo, la posizione, la differenza o la variazione dalla riga precedente (nell'ordine delle righe)."/>
+    <entry key="Functions of the formulas" value="Funzioni delle formule"/>
+    <entry key="Function" value="Funzione"/>
+    <entry key="Grouped by" value="Raggruppate per"/>
+    <entry key="Heading" value="Intestazione"/>
+    <entry key="Group by a column ({Category}), a column of a referenced table ({Item&gt;Supplier}) or a date by month, quarter or year; measure a value such as {Qty} * {Price} (Sum, Average, Median...), only when a condition holds ({Kind} = &quot;Sale&quot;), or as a formula of the other measures ({M1} / {M2}). Example - monthly income: group {Date} by month, measure Sum of {Qty} * {Price}. Functions... lists everything a formula can use." value="Raggruppa per una colonna ({Category}), una colonna di una tabella riferita ({Item&gt;Supplier}) o una data per mese, trimestre o anno; misura un valore come {Qty} * {Price} (Somma, Media, Mediana...), solo quando una condizione è vera ({Kind} = &quot;Sale&quot;), o come formula delle altre misure ({M1} / {M2}). Esempio - entrate mensili: raggruppa {Date} per mese, misura Somma di {Qty} * {Price}. Funzioni... elenca tutto ciò che una formula può usare."/>
+    <entry key="Measures" value="Misure"/>
+    <entry key="Name:" value="Nome:"/>
+    <entry key="Give the statistic a name to save it." value="Dai un nome alla statistica per salvarla."/>
+    <entry key="(no date range)" value="(nessun intervallo di date)"/>
+    <entry key="Choose at least one measure (for example Count)." value="Scegli almeno una misura (per esempio Conteggio)."/>
+    <entry key="PDF report..." value="Report PDF..."/>
+    <entry key="day" value="giorno"/>
+    <entry key="Dates by" value="Date per"/>
+    <entry key="month" value="mese"/>
+    <entry key="(the value)" value="(il valore)"/>
+    <entry key="quarter" value="trimestre"/>
+    <entry key="week" value="settimana"/>
+    <entry key="year" value="anno"/>
+    <entry key="%d row(s)." value="%d righe."/>
+    <entry key="Saved:" value="Salvate:"/>
+    <entry key="Saved." value="Salvato."/>
+    <entry key="Save" value="Salva"/>
+    <entry key="change (%) from the row before" value="variazione (%) dalla riga precedente"/>
+    <entry key="difference from the row before" value="differenza dalla riga precedente"/>
+    <entry key="Shown as" value="Mostrata come"/>
+    <entry key="% of the total" value="percentuale del totale (%)"/>
+    <entry key="rank (1 = the largest)" value="posizione (1 = il più grande)"/>
+    <entry key="running total" value="totale progressivo"/>
+    <entry key="the value" value="il valore"/>
+    <entry key="the groups" value="i gruppi"/>
+    <entry key="Sort by:" value="Ordina per:"/>
+    <entry key="measure %d" value="misura %d"/>
+    <entry key="the records active in each period" value="i record attivi in ogni periodo"/>
+    <entry key="the last record up to each period" value="l'ultimo record fino a ogni periodo"/>
+    <entry key="the past values of a column (operations log)" value="i valori passati di una colonna (registro delle operazioni)"/>
+    <entry key="Each period counts the records active in it: started on or before its end, and not ended before its start (staff, contracts, rentals). The first group splits them." value="Ogni periodo conta i record attivi in esso: iniziati entro la sua fine e non terminati prima del suo inizio (personale, contratti, noleggi). Il primo raggruppamento li suddivide."/>
+    <entry key="Each period takes the last record dated up to its end, carried forward until a newer one (a price list, readings); one for every value of the first group." value="Ogni periodo prende l'ultimo record datato fino alla sua fine, mantenuto finché non ne arriva uno più recente (un listino prezzi, letture); uno per ogni valore del primo raggruppamento."/>
+    <entry key="Each period takes the value the column had at its end, from the changes kept in the operations log (before the first change: the value it had then). Use the column in a measure: Average of {Price}." value="Ogni periodo prende il valore che la colonna aveva alla sua fine, dalle modifiche conservate nel registro delle operazioni (prima della prima modifica: il valore che aveva allora). Usa la colonna in una misura: Media di {Price}."/>
+    <entry key="The records grouped by the values below; the measures over each group." value="I record raggruppati per i valori qui sotto; le misure su ogni gruppo."/>
+    <entry key="Made of:" value="Composta da:"/>
+    <entry key="the records, grouped" value="i record, raggruppati"/>
+    <entry key="Date / start:" value="Data / inizio:"/>
+    <entry key="Every:" value="Ogni:"/>
+    <entry key="Statistics" value="Statistiche"/>
+    <entry key="Table:" value="Tabella:"/>
+    <entry key="Period" value="Periodo"/>
+    <entry key="Statistics" value="Statistiche"/>
+    <entry key="Total" value="Totale"/>
+    <entry key="to" value="al"/>
+    <entry key="Column:" value="Colonna:"/>
+    <entry key="Only records where:" value="Solo i record dove:"/>
+    <entry key="%s - locked" value="%s - bloccato"/>
+    <entry key="No database open" value="Nessun database aperto"/>
+    <entry key="Ready" value="Pronto"/>
+    <entry key="Computer" value="Computer"/>
+    <entry key="Copy to the clipboard" value="Copia negli appunti"/>
+    <entry key="Architecture" value="Architettura"/>
+    <entry key="Data folder" value="Cartella dati"/>
+    <entry key="Database open" value="Database aperto"/>
+    <entry key="Program" value="Programma"/>
+    <entry key="Language" value="Lingua"/>
+    <entry key="Memory" value="Memoria"/>
+    <entry key="Operating system" value="Sistema operativo"/>
+    <entry key="Screen scale" value="Scala dello schermo"/>
+    <entry key="User" value="Utente"/>
+    <entry key="Table %s changed." value="Tabella %s modificata."/>
+    <entry key="Columns (double-click to edit; their order is the order of the entry form):" value="Colonne (doppio clic per modificare; l'ordine è quello del modulo di inserimento):"/>
+    <entry key="Table %s created." value="Tabella %s creata."/>
+    <entry key="Items" value="Articoli"/>
+    <entry key="Discard the changes to this structure?" value="Scartare le modifiche a questa struttura?"/>
+    <entry key="Shown as (optional):" value="Mostrata come (facoltativo):"/>
+    <entry key="Structure: %s" value="Struttura: %s"/>
+    <entry key="%lld record(s). Existing columns cannot be removed. Changing the type, Required or Unique of a column converts and checks every record." value="%lld record. Le colonne esistenti non si possono rimuovere. Cambiare il tipo, Obbligatorio o Univoco di una colonna converte e controlla tutti i record."/>
+    <entry key="Every record gets a record number (#) by itself. Tables only grow: columns can be added, renamed and changed later, but never removed." value="Ogni record riceve da solo un numero (#). Le tabelle possono solo crescere: le colonne si possono aggiungere, rinominare e modificare in seguito, ma mai rimuovere."/>
+    <entry key="Create or apply the table first: the rows of a file are added to the table as it is saved." value="Prima crea o applica la tabella: le righe di un file sono aggiunte alla tabella così come è salvata."/>
+    <entry key="Import from file..." value="Importa da file..."/>
+    <entry key="Table name:" value="Nome tabella:"/>
+    <entry key="New table" value="Nuova tabella"/>
+    <entry key="Create the columns" value="Crea le colonne"/>
+    <entry key="How many details (columns) does an item have?" value="Quanti dettagli (colonne) ha un articolo?"/>
+    <entry key="Close the tab" value="Chiudi la scheda"/>
+    <entry key="Work is running on the database: the tab can be closed when it ends." value="Un lavoro è in corso sul database: la scheda si può chiudere quando finisce."/>
+    <entry key="The tab &quot;%s&quot; has work pending:&#10;&#10;%s&#10;Close it anyway?" value="La scheda &quot;%s&quot; ha lavoro in sospeso:&#10;&#10;%s&#10;Chiuderla comunque?"/>
+    <entry key="Keep it open" value="Tienila aperta"/>
+    <entry key="a query typed and not run" value="una query scritta e non eseguita"/>
+    <entry key="changes not applied yet" value="modifiche non ancora applicate"/>
+    <entry key="{Column} the value of another column, {Column:3} its first 3 characters, {Column:-3} its last 3, {Column|upper} in capitals; {seq} a counter, {seq:4} as 0001; {date}, {date:YYYYMMDD}, {time}, {user}, {table}, {db}, {uuid}." value="{Colonna} il valore di un'altra colonna, {Colonna:3} i suoi primi 3 caratteri, {Colonna:-3} gli ultimi 3, {Colonna|upper} in maiuscolo; {seq} un contatore, {seq:4} come 0001; {date}, {date:YYYYMMDD}, {time}, {user}, {table}, {db}, {uuid}."/>
+    <entry key="Dark" value="Scuro"/>
+    <entry key="Light" value="Chiaro"/>
+    <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="Il nuovo tema si applica ai colori del programma, anche alle finestre aperte da ora in poi. Le parti disegnate dal sistema (barre del titolo, barre di scorrimento) cambiano al prossimo avvio."/>
+    <entry key="Select the theme:" value="Scegli il tema:"/>
+    <entry key="Theme" value="Tema"/>
+    <entry key="Attachment (file)" value="Allegato (file)"/>
+    <entry key="Yes / No" value="Sì / No"/>
+    <entry key="Choice from a list" value="Scelta da un elenco"/>
+    <entry key="Date" value="Data"/>
+    <entry key="Date and time" value="Data e ora"/>
+    <entry key="Decimal number" value="Numero decimale"/>
+    <entry key="Whole number" value="Numero intero"/>
+    <entry key="Long text (several lines)" value="Testo lungo (più righe)"/>
+    <entry key="Reference to another table" value="Riferimento a un'altra tabella"/>
+    <entry key="Text (one line)" value="Testo (una riga)"/>
+    <entry key="Time" value="Ora"/>
+    <entry key="Enter the admin password to open the database." value="Inserisci la password amministratore per aprire il database."/>
+    <entry key="Unlock the database" value="Sblocca il database"/>
+    <entry key="Wait %d s before the next attempt." value="Attendi %d s prima del prossimo tentativo."/>
+    <entry key="Use now" value="Usa ora"/>
+    <entry key="The key file is damaged." value="Il file delle chiavi è danneggiato."/>
+    <entry key="The operation failed - see the application log." value="L'operazione non è riuscita: vedere il log dell'applicazione."/>
+    <entry key="A file could not be read or written." value="Non è stato possibile leggere o scrivere un file."/>
+    <entry key="The key file does not belong to this database (one of the two was replaced or restored without the other)." value="Il file chiave non appartiene a questo database (uno dei due è stato sostituito o ripristinato senza l'altro)."/>
+    <entry key="This is not possible now." value="Non è possibile adesso."/>
+    <entry key="The database did not open in the format set in the settings. Choose the right format, or answer Yes to try all the formats." value="Il database non si è aperto nel formato indicato nelle impostazioni. Scegli il formato giusto, o rispondi Sì per provare tutti i formati."/>
+    <entry key="Version history (newest first):" value="Storia delle versioni (le più recenti prima):"/>
+    <entry key="Version: %s&#10;Commit: %d (built %s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="Versione: %s&#10;Commit: %d (compilata il %s)&#10;Tipo di build: %s&#10;Sorgente (git): %s&#10;Cartella dei dati: %s"/>
+    <entry key="Version Information" value="Informazioni sulla versione"/>
+    <entry key="An attached file could not be copied: %s" value="Impossibile copiare un file allegato: %s"/>
+    <entry key="Not enough quantity: there is only %s." value="Quantità insufficiente: ce n'è solo %s."/>
+    <entry key="A table of this database can hold at most %d records: no more can be added (Home shows the limits of the program)." value="Una tabella di questo database può contenere al massimo %d record: non se ne possono aggiungere altri (Home mostra i limiti del programma)."/>
+    <entry key="This table is changed through its operations (Perform operation): they check every value and keep the documents. Only an account with Full access writes it directly." value="Questa tabella si modifica con le sue operazioni (Esegui operazione): controllano ogni valore e conservano i documenti. Solo un account con Accesso completo la scrive direttamente."/>
+    <entry key="Quantities change only through operations (with a reason): they cannot be typed in a form, the grid or a merge." value="Le quantità cambiano solo con le operazioni (con una causale): non si possono digitare in un modulo, nella griglia o in un'unione."/>
+    <entry key="This table has more columns than the program allows: it can be read, not changed (Home shows the limits of the program)." value="Questa tabella ha più colonne di quante ne consenta il programma: si può leggere, non modificare (Home mostra i limiti del programma)."/>
+    <entry key="Yes" value="Sì"/>
+    <entry key="Yes" value="Sì"/>
+</translation>

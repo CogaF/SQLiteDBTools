@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="ja" name="日本語">
+    <entry key="About" value="バージョン情報"/>
+    <entry key="Changes" value="変更履歴"/>
+    <entry key="Compliance" value="ライセンス遵守"/>
+    <entry key="Dependencies" value="依存コンポーネント"/>
+    <entry key="License" value="ライセンス"/>
+    <entry key="System" value="システム"/>
+    <entry key="Third-party notices" value="サードパーティの通知"/>
+    <entry key="About %s" value="%s のバージョン情報"/>
+    <entry key="Version %s - commit %d, built %s (%s)" value="バージョン %s - コミット %d、ビルド %s (%s)"/>
+    <entry key="Active" value="有効"/>
+    <entry key="Full access account name:" value="フルアクセス アカウント名："/>
+    <entry key="Created" value="作成日時"/>
+    <entry key="Created by" value="作成者"/>
+    <entry key="Full name" value="氏名"/>
+    <entry key="Level" value="レベル"/>
+    <entry key="Name" value="名前"/>
+    <entry key="Status" value="状態"/>
+    <entry key="The accounts are on. Log in now with one of them." value="アカウントが有効になりました。いずれかのアカウントで今すぐログインしてください。"/>
+    <entry key="With accounts, everyone who opens this database logs in with a name and a password, can do only what the level of the account allows, and every operation is recorded with the account. Two accounts are made now: a Master account, which only manages the accounts, and a Full access account for the work. Accounts are never deleted (an account can be locked). Keep the Master password safe: nobody can recover it." value="アカウントを使用すると、このデータベースを開くすべてのユーザーが名前とパスワードでログインし、アカウントのレベルで許可された操作だけを行えます。すべての操作はアカウントとともに記録されます。ここでは 2 つのアカウントを作成します。アカウントの管理だけを行うマスター アカウントと、作業用のフルアクセス アカウントです。アカウントは削除されません (ロックはできます)。マスター パスワードは安全に保管してください。誰も回復できません。"/>
+    <entry key="Switch on the accounts" value="アカウントを有効にする"/>
+    <entry key="Full name:" value="氏名："/>
+    <entry key="Change level..." value="レベルの変更..."/>
+    <entry key="New level of %s:" value="%s の新しいレベル："/>
+    <entry key="Level:" value="レベル："/>
+    <entry key="Level of the account" value="アカウントのレベル"/>
+    <entry key="Locked" value="ロック中"/>
+    <entry key="Lock" value="ロック"/>
+    <entry key="Lock the account %s? It can no longer log in until it is unlocked." value="アカウント %s をロックしますか？ロックを解除するまでログインできなくなります。"/>
+    <entry key="Logged in as %s (%s)." value="%s (%s) としてログインしています。"/>
+    <entry key="Master account name:" value="マスター アカウント名："/>
+    <entry key="Name:" value="名前："/>
+    <entry key="New account..." value="新しいアカウント..."/>
+    <entry key="New account" value="新しいアカウント"/>
+    <entry key="Master manages every account; Full access manages Read only, Entry only and Modify data accounts. Accounts are never deleted: lock the ones no longer used (their names stay in the operations log)." value="マスターはすべてのアカウントを管理し、フルアクセスは読み取り専用、入力のみ、データ変更の各アカウントを管理します。アカウントは削除されません。使わなくなったアカウントはロックしてください (名前は操作ログに残ります)。"/>
+    <entry key="New password..." value="新しいパスワード..."/>
+    <entry key="New password of %s:" value="%s の新しいパスワード："/>
+    <entry key="The password was changed." value="パスワードを変更しました。"/>
+    <entry key="New password" value="新しいパスワード"/>
+    <entry key="Users and access" value="ユーザーとアクセス"/>
+    <entry key="Unlock" value="ロック解除"/>
+    <entry key="Current password:" value="現在のパスワード："/>
+    <entry key="This name cannot be used for an account." value="この名前はアカウントに使用できません。"/>
+    <entry key="An account with this name already exists." value="この名前のアカウントは既に存在します。"/>
+    <entry key="Your account is not allowed to do this." value="このアカウントにはこの操作が許可されていません。"/>
+    <entry key="The account does not exist." value="アカウントが存在しません。"/>
+    <entry key="You cannot change the level of your own account or lock it." value="自分のアカウントのレベルを変更したり、ロックしたりすることはできません。"/>
+    <entry key="The password must have at least %d characters." value="パスワードは %d 文字以上にしてください。"/>
+    <entry key="New password:" value="新しいパスワード："/>
+    <entry key="Password:" value="パスワード："/>
+    <entry key="Add column..." value="列の追加..."/>
+    <entry key="Admin password:" value="管理者パスワード："/>
+    <entry key="Apply" value="適用"/>
+    <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="この変更は、アプリケーションの起動時にのみ完全に適用されます。&#10;&#10;今すぐ再起動：保存してアプリケーションを自動的に再起動します。&#10;今すぐ使用：保存してすぐに使用します。一部は次回の起動時にのみ変わります。&#10;次回の起動時に適用：保存だけを行います。"/>
+    <entry key="Apply changes" value="変更の適用"/>
+    <entry key="Any file" value="任意のファイル"/>
+    <entry key="Archives (zip, 7z, rar, tar, gz, ...)" value="アーカイブ (zip、7z、rar、tar、gz、...)"/>
+    <entry key="Choose the file for %s" value="%s のファイルの選択"/>
+    <entry key="Spreadsheets (xls, xlsx, ods, csv)" value="スプレッドシート (xls、xlsx、ods、csv)"/>
+    <entry key="All files" value="すべてのファイル"/>
+    <entry key="Accepted files" value="使用できるファイル"/>
+    <entry key="Images (jpg, png, gif, bmp, tif, webp, svg, ...)" value="画像 (jpg、png、gif、bmp、tif、webp、svg、...)"/>
+    <entry key="Files accepted:" value="使用できるファイル："/>
+    <entry key="PDF documents" value="PDF ドキュメント"/>
+    <entry key="Text files (txt, md, xml, json, log)" value="テキスト ファイル (txt、md、xml、json、log)"/>
+    <entry key="Documents (doc, docx, odt, rtf)" value="ドキュメント (doc、docx、odt、rtf)"/>
+    <entry key="Check Again" value="再チェック"/>
+    <entry key="All %s attached files of %s records are in %s." value="添付ファイル %s 個 (レコード %s 件) はすべて %s にあります。"/>
+    <entry key="The record keeps a %s file: choose a file of that kind (the name it keeps does not change)." value="このレコードは %s ファイルを保持しています: その種類のファイルを選択してください (保持している名前は変わりません)。"/>
+    <entry key="The attachments could not all be checked." value="一部の添付ファイルをチェックできませんでした。"/>
+    <entry key="Fixed" value="修復済み"/>
+    <entry key="The file could not be put into the attachment folder." value="ファイルを添付ファイル フォルダーに配置できませんでした。"/>
+    <entry key="Fix %s..." value="%s を修復..."/>
+    <entry key="Every file attached to the records is looked for in the attachment folder. The records whose files are missing are listed below, their missing files in red: &quot;Fix&quot; puts back the file you choose under the name the record keeps (the record itself does not change)." value="レコードに添付された各ファイルを添付ファイル フォルダーで検索します。ファイルが見つからないレコードを下に示し、見つからないファイルは赤で表示します: &quot;修復&quot; は選択したファイルを、レコードが保持している名前で戻します (レコード自体は変更されません)。"/>
+    <entry key="%s of %s attached files are missing (in %s records) from %s." value="添付ファイル %s 個 (全 %s 個、レコード %s 件) が %s にありません。"/>
+    <entry key="... and %s more records: fix these, then check again." value="... ほかに %s 件のレコード: これらを修復してから再チェックしてください。"/>
+    <entry key="Attachment Check" value="添付ファイルのチェック"/>
+    <entry key="%s - %d record(s) with missing files" value="%s - ファイルが見つからないレコード %d 件"/>
+    <entry key="Attention" value="注意"/>
+    <entry key="This folder cannot be used: give a full path (e.g. D:\Files\Stock)." value="このフォルダーは使用できません：完全なパスを指定してください (例：D:\Files\Stock)。"/>
+    <entry key="Relative to the folder of the database (default: &lt;name&gt;.files next to it)" value="データベースのフォルダーを基準にする (既定：データベースの隣の &lt;name&gt;.files)"/>
+    <entry key="A folder of my choice" value="任意のフォルダー"/>
+    <entry key="Relative to the folder of the program" value="プログラムのフォルダーを基準にする"/>
+    <entry key="This database keeps its attachments in:&#10;%s&#10;&#10;That folder is outside the folder of the database. Use it on this computer?&#10;&#10;No: the attachments are looked for in %s this time." value="このデータベースは添付ファイルを次の場所に保存しています：&#10;%s&#10;&#10;このフォルダーはデータベースのフォルダーの外にあります。このコンピューターで使用しますか?&#10;&#10;いいえ：今回は添付ファイルを %s で探します。"/>
+    <entry key="Copy them into the new folder (the old folder stays as it is)" value="新しいフォルダーにコピーする (古いフォルダーはそのまま残ります)"/>
+    <entry key="The files could not all be copied; the folder was not changed.&#10;&#10;%s" value="一部のファイルをコピーできませんでした。フォルダーは変更されていません。&#10;&#10;%s"/>
+    <entry key="Attachments are now kept in:&#10;%s&#10;&#10;%d file(s) moved or copied, %d left in the old folder because a file of the same name was already in the new one." value="添付ファイルは現在次の場所に保存されています：&#10;%s&#10;&#10;%d 個のファイルを移動またはコピーしました。%d 個は新しいフォルダーに同じ名前のファイルが既にあったため、古いフォルダーに残しました。"/>
+    <entry key="The folder exists." value="フォルダーは存在します。"/>
+    <entry key="The current folder holds attached files:&#10;%s&#10;What should happen to them?" value="現在のフォルダーには添付されたファイルがあります：&#10;%s&#10;これらをどうしますか?"/>
+    <entry key="Files already attached" value="添付済みのファイル"/>
+    <entry key="Full path: %s" value="完全なパス：%s"/>
+    <entry key="Where the files attached to the records of this database are kept. The database stores only their names, so the folder can be moved with it." value="このデータベースのレコードに添付されたファイルの保存場所です。データベースにはファイル名だけが保存されるため、フォルダーはデータベースと一緒に移動できます。"/>
+    <entry key="Leave them where they are (they will be missing until moved by hand)" value="そのままにする (手動で移動するまで見つからなくなります)"/>
+    <entry key="Move them into the new folder" value="新しいフォルダーに移動する"/>
+    <entry key="The folder does not exist yet: it is created with the first attachment." value="フォルダーはまだ存在しません：最初の添付ファイルと一緒に作成されます。"/>
+    <entry key="Outside the folder of the database: other computers use it only after confirming it." value="データベースのフォルダーの外：他のコンピューターは確認した後にのみ使用します。"/>
+    <entry key="Folder:" value="フォルダー："/>
+    <entry key="Attachment Folder" value="添付ファイル フォルダー"/>
+    <entry key="The lock covers the window and keeps the tabs and the work open: the password of the account (or of the database) uncovers it. A warning appears 30 seconds before. Default: 600 (10 minutes)." value="ロックはウィンドウを覆い、タブと作業は開いたまま保持されます。アカウント (またはデータベース) のパスワードで解除できます。30 秒前に警告が表示されます。既定値：600 (10 分)。"/>
+    <entry key="Lock the window after this many seconds without activity (0 = never):" value="操作がない状態でこの秒数が経過したらウィンドウをロックする (0 = ロックしない)："/>
+    <entry key="add a record to another table" value="別のテーブルにレコードを追加する"/>
+    <entry key="Then:" value="実行する処理："/>
+    <entry key="refuse the change with a message" value="メッセージを表示して変更を拒否する"/>
+    <entry key="set values of the same record" value="同じレコードの値を設定する"/>
+    <entry key="change records of another table" value="別のテーブルのレコードを変更する"/>
+    <entry key="(any)" value="(任意)"/>
+    <entry key="Check" value="チェック"/>
+    <entry key="The automation is correct." value="自動処理は正しく設定されています。"/>
+    <entry key="Condition:" value="条件："/>
+    <entry key="Automation" value="自動処理"/>
+    <entry key="Switched on" value="有効"/>
+    <entry key="added" value="追加された"/>
+    <entry key="{AUTO_EVENT_CHANGED}changed" value="変更された"/>
+    <entry key="deleted" value="削除された"/>
+    <entry key="Values are expressions: {Column} is a value of the record (when it is changed or deleted, {old.Column} is the value before), {Reference&gt;Column} a value of the record it refers to, numbers, 'texts', + - * /, &amp; joins texts, and the functions round(x, n), abs, min, max, coalesce, upper, lower, length, trim, substr, today(), now(), date, year, month, day, days(from, to). Example: when a movement is added, change the Items whose Code = {Item}: Stock -= {Qty}." value="値は式で指定します。{列名} はレコードの値 (変更時または削除時は {old.列名} が変更前の値)、{参照列&gt;列名} は参照先レコードの値です。数値、'テキスト'、+ - * /、&amp; (テキストの連結) と、関数 round(x, n)、abs、min、max、coalesce、upper、lower、length、trim、substr、today()、now()、date、year、month、day、days(from, to) を使用できます。例：入出庫が追加されたとき、コード = {品目} の品目を変更する：在庫 -= {数量}。"/>
+    <entry key="Its records where:" value="対象レコードの条件："/>
+    <entry key="Message:" value="メッセージ："/>
+    <entry key="+=" value="+="/>
+    <entry key="=" value="="/>
+    <entry key="-=" value="-="/>
+    <entry key="Name:" value="名前："/>
+    <entry key="Give the automation a name." value="自動処理に名前を付けてください。"/>
+    <entry key="only if" value="次の場合のみ"/>
+    <entry key="Other table:" value="別のテーブル："/>
+    <entry key="Digits (zero padded, 0 = none):" value="桁数 (ゼロ埋め、0 = なし)："/>
+    <entry key="Remove the automation &quot;%s&quot;? No data is changed." value="自動処理 &quot;%s&quot; を削除しますか？データは変更されません。"/>
+    <entry key="Automation &quot;%s&quot; saved." value="自動処理 &quot;%s&quot; を保存しました。"/>
+    <entry key="Columns set (column, how, value)" value="設定する列 (列、方法、値)"/>
+    <entry key="Start:" value="開始値："/>
+    <entry key="Step:" value="増分："/>
+    <entry key="Table:" value="テーブル："/>
+    <entry key="column:" value="列："/>
+    <entry key="When a record is:" value="レコードが次のとき："/>
+    <entry key="Working... %d%% (%d s)" value="処理中... %d%% (%d 秒)"/>
+    <entry key="Working... %d s" value="処理中... %d 秒"/>
+    <entry key="Stopping..." value="停止しています..."/>
+    <entry key="Stop" value="停止"/>
+    <entry key="Development (Debug)" value="開発版 (デバッグ)"/>
+    <entry key="Final release" value="正式リリース"/>
+    <entry key="Release candidate" value="リリース候補"/>
+    <entry key="Cancel" value="キャンセル"/>
+    <entry key="The database is not re-encrypted; the recovery key stays valid." value="データベースは再暗号化されません。回復キーは引き続き有効です。"/>
+    <entry key="Change the admin password" value="管理者パスワードの変更"/>
+    <entry key="Choices (one per line):" value="選択肢 (1 行に 1 つ)："/>
+    <entry key="Choose the table:" value="テーブルを選択してください："/>
+    <entry key="How: AES-256 in CBC mode; the key is stretched with a SHA-based function (the defaults of SQLite3 Multiple Ciphers).&#10;&#10;Pros:&#10;- AES, the most familiar cipher;&#10;- the format of wxSQLite3 applications.&#10;&#10;Cons:&#10;- pages are NOT authenticated: a tampered file is not detected as reliably as with the other formats;&#10;- not SQLCipher compatible;&#10;- the oldest scheme of the three; fewer tools.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers and wxSQLite3 (AES-256 mode) and this application. Choose it only if another program of yours needs it." value="方式：CBC モードの AES-256。キーは SHA ベースの関数で強化されます (SQLite3 Multiple Ciphers の既定値)。&#10;&#10;長所：&#10;- 最もよく知られた暗号である AES&#10;- wxSQLite3 アプリケーションの形式&#10;&#10;短所：&#10;- ページが認証されないため、改ざんされたファイルを他の形式ほど確実には検出できません&#10;- SQLCipher と互換性がありません&#10;- 3 つの中で最も古い方式で、対応ツールが少なめです&#10;&#10;互換性：SQLite3 Multiple Ciphers と wxSQLite3 (AES-256 モード) を使用したプログラム、およびこのアプリケーション。お使いの別のプログラムで必要な場合にのみ選択してください。"/>
+    <entry key="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)" value="AES-256-CBC (SQLite3 Multiple Ciphers / wxSQLite3)"/>
+    <entry key="How: ChaCha20 stream cipher with Poly1305 authentication on every page; the file has no readable header (it looks like random data).&#10;&#10;Pros:&#10;- fast also on PCs without AES hardware;&#10;- modern, authenticated cipher;&#10;- nothing in the file says it is a database.&#10;&#10;Cons:&#10;- not SQLCipher compatible: the standard DB Browser for SQLite and the SQLCipher tools cannot open it;&#10;- fewer programs support it.&#10;&#10;Compatible with: programs built on SQLite3 Multiple Ciphers (its own shell, wxSQLite3 applications, libraries and bindings based on it) and this application." value="方式：すべてのページに Poly1305 認証を付けた ChaCha20 ストリーム暗号。ファイルには読み取れるヘッダーがありません (ランダムなデータのように見えます)。&#10;&#10;長所：&#10;- AES ハードウェアのない PC でも高速&#10;- 最新の認証付き暗号&#10;- ファイルの内容からデータベースであることがわかりません&#10;&#10;短所：&#10;- SQLCipher と互換性がないため、標準の DB Browser for SQLite や SQLCipher のツールでは開けません&#10;- 対応するプログラムが少なめです&#10;&#10;互換性：SQLite3 Multiple Ciphers を使用したプログラム (専用のシェル、wxSQLite3 アプリケーション、これをベースにしたライブラリやバインディング)、およびこのアプリケーション。"/>
+    <entry key="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)" value="ChaCha20-Poly1305 (SQLite3 Multiple Ciphers)"/>
+    <entry key="How: AES-256 in CBC mode with HMAC-SHA512 on every page; the key is stretched with PBKDF2-SHA512 (256000 rounds).&#10;&#10;Pros:&#10;- the most widely supported encrypted SQLite format;&#10;- every page is authenticated: a modified file is detected;&#10;- opens with the standard SQLCipher tools.&#10;&#10;Cons:&#10;- a program without SQLCipher support (plain SQLite) cannot read it;&#10;- opening takes a moment longer (key stretching).&#10;&#10;Compatible with: DB Browser for SQLite (choose &quot;SQLCipher 4 defaults&quot;), the sqlcipher shell 4.x, SQLCipher libraries for Python, .NET, Java, Android and iOS, and every tool based on SQLite3 Multiple Ciphers." value="方式：すべてのページに HMAC-SHA512 を付けた CBC モードの AES-256。キーは PBKDF2-SHA512 (256000 ラウンド) で強化されます。&#10;&#10;長所：&#10;- 最も広くサポートされている暗号化 SQLite 形式&#10;- すべてのページが認証されるため、変更されたファイルを検出できます&#10;- 標準の SQLCipher ツールで開けます&#10;&#10;短所：&#10;- SQLCipher に対応していないプログラム (通常の SQLite) では読み取れません&#10;- 開くのに少し時間がかかります (キーの強化)&#10;&#10;互換性：DB Browser for SQLite (&quot;SQLCipher 4 defaults&quot; を選択)、sqlcipher シェル 4.x、Python、.NET、Java、Android、iOS 向けの SQLCipher ライブラリ、および SQLite3 Multiple Ciphers をベースにしたすべてのツール。"/>
+    <entry key="SQLCipher 4 (recommended)" value="SQLCipher 4 (推奨)"/>
+    <entry key="This database already has a table %s (%s records). What should happen?" value="このデータベースには既にテーブル %s (%s 件のレコード) があります。どうしますか?"/>
+    <entry key="The table %s cannot be replaced: it is still needed by %s. Rename it instead, or remove those references first." value="テーブル %s は置き換えられません: まだ %s で使用されています。代わりに名前を変更するか、先にそれらの参照を削除してください。"/>
+    <entry key="Give the copied table another name:" value="コピーしたテーブルに別の名前を付ける:"/>
+    <entry key="Rename the table of this database to:" value="このデータベースのテーブルの名前を次に変更:"/>
+    <entry key="Replace the table of this database" value="このデータベースのテーブルを置き換える"/>
+    <entry key="Delete the table %s and its %s records permanently?&#10;&#10;This cannot be undone." value="テーブル %s とその %s 件のレコードを完全に削除しますか?&#10;&#10;この操作は元に戻せません。"/>
+    <entry key="Replace removes the table %s with its %s records, its automations and print profiles: they are lost permanently and cannot be recovered." value="置き換えると、テーブル %s とその %s 件のレコード、自動処理、印刷プロファイルが削除されます。これらは完全に失われ、復元できません。"/>
+    <entry key="A Table with This Name" value="同じ名前のテーブル"/>
+    <entry key="Clear" value="クリア"/>
+    <entry key="Clear Log" value="ログのクリア"/>
+    <entry key="Close" value="閉じる"/>
+    <entry key="Existing columns cannot be removed: tables only grow." value="既存の列は削除できません。テーブルは拡張のみ可能です。"/>
+    <entry key="Detail %d" value="詳細 %d"/>
+    <entry key="Help text (optional):" value="ヘルプ テキスト (省略可)："/>
+    <entry key="Shown as (optional):" value="表示名 (省略可)："/>
+    <entry key="Write at least one choice." value="選択肢を 1 つ以上入力してください。"/>
+    <entry key="The fixed value is not valid for this column: %s" value="固定値がこの列に対して有効ではありません：%s"/>
+    <entry key="Choose at least one kind of file." value="ファイルの種類を 1 つ以上選択してください。"/>
+    <entry key="The smallest value is larger than the largest." value="最小値が最大値より大きくなっています。"/>
+    <entry key="&quot;%s&quot; is not a number." value="&quot;%s&quot; は数値ではありません。"/>
+    <entry key="The pattern is not a valid regular expression." value="パターンが有効な正規表現ではありません。"/>
+    <entry key="Choose the table and the column referred to." value="参照先のテーブルと列を選択してください。"/>
+    <entry key="A unique column cannot have the same fixed value for every record: choose another default." value="一意の列では、すべてのレコードに同じ固定値を設定できません。別の既定値を選択してください。"/>
+    <entry key="Name:" value="名前："/>
+    <entry key="Required (cannot be empty)" value="必須 (空にできません)"/>
+    <entry key="Column" value="列"/>
+    <entry key="Type:" value="型："/>
+    <entry key="Unique (no two records with the same value)" value="一意 (同じ値のレコードを 2 つ以上持てません)"/>
+    <entry key="Default" value="既定値"/>
+    <entry key="Name" value="名前"/>
+    <entry key="Rules" value="ルール"/>
+    <entry key="State" value="状態"/>
+    <entry key="Type" value="型"/>
+    <entry key="changed" value="変更"/>
+    <entry key="new" value="新規"/>
+    <entry key="Do the same for all the next conflicts (%d record(s) left)" value="以降のすべての競合に同じ処理を行う (残り %d 件のレコード)"/>
+    <entry key="Record here" value="このデータベースのレコード"/>
+    <entry key="Merged record" value="マージするレコード"/>
+    <entry key="Record #%lld of the merged database has %s = &quot;%s&quot;, which record #%lld here already has (the column is unique)." value="マージするデータベースのレコード #%lld は %s = &quot;%s&quot; ですが、この値はこちらのレコード #%lld が既に使用しています (この列は一意です)。"/>
+    <entry key="Keep both (change the value)" value="両方を保持 (値を変更)"/>
+    <entry key="Overwrite the record here" value="こちらのレコードを上書き"/>
+    <entry key="Skip it" value="スキップ"/>
+    <entry key="Stop merging" value="マージを中止"/>
+    <entry key="Conflict" value="競合"/>
+    <entry key="Create table" value="テーブルの作成"/>
+    <entry key="Current admin password:" value="現在の管理者パスワード："/>
+    <entry key="Date format:" value="日付の形式："/>
+    <entry key="Choose how the database is encrypted. You can change it at any time: the whole database is converted (a few seconds) and your choice is saved in the settings. The key and the admin password do not change. The admin password is asked to confirm." value="データベースの暗号化方式を選択します。いつでも変更でき、その場合はデータベース全体が変換され (数秒)、選択内容は設定に保存されます。キーと管理者パスワードは変わりません。確認のため管理者パスワードの入力を求められます。"/>
+    <entry key=" (in use)" value=" (使用中)"/>
+    <entry key="Database format" value="データベースの形式"/>
+    <entry key="The password is right, but the database did not open in the format set in the settings: %s.&#10;&#10;The file may be in another format. Try all the available formats? The one that matches is converted to the format of the settings." value="パスワードは正しいですが、設定されている形式 (%s) ではデータベースを開けませんでした。&#10;&#10;ファイルが別の形式である可能性があります。使用できるすべての形式を試しますか？一致した形式は、設定の形式に変換されます。"/>
+    <entry key="To show the key of the database (for opening a copy with another tool) the admin password is asked every time. Anyone who knows this key and has a copy of the database can read it: show it only when needed and do not keep it." value="データベースのキー (別のツールでコピーを開くためのもの) を表示するには、毎回管理者パスワードの入力が必要です。このキーを知っていてデータベースのコピーを持つ人は誰でも内容を読み取れます。必要なときだけ表示し、キーは保管しないでください。"/>
+    <entry key="Format of this database: %s" value="このデータベースの形式：%s"/>
+    <entry key="In DB Browser for SQLite: open a COPY of the database; in the SQLCipher window choose &quot;SQLCipher 4 defaults&quot;, set the key type to passphrase (plain text), paste this text as the password and press OK." value="DB Browser for SQLite の場合：データベースのコピーを開き、SQLCipher ウィンドウで &quot;SQLCipher 4 defaults&quot; を選択し、キーの種類をパスフレーズ (プレーン テキスト) に設定し、このテキストをパスワードとして貼り付けて OK を押します。"/>
+    <entry key="This format (%s) is not SQLCipher: the standard DB Browser for SQLite and the SQLCipher tools cannot open it. Open a COPY with a program built on SQLite3 Multiple Ciphers, selecting this cipher and entering the text as a passphrase - or choose SQLCipher 4 in Database &gt; Security &gt; Database Format." value="この形式 (%s) は SQLCipher ではないため、標準の DB Browser for SQLite や SQLCipher のツールでは開けません。SQLite3 Multiple Ciphers を使用したプログラムでコピーを開き、この暗号を選択してテキストをパスフレーズとして入力してください。または、[データベース] &gt; [セキュリティ] &gt; [データベースの形式] で SQLCipher 4 を選択してください。"/>
+    <entry key="This is the passphrase of the database file (64 characters). It is not the admin password. It stays valid until you use Database &gt; Security &gt; Rotate the Encryption Key." value="これはデータベース ファイルのパスフレーズ (64 文字) です。管理者パスワードではありません。[データベース] &gt; [セキュリティ] &gt; [暗号化キーの更新] を使用するまで有効です。"/>
+    <entry key="Database key" value="データベースのキー"/>
+    <entry key="SQLite DB Tools: create, open, protect and work on SQLite databases - tables, records, connections between tables, import, export, merge, SQL, statistics, prints, accounts - up to 255 tables of 255 columns and 522,003 records per database." value="SQLite DB Tools：SQLite データベースの作成、オープン、保護、操作を行います。テーブル、レコード、テーブル間の接続、インポート、エクスポート、マージ、SQL、統計、印刷、アカウントに対応し、1 つのデータベースにつき 255 列のテーブルを 255 個まで、レコードを 522,003 件まで扱えます。"/>
+    <entry key="Developed by %s." value="開発者：%s"/>
+    <entry key="All rights reserved. Free of charge: see the License tab." value="All rights reserved. 無料で使用できます。[ライセンス] タブを参照してください。"/>
+    <entry key="How the licenses of the components are respected:&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1): an LGPL with an exception that allows distributing applications linked with it, statically or dynamically, under their own terms. Its copyright notice is in THIRD-PARTY-NOTICES.md.&#10;- SQLite (public domain): no conditions.&#10;- SQLite3 Multiple Ciphers (MIT): its copyright and permission notice is shipped in THIRD-PARTY-NOTICES.md (next to the exe) and shown in the Third-party notices tab.&#10;- libsodium (ISC): its copyright and permission notice is shipped the same way.&#10;- PoDoFo (LGPL 2.0+ or MPL 2.0, used under the MPL 2.0): unmodified; its source is public at github.com/podofo/podofo. The libraries it links (OpenSSL - Apache 2.0, FreeType, libxml2, Fontconfig, Little CMS, zlib, libpng, libjpeg, libtiff) are under permissive licences; their notices are in THIRD-PARTY-NOTICES.md.&#10;- Microsoft Visual C++ runtime: redistributed under the Visual Studio license terms (Visual C++ Redistributable).&#10;&#10;No component is under a license that would require publishing the source code of this application. Cryptography: the application uses standard published algorithms (AES-256, ChaCha20-Poly1305, Argon2id); check the export rules of your country before taking it abroad." value="コンポーネントのライセンスの遵守方法：&#10;&#10;- wxWidgets (wxWindows Library Licence 3.1)：LGPL に例外条項を加えたもので、静的・動的のいずれでもリンクしたアプリケーションを独自の条件で配布できます。著作権表示は THIRD-PARTY-NOTICES.md にあります。&#10;- SQLite (パブリック ドメイン)：条件はありません。&#10;- SQLite3 Multiple Ciphers (MIT)：著作権表示と許諾表示を THIRD-PARTY-NOTICES.md (exe と同じフォルダー) に同梱し、[サードパーティの通知] タブに表示しています。&#10;- libsodium (ISC)：著作権表示と許諾表示を同じ方法で同梱しています。&#10;- PoDoFo (LGPL 2.0+ または MPL 2.0、MPL 2.0 の下で使用)：変更していません。ソースは github.com/podofo/podofo で公開されています。リンクしているライブラリ (OpenSSL - Apache 2.0、FreeType、libxml2、Fontconfig、Little CMS、zlib、libpng、libjpeg、libtiff) は寛容なライセンスで提供されており、その通知は THIRD-PARTY-NOTICES.md にあります。&#10;- Microsoft Visual C++ ランタイム：Visual Studio のライセンス条項 (Visual C++ Redistributable) に従って再頒布しています。&#10;&#10;このアプリケーションのソース コードの公開を必要とするライセンスのコンポーネントはありません。暗号化：このアプリケーションは公開済みの標準アルゴリズム (AES-256、ChaCha20-Poly1305、Argon2id) を使用しています。国外に持ち出す前に、お住まいの国の輸出規制を確認してください。"/>
+    <entry key="One database is open at a time: %s was opened, these were left out (open another copy of SQLite DB Tools for them):" value="一度に開けるデータベースは 1 つです。%s を開きました。次のファイルは開いていません (別の SQLite DB Tools を起動して開いてください)："/>
+    <entry key="SQLite DB Tools does not open these files:" value="SQLite DB Tools では次のファイルを開けません："/>
+    <entry key="Only the first %d records and %d columns of each table are exported." value="各テーブルの最初の %d 件のレコードと %d 個の列のみがエクスポートされます。"/>
+    <entry key="Add SQLite DB Tools to 'Open with'" value="[プログラムから開く] に SQLite DB Tools を追加"/>
+    <entry key="Done: databases and files to import list SQLite DB Tools in 'Open with' (choose 'Always' to make it their program)." value="完了しました。データベースとインポートできるファイルの [プログラムから開く] に SQLite DB Tools が表示されます (既定のプログラムにするには [常に使う] を選択してください)。"/>
+    <entry key="Double click: Windows can offer SQLite DB Tools for databases and the files it imports (CSV, text, Excel, OpenDocument): choose once 'Open with &gt; Choose another app &gt; SQLite DB Tools &gt; Always'. Files can also be dropped on the window." value="ダブルクリック：Windows でデータベースやインポートできるファイル (CSV、テキスト、Excel、OpenDocument) に SQLite DB Tools を提示できます。一度だけ [プログラムから開く] &gt; [別のプログラムを選択] &gt; [SQLite DB Tools] &gt; [常に使う] を選択してください。ファイルをウィンドウにドロップすることもできます。"/>
+    <entry key="SQLite DB Tools was removed from the 'Open with' lists." value="[プログラムから開く] の一覧から SQLite DB Tools を削除しました。"/>
+    <entry key=" - only the first %d records are shown" value=" - 最初の %d 件のレコードのみ表示"/>
+    <entry key="Data" value="データ"/>
+    <entry key="Database" value="データベース"/>
+    <entry key="New (plain, with an admin password and recovery key, or with a passphrase), open, close, lock." value="新規作成 (保護なし、管理者パスワードと回復キー付き、またはパスフレーズ付き)、開く、閉じる、ロック。"/>
+    <entry key="Tables from CSV / text / Excel / OpenDocument files, export, merge another database, SQL queries, statistics, prints, the operations log, attached files." value="CSV / テキスト / Excel / OpenDocument ファイルからのテーブル作成、エクスポート、別のデータベースのマージ、SQL クエリ、統計、印刷、操作ログ、添付ファイル。"/>
+    <entry key="Recent databases" value="最近使ったデータベース"/>
+    <entry key="Accounts and protection" value="アカウントと保護"/>
+    <entry key="Accounts with their levels, passwords, the protection of the file." value="アカウントとそのレベル、パスワード、ファイルの保護。"/>
+    <entry key="Tables and records" value="テーブルとレコード"/>
+    <entry key="Tables and their columns, the connections between the tables of this database (references, relations, indexes, automations), records." value="テーブルとその列、このデータベースのテーブル間の接続 (参照、リレーション、インデックス、自動処理)、レコード。"/>
+    <entry key="Account: %s (%s)" value="アカウント：%s (%s)"/>
+    <entry key="Attachments: %s" value="添付ファイル：%s"/>
+    <entry key="Attachments: %s (the folder named by the database, %s, was not confirmed)" value="添付ファイル：%s (データベースが指定したフォルダー %s は確認されていません)"/>
+    <entry key="%d table(s) - protection: %s - operations log: %s" value="テーブル %d 個 - 保護：%s - 操作ログ：%s"/>
+    <entry key="SQLite databases, encrypted or not: one at a time in this window (open another copy of the program for another one). Every table, form, search, query and log opens in its own tab; this tab stays." value="SQLite データベース (暗号化の有無を問いません) をこのウィンドウで一度に 1 つ扱います (別のデータベースには、プログラムをもう 1 つ起動してください)。テーブル、フォーム、検索、クエリ、ログはそれぞれ専用のタブで開きます。このタブは常に表示されます。"/>
+    <entry key="Records: %s of %s - tables: %s of %s - columns per table: at most %d" value="レコード：%s / %s - テーブル：%s / %s - テーブルあたりの列：最大 %d"/>
+    <entry key="not available" value="使用できません"/>
+    <entry key="recorded" value="記録中"/>
+    <entry key="No database open" value="データベースが開かれていません"/>
+    <entry key="Create a new one or open one (also by dropping it on the window); the actions below wait for it." value="新しく作成するか、既存のデータベースを開いてください (ウィンドウにドロップしても開けます)。下の操作はデータベースを開くと使用できます。"/>
+    <entry key="Open: %s" value="開いているデータベース：%s"/>
+    <entry key="Read-only: this database is beyond the limits of SQLite DB Tools." value="読み取り専用：このデータベースは SQLite DB Tools の制限を超えています。"/>
+    <entry key="SQLite DB Tools is free of charge: anyone may use it, at home or at work, on any number of computers, with no license key. It remains the property of its author and its source code is not published: modifying it, reverse engineering it or selling it is not allowed; unmodified copies may be passed on free of charge. It comes without warranty: back up your databases, their attachment folders, key files and passwords - a lost password or key file makes an encrypted database unreadable for ever. The full text is in LICENSE.md." value="SQLite DB Tools は無料です。家庭でも職場でも、何台のコンピューターでも、ライセンス キー不要で誰でも使用できます。本ソフトウェアは作者の所有物であり、ソース コードは公開されていません。変更、リバース エンジニアリング、販売は禁止されています。変更していないコピーは無料で譲渡できます。本ソフトウェアは無保証です。データベース、その添付ファイル フォルダー、キー ファイル、パスワードをバックアップしてください。パスワードやキー ファイルを失うと、暗号化されたデータベースは永久に読み取れなくなります。全文は LICENSE.md にあります。"/>
+    <entry key="Limits of SQLite DB Tools" value="SQLite DB Tools の制限"/>
+    <entry key="Closes the database: logging in again is needed. When work is pending, the same password is needed here and the work is discarded." value="データベースを閉じます。再度ログインが必要になります。作業が残っている場合は、ここでも同じパスワードが必要で、その作業は破棄されます。"/>
+    <entry key="SQLite DB Tools is locked" value="SQLite DB Tools はロックされています"/>
+    <entry key="A new SQLite database: its name and folder; then how it is protected." value="新しい SQLite データベース：名前とフォルダーを指定し、次に保護の方法を選択します。"/>
+    <entry key="1 routine (tabs, searches), 2 normal (records added or changed), 3 notable (prints, exports, deletions, structure), 4 high (accounts, privileges, wrong passwords), 5 critical (passwords and keys of the database)" value="1 日常 (タブ、検索)、2 通常 (レコードの追加・変更)、3 注目 (印刷、エクスポート、削除、構造)、4 高 (アカウント、権限、誤ったパスワード)、5 重大 (データベースのパスワードとキー)"/>
+    <entry key="- a table with %d columns (at most %d)" value="- %d 個の列があるテーブル (最大 %d 個)"/>
+    <entry key="This database is beyond the limits of SQLite DB Tools:&#10;%s&#10;It is open read-only: it can be browsed, searched and exported, not changed. Each table shows at most its first %s records and %d columns." value="このデータベースは SQLite DB Tools の制限を超えています：&#10;%s&#10;読み取り専用で開かれています。閲覧、検索、エクスポートはできますが、変更はできません。各テーブルには最初の %s 件のレコードと %d 個の列までが表示されます。"/>
+    <entry key="- %s records (at most %s)" value="- %s 件のレコード (最大 %s 件)"/>
+    <entry key="- %s tables (at most %s)" value="- %s 個のテーブル (最大 %s 個)"/>
+    <entry key="Some tabs have changes that were not saved. Discard them?" value="一部のタブに保存されていない変更があります。破棄しますか？"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools: it was converted to the format of this version. The file as it was is kept next to it as %s (the versions 1.x open only that one)." value="%s は SQLite DB Tools の以前のバージョンで作成されました: このバージョンの形式に変換しました。元のファイルは隣に %s として残してあります (1.x のバージョンはそちらしか開けません)。"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and could not be converted to the format of this version (%s). The file was not changed." value="%s は SQLite DB Tools の以前のバージョンで作成され、このバージョンの形式に変換できませんでした (%s)。ファイルは変更されていません。"/>
+    <entry key="%s was made by an earlier version of SQLite DB Tools and must be converted to the format of this version, but it cannot be written (a read-only file or folder). Copy it where it can be written, then open it again." value="%s は SQLite DB Tools の以前のバージョンで作成されたため、このバージョンの形式への変換が必要ですが、書き込めません (読み取り専用のファイルまたはフォルダー)。書き込める場所にコピーしてから、もう一度開いてください。"/>
+    <entry key="Databases (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|All files (*.*)|*.*" value="データベース (*.db;*.sqlite;*.sqlite3;*.db3)|*.db;*.sqlite;*.sqlite3;*.db3|すべてのファイル (*.*)|*.*"/>
+    <entry key="Database locked" value="データベースがロックされました"/>
+    <entry key="The window will be locked in %d s because of inactivity. The tabs and the work open are kept." value="操作がないため、%d 秒後にウィンドウがロックされます。開いているタブと作業は保持されます。"/>
+    <entry key="The value does not exist in %s." value="この値は %s に存在しません。"/>
+    <entry key="The database holds at most %s records in all its tables together: no more can be added." value="このデータベースのすべてのテーブルに保存できるレコードは合計で最大 %s 件です。これ以上追加できません。"/>
+    <entry key="Records of %s still refer to it: change or delete them first." value="%s のレコードがまだこれを参照しています。先にそれらを変更または削除してください。"/>
+    <entry key="Refused by an automation: %s" value="自動処理により拒否されました：%s"/>
+    <entry key="%s could not be read: it is not a database, or it is encrypted and the passphrase or format given does not open it." value="%s を読み取れませんでした。データベースではないか、暗号化されていて指定したパスフレーズまたは形式では開けません。"/>
+    <entry key="The database %s does not exist (moved or renamed?)." value="データベース %s が存在しません (移動または名前を変更しましたか？)。"/>
+    <entry key="%s could not be opened:&#10;%s" value="%s を開けませんでした：&#10;%s"/>
+    <entry key="Decimals:" value="小数点以下の桁数："/>
+    <entry key="Value of new records" value="新しいレコードの値"/>
+    <entry key="Value:" value="値："/>
+    <entry key="Example: %s" value="例：%s"/>
+    <entry key="Auto-increment number" value="自動採番"/>
+    <entry key="Same as the last record" value="最後のレコードと同じ"/>
+    <entry key="A fixed value" value="固定値"/>
+    <entry key="Empty" value="空"/>
+    <entry key="Now (date and time)" value="現在 (日付と時刻)"/>
+    <entry key="Template (other columns, counter, date, ...)" value="テンプレート (他の列、カウンター、日付、...)"/>
+    <entry key="Today" value="今日"/>
+    <entry key="Windows user name" value="Windows のユーザー名"/>
+    <entry key="Unique code (UUID)" value="一意のコード (UUID)"/>
+    <entry key="Fixed value / template:" value="固定値 / テンプレート："/>
+    <entry key="Component" value="コンポーネント"/>
+    <entry key="License" value="ライセンス"/>
+    <entry key="Owner / authors" value="所有者 / 作者"/>
+    <entry key="Used for" value="用途"/>
+    <entry key="encrypted databases" value="暗号化データベース"/>
+    <entry key="database engine" value="データベース エンジン"/>
+    <entry key="user interface" value="ユーザー インターフェイス"/>
+    <entry key="PDF documents and reports" value="PDF ドキュメントとレポート"/>
+    <entry key="C++ runtime" value="C++ ランタイム"/>
+    <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="管理者パスワードと回復キー (Argon2id、XChaCha20-Poly1305)"/>
+    <entry key="Version in use" value="使用中のバージョン"/>
+    <entry key="Website" value="Web サイト"/>
+    <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="ダブルクリック：所有者の Web サイトを開きます。各コンポーネントはその所有者に帰属し、そのライセンスに従って使用されています。"/>
+    <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="自動処理は、レコードが追加、変更、削除されるたびに (このプログラムからでも他のプログラムからでも) データベースが実行するルールです。例：入出庫の数量を品目の在庫から差し引く、品目の金額を常に在庫 x 単価にする、在庫がマイナスになる変更を拒否する。"/>
+    <entry key="Automations" value="自動処理"/>
+    <entry key="Change..." value="変更..."/>
+    <entry key="Does" value="処理"/>
+    <entry key="Column" value="列"/>
+    <entry key="Columns" value="列"/>
+    <entry key="Index" value="インデックス"/>
+    <entry key="Name" value="名前"/>
+    <entry key="When it is deleted" value="削除されたとき"/>
+    <entry key="When its value changes" value="値が変更されたとき"/>
+    <entry key="Records" value="レコード"/>
+    <entry key="Refers to" value="参照先"/>
+    <entry key="References" value="参照"/>
+    <entry key="State" value="状態"/>
+    <entry key="Table" value="テーブル"/>
+    <entry key="Type" value="型"/>
+    <entry key="When" value="タイミング"/>
+    <entry key="Change..." value="変更..."/>
+    <entry key="An index makes searching and sorting on a column faster on large tables (unique columns always have one). Double-click a column to add or remove its index." value="インデックスを使用すると、大きなテーブルで列の検索や並べ替えが速くなります (一意の列には常にインデックスがあります)。列をダブルクリックすると、インデックスを追加または削除できます。"/>
+    <entry key="Indexes" value="インデックス"/>
+    <entry key="-" value="-"/>
+    <entry key="Indexed (unique)" value="インデックスあり (一意)"/>
+    <entry key="A unique column always has an index." value="一意の列には常にインデックスがあります。"/>
+    <entry key="Indexed" value="インデックスあり"/>
+    <entry key="New automation..." value="新しい自動処理..."/>
+    <entry key="(no Reference column: add one to a table to link it to another)" value="(参照列がありません。テーブルを別のテーブルにリンクするには参照列を追加してください)"/>
+    <entry key="Off" value="オフ"/>
+    <entry key="On" value="オン"/>
+    <entry key="A Reference column links a record to a record of another table (an item to its supplier, a movement to its item). The database itself guarantees the link: a value that does not exist is refused, and you choose what happens when the referenced record is deleted or its value changes. Double-click a relation to change it." value="参照列は、レコードを別のテーブルのレコードにリンクします (品目をその仕入先に、入出庫をその品目に)。リンクはデータベース自体が保証します。存在しない値は拒否され、参照先のレコードが削除されたときや値が変更されたときの動作を選択できます。リレーションをダブルクリックすると変更できます。"/>
+    <entry key="Relations" value="リレーション"/>
+    <entry key="Remove" value="削除"/>
+    <entry key="Edit database" value="データベースの編集"/>
+    <entry key="The tables of the database. Double-click a table to change its structure (columns can be added, renamed and changed, never removed)." value="データベースのテーブルです。テーブルをダブルクリックすると構造を変更できます (列は追加、名前の変更、変更ができますが、削除はできません)。"/>
+    <entry key="Tables" value="テーブル"/>
+    <entry key="Switch on / off" value="オン / オフの切り替え"/>
+    <entry key="Add / remove index" value="インデックスの追加 / 削除"/>
+    <entry key="Discard" value="破棄"/>
+    <entry key="Add to %s" value="%s に追加"/>
+    <entry key="No database is open for the %d file(s) to import. Create a new database for their tables, or open an existing one?" value="インポートする %d 個のファイルの格納先となるデータベースが開かれていません。テーブル用に新しいデータベースを作成しますか？それとも既存のデータベースを開きますか？"/>
+    <entry key="%d file(s) to import: each as new table(s), or their rows added to the table %s?" value="インポートするファイル：%d 個。それぞれを新しいテーブルにしますか？それとも行をテーブル %s に追加しますか？"/>
+    <entry key="New database..." value="新しいデータベース..."/>
+    <entry key="New tables" value="新しいテーブル"/>
+    <entry key="Open a database..." value="データベースを開く..."/>
+    <entry key="Files dropped" value="ドロップされたファイル"/>
+    <entry key="about %ld minutes" value="約 %ld 分"/>
+    <entry key="about %ld seconds" value="約 %ld 秒"/>
+    <entry key="Edit..." value="編集..."/>
+    <entry key="The database is no longer encrypted." value="データベースの暗号化を解除しました。"/>
+    <entry key="Choose the file (or press Enter in the field)" value="ファイルを選択します (またはフィールドで Enter キーを押します)"/>
+    <entry key="Discard the values typed in this form?" value="このフォームに入力した値を破棄しますか？"/>
+    <entry key="Correct these values (the first one is selected):" value="次の値を修正してください (最初の値が選択されています)："/>
+    <entry key="The record cannot be saved" value="レコードを保存できません"/>
+    <entry key="Tab or Enter: next field. Enter on the last field, or Shift+Enter anywhere: save. Ctrl+Enter: new line in a long text." value="Tab または Enter：次のフィールド。最後のフィールドで Enter、または任意の場所で Shift+Enter：保存。Ctrl+Enter：長いテキストで改行。"/>
+    <entry key="Keep the values after saving" value="保存後も値を保持する"/>
+    <entry key="Move the attached files into the attachment folder (unticked: copy them, the originals stay)" value="添付ファイルを添付ファイル フォルダーに移動する (オフ：コピーし、元のファイルを残す)"/>
+    <entry key="Filled in from record #%lld: change what differs and save." value="レコード #%lld の値を入力しました。異なる部分を変更して保存してください。"/>
+    <entry key="Record #%lld saved." value="レコード #%lld を保存しました。"/>
+    <entry key="Save (Shift+Enter)" value="保存 (Shift+Enter)"/>
+    <entry key="Table:" value="テーブル："/>
+    <entry key="Add: %s" value="追加：%s"/>
+    <entry key="Copied: paste it into an e-mail or a message." value="コピーしました。電子メールやメッセージに貼り付けてください。"/>
+    <entry key="Copy the report" value="レポートをコピー"/>
+    <entry key="The operation failed. Nothing was changed by it." value="操作に失敗しました。この操作による変更はありません。"/>
+    <entry key="The program goes on working. To get help, copy the report below and send it to whoever looks after the program (it has no passwords)." value="プログラムは引き続き動作します。サポートを受けるには、下のレポートをコピーしてプログラムの管理者に送信してください (パスワードは含まれていません)。"/>
+    <entry key="Something went wrong" value="問題が発生しました"/>
+    <entry key="An unexpected error stopped the operation. The program goes on working; what was saved before is kept." value="予期しないエラーにより操作が中止されました。プログラムは引き続き動作し、それまでに保存された内容は保持されます。"/>
+    <entry key="Error" value="エラー"/>
+    <entry key="must be at most %s" value="%s 以下にしてください"/>
+    <entry key="must be a date and time like %s hh:mm" value="%s hh:mm のような日付と時刻にしてください"/>
+    <entry key="must be a date like %s" value="%s のような日付にしてください"/>
+    <entry key="the pattern of this column is not valid" value="この列のパターンが無効です"/>
+    <entry key="must be a time like hh:mm" value="hh:mm のような時刻にしてください"/>
+    <entry key="must be at least %s" value="%s 以上にしてください"/>
+    <entry key="is used already by another record" value="別のレコードで既に使用されています"/>
+    <entry key="this kind of file is not accepted here" value="この種類のファイルはここでは使用できません"/>
+    <entry key="must be one line" value="1 行にしてください"/>
+    <entry key="must be Yes or No" value="「はい」または「いいえ」にしてください"/>
+    <entry key="must be one of the choices" value="選択肢のいずれかにしてください"/>
+    <entry key="must be a whole number" value="整数にしてください"/>
+    <entry key="must be a number" value="数値にしてください"/>
+    <entry key="does not exist in %s" value="%s に存在しません"/>
+    <entry key="does not match the pattern %s" value="パターン %s に一致しません"/>
+    <entry key="is required" value="必須です"/>
+    <entry key="must have at most %d characters" value="%d 文字以下にしてください"/>
+    <entry key="must have at least %d characters" value="%d 文字以上にしてください"/>
+    <entry key="Exit" value="終了"/>
+    <entry key="Exit the program? Anything not saved yet (records being edited, open forms and windows) will probably be lost." value="プログラムを終了しますか？まだ保存されていない内容 (編集中のレコード、開いているフォームやウィンドウ) は失われる可能性があります。"/>
+    <entry key="Exit" value="終了"/>
+    <entry key="Some tabs have changes that were not saved: they will be lost." value="一部のタブに保存されていない変更があります。変更は失われます。"/>
+    <entry key="Copy the attached files too (into the folder &lt;name&gt;.files)" value="添付ファイルもコピーする (&lt;名前&gt;.files フォルダーへ)"/>
+    <entry key="Encrypt the copy with a passphrase" value="コピーをパスフレーズで暗号化する"/>
+    <entry key="Separator:" value="区切り文字："/>
+    <entry key="Records (INSERT)" value="レコード (INSERT)"/>
+    <entry key="Exported %d table(s), %lld record(s) and %d attached file(s) to:&#10;%s" value="%d 個のテーブル、%lld 件のレコード、%d 個の添付ファイルを次の場所にエクスポートしました：&#10;%s"/>
+    <entry key="The export failed: %s" value="エクスポートに失敗しました：%s"/>
+    <entry key="Copy of the database (SQLite file, plain or encrypted)" value="データベースのコピー (SQLite ファイル、暗号化なしまたは暗号化)"/>
+    <entry key="CSV for Excel (one file per table)" value="Excel 用 CSV (テーブルごとに 1 ファイル)"/>
+    <entry key="JSON" value="JSON"/>
+    <entry key="SQL script - MySQL / MariaDB" value="SQL スクリプト - MySQL / MariaDB"/>
+    <entry key="SQL script - PostgreSQL" value="SQL スクリプト - PostgreSQL"/>
+    <entry key="SQL script - SQLite" value="SQL スクリプト - SQLite"/>
+    <entry key="SQL script - Microsoft SQL Server" value="SQL スクリプト - Microsoft SQL Server"/>
+    <entry key="Format:" value="形式："/>
+    <entry key="Choose at least one table." value="テーブルを 1 つ以上選択してください。"/>
+    <entry key="%lld record(s) written..." value="%lld 件のレコードを書き込みました..."/>
+    <entry key="Table definitions (CREATE TABLE)" value="テーブル定義 (CREATE TABLE)"/>
+    <entry key="Tables:" value="テーブル："/>
+    <entry key="Export to" value="エクスポート先"/>
+    <entry key="Export" value="エクスポート"/>
+    <entry key="%s: %s" value="%s：%s"/>
+    <entry key="The name of this column, last before the extension" value="この列の名前 (拡張子の直前に最後)"/>
+    <entry key="column" value="列"/>
+    <entry key="nothing chosen: Table_Record_Column, the default" value="選択なし: Table_Record_Column (既定)"/>
+    <entry key="Example: %s (a name already taken gets _01, _02 ...; files attached before keep their names)" value="例: %s (既に使われている名前には _01, _02 ... が付きます。以前に添付したファイルの名前は変わりません)"/>
+    <entry key="Name of a new attached file, in this order:" value="新しく添付するファイルの名前 (この順序で):"/>
+    <entry key="The record number" value="レコード番号"/>
+    <entry key="The name of the table" value="テーブルの名前"/>
+    <entry key="table" value="テーブル"/>
+    <entry key="The values of these columns of the record, in this order:" value="レコードのこれらの列の値 (この順序で):"/>
+    <entry key="Windows did not accept the change: %s" value="Windows が変更を受け付けませんでした：%s"/>
+    <entry key="Remove it" value="削除する"/>
+    <entry key="empty" value="空"/>
+    <entry key="a text..." value="テキスト..."/>
+    <entry key="the text &quot;%s&quot;" value="テキスト &quot;%s&quot;"/>
+    <entry key="the merged database's name" value="マージするデータベースの名前"/>
+    <entry key="the merged table's name" value="マージするテーブルの名前"/>
+    <entry key="this database's name" value="このデータベースの名前"/>
+    <entry key="this table's name" value="このテーブルの名前"/>
+    <entry key="The text:" value="テキスト："/>
+    <entry key="The column &quot;%s&quot; becomes required: what value do the %lld existing record(s) that have none get?" value="列 &quot;%s&quot; が必須になります。値のない既存の %lld 件のレコードには、どの値を設定しますか？"/>
+    <entry key="Value for the existing records" value="既存のレコードの値"/>
+    <entry key="Forgot the password..." value="パスワードを忘れた場合..."/>
+    <entry key="%zu record(s) updated." value="%zu 件のレコードを更新しました。"/>
+    <entry key="Apply modifications" value="変更の適用"/>
+    <entry key="Apply modifications of this row" value="この行の変更を適用"/>
+    <entry key="The file %s is not in the attachment folder." value="ファイル %s が添付ファイル フォルダーにありません。"/>
+    <entry key="Cancel edits" value="編集のキャンセル"/>
+    <entry key="Cancel the edit of this row" value="この行の編集をキャンセル"/>
+    <entry key="Choose another file..." value="別のファイルを選択..."/>
+    <entry key="Remove the attachment" value="添付ファイルを削除"/>
+    <entry key="Clear the selection" value="選択の解除"/>
+    <entry key="%ld records copied to the clipboard." value="%ld 件のレコードをクリップボードにコピーしました。"/>
+    <entry key="Copy the value" value="値をコピー"/>
+    <entry key="Copy the selected records (for a spreadsheet)" value="選択したレコードをコピー (スプレッドシート用)"/>
+    <entry key="Copy to a new entry" value="新しい入力にコピー"/>
+    <entry key="%zu record(s)" value="%zu 件のレコード"/>
+    <entry key="%zu record(s) deleted." value="%zu 件のレコードを削除しました。"/>
+    <entry key="Delete..." value="削除..."/>
+    <entry key="Delete %zu record(s)? Their attached files are moved to the _deleted subfolder of the attachment folder." value="%zu 件のレコードを削除しますか？添付ファイルは添付ファイル フォルダーの _deleted サブフォルダーに移動されます。"/>
+    <entry key="Delete the selected records..." value="選択したレコードを削除..."/>
+    <entry key="Edit" value="編集"/>
+    <entry key="Edit the selected records" value="選択したレコードを編集"/>
+    <entry key="%zu value(s) must be corrected (the first one is selected):" value="%zu 個の値を修正する必要があります (最初の値が選択されています)："/>
+    <entry key="The modifications cannot be applied" value="変更を適用できません"/>
+    <entry key="text in any column" value="任意の列のテキスト"/>
+    <entry key="Find:" value="検索："/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="行を右クリックすると操作が表示されます。編集中の行では、セルをダブルクリック (または入力) して変更します。キー：F2 編集、Ctrl+S 適用、Esc キャンセル、Del 削除、Ctrl+D 新しい入力にコピー。"/>
+    <entry key="History of this record..." value="このレコードの履歴..."/>
+    <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="この処理は %ld 件のレコードが対象で、%s かかります (時間はコンピューターによって異なります)。進行状況と時間はステータス バーに表示され、[停止] で中止できます。&#10;&#10;続行しますか？"/>
+    <entry key="Open the attachment" value="添付ファイルを開く"/>
+    <entry key=" - %zu row(s) in edit, %zu changed" value=" - 編集中 %zu 行、変更済み %zu 行"/>
+    <entry key="Print..." value="印刷..."/>
+    <entry key="Print the selected records..." value="選択したレコードを印刷..."/>
+    <entry key="Refresh" value="最新の情報に更新"/>
+    <entry key="%ld records selected" value="%ld 件のレコードを選択"/>
+    <entry key="Select all&#9;Ctrl+A" value="すべて選択&#9;Ctrl+A"/>
+    <entry key="Show the attachment in its folder" value="添付ファイルをフォルダーで表示"/>
+    <entry key="Stopped: nothing was changed." value="停止しました。何も変更されていません。"/>
+    <entry key="This tab has modifications not applied yet. Discard them?" value="このタブにはまだ適用されていない変更があります。破棄しますか？"/>
+    <entry key="Group %d:" value="グループ %d："/>
+    <entry key="Operation:" value="操作："/>
+    <entry key="Part of:" value="親操作："/>
+    <entry key="Reason:" value="理由："/>
+    <entry key="Browse" value="参照"/>
+    <entry key="Edit structure..." value="構造の編集..."/>
+    <entry key="New table..." value="新しいテーブル..."/>
+    <entry key="Home" value="ホーム"/>
+    <entry key="Add image..." value="画像の追加..."/>
+    <entry key="Choose an image (logo, stamp, signature ...)" value="画像の選択 (ロゴ、印影、署名 ...)"/>
+    <entry key="Also as watermark" value="透かしとしても使用"/>
+    <entry key="Uses the selected image a second time, as a faint watermark behind the text." value="選択した画像をもう一度、テキストの背後の薄い透かしとして使用します。"/>
+    <entry key="Bottom centre" value="下中央"/>
+    <entry key="Bottom left" value="左下"/>
+    <entry key="Bottom right" value="右下"/>
+    <entry key="Images (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff" value="画像 (*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff)|*.png;*.jpg;*.jpeg;*.bmp;*.gif;*.tif;*.tiff"/>
+    <entry key="fill it, cutting the edges" value="端を切り取って全体を埋める"/>
+    <entry key="To that shape:" value="その形状に合わせる方法："/>
+    <entry key="keep the whole image, stretched" value="画像全体を引き伸ばして保持"/>
+    <entry key="keep the whole image (empty margins)" value="画像全体を保持 (余白あり)"/>
+    <entry key="x %.0f mm high (at most %.0f x %.0f mm here)" value="x 高さ %.0f mm (ここでは最大 %.0f x %.0f mm)"/>
+    <entry key="%d x %d pixels, shape %s. Usual shape nearest: %s; normal width here: %.0f mm." value="%d x %d ピクセル、形状 %s。最も近い一般的な形状：%s、ここでの標準の幅：%.0f mm。"/>
+    <entry key="The image could not be read." value="画像を読み取れませんでした。"/>
+    <entry key="No image: add a logo, a stamp or a watermark." value="画像がありません。ロゴ、印影、透かしを追加してください。"/>
+    <entry key="Opacity %:" value="不透明度 %："/>
+    <entry key="Other pages, size %:" value="他のページ、サイズ %："/>
+    <entry key="A logo at the top is printed also on every page after the first, at this percent of its size (0 = first page only)" value="上部のロゴは、最初のページ以降のすべてのページにも、このサイズの割合 (%) で印刷されます (0 = 最初のページのみ)"/>
+    <entry key="Place:" value="位置："/>
+    <entry key="Remove" value="削除"/>
+    <entry key="Make it %s, cutting the edges" value="端を切り取って %s にする"/>
+    <entry key="Keep its own shape (%s)" value="元の形状のままにする (%s)"/>
+    <entry key="The image is %d x %d pixels (shape %s). The usual shape nearest to it is %s. How should it be printed?" value="画像は %d x %d ピクセルです (形状 %s)。最も近い一般的な形状は %s です。どのように印刷しますか？"/>
+    <entry key="Shape of the image" value="画像の形状"/>
+    <entry key="Make it %s, keeping the whole image" value="画像全体を保持して %s にする"/>
+    <entry key="other:" value="その他："/>
+    <entry key="Shape (width : height):" value="形状 (幅 : 高さ)："/>
+    <entry key="the image's own" value="画像本来の形状"/>
+    <entry key="Use the suggestion" value="提案を使用"/>
+    <entry key="Top centre" value="上中央"/>
+    <entry key="Top left" value="左上"/>
+    <entry key="Top right" value="右上"/>
+    <entry key="Watermark (behind the text)" value="透かし (テキストの背後)"/>
+    <entry key="Width (mm):" value="幅 (mm)："/>
+    <entry key="%d rows added to the table %s." value="%d 行をテーブル %s に追加しました。"/>
+    <entry key="The rows of the file are added to the table: each column of the table takes the column of the file with the same name. The file may have fewer columns (the required values it lacks are asked before the import); columns the table does not have are left out only if you agree. Every row is checked against the table's rules before anything is written." value="ファイルの行がテーブルに追加されます。テーブルの各列には、ファイル内の同じ名前の列の値が入ります。ファイルの列が少なくてもかまいません (足りない必須の値はインポート前に確認されます)。テーブルにない列は、同意した場合にのみ除外されます。何かが書き込まれる前に、すべての行がテーブルのルールに照らしてチェックされます。"/>
+    <entry key="&lt; Back" value="&lt; 戻る"/>
+    <entry key="Change the columns" value="列の変更"/>
+    <entry key="Choose a file first." value="先にファイルを選択してください。"/>
+    <entry key="Check at least one sheet." value="シートを 1 つ以上オンにしてください。"/>
+    <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="値から推測した新しいテーブルの列です：型、&quot;必須&quot; (空の値なし)、&quot;一意&quot; (すべての値が異なる)。確認して誤りを修正し、除外する列のチェックを外してください。[インポート] を押すまで何も書き込まれません。"/>
+    <entry key="Examples" value="例"/>
+    <entry key="Filled" value="入力済み"/>
+    <entry key="Import" value="インポート"/>
+    <entry key="Column" value="列"/>
+    <entry key="{Column}Required" value="必須"/>
+    <entry key="Type" value="型"/>
+    <entry key="Unique" value="一意"/>
+    <entry key="%d rows imported into the new table %s." value="%d 行を新しいテーブル %s にインポートしました。"/>
+    <entry key="The file has columns the table does not have: %s.&#10;&#10;Leave them out and import only the columns the table has?" value="ファイルにはテーブルにない列があります：%s。&#10;&#10;それらを除外し、テーブルにある列だけをインポートしますか？"/>
+    <entry key="Leave them out and import the other columns" value="それらを除外して他の列をインポートする"/>
+    <entry key="Columns of the file the table does not have: %s." value="テーブルにないファイルの列：%s。"/>
+    <entry key="Nothing was imported: %s" value="何もインポートされませんでした：%s"/>
+    <entry key="Tables (%s)|%s|All files (*.*)|*.*" value="表 (%s)|%s|すべてのファイル (*.*)|*.*"/>
+    <entry key="Choose the file: a CSV or text file (values separated by commas, semicolons, tabs or bars) or a spreadsheet: Excel (.xlsx, and .xls of Excel 97-2003) or OpenDocument (.ods, LibreOffice / OpenOffice). The first rows are shown below." value="ファイルを選択してください：CSV またはテキスト ファイル (値がカンマ、セミコロン、タブ、縦棒で区切られたもの)、またはスプレッドシート：Excel (.xlsx、および Excel 97-2003 の .xls) または OpenDocument (.ods、LibreOffice / OpenOffice)。先頭の行が下に表示されます。"/>
+    <entry key="leave it empty" value="空のままにする"/>
+    <entry key="the name of the file: %s" value="ファイル名：%s"/>
+    <entry key="The table keeps in the column %s the sheet each row came from. For the rows of this file:" value="テーブルは列 %s に、各行の元のシートを保持しています。このファイルの行には："/>
+    <entry key="the name of the sheet: %s" value="シート名：%s"/>
+    <entry key="write:" value="次の値を書き込む："/>
+    <entry key="Column of the table" value="テーブルの列"/>
+    <entry key="its default value" value="既定値"/>
+    <entry key="{Import}empty" value="空"/>
+    <entry key="from the file" value="ファイルから"/>
+    <entry key="From the file" value="ファイルの列"/>
+    <entry key="REQUIRED and missing in the file" value="必須だがファイルにない"/>
+    <entry key="the sheet column: as chosen below" value="シート列：下で選択したとおり"/>
+    <entry key="How" value="方法"/>
+    <entry key="Tab goes down the column (else along the row)" value="Tab で列方向に移動する (オフ：行方向)"/>
+    <entry key="Confirm and import" value="確定してインポート"/>
+    <entry key="Copy" value="コピー"/>
+    <entry key="The rows of the file with empty required cells (*). Type in the yellow cells; the others are read-only, but can be copied (Ctrl+C or right click) and pasted into an empty cell (Ctrl+V). Tab goes to the next empty cell. Confirm when none is left." value="必須のセルが空になっているファイルの行です (*)。黄色のセルに入力してください。その他のセルは読み取り専用ですが、コピー (Ctrl+C または右クリック) して空のセルに貼り付ける (Ctrl+V) ことができます。Tab キーで次の空のセルに移動します。空のセルがなくなったら確定してください。"/>
+    <entry key="Next 10 &gt;" value="次の 10 行 &gt;"/>
+    <entry key="Paste" value="貼り付け"/>
+    <entry key="&lt; Previous 10" value="&lt; 前の 10 行"/>
+    <entry key="Page %d of %d - %d empty cells left" value="ページ %d / %d - 残りの空のセル：%d"/>
+    <entry key="Fill in the required values" value="必須の値の入力"/>
+    <entry key="The first row holds the names of the columns" value="1 行目に列名が含まれている"/>
+    <entry key="The same value everywhere:" value="すべてに同じ値："/>
+    <entry key="By hand, cell by cell (10 rows at a time)" value="手動で 1 セルずつ (一度に 10 行)"/>
+    <entry key="%d empty" value="空 %d 個"/>
+    <entry key="%d required cells are empty in the file. Give them a value now, or leave their rows out." value="ファイル内で %d 個の必須のセルが空です。今すぐ値を指定するか、それらの行を除外してください。"/>
+    <entry key="Leave the rows with empty required cells out" value="必須のセルが空の行を除外する"/>
+    <entry key="%d cells to fill by hand: it takes long. Completing the original file and reading it again is safer (nothing typed here is kept in the file).&#10;&#10;Fill them by hand anyway?" value="手動で入力するセルが %d 個あり、時間がかかります。元のファイルを完成させてから読み込み直す方が安全です (ここで入力した内容はファイルに保存されません)。&#10;&#10;それでも手動で入力しますか？"/>
+    <entry key="A value for each column (where that column is empty):" value="列ごとの値 (その列が空の場合)："/>
+    <entry key="Required values missing" value="必須の値がありません"/>
+    <entry key="Import" value="インポート"/>
+    <entry key="Import the other %d rows" value="残りの %d 行をインポート"/>
+    <entry key="Import into %s" value="%s へのインポート"/>
+    <entry key="%d rows were left out." value="%d 行が除外されました。"/>
+    <entry key="The file lacks required columns of the table: %s. Their values are asked before the import." value="ファイルにはテーブルの必須の列がありません：%s。その値はインポート前に確認されます。"/>
+    <entry key="... and %d more." value="... ほか %d 件。"/>
+    <entry key="Next &gt;" value="次へ &gt;"/>
+    <entry key="Table %s made. Now sheet %d of %d: its columns." value="テーブル %s を作成しました。次はシート %d / %d の列です。"/>
+    <entry key="The file holds no table (every sheet is empty)." value="ファイルに表がありません (すべてのシートが空です)。"/>
+    <entry key="No row is left to import." value="インポートする行が残っていません。"/>
+    <entry key="Importing makes a table and its records: it needs the Structure and Insert permissions." value="インポートではテーブルとそのレコードが作成されるため、構造と挿入の権限が必要です。"/>
+    <entry key="Tick at least one column." value="列を 1 つ以上オンにしてください。"/>
+    <entry key="Text in quotes:" value="テキストの引用符："/>
+    <entry key="none" value="なし"/>
+    <entry key="Read the file again" value="ファイルを読み込み直す"/>
+    <entry key="The file cannot be read: %s" value="ファイルを読み取れません：%s"/>
+    <entry key="%d rows of %d do not fit the columns as they are:" value="%d 行 (全 %d 行中) が現在の列に適合しません："/>
+    <entry key="row %d, %s &quot;%s&quot;: %s" value="%d 行目、%s &quot;%s&quot;：%s"/>
+    <entry key="Separator:" value="区切り文字："/>
+    <entry key="Found by itself" value="自動検出"/>
+    <entry key="Comma ," value="カンマ ,"/>
+    <entry key="Found: %s" value="検出：%s"/>
+    <entry key="Bar |" value="縦棒 |"/>
+    <entry key="Semicolon ;" value="セミコロン ;"/>
+    <entry key="Tab" value="タブ"/>
+    <entry key="The checked sheets do not all have matching columns: the columns a sheet does not have will be empty for its rows." value="オンにしたシートの列がすべて一致しているわけではありません。シートにない列は、そのシートの行では空になります。"/>
+    <entry key="The workbook has several sheets. The checked ones become one table: sheets with matching columns (same group) fit together - a column a sheet does not have stays empty for its rows. The largest group is checked." value="ブックに複数のシートがあります。オンにしたシートは 1 つのテーブルになります。列が一致するシート (同じグループ) はまとめられ、シートにない列はそのシートの行では空のままになります。最も大きいグループがオンになっています。"/>
+    <entry key="Make a table of each checked sheet" value="オンにした各シートをそれぞれテーブルにする"/>
+    <entry key="Put the checked sheets together in one table" value="オンにしたシートを 1 つのテーブルにまとめる"/>
+    <entry key="%s - %d columns, %d rows (group %d)" value="%s - %d 列、%d 行 (グループ %d)"/>
+    <entry key="Add a column with the name of the sheet each row comes from" value="各行の元のシート名を入れる列を追加する"/>
+    <entry key="Sheet" value="シート"/>
+    <entry key="For example a column &quot;Warehouse&quot; holding Milano or Roma, the names of the sheets. Text by default." value="たとえば、シート名である Milano や Roma を入れる &quot;倉庫&quot; 列。既定ではテキスト型です。"/>
+    <entry key="Put the name of each row's sheet in the column %s" value="各行のシート名を列 %s に入れる"/>
+    <entry key="Its name:" value="列名："/>
+    <entry key="Give a name to the column with the sheet's name." value="シート名を入れる列に名前を付けてください。"/>
+    <entry key="Type:" value="型："/>
+    <entry key="This database has no tables yet. Make its first table from a file (CSV, text, Excel or OpenDocument)?" value="このデータベースにはまだテーブルがありません。最初のテーブルをファイル (CSV、テキスト、Excel、OpenDocument) から作成しますか？"/>
+    <entry key="%d rows added to %s:" value="%d 行を %s に追加しました："/>
+    <entry key="%d rows" value="%d 行"/>
+    <entry key="skipped" value="スキップ"/>
+    <entry key="A table %s exists already: choose another name." value="テーブル %s は既に存在します。別の名前を選択してください。"/>
+    <entry key="Name of the new table:" value="新しいテーブルの名前："/>
+    <entry key="Give a name to the new table." value="新しいテーブルに名前を付けてください。"/>
+    <entry key="For a text file: the separator, the quotes and the first row can be changed; the encoding (UTF-8, UTF-16, Windows) is recognised." value="テキスト ファイルの場合：区切り文字、引用符、1 行目の扱いを変更できます。エンコード (UTF-8、UTF-16、Windows) は自動的に認識されます。"/>
+    <entry key="Import from a file" value="ファイルからインポート"/>
+    <entry key="This kind of file cannot be read: choose a CSV / text file or a spreadsheet (.xlsx, .xls, .ods)." value="この種類のファイルは読み取れません。CSV / テキスト ファイルまたはスプレッドシート (.xlsx、.xls、.ods) を選択してください。"/>
+    <entry key="Insert..." value="挿入..."/>
+    <entry key="Keep working" value="作業を続ける"/>
+    <entry key="The database %s is encrypted, but its key file %s is missing, so it cannot be opened. Restore the key file from a backup (it must always be saved together with the database)." value="データベース %s は暗号化されていますが、キー ファイル %s がないため開けません。キー ファイルをバックアップから復元してください (キー ファイルは常にデータベースと一緒に保存する必要があります)。"/>
+    <entry key="The language file for &quot;%s&quot; could not be loaded - the current language is kept." value="&quot;%s&quot; の言語ファイルを読み込めませんでした。現在の言語のままにします。"/>
+    <entry key="Select the language:" value="言語を選択してください："/>
+    <entry key="Language" value="言語"/>
+    <entry key="Close and discard the work" value="閉じて作業を破棄"/>
+    <entry key="The changes not saved and the work pending in the tabs will be lost. Close?" value="保存されていない変更とタブで保留中の作業は失われます。閉じますか？"/>
+    <entry key="Work is pending: type the password first to close and discard it." value="保留中の作業があります。閉じて破棄するには、先にパスワードを入力してください。"/>
+    <entry key="Work is pending: unlock first (or close and discard it with the password) before exiting." value="保留中の作業があります。終了する前に、ロックを解除してください (またはパスワードを入力して閉じ、作業を破棄してください)。"/>
+    <entry key="Type the password of the account to unlock:" value="ロックを解除するには、アカウントのパスワードを入力してください："/>
+    <entry key="Type the admin password of the database to unlock:" value="ロックを解除するには、データベースの管理者パスワードを入力してください："/>
+    <entry key="Type the passphrase of the database to unlock:" value="ロックを解除するには、データベースのパスフレーズを入力してください："/>
+    <entry key="The tabs and the work open are kept as they were." value="開いているタブと作業はそのまま保持されます。"/>
+    <entry key="This database has no password: anyone at this PC can unlock it." value="このデータベースにはパスワードがありません。この PC を使う人は誰でもロックを解除できます。"/>
+    <entry key="Unlock" value="ロック解除"/>
+    <entry key="%s - account %s" value="%s - アカウント %s"/>
+    <entry key="Wrong password." value="パスワードが正しくありません。"/>
+    <entry key="Wrong password. Wait %d s before the next attempt." value="パスワードが正しくありません。次に試すまで %d 秒お待ちください。"/>
+    <entry key="%s has accounts: log in with your name and password." value="%s にはアカウントがあります。名前とパスワードでログインしてください。"/>
+    <entry key="This account is locked. Ask whoever manages the accounts." value="このアカウントはロックされています。アカウントの管理者に問い合わせてください。"/>
+    <entry key="Log in" value="ログイン"/>
+    <entry key="Wrong name or password." value="名前またはパスワードが正しくありません。"/>
+    <entry key="The log was written to %s. Send it to whoever looks after the program." value="ログを %s に書き込みました。プログラムの管理者に送信してください。"/>
+    <entry key="Export..." value="エクスポート..."/>
+    <entry key="The log file could not be written." value="ログ ファイルを書き込めませんでした。"/>
+    <entry key="Export the log" value="ログのエクスポート"/>
+    <entry key="Log files (*.log)|*.log|All files (*.*)|*.*" value="ログ ファイル (*.log)|*.log|すべてのファイル (*.*)|*.*"/>
+    <entry key="Level now: %s (Settings &gt; Log Level)." value="現在のレベル：%s ([設定] &gt; [ログ レベル])。"/>
+    <entry key="Write to the log messages up to:" value="ログに書き込むメッセージのレベル："/>
+    <entry key="Warning and Info write more lines: the program may be slightly slower. The level is Error again at the next start." value="Warning と Info では書き込む行が増えるため、プログラムが少し遅くなる場合があります。次回の起動時にはレベルが Error に戻ります。"/>
+    <entry key="Debug, Verbose and Trace write what every function does: the program becomes drastically slower while this level is on. It is for understanding a problem, then back to Error. The level is Error again at the next start." value="Debug、Verbose、Trace ではすべての関数の動作が書き込まれるため、このレベルの間はプログラムが大幅に遅くなります。問題を調べるためのレベルなので、調べ終わったら Error に戻してください。次回の起動時にはレベルが Error に戻ります。"/>
+    <entry key="Log Level" value="ログ レベル"/>
+    <entry key="Log" value="ログ"/>
+    <entry key="The user manual %s was not found next to the program." value="ユーザー マニュアル %s がプログラムと同じフォルダーに見つかりませんでした。"/>
+    <entry key="Longest (characters, 0 = any):" value="最大長 (文字数、0 = 制限なし)："/>
+    <entry key="Most rows shown by an SQL query:" value="SQL クエリで表示する最大行数："/>
+    <entry key="Largest (empty = any):" value="最大値 (空 = 制限なし)："/>
+    <entry key="&amp;About..." value="バージョン情報(&amp;A)..."/>
+    <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="入力の追加(&amp;A)...&#9;Ctrl-Shift-N"/>
+    <entry key="Attac&amp;hment Folder Location..." value="添付ファイル フォルダーの場所(&amp;H)..."/>
+    <entry key="&amp;Browse Records...&#9;Ctrl-B" value="レコードの参照(&amp;B)...&#9;Ctrl-B"/>
+    <entry key="Change &amp;My Password..." value="自分のパスワードの変更(&amp;M)..."/>
+    <entry key="&amp;Change the Passphrase..." value="パスフレーズの変更(&amp;C)..."/>
+    <entry key="Change the Admin &amp;Password..." value="管理者パスワードの変更(&amp;P)..."/>
+    <entry key="Chec&amp;k Attachments..." value="添付ファイルのチェック(&amp;K)..."/>
+    <entry key="&amp;Close Database" value="データベースを閉じる(&amp;C)"/>
+    <entry key="Close &amp;Tab&#9;Ctrl-W" value="タブを閉じる(&amp;T)&#9;Ctrl-W"/>
+    <entry key="&amp;Database" value="データベース(&amp;D)"/>
+    <entry key="Database &amp;Format..." value="データベースの形式(&amp;F)..."/>
+    <entry key="Edit &amp;Database (relations, indexes, automations)...&#9;Ctrl-Shift-D" value="データベースの編集 (リレーション、インデックス、自動処理)(&amp;D)...&#9;Ctrl-Shift-D"/>
+    <entry key="&amp;Edit Table Structure..." value="テーブル構造の編集(&amp;E)..."/>
+    <entry key="E&amp;xit&#9;Alt-X" value="終了(&amp;X)&#9;Alt-X"/>
+    <entry key="&amp;Export...&#9;Ctrl-E" value="エクスポート(&amp;E)...&#9;Ctrl-E"/>
+    <entry key="&amp;File" value="ファイル(&amp;F)"/>
+    <entry key="&amp;Help" value="ヘルプ(&amp;H)"/>
+    <entry key="&amp;Import tables from a file..." value="ファイルからテーブルをインポート(&amp;I)..."/>
+    <entry key="&amp;Language..." value="言語(&amp;L)..."/>
+    <entry key="&amp;Lock Now&#9;Ctrl-L" value="今すぐロック(&amp;L)&#9;Ctrl-L"/>
+    <entry key="Log Le&amp;vel..." value="ログ レベル(&amp;V)..."/>
+    <entry key="User &amp;Manual&#9;F1" value="ユーザー マニュアル(&amp;M)&#9;F1"/>
+    <entry key="&amp;Merge Another Database..." value="別のデータベースのマージ(&amp;M)..."/>
+    <entry key="&amp;New Database...&#9;Ctrl-N" value="新しいデータベース(&amp;N)...&#9;Ctrl-N"/>
+    <entry key="New &amp;Recovery Key..." value="新しい回復キー(&amp;R)..."/>
+    <entry key="New &amp;Table..." value="新しいテーブル(&amp;T)..."/>
+    <entry key="Open the Attachment &amp;Folder" value="添付ファイル フォルダーを開く(&amp;F)"/>
+    <entry key="Open &amp;Data Folder" value="データ フォルダーを開く(&amp;D)"/>
+    <entry key="&amp;Open Database...&#9;Ctrl-O" value="データベースを開く(&amp;O)...&#9;Ctrl-O"/>
+    <entry key="&amp;Operations Log...&#9;Ctrl-Shift-H" value="操作ログ(&amp;O)...&#9;Ctrl-Shift-H"/>
+    <entry key="&amp;Application preferences..." value="アプリケーションの設定(&amp;A)..."/>
+    <entry key="&amp;Print Selected Records...&#9;Ctrl-P" value="選択したレコードの印刷(&amp;P)...&#9;Ctrl-P"/>
+    <entry key="Print P&amp;rofiles..." value="印刷プロファイル(&amp;R)..."/>
+    <entry key="Protect with an &amp;Admin Password..." value="管理者パスワードで保護(&amp;A)..."/>
+    <entry key="Protect with a Passp&amp;hrase..." value="パスフレーズで保護(&amp;H)..."/>
+    <entry key="Open &amp;Recent" value="最近使ったファイル(&amp;R)"/>
+    <entry key="Re&amp;move the Encryption..." value="暗号化の解除(&amp;M)..."/>
+    <entry key="Rotate the &amp;Encryption Key..." value="暗号化キーの更新(&amp;E)..."/>
+    <entry key="&amp;Sample Databases..." value="サンプル データベース(&amp;S)..."/>
+    <entry key="&amp;Search...&#9;Ctrl-F" value="検索(&amp;S)...&#9;Ctrl-F"/>
+    <entry key="Se&amp;curity" value="セキュリティ(&amp;C)"/>
+    <entry key="&amp;Settings" value="設定(&amp;S)"/>
+    <entry key="Show the Database &amp;Key..." value="データベースのキーの表示(&amp;K)..."/>
+    <entry key="Application L&amp;og" value="アプリケーション ログ(&amp;O)"/>
+    <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="SQL クエリ (読み取り専用)(&amp;Q)...&#9;Ctrl-Q"/>
+    <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="統計(&amp;I)...&#9;Ctrl-Shift-T"/>
+    <entry key="S&amp;witch User..." value="ユーザーの切り替え(&amp;W)..."/>
+    <entry key="&amp;Theme..." value="テーマ(&amp;T)..."/>
+    <entry key="&amp;Users and Access..." value="ユーザーとアクセス(&amp;U)..."/>
+    <entry key="&amp;Version Info..." value="バージョン情報の詳細(&amp;V)..."/>
+    <entry key="Copy the attached files of the merged records" value="マージするレコードの添付ファイルもコピーする"/>
+    <entry key="Choose..." value="選択..."/>
+    <entry key="Choose the database to merge in" value="マージするデータベースの選択"/>
+    <entry key="New column: the records already here get" value="新しい列：既存のレコードに設定する値"/>
+    <entry key="Empty values of the merged records become" value="マージするレコードの空の値に設定する値"/>
+    <entry key="Note" value="注記"/>
+    <entry key="Column in the result" value="結果の列"/>
+    <entry key="Filled from" value="値の取得元"/>
+    <entry key="The two tables have the same columns: the records can be merged as they are." value="2 つのテーブルの列は同じです。レコードはそのままマージできます。"/>
+    <entry key="The tables are different: %d column(s) only in the database to merge, %d only in this one, %d with types that do not match. Choose below what happens to each column (click a cell to change it)." value="テーブルが異なります。マージするデータベースにのみある列が %d 個、このデータベースにのみある列が %d 個、型が一致しない列が %d 個あります。各列の扱いを下で選択してください (セルをクリックすると変更できます)。"/>
+    <entry key="Merge finished: %lld added, %lld overwritten, %lld kept both (value changed), %lld skipped." value="マージが完了しました：追加 %lld 件、上書き %lld 件、両方を保持 (値を変更) %lld 件、スキップ %lld 件。"/>
+    <entry key="(drop this column)" value="(この列を除外)"/>
+    <entry key="The merge stopped: %s" value="マージが中止されました：%s"/>
+    <entry key="(nothing)" value="(なし)"/>
+    <entry key="(new table &quot;%s&quot;)" value="(新しいテーブル &quot;%s&quot;)"/>
+    <entry key="The table does not exist here: it is created with the columns below." value="このテーブルはこちらに存在しません。下の列で作成されます。"/>
+    <entry key="only in this database" value="このデータベースにのみ存在"/>
+    <entry key="new column" value="新しい列"/>
+    <entry key="renamed from &quot;%s&quot;" value="&quot;%s&quot; から名前を変更"/>
+    <entry key="types differ: %s / %s" value="型が異なります：%s / %s"/>
+    <entry key="Preview..." value="プレビュー..."/>
+    <entry key="Show every incoming record in a tab, to edit, leave out or choose them before anything is written" value="受信するすべてのレコードをタブに表示し、書き込む前に編集、除外、選択できるようにします"/>
+    <entry key="%zu record(s) could not be merged:" value="%zu 件のレコードをマージできませんでした："/>
+    <entry key="%lld of %lld record(s)..." value="%lld / %lld 件のレコード..."/>
+    <entry key="Merge" value="マージ"/>
+    <entry key="This is the database already open: choose another one." value="これは既に開いているデータベースです。別のデータベースを選択してください。"/>
+    <entry key="%d automations copied" value="%d 件の自動処理をコピーしました"/>
+    <entry key="Copy Several Tables..." value="複数のテーブルをコピー..."/>
+    <entry key="The tables to copy as they are into this database:" value="このデータベースにそのままコピーするテーブル:"/>
+    <entry key="%s: %lld records copied, %lld left out" value="%s: %lld 件のレコードをコピー、%lld 件を除外"/>
+    <entry key="Copy tables of the other database as they are (structure, records, attachments, the relations and automations among them)" value="別のデータベースのテーブルをそのままコピーします (構造、レコード、添付ファイル、およびテーブル間のリレーションと自動処理)"/>
+    <entry key="Database to merge in:" value="マージするデータベース："/>
+    <entry key="Its table:" value="そのテーブル："/>
+    <entry key="Into this table:" value="マージ先のテーブル："/>
+    <entry key="Merge another database" value="別のデータベースのマージ"/>
+    <entry key="Shortest (characters, 0 = any):" value="最小長 (文字数、0 = 制限なし)："/>
+    <entry key="Smallest (empty = any):" value="最小値 (空 = 制限なし)："/>
+    <entry key="Attachments: move the original file into the attachment folder by default (unticked: copy it)" value="添付ファイル：既定で元のファイルを添付ファイル フォルダーに移動する (オフ：コピーする)"/>
+    <entry key="Down" value="下へ"/>
+    <entry key="Up" value="上へ"/>
+    <entry key="The name contains control characters." value="名前に制御文字が含まれています。"/>
+    <entry key="This name is used already." value="この名前は既に使用されています。"/>
+    <entry key="The name is empty." value="名前が空です。"/>
+    <entry key="Names starting with _ or sqlite_, and rowid / oid, are reserved." value="_ または sqlite_ で始まる名前と、rowid / oid は予約されています。"/>
+    <entry key="The name is longer than 64 characters." value="名前が 64 文字を超えています。"/>
+    <entry key="Browse..." value="参照..."/>
+    <entry key="%s already exists. It is never overwritten: what should be done?" value="%s は既に存在します。上書きされることはありません。どうしますか？"/>
+    <entry key="A file with this name exists already: you will be asked what to do." value="この名前のファイルは既に存在します。どうするかを確認されます。"/>
+    <entry key="Folder:" value="フォルダー："/>
+    <entry key="The folder does not exist." value="フォルダーが存在しません。"/>
+    <entry key="The name is free." value="この名前は使用できます。"/>
+    <entry key="Name:" value="名前："/>
+    <entry key="Type a name." value="名前を入力してください。"/>
+    <entry key="Open the existing one" value="既存のファイルを開く"/>
+    <entry key="Change the name" value="名前を変更"/>
+    <entry key="New database" value="新しいデータベース"/>
+    <entry key="Create %s" value="%s を作成"/>
+    <entry key="New admin password:" value="新しい管理者パスワード："/>
+    <entry key="The current recovery key stops working. Enter the admin password to make a new one." value="現在の回復キーは使用できなくなります。新しい回復キーを作成するには、管理者パスワードを入力してください。"/>
+    <entry key="New recovery key" value="新しい回復キー"/>
+    <entry key="No" value="いいえ"/>
+    <entry key="This database has no table yet: create one first." value="このデータベースにはまだテーブルがありません。先にテーブルを作成してください。"/>
+    <entry key="No" value="いいえ"/>
+    <entry key="OK" value="OK"/>
+    <entry key="Open a database" value="データベースを開く"/>
+    <entry key="Open folder" value="フォルダーを開く"/>
+    <entry key="(all)" value="(すべて)"/>
+    <entry key="(every session)" value="(すべてのセッション)"/>
+    <entry key="Select a session first." value="先にセッションを選択してください。"/>
+    <entry key="Computer" value="コンピューター"/>
+    <entry key="Details" value="詳細"/>
+    <entry key="Ended" value="終了"/>
+    <entry key="Importance" value="重要度"/>
+    <entry key="Operation" value="操作"/>
+    <entry key="Record" value="レコード"/>
+    <entry key="{OPS_COL_SESSION}#" value="#"/>
+    <entry key="Started" value="開始"/>
+    <entry key="Details" value="詳細"/>
+    <entry key="Table" value="テーブル"/>
+    <entry key="Time" value="時刻"/>
+    <entry key="User" value="ユーザー"/>
+    <entry key="%d operation(s). Select one to see its details." value="%d 件の操作。詳細を表示するには操作を選択してください。"/>
+    <entry key="%s - %s - %s (session %lld)" value="%s - %s - %s (セッション %lld)"/>
+    <entry key="History %s #%lld" value="履歴 %s #%lld"/>
+    <entry key="routine" value="日常"/>
+    <entry key="normal" value="通常"/>
+    <entry key="notable" value="注目"/>
+    <entry key="high" value="高"/>
+    <entry key="critical" value="重大"/>
+    <entry key="Every importance" value="すべての重要度"/>
+    <entry key="Normal and above" value="通常以上"/>
+    <entry key="Notable and above" value="注目以上"/>
+    <entry key="High and above" value="高以上"/>
+    <entry key="Critical only" value="重大のみ"/>
+    <entry key="Accounts switched on" value="アカウントの有効化"/>
+    <entry key="Account created" value="アカウントの作成"/>
+    <entry key="Account level changed" value="アカウント レベルの変更"/>
+    <entry key="Account locked" value="アカウントのロック"/>
+    <entry key="Password changed" value="パスワードの変更"/>
+    <entry key="Account unlocked" value="アカウントのロック解除"/>
+    <entry key="Table changed" value="テーブルの変更"/>
+    <entry key="Automation saved" value="自動処理の保存"/>
+    <entry key="Automation removed" value="自動処理の削除"/>
+    <entry key="Closed" value="クローズ"/>
+    <entry key="Relation / index changed" value="リレーション / インデックスの変更"/>
+    <entry key="Database created" value="データベースの作成"/>
+    <entry key="Table created" value="テーブルの作成"/>
+    <entry key="Deleted" value="削除"/>
+    <entry key="Exported" value="エクスポート"/>
+    <entry key="Added" value="追加"/>
+    <entry key="Operation:" value="操作："/>
+    <entry key="Locked" value="ロック"/>
+    <entry key="Logged in" value="ログイン"/>
+    <entry key="Login refused" value="ログインの拒否"/>
+    <entry key="Merged" value="マージ"/>
+    <entry key="Opened" value="オープン"/>
+    <entry key="Document printed" value="ドキュメントの印刷"/>
+    <entry key="{Log}Search" value="検索"/>
+    <entry key="Statistics report" value="統計レポート"/>
+    <entry key="Unlock refused" value="ロック解除の拒否"/>
+    <entry key="Changed" value="変更"/>
+    <entry key="Log looked at" value="ログの閲覧"/>
+    <entry key="Tab opened" value="タブのオープン"/>
+    <entry key="Table looked at" value="テーブルの閲覧"/>
+    <entry key="PDF of this list..." value="この一覧の PDF..."/>
+    <entry key="The operations log of this database could not be opened." value="このデータベースの操作ログを開けませんでした。"/>
+    <entry key="Record:" value="レコード："/>
+    <entry key="(running)" value="(実行中)"/>
+    <entry key="Sessions (select one to see only its operations):" value="セッション (選択するとその操作だけを表示)："/>
+    <entry key="Database %s - user %s on %s - from %s to %s" value="データベース %s - ユーザー %s (%s) - %s から %s まで"/>
+    <entry key="PDF of the session..." value="セッションの PDF..."/>
+    <entry key="Session %lld" value="セッション %lld"/>
+    <entry key="Show" value="表示"/>
+    <entry key="Operations log" value="操作ログ"/>
+    <entry key="Table:" value="テーブル："/>
+    <entry key="{OPS_TITLE}Operations log" value="操作ログ"/>
+    <entry key="User:" value="ユーザー："/>
+    <entry key="Device time %s - UTC %s - device %s - importance %s" value="デバイスの時刻 %s - UTC %s - デバイス %s - 重要度 %s"/>
+    <entry key="contains" value="を含む"/>
+    <entry key="is empty" value="が空"/>
+    <entry key="ends with" value="で終わる"/>
+    <entry key="is" value="と等しい"/>
+    <entry key="is more than" value="より大きい"/>
+    <entry key="is at least" value="以上"/>
+    <entry key="is less than" value="より小さい"/>
+    <entry key="is at most" value="以下"/>
+    <entry key="is not empty" value="が空でない"/>
+    <entry key="is not" value="と等しくない"/>
+    <entry key="starts with" value="で始まる"/>
+    <entry key="Detect automatically (tries every format)" value="自動検出 (すべての形式を試す)"/>
+    <entry key="The passphrase was changed." value="パスフレーズを変更しました。"/>
+    <entry key="Enter a passphrase." value="パスフレーズを入力してください。"/>
+    <entry key="Encryption format:" value="暗号化の形式："/>
+    <entry key="Passphrase:" value="パスフレーズ："/>
+    <entry key="Choose the passphrase. It is never stored: if it is lost, nobody can open the database." value="パスフレーズを決めてください。パスフレーズは保存されません。紛失すると、誰もデータベースを開けなくなります。"/>
+    <entry key="%s is encrypted with a passphrase. Enter it." value="%s はパスフレーズで暗号化されています。パスフレーズを入力してください。"/>
+    <entry key="Repeat the passphrase:" value="パスフレーズの再入力："/>
+    <entry key="Use at least 8 characters." value="8 文字以上にしてください。"/>
+    <entry key="Show the passphrase" value="パスフレーズを表示する"/>
+    <entry key="Passphrase" value="パスフレーズ"/>
+    <entry key="The passphrase is wrong, or the file is in another format. Check the passphrase, or choose the format." value="パスフレーズが正しくないか、ファイルが別の形式です。パスフレーズを確認するか、形式を選択してください。"/>
+    <entry key="The two passwords are different." value="2 つのパスワードが一致しません。"/>
+    <entry key="The admin password was changed." value="管理者パスワードを変更しました。"/>
+    <entry key="The password is too weak: use at least 12 characters, not just a few repeated ones." value="パスワードが弱すぎます。12 文字以上にし、少数の文字の繰り返しだけにしないでください。"/>
+    <entry key="Wrong password." value="パスワードが正しくありません。"/>
+    <entry key="e.g. [A-Z]{3}-\d{4} accepts ABC-1234" value="例：[A-Z]{3}-\d{4} は ABC-1234 を受け付けます"/>
+    <entry key="Pattern (regular expression, optional):" value="パターン (正規表現、省略可)："/>
+    <entry key="The PDF could not be written: %s" value="PDF を書き込めませんでした：%s"/>
+    <entry key="PDF files (*.pdf)|*.pdf" value="PDF ファイル (*.pdf)|*.pdf"/>
+    <entry key="%s %s - %s - PDF created with %s" value="%s %s - %s - %s で作成した PDF"/>
+    <entry key="Page %d of %d" value="%d / %d ページ"/>
+    <entry key="The PDF is protected: it opens with the PDF password of the sensitive database." value="PDF は保護されています。機密データベースの PDF パスワードで開けます。"/>
+    <entry key="Save the PDF" value="PDF の保存"/>
+    <entry key="Action" value="操作"/>
+    <entry key="Merge" value="マージ"/>
+    <entry key="Here: %s - incoming: %s" value="こちら：%s - 受信：%s"/>
+    <entry key="Close the preview without merging anything?" value="何もマージせずにプレビューを閉じますか?"/>
+    <entry key="Leave these rows out" value="これらの行を除外"/>
+    <entry key="Exclude All" value="すべて除外"/>
+    <entry key="here #%lld" value="こちらの #%lld"/>
+    <entry key="The text to replace in %s (%d rows):" value="%s 内で置換するテキスト (%d 行)："/>
+    <entry key="Merge these rows" value="これらの行をマージ"/>
+    <entry key="Include All" value="すべて含める"/>
+    <entry key="The records of %s - %s, as they will be merged into %s. Nothing is written until Apply. Edit any value; untick a row to leave it out; a red value cannot be saved (select it to see why). A record whose unique value exists here has the existing record under it: the green value is the one kept (right click to choose, cell by cell or for the whole column)." value="%s - %s のレコードを、%s にマージされる形で表示しています。「適用」を押すまで何も書き込まれません。任意の値を編集できます。行のチェックを外すと除外されます。赤い値は保存できません (選択すると理由が表示されます)。一意の値が既にこちらにあるレコードの下には、既存のレコードが表示されます。緑の値が保持される値です (右クリックで、セルごとまたは列全体に対して選択できます)。"/>
+    <entry key="Keep the existing value" value="既存の値を保持"/>
+    <entry key="Keep the existing values of this column (every record already here)" value="この列の既存の値を保持 (既にこちらにあるすべてのレコード)"/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Merge the others?" value="%s 行に保存できない値があります。これらは除外されます。残りをマージしますか?"/>
+    <entry key="Only rows with problems or already here" value="問題のある行または既にこちらにある行のみ"/>
+    <entry key="Replace a text..." value="テキストの置換..."/>
+    <entry key="Replace &quot;%s&quot; with:" value="&quot;%s&quot; の置換後："/>
+    <entry key="Set a value..." value="値の設定..."/>
+    <entry key="The value of %s in %d rows:" value="%s の値 (%d 行)："/>
+    <entry key="%s records - %s to merge - %s already here - %s with values that cannot be saved" value="%s 件のレコード - マージ対象 %s 件 - 既にこちらにある %s 件 - 保存できない値を含む %s 件"/>
+    <entry key="Merge into %s" value="%s へのマージ"/>
+    <entry key="Take the incoming value" value="受信する値を使用"/>
+    <entry key="Take the incoming values of this column (every record already here)" value="この列の受信する値を使用 (既にこちらにあるすべてのレコード)"/>
+    <entry key="centre" value="中央"/>
+    <entry key="Alignment:" value="配置："/>
+    <entry key="left" value="左"/>
+    <entry key="right" value="右"/>
+    <entry key="Its heading:" value="見出し："/>
+    <entry key="An expression such as {Qty} * {Price} (empty = no amounts). The amounts are added up at the end." value="{数量} * {単価} のような式 (空 = 金額なし)。金額は最後に合計されます。"/>
+    <entry key="Amount of each record:" value="各レコードの金額："/>
+    <entry key="Suggested changes:%s&#10;&#10;%s&#10;&#10;Apply them (also the column widths)?" value="推奨される変更：%s&#10;&#10;%s&#10;&#10;適用しますか (列幅も含む)？"/>
+    <entry key="Analyze best print settings" value="最適な印刷設定を分析"/>
+    <entry key="The columns fit: headers and values on one line." value="列が収まります。見出しと値は 1 行に表示されます。"/>
+    <entry key="Looks at the records of the table as they would print and suggests the paper, orientation, margins, text size and column widths that fit them." value="テーブルのレコードを印刷時の状態で調べ、収まる用紙、向き、余白、文字サイズ、列幅を提案します。"/>
+    <entry key="Still on two lines: %d header(s), %d value(s)." value="まだ 2 行になるもの：見出し %d 個、値 %d 個。"/>
+    <entry key="Ask for a client when printing" value="印刷時に顧客を確認する"/>
+    <entry key="Bold" value="太字"/>
+    <entry key="Print profiles of %s (how the document looks; saved in the database):" value="%s の印刷プロファイル (ドキュメントの外観。データベースに保存されます)："/>
+    <entry key="Choose the client from %s:" value="%s から顧客を選択してください："/>
+    <entry key="Columns printed in the client box (ticked, in this order):" value="顧客欄に印刷する列 (オンにした列をこの順序で)："/>
+    <entry key="A record of %s" value="%s のレコード"/>
+    <entry key="That table has no records." value="そのテーブルにはレコードがありません。"/>
+    <entry key="Is this document for a client?" value="このドキュメントは顧客向けですか？"/>
+    <entry key="Where is the client?" value="顧客の取得元"/>
+    <entry key="Clients usually from:" value="通常の顧客の取得元："/>
+    <entry key="Client" value="顧客"/>
+    <entry key="(typed by hand)" value="(手入力)"/>
+    <entry key="The client (name on the first line, then the address):" value="顧客 (1 行目に名前、続いて住所)："/>
+    <entry key="An empty heading prints the column's name. Width: 2 is twice as wide as 1 (table layout)." value="見出しが空の場合は列名が印刷されます。幅：2 は 1 の 2 倍の幅です (表のレイアウト)。"/>
+    <entry key="Ticked columns are printed, in this order:" value="オンにした列がこの順序で印刷されます："/>
+    <entry key="The selected column" value="選択した列"/>
+    <entry key="Copy..." value="コピー..."/>
+    <entry key="Currency:" value="通貨："/>
+    <entry key="Date" value="日付"/>
+    <entry key="decimals:" value="小数点以下の桁数："/>
+    <entry key="Amount" value="金額"/>
+    <entry key="VAT" value="税"/>
+    <entry key="Delete" value="削除"/>
+    <entry key="Delete the print profile &quot;%s&quot;?" value="印刷プロファイル &quot;%s&quot; を削除しますか？"/>
+    <entry key="Demo Print" value="デモ印刷"/>
+    <entry key="(demo)" value="(デモ)"/>
+    <entry key="The same document marked DEMO on every page: the number is shown but not used, nothing is recorded as printed." value="すべてのページに DEMO と表示された同じドキュメントです。番号は表示されますが使用されず、印刷済みとして記録されません。"/>
+    <entry key="Down" value="下へ"/>
+    <entry key="Change..." value="変更..."/>
+    <entry key="Text size (pt):" value="文字サイズ (pt)："/>
+    <entry key="Your company: name on the first line, then address, VAT number ..." value="自社：1 行目に名前、続いて住所、税番号 ..."/>
+    <entry key="Issuer:" value="発行者："/>
+    <entry key="Heading:" value="見出し："/>
+    <entry key="Landscape" value="横向き"/>
+    <entry key="Bigger text" value="大きい文字"/>
+    <entry key="You are printing %ld records: about %ld pages, ready in %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Print anyway? (A search or a statistics report can make it shorter.)" value="%ld 件のレコードを印刷しようとしています。約 %ld ページで、%s で完了します (時間はコンピューターによって異なります)。進行状況と時間はステータス バーに表示され、[停止] で中止できます。&#10;&#10;それでも印刷しますか？(検索や統計レポートを使うと短くできます。)"/>
+    <entry key="Layout:" value="レイアウト："/>
+    <entry key="One column per line: each record as a block" value="1 行に 1 列：各レコードをブロックとして表示"/>
+    <entry key="A table: one row per record" value="表：1 レコードにつき 1 行"/>
+    <entry key="Margins (mm):" value="余白 (mm)："/>
+    <entry key="Bottom" value="下"/>
+    <entry key="Left" value="左"/>
+    <entry key="Right" value="右"/>
+    <entry key="Top" value="上"/>
+    <entry key="Profile name:" value="プロファイル名："/>
+    <entry key="Give the profile a name." value="プロファイルに名前を付けてください。"/>
+    <entry key="New..." value="新規..."/>
+    <entry key="next {seq}:" value="次の {seq}："/>
+    <entry key="Notes at the end:" value="末尾の注記："/>
+    <entry key="Tick at least one column to print." value="印刷する列を 1 つ以上オンにしてください。"/>
+    <entry key="A template, e.g. INV-{date:YYYY}-{seq:4}; empty = no number." value="テンプレート (例：INV-{date:YYYY}-{seq:4})。空 = 番号なし。"/>
+    <entry key="Number:" value="番号："/>
+    <entry key="Number" value="番号"/>
+    <entry key="Orientation:" value="向き："/>
+    <entry key="Amounts" value="金額"/>
+    <entry key="Client" value="顧客"/>
+    <entry key="Columns" value="列"/>
+    <entry key="Default settings" value="既定の設定"/>
+    <entry key="Document" value="ドキュメント"/>
+    <entry key="Images" value="画像"/>
+    <entry key="Size and margins" value="サイズと余白"/>
+    <entry key="Paper:" value="用紙："/>
+    <entry key="Portrait" value="縦向き"/>
+    <entry key="Print" value="印刷"/>
+    <entry key="Print profiles" value="印刷プロファイル"/>
+    <entry key="Print profile" value="印刷プロファイル"/>
+    <entry key="Scale (%):" value="拡大率 (%)："/>
+    <entry key="Select the records to print in a table tab first (or right-click them and choose Print)." value="先にテーブルのタブで印刷するレコードを選択してください (または右クリックして [印刷] を選択してください)。"/>
+    <entry key="Print the total" value="合計を印刷する"/>
+    <entry key="The print was stopped: no file was written." value="印刷を中止しました。ファイルは書き込まれていません。"/>
+    <entry key="Subtotal" value="小計"/>
+    <entry key="Tax %:" value="税率 %："/>
+    <entry key="named:" value="名前："/>
+    <entry key="Print" value="印刷"/>
+    <entry key="Title printed:" value="印刷するタイトル："/>
+    <entry key="Total" value="合計"/>
+    <entry key="To" value="宛先"/>
+    <entry key="Up" value="上へ"/>
+    <entry key="Width (relative):" value="幅 (相対値)："/>
+    <entry key="The database is now encrypted." value="データベースは暗号化されました。"/>
+    <entry key="not encrypted" value="暗号化なし"/>
+    <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="%s をどのように保護しますか？後で変更できます ([データベース] &gt; [セキュリティ])。"/>
+    <entry key="To switch to an admin password, the passphrase encryption is removed first and the database is then encrypted again with the new key. Continue?" value="管理者パスワードに切り替えるには、まずパスフレーズによる暗号化を解除し、その後データベースを新しいキーで再び暗号化します。続行しますか？"/>
+    <entry key="Not encrypted - anyone who has the file can read it" value="暗号化しない - ファイルを持っている人は誰でも読み取れます"/>
+    <entry key="Attached files (pictures, PDFs, ...) are stored in a normal folder next to the database: they are not encrypted." value="添付ファイル (画像、PDF、...) はデータベースの隣にある通常のフォルダーに保存され、暗号化されません。"/>
+    <entry key="A passphrase only - the same passphrase also opens the file in other tools (e.g. DB Browser for SQLite)" value="パスフレーズのみ - 同じパスフレーズで他のツール (DB Browser for SQLite など) でもファイルを開けます"/>
+    <entry key="Protection" value="保護"/>
+    <entry key="Admin password + recovery key (recommended) - the key file %s is kept next to the database" value="管理者パスワード + 回復キー (推奨) - キー ファイル %s はデータベースの隣に保存されます"/>
+    <entry key="A quantity changes only through an operation (it starts at zero)." value="数量は操作によってのみ変更されます (初期値はゼロです)。"/>
+    <entry key="+ Condition" value="+ 条件"/>
+    <entry key="and" value="かつ"/>
+    <entry key="Search in a new tab" value="新しいタブで検索"/>
+    <entry key="or" value="または"/>
+    <entry key="Remove this condition" value="この条件を削除"/>
+    <entry key="Search" value="検索"/>
+    <entry key="#%lld %s: %s" value="#%lld %s：%s"/>
+    <entry key="To check that you wrote it down correctly, type group %d and group %d:" value="正しく書き留めたことを確認するため、グループ %d とグループ %d を入力してください："/>
+    <entry key="That is not a valid recovery key: 32 letters and digits, in 8 groups of 4." value="有効な回復キーではありません。回復キーは英数字 32 文字で、4 文字ずつ 8 グループです。"/>
+    <entry key="Recovery key:" value="回復キー："/>
+    <entry key="The recovery key is shown only once. Write it down and type the two groups to continue." value="回復キーは一度だけ表示されます。書き留めてから、2 つのグループを入力して続行してください。"/>
+    <entry key="Write this recovery key down (or print it) and keep it somewhere safe, away from this PC. If the admin password is forgotten, it is the ONLY way to open the database. It is shown only now and is not stored anywhere." value="この回復キーを書き留めて (または印刷して)、この PC から離れた安全な場所に保管してください。管理者パスワードを忘れた場合、データベースを開く唯一の方法になります。表示されるのは今だけで、どこにも保存されません。"/>
+    <entry key="Your recovery key" value="回復キー"/>
+    <entry key="Wrong recovery key." value="回復キーが正しくありません。"/>
+    <entry key="Type the recovery key you saved when the database was protected, then choose a new admin password. A new recovery key is made afterwards." value="データベースを保護したときに保存した回復キーを入力し、新しい管理者パスワードを決めてください。その後、新しい回復キーが作成されます。"/>
+    <entry key="Recover with the recovery key" value="回復キーによる回復"/>
+    <entry key="Column:" value="列："/>
+    <entry key="%d found" value="%d 件見つかりました"/>
+    <entry key="Record" value="レコード"/>
+    <entry key="The first %d shown: type more to narrow the search." value="最初の %d 件を表示しています。さらに入力して検索を絞り込んでください。"/>
+    <entry key="Choose from %s" value="%s から選択"/>
+    <entry key="Choose from the referenced records: type to search, or press F4 / ... to search in a list." value="参照先のレコードから選択します。入力して検索するか、F4 キーまたは ... を押して一覧から検索します。"/>
+    <entry key="Choose %s" value="%s の選択"/>
+    <entry key="Value" value="値"/>
+    <entry key="Table:" value="テーブル："/>
+    <entry key="Delete them too" value="それらも削除する"/>
+    <entry key="They follow the new value" value="新しい値に追従する"/>
+    <entry key="%s refers to %s. What happens to the records that refer to a record:" value="%s は %s を参照しています。参照先のレコードに対して、それを参照しているレコードは次のようになります："/>
+    <entry key="&quot;Delete them too&quot; deletes records without asking: use it only for records that make no sense alone (the lines of an order). The rules are kept by the database file, so they apply to every program that writes to it." value="[それらも削除する] は確認なしでレコードを削除します。単独では意味のないレコード (注文の明細行など) にのみ使用してください。ルールはデータベース ファイルに保持されるため、データベースに書き込むすべてのプログラムに適用されます。"/>
+    <entry key="when it is deleted:" value="削除されたとき："/>
+    <entry key="when its value changes:" value="値が変更されたとき："/>
+    <entry key="Refuse while records refer to it" value="参照しているレコードがある間は拒否する"/>
+    <entry key="They lose the reference (empty)" value="参照を失う (空にする)"/>
+    <entry key="Relation" value="リレーション"/>
+    <entry key="Remove" value="削除"/>
+    <entry key="Remove the encryption of %s? From then on anyone who has the file can read it." value="%s の暗号化を解除しますか？解除すると、ファイルを持っている人は誰でも読み取れるようになります。"/>
+    <entry key="Open the last database when the application starts" value="アプリケーションの起動時に最後のデータベースを開く"/>
+    <entry key="Repeat the password:" value="パスワードの再入力："/>
+    <entry key="Made by %s on %s" value="作成者：%s、作成日時：%s"/>
+    <entry key="Records containing &quot;%s&quot;" value="&quot;%s&quot; を含むレコード"/>
+    <entry key="Database %s - %s" value="データベース %s - %s"/>
+    <entry key="%s from %s to %s" value="%s：%s から %s まで"/>
+    <entry key="Restart now" value="今すぐ再起動"/>
+    <entry key="Entry only" value="入力のみ"/>
+    <entry key="only adds new records" value="新しいレコードの追加のみ"/>
+    <entry key="Full access" value="フルアクセス"/>
+    <entry key="everything: deletes, structure, security, manages the lower levels" value="すべて：削除、構造、セキュリティ、下位レベルの管理"/>
+    <entry key="Master" value="マスター"/>
+    <entry key="manages the accounts only, no work on the data" value="アカウントの管理のみ。データの操作は不可"/>
+    <entry key="Modify data" value="データ変更"/>
+    <entry key="reads, adds and changes records (no deleting)" value="レコードの読み取り、追加、変更 (削除は不可)"/>
+    <entry key="(not logged in)" value="(ログインしていません)"/>
+    <entry key="Read only" value="読み取り専用"/>
+    <entry key="browses, searches, exports, statistics" value="参照、検索、エクスポート、統計"/>
+    <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="データベースを新しいキーで再暗号化しました。続いて新しい回復キーが表示されます。"/>
+    <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="新しい暗号化キーを作成し、データベース全体をそのキーで再暗号化して、新しい回復キーを作成します。データベースのコピーとそのキー ファイル (または管理者パスワード) が漏洩した可能性がある場合に使用してください。以前に作成されたコピーは古い秘密情報で引き続き読み取れますが、今後のすべての内容には新しいキーが必要になります。続行するには管理者パスワードを入力してください。"/>
+    <entry key="Rotate the encryption key" value="暗号化キーの更新"/>
+    <entry key="Rules" value="ルール"/>
+    <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="このサンプル データベースのコピーが既にあります：&#10;%s&#10;&#10;変更を残したまま開きますか、それとも新しいコピーからやり直しますか (そのコピーへの変更は失われます)？"/>
+    <entry key="The sample database could not be copied." value="サンプル データベースをコピーできませんでした。"/>
+    <entry key="Fresh Copy" value="新しいコピー"/>
+    <entry key="The sample database is not where it should be:&#10;%s" value="サンプル データベースが本来の場所にありません：&#10;%s"/>
+    <entry key="Open My Copy" value="自分のコピーを開く"/>
+    <entry key="Open a sample database to try SQLite DB Tools (the User Manual has a tour of each). You work on a copy: the original stays as it is." value="サンプル データベースを開いて SQLite DB Tools を試せます (ユーザー マニュアルにそれぞれの紹介があります)。作業はコピーに対して行われ、元のファイルはそのまま残ります。"/>
+    <entry key="Sample Databases" value="サンプル データベース"/>
+    <entry key="Calibration - measuring instruments, their calibrations, certificates and movements" value="Calibration - 測定器、その校正、証明書、移動"/>
+    <entry key="Library - books, authors, members and loans" value="Library - 書籍、著者、会員、貸出"/>
+    <entry key="Shop - items, suppliers, customers and stock movements" value="Shop - 品目、仕入先、顧客、在庫の移動"/>
+    <entry key="Save for next start" value="次回の起動時に適用"/>
+    <entry key="The name &quot;%s&quot; cannot be used: it is empty, too long, starts with _, is reserved or is used already." value="名前 &quot;%s&quot; は使用できません。空である、長すぎる、_ で始まる、予約されている、または既に使用されているかのいずれかです。"/>
+    <entry key="A table can have at most %d columns." value="1 つのテーブルに作成できる列は最大 %d 個です。"/>
+    <entry key="The existing records do not fit the new definition: %s" value="既存のレコードが新しい定義に適合しません：%s"/>
+    <entry key="The table is still needed by: %s. Remove those references or automations first." value="このテーブルはまだ次で使用されています: %s。先にそれらの参照または自動処理を削除してください。"/>
+    <entry key="This table was made by another program: only new columns without Required / Unique can be added to it." value="このテーブルは別のプログラムで作成されたものです。追加できるのは、必須 / 一意ではない新しい列だけです。"/>
+    <entry key="A table needs at least one column." value="テーブルには 1 つ以上の列が必要です。"/>
+    <entry key="The column &quot;%s&quot; refers to a table or column that does not exist." value="列 &quot;%s&quot; は存在しないテーブルまたは列を参照しています。"/>
+    <entry key="The column &quot;%s&quot; was removed: tables only grow." value="列 &quot;%s&quot; が削除されています。テーブルは拡張のみ可能です。"/>
+    <entry key="The database refused the change: %s" value="データベースが変更を拒否しました：%s"/>
+    <entry key="A database can have at most %s tables." value="1 つのデータベースに作成できるテーブルは最大 %s 個です。"/>
+    <entry key="Search: %s" value="検索：%s"/>
+    <entry key="Preferences" value="設定"/>
+    <entry key="Choose an admin password: it is asked every time the database is opened. It is never stored anywhere - nobody can recover it for you (the recovery key made next is the only way back). Use at least 12 characters; a few words together work well." value="管理者パスワードを決めてください。データベースを開くたびに入力が必要です。パスワードはどこにも保存されないため、誰も回復できません (次に作成される回復キーが唯一の手段です)。12 文字以上にしてください。いくつかの単語を組み合わせると効果的です。"/>
+    <entry key="The data already in the database is encrypted too; nothing is lost." value="データベースに既にあるデータも暗号化されます。失われるものはありません。"/>
+    <entry key="Protect the database" value="データベースの保護"/>
+    <entry key="Error: %s" value="エラー：%s"/>
+    <entry key="Read-only: only queries that read (SELECT, SQLite syntax) run here; writing, ATTACH and PRAGMA are refused. Ctrl+Enter runs the query." value="読み取り専用：ここでは読み取りを行うクエリ (SELECT、SQLite の構文) だけを実行できます。書き込み、ATTACH、PRAGMA は拒否されます。Ctrl+Enter でクエリを実行します。"/>
+    <entry key="only one statement can be run at a time" value="一度に実行できるステートメントは 1 つだけです"/>
+    <entry key="only queries that read (SELECT) can be run here" value="ここでは読み取りを行うクエリ (SELECT) だけを実行できます"/>
+    <entry key="%zu row(s)" value="%zu 行"/>
+    <entry key="Run" value="実行"/>
+    <entry key="Tables and columns (double-click to insert the name):" value="テーブルと列 (ダブルクリックで名前を挿入)："/>
+    <entry key="SQL query" value="SQL クエリ"/>
+    <entry key=" - there are more, not shown" value=" - 他にもありますが表示されていません"/>
+    <entry key="Add" value="追加"/>
+    <entry key="(all the records)" value="(すべてのレコード)"/>
+    <entry key="Calculate" value="計算"/>
+    <entry key="Calculate to see the chart." value="グラフを表示するには計算してください。"/>
+    <entry key="Chart:" value="グラフ："/>
+    <entry key="Line" value="折れ線"/>
+    <entry key="{STATS_CLEAR_CONDITIONS_BTN}Clear" value="クリア"/>
+    <entry key="Only when" value="次の場合のみ"/>
+    <entry key="Records containing:" value="次を含むレコード："/>
+    <entry key="Save as CSV..." value="CSV として保存..."/>
+    <entry key="Date column:" value="日付の列："/>
+    <entry key="Decimals" value="小数点以下の桁数"/>
+    <entry key="Delete" value="削除"/>
+    <entry key="Delete the saved statistic &quot;%s&quot;?" value="保存された統計 &quot;%s&quot; を削除しますか？"/>
+    <entry key="descending" value="降順"/>
+    <entry key="End:" value="終了："/>
+    <entry key="Value" value="値"/>
+    <entry key="The statistic cannot be calculated: %s" value="統計を計算できません：%s"/>
+    <entry key="Average" value="平均"/>
+    <entry key="Count" value="件数"/>
+    <entry key="Count of different values" value="異なる値の件数"/>
+    <entry key="First value" value="最初の値"/>
+    <entry key="Formula of the measures" value="集計値の数式"/>
+    <entry key="Last value" value="最後の値"/>
+    <entry key="Maximum" value="最大"/>
+    <entry key="Median" value="中央値"/>
+    <entry key="Minimum" value="最小"/>
+    <entry key="(none)" value="(なし)"/>
+    <entry key="Product" value="積"/>
+    <entry key="Standard deviation (sample)" value="標準偏差 (標本)"/>
+    <entry key="Standard deviation (all)" value="標準偏差 (すべて)"/>
+    <entry key="Sum" value="合計"/>
+    <entry key="Variance (sample)" value="分散 (標本)"/>
+    <entry key="Variance (all)" value="分散 (すべて)"/>
+    <entry key="from" value="開始"/>
+    <entry key="Functions..." value="関数..."/>
+    <entry key="A value, a group or a condition is a formula of the columns of the record, written {Column}; {Reference&gt;Column} is a column of the referenced record. Texts are written in quotes: &quot;ACME&quot;.&#10;&#10;Operators: + - * /   &amp; joins texts   = &lt;&gt; &lt; &lt;= &gt; &gt;= compare (texts without regard to case)   and   or   not&#10;&#10;Logic: if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) (the first that is not empty)&#10;&#10;Numbers: round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;Texts: upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;Dates: today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) (1 = Sunday)  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;Measures: Count, Sum, Average, Minimum, Maximum, Count of different values, Median, Standard deviation and Variance (of a sample or of all the values), Product, First / Last value (by record number). &quot;Only when&quot; counts only the records where its condition holds (as SUMIF / COUNTIF / AVERAGEIF): {Kind} = &quot;Sale&quot; and {Qty} &gt; 0.&#10;&#10;Formula of the measures: a calculation on the other measures of the same row, written {M1}, {M2}... or by their heading: {M1} / {M2}, ({Revenue} - {Cost}) / {Revenue} * 100.&#10;&#10;Shown as: the value, its share of the total, the running total, the rank, the difference or the change from the row before (in the order of the rows)." value="値、グループ、条件はレコードの列から成る数式で、列は {Column} と書きます。{Reference&gt;Column} は参照先レコードの列です。テキストは引用符で囲みます：&quot;ACME&quot;。&#10;&#10;演算子：+ - * /   &amp; はテキストを連結   = &lt;&gt; &lt; &lt;= &gt; &gt;= は比較 (テキストは大文字と小文字を区別しない)   and   or   not&#10;&#10;論理：if(test, then, else)  and(a, b)  or(a, b)  not(a)  isempty(x)  isnumber(x)  between(x, low, high)  contains(text, part)  startswith(text, part)  endswith(text, part)  coalesce(a, b) (空でない最初の値)&#10;&#10;数値：round(x, decimals)  roundup(x, decimals)  rounddown(x, decimals)  trunc(x)  int(x)  floor(x)  ceiling(x)  abs(x)  sign(x)  mod(a, b)  power(x, y)  sqrt(x)  exp(x)  ln(x)  log10(x)  log(x, base)  pi()  min(a, b)  max(a, b)&#10;&#10;テキスト：upper  lower  proper  trim  len(text)  left(text, n)  right(text, n)  mid(text, start, n)  find(part, text)  replace(text, old, new)  concat(a, b)  rept(text, n)  text(x, decimals)  number(text)&#10;&#10;日付：today()  now()  date(d)  year(d)  month(d)  day(d)  hour(d)  minute(d)  weekday(d) (1 = 日曜日)  weeknum(d)  days(d1, d2)  months(d1, d2)  years(d1, d2)  adddays(d, n)  addmonths(d, n)  addyears(d, n)  eomonth(d, months)&#10;&#10;集計値：件数、合計、平均、最小、最大、異なる値の件数、中央値、標準偏差と分散 (標本またはすべての値)、積、最初 / 最後の値 (レコード番号順)。「次の場合のみ」はその条件が成り立つレコードだけを集計します (SUMIF / COUNTIF / AVERAGEIF と同様)：{Kind} = &quot;Sale&quot; and {Qty} &gt; 0。&#10;&#10;集計値の数式：同じ行のほかの集計値を使った計算で、{M1}、{M2}... またはその見出しで書きます：{M1} / {M2}、({Revenue} - {Cost}) / {Revenue} * 100。&#10;&#10;表示方法：値そのもの、合計に対する割合、累計、順位、前の行との差または変化率 (行の順序で)。"/>
+    <entry key="Functions of the formulas" value="数式の関数"/>
+    <entry key="Function" value="関数"/>
+    <entry key="Grouped by" value="グループ化"/>
+    <entry key="Heading" value="見出し"/>
+    <entry key="Group by a column ({Category}), a column of a referenced table ({Item&gt;Supplier}) or a date by month, quarter or year; measure a value such as {Qty} * {Price} (Sum, Average, Median...), only when a condition holds ({Kind} = &quot;Sale&quot;), or as a formula of the other measures ({M1} / {M2}). Example - monthly income: group {Date} by month, measure Sum of {Qty} * {Price}. Functions... lists everything a formula can use." value="列 ({Category})、参照先テーブルの列 ({Item&gt;Supplier})、または月・四半期・年単位の日付でグループ化し、{Qty} * {Price} のような値を集計します (合計、平均、中央値...)。条件が成り立つ場合のみ ({Kind} = &quot;Sale&quot;)、またはほかの集計値の数式 ({M1} / {M2}) として集計することもできます。例 - 月別の売上：{Date} を月でグループ化し、{Qty} * {Price} の合計を集計します。「関数...」で数式に使えるものをすべて表示します。"/>
+    <entry key="Measures" value="集計値"/>
+    <entry key="Name:" value="名前："/>
+    <entry key="Give the statistic a name to save it." value="統計を保存するには名前を付けてください。"/>
+    <entry key="(no date range)" value="(日付範囲なし)"/>
+    <entry key="Choose at least one measure (for example Count)." value="集計値を 1 つ以上選択してください (例：件数)。"/>
+    <entry key="PDF report..." value="PDF レポート..."/>
+    <entry key="day" value="日"/>
+    <entry key="Dates by" value="日付の単位"/>
+    <entry key="month" value="月"/>
+    <entry key="(the value)" value="(値そのもの)"/>
+    <entry key="quarter" value="四半期"/>
+    <entry key="week" value="週"/>
+    <entry key="year" value="年"/>
+    <entry key="%d row(s)." value="%d 行。"/>
+    <entry key="Saved:" value="保存済み："/>
+    <entry key="Saved." value="保存しました。"/>
+    <entry key="Save" value="保存"/>
+    <entry key="change (%) from the row before" value="前の行からの変化率 (%)"/>
+    <entry key="difference from the row before" value="前の行との差"/>
+    <entry key="Shown as" value="表示方法"/>
+    <entry key="% of the total" value="合計に対する割合 (%)"/>
+    <entry key="rank (1 = the largest)" value="順位 (1 = 最大)"/>
+    <entry key="running total" value="累計"/>
+    <entry key="the value" value="値そのもの"/>
+    <entry key="the groups" value="グループ"/>
+    <entry key="Sort by:" value="並べ替え："/>
+    <entry key="measure %d" value="集計値 %d"/>
+    <entry key="the records active in each period" value="各期間に有効なレコード"/>
+    <entry key="the last record up to each period" value="各期間までの最新のレコード"/>
+    <entry key="the past values of a column (operations log)" value="列の過去の値（操作ログ）"/>
+    <entry key="Each period counts the records active in it: started on or before its end, and not ended before its start (staff, contracts, rentals). The first group splits them." value="各期間は、その期間に有効なレコードを数えます：期間の終了以前に開始し、期間の開始前に終了していないもの（スタッフ、契約、レンタル）。最初のグループで分割します。"/>
+    <entry key="Each period takes the last record dated up to its end, carried forward until a newer one (a price list, readings); one for every value of the first group." value="各期間は、期間の終了までの日付を持つ最新のレコードを使い、新しいレコードが現れるまで引き継ぎます（価格表、計測値）。最初のグループの値ごとに1つ。"/>
+    <entry key="Each period takes the value the column had at its end, from the changes kept in the operations log (before the first change: the value it had then). Use the column in a measure: Average of {Price}." value="各期間は、期間の終了時点でその列が持っていた値を、操作ログに保存された変更から求めます（最初の変更より前：その時点の値）。列を集計値で使用してください：{Price} の平均。"/>
+    <entry key="The records grouped by the values below; the measures over each group." value="下の値でグループ化したレコード。各グループの集計値。"/>
+    <entry key="Made of:" value="集計の元："/>
+    <entry key="the records, grouped" value="レコード（グループ化）"/>
+    <entry key="Date / start:" value="日付 / 開始："/>
+    <entry key="Every:" value="間隔："/>
+    <entry key="Statistics" value="統計"/>
+    <entry key="Table:" value="テーブル："/>
+    <entry key="Period" value="期間"/>
+    <entry key="Statistics" value="統計"/>
+    <entry key="Total" value="合計"/>
+    <entry key="to" value="終了"/>
+    <entry key="Column:" value="列："/>
+    <entry key="Only records where:" value="次の条件のレコードのみ："/>
+    <entry key="%s - locked" value="%s - ロック中"/>
+    <entry key="No database open" value="データベースが開かれていません"/>
+    <entry key="Ready" value="準備完了"/>
+    <entry key="Computer" value="コンピューター"/>
+    <entry key="Copy to the clipboard" value="クリップボードにコピー"/>
+    <entry key="Architecture" value="アーキテクチャ"/>
+    <entry key="Data folder" value="データ フォルダー"/>
+    <entry key="Database open" value="開いているデータベース"/>
+    <entry key="Program" value="プログラム"/>
+    <entry key="Language" value="言語"/>
+    <entry key="Memory" value="メモリ"/>
+    <entry key="Operating system" value="オペレーティング システム"/>
+    <entry key="Screen scale" value="画面の拡大率"/>
+    <entry key="User" value="ユーザー"/>
+    <entry key="Table %s changed." value="テーブル %s を変更しました。"/>
+    <entry key="Columns (double-click to edit; their order is the order of the entry form):" value="列 (ダブルクリックで編集。この順序が入力フォームの順序になります)："/>
+    <entry key="Table %s created." value="テーブル %s を作成しました。"/>
+    <entry key="Items" value="品目"/>
+    <entry key="Discard the changes to this structure?" value="この構造への変更を破棄しますか？"/>
+    <entry key="Shown as (optional):" value="表示名 (省略可)："/>
+    <entry key="Structure: %s" value="構造：%s"/>
+    <entry key="%lld record(s). Existing columns cannot be removed. Changing the type, Required or Unique of a column converts and checks every record." value="%lld 件のレコード。既存の列は削除できません。列の型、必須、一意を変更すると、すべてのレコードが変換およびチェックされます。"/>
+    <entry key="Every record gets a record number (#) by itself. Tables only grow: columns can be added, renamed and changed later, but never removed." value="各レコードにはレコード番号 (#) が自動的に付けられます。テーブルは拡張のみ可能です。列は後から追加、名前の変更、変更ができますが、削除はできません。"/>
+    <entry key="Create or apply the table first: the rows of a file are added to the table as it is saved." value="先にテーブルを作成または適用してください。ファイルの行は、保存された状態のテーブルに追加されます。"/>
+    <entry key="Import from file..." value="ファイルからインポート..."/>
+    <entry key="Table name:" value="テーブル名："/>
+    <entry key="New table" value="新しいテーブル"/>
+    <entry key="Create the columns" value="列を作成"/>
+    <entry key="How many details (columns) does an item have?" value="品目にはいくつの詳細 (列) がありますか？"/>
+    <entry key="Close the tab" value="タブを閉じる"/>
+    <entry key="Work is running on the database: the tab can be closed when it ends." value="データベースで処理を実行中です。処理が終わるとタブを閉じられます。"/>
+    <entry key="The tab &quot;%s&quot; has work pending:&#10;&#10;%s&#10;Close it anyway?" value="タブ &quot;%s&quot; に保留中の作業があります：&#10;&#10;%s&#10;それでも閉じますか？"/>
+    <entry key="Keep it open" value="開いたままにする"/>
+    <entry key="a query typed and not run" value="入力したが実行していないクエリ"/>
+    <entry key="changes not applied yet" value="まだ適用されていない変更"/>
+    <entry key="{Column} the value of another column, {Column:3} its first 3 characters, {Column:-3} its last 3, {Column|upper} in capitals; {seq} a counter, {seq:4} as 0001; {date}, {date:YYYYMMDD}, {time}, {user}, {table}, {db}, {uuid}." value="{列名} は別の列の値、{列名:3} はその先頭 3 文字、{列名:-3} は末尾 3 文字、{列名|upper} は大文字。{seq} はカウンター、{seq:4} は 0001 の形式。{date}、{date:YYYYMMDD}、{time}、{user}、{table}、{db}、{uuid}。"/>
+    <entry key="Dark" value="ダーク"/>
+    <entry key="Light" value="ライト"/>
+    <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="新しいテーマは、今後開くウィンドウを含め、アプリケーションの色に使用されます。システムが描画する部分 (タイトル バー、スクロール バー) は次回の起動時に変わります。"/>
+    <entry key="Select the theme:" value="テーマを選択してください："/>
+    <entry key="Theme" value="テーマ"/>
+    <entry key="Attachment (file)" value="添付ファイル (ファイル)"/>
+    <entry key="Yes / No" value="はい / いいえ"/>
+    <entry key="Choice from a list" value="一覧から選択"/>
+    <entry key="Date" value="日付"/>
+    <entry key="Date and time" value="日付と時刻"/>
+    <entry key="Decimal number" value="小数"/>
+    <entry key="Whole number" value="整数"/>
+    <entry key="Long text (several lines)" value="長いテキスト (複数行)"/>
+    <entry key="Reference to another table" value="別のテーブルへの参照"/>
+    <entry key="Text (one line)" value="テキスト (1 行)"/>
+    <entry key="Time" value="時刻"/>
+    <entry key="Enter the admin password to open the database." value="データベースを開くには管理者パスワードを入力してください。"/>
+    <entry key="Unlock the database" value="データベースのロック解除"/>
+    <entry key="Wait %d s before the next attempt." value="次に試すまで %d 秒お待ちください。"/>
+    <entry key="Use now" value="今すぐ使用"/>
+    <entry key="The key file is damaged." value="キー ファイルが破損しています。"/>
+    <entry key="The operation failed - see the application log." value="操作に失敗しました。アプリケーション ログを確認してください。"/>
+    <entry key="A file could not be read or written." value="ファイルを読み書きできませんでした。"/>
+    <entry key="The key file does not belong to this database (one of the two was replaced or restored without the other)." value="キー ファイルはこのデータベースのものではありません (どちらか一方が、もう一方なしで置き換えられたか復元されました)。"/>
+    <entry key="This is not possible now." value="現在この操作はできません。"/>
+    <entry key="The database did not open in the format set in the settings. Choose the right format, or answer Yes to try all the formats." value="設定されている形式ではデータベースを開けませんでした。正しい形式を選択するか、[はい] を選択してすべての形式を試してください。"/>
+    <entry key="Version history (newest first):" value="バージョン履歴 (新しい順)："/>
+    <entry key="Version: %s&#10;Commit: %d (built %s)&#10;Build type: %s&#10;Source (git): %s&#10;Data folder: %s" value="バージョン：%s&#10;コミット：%d (ビルド %s)&#10;ビルドの種類：%s&#10;ソース (git)：%s&#10;データ フォルダー：%s"/>
+    <entry key="Version Information" value="バージョン情報の詳細"/>
+    <entry key="An attached file could not be copied: %s" value="添付ファイルをコピーできませんでした：%s"/>
+    <entry key="Not enough quantity: there is only %s." value="数量が不足しています。%s しかありません。"/>
+    <entry key="A table of this database can hold at most %d records: no more can be added (Home shows the limits of the program)." value="このデータベースの 1 つのテーブルに保存できるレコードは最大 %d 件です。これ以上は追加できません ([ホーム] にプログラムの制限が表示されます)。"/>
+    <entry key="This table is changed through its operations (Perform operation): they check every value and keep the documents. Only an account with Full access writes it directly." value="このテーブルは操作 ([操作の実行]) を通じて変更されます。操作ではすべての値がチェックされ、書類が保持されます。直接書き込めるのはフルアクセス アカウントだけです。"/>
+    <entry key="Quantities change only through operations (with a reason): they cannot be typed in a form, the grid or a merge." value="数量は操作 (理由付き) によってのみ変更されます。フォーム、グリッド、マージでは入力できません。"/>
+    <entry key="This table has more columns than the program allows: it can be read, not changed (Home shows the limits of the program)." value="このテーブルの列数は、プログラムで許可される数を超えています。読み取りはできますが、変更はできません ([ホーム] にプログラムの制限が表示されます)。"/>
+    <entry key="Yes" value="はい"/>
+    <entry key="Yes" value="はい"/>
+</translation>
