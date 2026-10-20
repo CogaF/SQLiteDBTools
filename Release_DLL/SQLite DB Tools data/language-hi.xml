@@ -9,6 +9,11 @@
     <entry key="Third-party notices" value="तृतीय-पक्ष सूचनाएँ"/>
     <entry key="About %s" value="%s के बारे में"/>
     <entry key="Version %s - commit %d, built %s (%s)" value="संस्करण %s - कमिट %d, बिल्ड दिनांक %s (%s)"/>
+    <entry key="Blue" value="नीला"/>
+    <entry key="Green" value="हरा"/>
+    <entry key="Orange" value="नारंगी"/>
+    <entry key="Purple" value="बैंगनी"/>
+    <entry key="Red" value="लाल"/>
     <entry key="Active" value="सक्रिय"/>
     <entry key="Full access account name:" value="पूर्ण पहुँच खाते का नाम:"/>
     <entry key="Created" value="बनाया गया"/>
@@ -51,6 +56,12 @@
     <entry key="Password:" value="पासवर्ड:"/>
     <entry key="Add column..." value="कॉलम जोड़ें..."/>
     <entry key="Admin password:" value="व्यवस्थापक पासवर्ड:"/>
+    <entry key="Accent colour:" value="एक्सेंट रंग:"/>
+    <entry key="Simple view shows the everyday tools, Pro view every tool; nothing is removed. The accent colour marks Home's buttons, tiles and switch, in small touches." value="सरल दृश्य रोज़मर्रा के उपकरण दिखाता है, प्रो दृश्य हर उपकरण; कुछ भी हटाया नहीं जाता। एक्सेंट रंग होम के बटनों, टाइलों और स्विच को हल्के स्पर्शों में चिह्नित करता है।"/>
+    <entry key="Preview:" value="पूर्वावलोकन:"/>
+    <entry key="Theme:" value="थीम:"/>
+    <entry key="Appearance" value="रूप-रंग"/>
+    <entry key="View:" value="दृश्य:"/>
     <entry key="Apply" value="लागू करें"/>
     <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="परिवर्तन पूरी तरह से तभी लागू होता है जब एप्लिकेशन प्रारंभ होता है।&#10;&#10;अभी पुनः प्रारंभ करें: इसे सहेजें और एप्लिकेशन को स्वचालित रूप से पुनः प्रारंभ करें।&#10;अभी उपयोग करें: इसे सहेजें और तुरंत उपयोग करें - कुछ भाग केवल अगली बार प्रारंभ होने पर बदलते हैं।&#10;अगली बार के लिए सहेजें: केवल इसे सहेजें।"/>
     <entry key="Apply changes" value="परिवर्तन लागू करें"/>
@@ -160,6 +171,18 @@
     <entry key="A Table with This Name" value="इस नाम की एक तालिका"/>
     <entry key="Clear" value="साफ़ करें"/>
     <entry key="Clear Log" value="लॉग साफ़ करें"/>
+    <entry key="All the %d copied cells fall outside the table from here: nothing is pasted." value="यहाँ से कॉपी किए सभी %d सेल तालिका के बाहर पड़ते हैं: कुछ भी पेस्ट नहीं हुआ।"/>
+    <entry key="Paste the copied cells (%d rows by %d columns) with their first cell in the column %s of the record %s?" value="कॉपी किए सेल (%d पंक्तियाँ × %d कॉलम) पेस्ट करें, पहला सेल कॉलम %s में, रिकॉर्ड %s पर?"/>
+    <entry key="The copied cells start at the record %s; the focus is on the record %s. Paste them from there?" value="कॉपी किए सेल रिकॉर्ड %s से शुरू होते हैं; सक्रिय सेल रिकॉर्ड %s पर है। वहाँ से पेस्ट करें?"/>
+    <entry key="The copied cells start in the column %s; the focus is in the column %s. Paste them from there?" value="कॉपी किए सेल कॉलम %s से शुरू होते हैं; सक्रिय सेल कॉलम %s में है। वहाँ से पेस्ट करें?"/>
+    <entry key="%d cell(s) copied: Ctrl+V pastes them from the cell in focus, with the same gaps." value="%d सेल कॉपी किए गए: Ctrl+V उन्हें सक्रिय सेल से, उन्हीं अंतरालों के साथ पेस्ट करता है।"/>
+    <entry key="%d of the rows the cells go to are not being edited. Put them in edit and paste?" value="जिन पंक्तियों में सेल जाते हैं उनमें से %d संपादन में नहीं हैं। उन्हें संपादन में डालकर पेस्ट करें?"/>
+    <entry key="There are no cells to paste: copy cells first (Ctrl+C), here or in another program." value="पेस्ट करने के लिए कोई सेल नहीं है: पहले सेल कॉपी करें (Ctrl+C), यहाँ या किसी दूसरे प्रोग्राम में।"/>
+    <entry key="The records of this table cannot be changed here (read-only, or your account may not change them)." value="इस तालिका के रिकॉर्ड यहाँ नहीं बदले जा सकते (केवल पढ़ने के लिए, या आपका खाता उन्हें नहीं बदल सकता)।"/>
+    <entry key="%d of the copied cells fall outside the table (beyond its last row or column). Paste only the %d that fit?" value="कॉपी किए सेलों में से %d तालिका के बाहर पड़ते हैं (अंतिम पंक्ति या कॉलम के आगे)। केवल वे %d पेस्ट करें जो आते हैं?"/>
+    <entry key="%d cell(s) pasted: Apply modifications saves them." value="%d सेल पेस्ट किए गए: संशोधन लागू करें उन्हें सहेजता है।"/>
+    <entry key="Paste Those" value="वे पेस्ट करें"/>
+    <entry key="%d cell(s) are in columns that cannot be typed (attachments, quantities): they stay as they are." value="%d सेल ऐसे कॉलमों में हैं जिनमें टाइप नहीं किया जा सकता (अटैचमेंट, मात्राएँ): वे वैसे ही रहते हैं।"/>
     <entry key="Close" value="बंद करें"/>
     <entry key="Existing columns cannot be removed: tables only grow." value="मौजूदा कॉलम निकाले नहीं जा सकते: तालिकाएँ केवल बढ़ती हैं।"/>
     <entry key="Detail %d" value="विवरण %d"/>
@@ -286,11 +309,13 @@
     <entry key="database engine" value="डेटाबेस इंजन"/>
     <entry key="user interface" value="उपयोगकर्ता इंटरफ़ेस"/>
     <entry key="PDF documents and reports" value="PDF दस्तावेज़ और रिपोर्ट"/>
+    <entry key="PDF: used by PoDoFo" value="PDF: PoDoFo द्वारा उपयोग"/>
     <entry key="C++ runtime" value="C++ रनटाइम"/>
     <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="व्यवस्थापक पासवर्ड और पुनर्प्राप्ति कुंजी (Argon2id, XChaCha20-Poly1305)"/>
     <entry key="Version in use" value="उपयोग में संस्करण"/>
     <entry key="Website" value="वेबसाइट"/>
     <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="डबल-क्लिक: स्वामी की वेबसाइट। हर घटक अपने स्वामियों का है और अपने लाइसेंस के अंतर्गत उपयोग किया जाता है।"/>
+    <entry key="with PoDoFo" value="PoDoFo के साथ"/>
     <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="स्वचालन ऐसे नियम हैं जिन्हें डेटाबेस तब चलाता है जब भी कोई रिकॉर्ड जोड़ा, बदला या हटाया जाता है - इस प्रोग्राम से या किसी अन्य से। उदाहरण के लिए: कोई संचलन अपनी मात्रा आइटम के स्टॉक से घटाता है; किसी आइटम का मूल्य हमेशा स्टॉक x मूल्य होता है; ऐसा परिवर्तन जो स्टॉक को ऋणात्मक कर दे, अस्वीकार कर दिया जाता है।"/>
     <entry key="Automations" value="स्वचालन"/>
     <entry key="Change..." value="बदलें..."/>
@@ -434,6 +459,7 @@
     <entry key="Clear the selection" value="चयन साफ़ करें"/>
     <entry key="%ld records copied to the clipboard." value="%ld रिकॉर्ड क्लिपबोर्ड पर कॉपी किए गए।"/>
     <entry key="Copy the value" value="मान कॉपी करें"/>
+    <entry key="Copy the Selected Cells&#9;Ctrl+C" value="चुने हुए सेल कॉपी करें&#9;Ctrl+C"/>
     <entry key="Copy the selected records (for a spreadsheet)" value="चयनित रिकॉर्ड कॉपी करें (स्प्रेडशीट के लिए)"/>
     <entry key="Copy to a new entry" value="नई प्रविष्टि में कॉपी करें"/>
     <entry key="%zu record(s)" value="%zu रिकॉर्ड"/>
@@ -447,10 +473,12 @@
     <entry key="The modifications cannot be applied" value="संशोधन लागू नहीं किए जा सकते"/>
     <entry key="text in any column" value="किसी भी कॉलम में टेक्स्ट"/>
     <entry key="Find:" value="खोजें:"/>
-    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="किसी पंक्ति की क्रियाओं के लिए उस पर राइट-क्लिक करें। संपादित हो रही पंक्ति में, किसी सेल को बदलने के लिए उस पर डबल-क्लिक करें (या उसमें टाइप करें)। कुंजियाँ: F2 संपादन, Ctrl+S लागू करें, Esc रद्द करें, Del हटाएँ, Ctrl+D नई प्रविष्टि में कॉपी करें।"/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry. Ctrl+click selects several cells; Ctrl+C copies them, Ctrl+V pastes them from the cell in focus." value="किसी पंक्ति की क्रियाओं के लिए उस पर राइट-क्लिक करें। संपादित हो रही पंक्ति में, किसी सेल को बदलने के लिए उस पर डबल-क्लिक करें (या उसमें टाइप करें)। कुंजियाँ: F2 संपादन, Ctrl+S लागू करें, Esc रद्द करें, Del हटाएँ, Ctrl+D नई प्रविष्टि में कॉपी करें। Ctrl+क्लिक कई सेल चुनता है; Ctrl+C उन्हें कॉपी करता है, Ctrl+V सक्रिय सेल से पेस्ट करता है।"/>
     <entry key="History of this record..." value="इस रिकॉर्ड का इतिहास..."/>
     <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="यह %ld रिकॉर्ड पर लागू होता है और इसमें %s लगता है (समय कंप्यूटर पर निर्भर करता है)। प्रगति और समय स्थिति पट्टी में, रोकें बटन के साथ दिखते हैं।&#10;&#10;जारी रखें?"/>
     <entry key="Open the attachment" value="अनुलग्नक खोलें"/>
+    <entry key="Paste the Copied Cells&#9;Ctrl+V" value="कॉपी किए सेल पेस्ट करें&#9;Ctrl+V"/>
+    <entry key="Paste" value="पेस्ट"/>
     <entry key=" - %zu row(s) in edit, %zu changed" value=" - %zu पंक्ति(याँ) संपादन में, %zu बदली गईं"/>
     <entry key="Print..." value="प्रिंट करें..."/>
     <entry key="Print the selected records..." value="चयनित रिकॉर्ड प्रिंट करें..."/>
@@ -465,9 +493,55 @@
     <entry key="Part of:" value="इसका भाग:"/>
     <entry key="Reason:" value="कारण:"/>
     <entry key="Browse" value="ब्राउज़ करें"/>
+    <entry key="Change Database..." value="डेटाबेस बदलें..."/>
+    <entry key="{HOME_DO_ADD}Add" value="जोड़ें"/>
+    <entry key="a new record" value="एक नया रिकॉर्ड"/>
+    <entry key="Find" value="खोजें"/>
+    <entry key="records of a table" value="किसी तालिका के रिकॉर्ड"/>
+    <entry key="Share" value="साझा करें"/>
+    <entry key="export, print, PDF" value="निर्यात, प्रिंट, PDF"/>
     <entry key="Edit structure..." value="संरचना संपादित करें..."/>
+    <entry key="Find a tool or a table" value="कोई उपकरण या तालिका खोजें"/>
+    <entry key="Database and tables" value="डेटाबेस और तालिकाएँ"/>
+    <entry key="Attachments and history" value="अनुलग्नक और इतिहास"/>
+    <entry key="Bring in, send out" value="लाएँ, भेजें"/>
+    <entry key="Work with records" value="रिकॉर्ड के साथ काम"/>
+    <entry key="Security and users" value="सुरक्षा और उपयोगकर्ता"/>
     <entry key="New table..." value="नई तालिका..."/>
+    <entry key="Nothing found." value="कुछ नहीं मिला।"/>
+    <entry key="Not available now: no database open, no table, or your account may not do it." value="अभी उपलब्ध नहीं: कोई डेटाबेस खुला नहीं, कोई तालिका नहीं, या आपके खाते को इसकी अनुमति नहीं है।"/>
+    <entry key="Pin to the Top" value="शीर्ष पर पिन करें"/>
+    <entry key="Pinned - right-click a tool to take it off" value="पिन किए गए - हटाने के लिए किसी उपकरण पर दायाँ-क्लिक करें"/>
+    <entry key="Right-click a tool to pin it here, at the top." value="किसी उपकरण को यहाँ, शीर्ष पर पिन करने के लिए उस पर दायाँ-क्लिक करें।"/>
+    <entry key="Recent:" value="हाल के:"/>
+    <entry key="%s records" value="%s रिकॉर्ड"/>
+    <entry key="Import, merge, statistics, SQL, print profiles, attachments, passwords and users are in Pro view." value="आयात, विलय, आँकड़े, SQL, प्रिंट प्रोफ़ाइल, अनुलग्नक, पासवर्ड और उपयोगकर्ता प्रो दृश्य में हैं।"/>
+    <entry key="a new record" value="एक नया रिकॉर्ड"/>
+    <entry key="where the files are kept" value="जहाँ फ़ाइलें रखी जाती हैं"/>
+    <entry key="the records of a table" value="किसी तालिका के रिकॉर्ड"/>
+    <entry key="missing, moved files" value="अनुपस्थित, स्थानांतरित फ़ाइलें"/>
+    <entry key="columns and rules" value="कॉलम और नियम"/>
+    <entry key="SQL, CSV, JSON, a copy" value="SQL, CSV, JSON, एक प्रति"/>
+    <entry key="CSV, Excel, OpenDocument" value="CSV, Excel, OpenDocument"/>
+    <entry key="every change" value="हर परिवर्तन"/>
+    <entry key="with a preview of the rows" value="पंक्तियों के पूर्वावलोकन के साथ"/>
+    <entry key="plain or protected" value="सादा या सुरक्षित"/>
+    <entry key="the folder of the files" value="फ़ाइलों का फ़ोल्डर"/>
+    <entry key="a database file" value="एक डेटाबेस फ़ाइल"/>
+    <entry key="documents and PDFs of records" value="रिकॉर्ड के दस्तावेज़ और PDF"/>
+    <entry key="ready-made examples" value="तैयार उदाहरण"/>
+    <entry key="find with conditions" value="शर्तों के साथ खोजें"/>
+    <entry key="read-only queries" value="केवल पढ़ने वाली क्वेरी"/>
+    <entry key="group, measure, chart" value="समूह, माप, चार्ट"/>
+    <entry key="accounts and their levels" value="खाते और उनके स्तर"/>
+    <entry key="%d table(s) - %s record(s) - %s" value="%d तालिका(एँ) - %s रिकॉर्ड - %s"/>
+    <entry key="Switch to Pro View" value="प्रो दृश्य पर जाएँ"/>
     <entry key="Home" value="होम"/>
+    <entry key="Take Off the Top" value="शीर्ष से हटाएँ"/>
+    <entry key="Pro" value="प्रो"/>
+    <entry key="Simple" value="सरल"/>
+    <entry key="What do you want to do?" value="आप क्या करना चाहते हैं?"/>
+    <entry key="Your tables" value="आपकी तालिकाएँ"/>
     <entry key="Add image..." value="चित्र जोड़ें..."/>
     <entry key="Choose an image (logo, stamp, signature ...)" value="एक चित्र चुनें (लोगो, मुहर, हस्ताक्षर ...)"/>
     <entry key="Also as watermark" value="वॉटरमार्क के रूप में भी"/>
@@ -508,6 +582,8 @@
     <entry key="&lt; Back" value="&lt; पीछे"/>
     <entry key="Change the columns" value="कॉलम बदलें"/>
     <entry key="Choose a file first." value="पहले एक फ़ाइल चुनें।"/>
+    <entry key="Choose the rows before importing" value="आयात से पहले पंक्तियाँ चुनें"/>
+    <entry key="Shows every row of the file to take or leave out (by hand or by row numbers), change and put in order before anything is written; it opens by itself when some rows cannot be written as they are" value="कुछ भी लिखे जाने से पहले फ़ाइल की हर पंक्ति दिखाता है, ताकि उसे लिया या छोड़ा जा सके (हाथ से या पंक्ति संख्याओं से), बदला जा सके और क्रम में रखा जा सके; जब कुछ पंक्तियाँ जैसी हैं वैसी नहीं लिखी जा सकतीं तो यह अपने आप खुलता है"/>
     <entry key="Check at least one sheet." value="कम से कम एक शीट चिह्नित करें।"/>
     <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="नई तालिका के कॉलम, मानों से अनुमानित: प्रकार, &quot;आवश्यक&quot; (कोई खाली मान नहीं) और &quot;अद्वितीय&quot; (हर मान भिन्न)। उन्हें जाँचें, जो गलत है उसे बदलें, छोड़े जाने वाले कॉलम अचिह्नित करें। आयात करें से पहले कुछ भी नहीं लिखा जाता।"/>
     <entry key="Examples" value="उदाहरण"/>
@@ -573,6 +649,11 @@
     <entry key="The file cannot be read: %s" value="फ़ाइल पढ़ी नहीं जा सकती: %s"/>
     <entry key="%d rows of %d do not fit the columns as they are:" value="%d पंक्तियाँ (कुल %d में से) कॉलम में जैसी हैं वैसी फ़िट नहीं होतीं:"/>
     <entry key="row %d, %s &quot;%s&quot;: %s" value="पंक्ति %d, %s &quot;%s&quot;: %s"/>
+    <entry key="Import these rows" value="इन पंक्तियों को आयात करें"/>
+    <entry key="The rows of %s, as they will be written into %s: %d rows, %d of them cannot be written as they are (red). Nothing is written until Import." value="%s की पंक्तियाँ, जैसे वे %s में लिखी जाएँगी: %d पंक्तियाँ, जिनमें से %d जैसी हैं वैसी नहीं लिखी जा सकतीं (लाल)। आयात करें तक कुछ भी नहीं लिखा जाता।"/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Import the others?" value="%s पंक्तियों में ऐसे मान हैं जो सहेजे नहीं जा सकते: उन्हें छोड़ दिया जाएगा। बाकी को आयात करें?"/>
+    <entry key="%s rows - %s to import - %s already here - %s with values that cannot be saved" value="%s पंक्तियाँ - %s आयात के लिए - %s यहाँ पहले से - %s ऐसे मानों के साथ जो सहेजे नहीं जा सकते"/>
+    <entry key="Import into %s: the rows" value="%s में आयात: पंक्तियाँ"/>
     <entry key="Separator:" value="विभाजक:"/>
     <entry key="Found by itself" value="स्वतः पता लगाया गया"/>
     <entry key="Comma ," value="अल्पविराम ,"/>
@@ -642,6 +723,7 @@
     <entry key="Largest (empty = any):" value="सबसे बड़ा (खाली = कोई भी):"/>
     <entry key="&amp;About..." value="परिचय(&amp;A)..."/>
     <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="प्रविष्टि जोड़ें(&amp;A)...&#9;Ctrl-Shift-N"/>
+    <entry key="Appea&amp;rance..." value="रूप-रंग(&amp;R)..."/>
     <entry key="Attac&amp;hment Folder Location..." value="अनुलग्नक फ़ोल्डर का स्थान(&amp;H)..."/>
     <entry key="&amp;Browse Records...&#9;Ctrl-B" value="रिकॉर्ड ब्राउज़ करें(&amp;B)...&#9;Ctrl-B"/>
     <entry key="Change &amp;My Password..." value="मेरा पासवर्ड बदलें(&amp;M)..."/>
@@ -676,6 +758,7 @@
     <entry key="Print P&amp;rofiles..." value="प्रिंट प्रोफ़ाइल(&amp;R)..."/>
     <entry key="Protect with an &amp;Admin Password..." value="व्यवस्थापक पासवर्ड से सुरक्षित करें(&amp;A)..."/>
     <entry key="Protect with a Passp&amp;hrase..." value="पासफ़्रेज़ से सुरक्षित करें(&amp;H)..."/>
+    <entry key="&amp;Pro View" value="प्रो दृश्य(&amp;P)"/>
     <entry key="Open &amp;Recent" value="हाल के खोलें(&amp;R)"/>
     <entry key="Re&amp;move the Encryption..." value="एन्क्रिप्शन निकालें(&amp;M)..."/>
     <entry key="Rotate the &amp;Encryption Key..." value="एन्क्रिप्शन कुंजी बदलें(&amp;E)..."/>
@@ -687,6 +770,7 @@
     <entry key="Application L&amp;og" value="एप्लिकेशन लॉग(&amp;O)"/>
     <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="SQL क्वेरी (केवल पढ़ने के लिए)(&amp;Q)...&#9;Ctrl-Q"/>
     <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="आँकड़े(&amp;I)...&#9;Ctrl-Shift-T"/>
+    <entry key="&amp;Support the Developer..." value="डेवलपर का समर्थन करें(&amp;S)..."/>
     <entry key="S&amp;witch User..." value="उपयोगकर्ता बदलें(&amp;W)..."/>
     <entry key="&amp;Theme..." value="थीम(&amp;T)..."/>
     <entry key="&amp;Users and Access..." value="उपयोगकर्ता और पहुँच(&amp;U)..."/>
@@ -978,6 +1062,7 @@
     <entry key="To" value="प्रति"/>
     <entry key="Up" value="ऊपर"/>
     <entry key="Width (relative):" value="चौड़ाई (सापेक्ष):"/>
+    <entry key="Your data stays yours: the program collects nothing about you and sends nothing anywhere by itself - no ads, no analytics, no tracking. Your files leave your device only when you send them yourself (a copy, an export, a print, a share; Google Drive when you choose it in the Android app)." value="आपका डेटा आपका ही रहता है: प्रोग्राम आपके बारे में कुछ भी एकत्र नहीं करता और अपने आप कहीं कुछ नहीं भेजता - न विज्ञापन, न आँकड़े, न ट्रैकिंग। आपकी फ़ाइलें डिवाइस से तभी जाती हैं जब आप स्वयं उन्हें भेजते हैं (प्रति, निर्यात, प्रिंट, शेयर; Android ऐप में चुनने पर Google Drive)।"/>
     <entry key="The database is now encrypted." value="डेटाबेस अब एन्क्रिप्टेड है।"/>
     <entry key="not encrypted" value="एन्क्रिप्टेड नहीं"/>
     <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="%s को कैसे सुरक्षित किया जाए? इसे बाद में बदला जा सकता है (डेटाबेस &gt; सुरक्षा)।"/>
@@ -1045,6 +1130,30 @@
     <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="डेटाबेस को नई कुंजी से फिर से एन्क्रिप्ट किया गया। नई पुनर्प्राप्ति कुंजी आगे दी गई है।"/>
     <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="एक नई एन्क्रिप्शन कुंजी बनाता है, उससे पूरे डेटाबेस को फिर से एन्क्रिप्ट करता है और एक नई पुनर्प्राप्ति कुंजी बनाता है। इसका उपयोग तब करें जब डेटाबेस की उसकी कुंजी फ़ाइल (या व्यवस्थापक पासवर्ड) सहित कोई प्रतिलिपि लीक हुई हो सकती है: पहले ली गई प्रतिलिपियाँ पुराने रहस्यों से पढ़ी जा सकती रहती हैं, लेकिन अब से सब कुछ के लिए नई कुंजी आवश्यक है। जारी रखने के लिए व्यवस्थापक पासवर्ड दर्ज करें।"/>
     <entry key="Rotate the encryption key" value="एन्क्रिप्शन कुंजी बदलें"/>
+    <entry key="Add New Group" value="नया समूह जोड़ें"/>
+    <entry key="This row cannot be written as it is: right-click it to change the values that are refused." value="यह पंक्ति जैसी है वैसी नहीं लिखी जा सकती: अस्वीकृत मान बदलने के लिए उस पर राइट-क्लिक करें।"/>
+    <entry key=" - %s cannot be written as they are (red)" value=" - %s जैसी हैं वैसी नहीं लिखी जा सकतीं (लाल)"/>
+    <entry key="Row" value="पंक्ति"/>
+    <entry key="%lld (copy %d)" value="%lld (प्रति %d)"/>
+    <entry key="Double copies of the rows in two groups" value="दो समूहों में आने वाली पंक्तियों की दोहरी प्रतियाँ"/>
+    <entry key="The row can be written now." value="अब पंक्ति लिखी जा सकती है।"/>
+    <entry key="The row still cannot be written." value="पंक्ति अभी भी नहीं लिखी जा सकती।"/>
+    <entry key="Only the values that cannot be written can be changed here. Each one is checked as you type: green can be written, red cannot." value="यहाँ केवल वे मान बदले जा सकते हैं जो लिखे नहीं जा सकते। टाइप करते समय हर मान जाँचा जाता है: हरा लिखा जा सकता है, लाल नहीं।"/>
+    <entry key="Change the Refused Values..." value="अस्वीकृत मान बदलें..."/>
+    <entry key="Row %s: the values to change" value="पंक्ति %s: बदलने वाले मान"/>
+    <entry key="Rows by number:" value="संख्या से पंक्तियाँ:"/>
+    <entry key="Give both row numbers." value="दोनों पंक्ति संख्याएँ दें।"/>
+    <entry key="No place in the order (another group took it): choose one." value="क्रम में कोई स्थान नहीं (दूसरे समूह ने ले लिया): एक चुनें।"/>
+    <entry key="The rows are numbered from 1 to %lld." value="पंक्तियाँ 1 से %lld तक क्रमांकित हैं।"/>
+    <entry key="&quot;from&quot; is after &quot;to&quot;." value="&quot;से&quot; &quot;तक&quot; के बाद है।"/>
+    <entry key="Choose the rows: Ctrl+click a row (any cell of it) or its tick to take it or leave it out; Shift+click or drag to take several; or give groups of rows by number. A red row cannot be written as it is: right-click it to change the values that are refused. A green row was changed here and can be written." value="पंक्तियाँ चुनें: किसी पंक्ति (उसके किसी भी सेल) या उसके चिह्न पर Ctrl+click करके उसे लें या छोड़ें; कई लेने के लिए Shift+click करें या खींचें; या पंक्तियों के समूह संख्या से दें। लाल पंक्ति जैसी है वैसी नहीं लिखी जा सकती: अस्वीकृत मान बदलने के लिए उस पर राइट-क्लिक करें। हरी पंक्ति यहाँ बदली गई है और लिखी जा सकती है।"/>
+    <entry key="The rows taken by hand make %d groups, too many to list. Add New Group starts again from row numbers." value="हाथ से ली गई पंक्तियाँ %d समूह बनाती हैं, सूची के लिए बहुत अधिक। नया समूह जोड़ें फिर से पंक्ति संख्याओं से शुरू करता है।"/>
+    <entry key="Every group of rows needs both numbers and its place in the order before anything is written." value="कुछ भी लिखे जाने से पहले पंक्तियों के हर समूह को दोनों संख्याएँ और क्रम में अपना स्थान चाहिए।"/>
+    <entry key="Order:" value="क्रम:"/>
+    <entry key="Rows from %lld to %lld are selected twice (groups %d and %d). Do you want to have double copies of them?" value="पंक्तियाँ %lld से %lld तक दो बार चुनी गई हैं (समूह %d और %d)। क्या आप उनकी दोहरी प्रतियाँ चाहते हैं?"/>
+    <entry key="Remove this group" value="यह समूह हटाएँ"/>
+    <entry key="rows %lld - %lld are in two groups: written twice (double copies)" value="पंक्तियाँ %lld - %lld दो समूहों में हैं: दो बार लिखी जाएँगी (दोहरी प्रतियाँ)"/>
+    <entry key="rows %lld - %lld are in two groups: written once" value="पंक्तियाँ %lld - %lld दो समूहों में हैं: एक बार लिखी जाएँगी"/>
     <entry key="Rules" value="नियम"/>
     <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="आपके पास इस नमूना डेटाबेस की एक प्रतिलिपि पहले से है:&#10;%s&#10;&#10;इसे अपने परिवर्तनों के साथ खोलें, या एक नई प्रतिलिपि से फिर से शुरू करें (इसमें आपके परिवर्तन खो जाएँगे)?"/>
     <entry key="The sample database could not be copied." value="नमूना डेटाबेस की प्रतिलिपि नहीं बनाई जा सकी।"/>
@@ -1097,22 +1206,168 @@
     <entry key="Delete the saved statistic &quot;%s&quot;?" value="सहेजा गया आँकड़ा &quot;%s&quot; हटाएँ?"/>
     <entry key="descending" value="अवरोही"/>
     <entry key="End:" value="अंत:"/>
+    <entry key="Examples..." value="उदाहरण..."/>
+    <entry key="What it does" value="यह क्या करता है"/>
+    <entry key="Example" value="उदाहरण"/>
+    <entry key="Result" value="परिणाम"/>
+    <entry key="Copied: %s" value="कॉपी किया गया: %s"/>
+    <entry key="Double-click an example to copy its formula." value="किसी उदाहरण का सूत्र कॉपी करने के लिए उस पर डबल-क्लिक करें।"/>
+    <entry key="Every function a statistic can use, with examples worked out by the program itself on the sample records below: a formula of a value on the first record, a measure over all of them." value="हर फ़ंक्शन जिसका उपयोग कोई आँकड़ा कर सकता है, नीचे दिए गए नमूना रिकॉर्ड पर स्वयं प्रोग्राम द्वारा निकाले गए उदाहरणों के साथ: किसी मान का सूत्र पहले रिकॉर्ड पर, कोई माप उन सभी पर।"/>
+    <entry key="%s of %s" value="%s (%s)"/>
+    <entry key="%s - only when %s" value="%s - केवल जब %s"/>
+    <entry key="the records" value="रिकॉर्ड"/>
+    <entry key="The same as %s." value="%s के समान।"/>
+    <entry key="Sample records (Sales)" value="नमूना रिकॉर्ड (बिक्री)"/>
+    <entry key="Examples of the functions" value="फ़ंक्शनों के उदाहरण"/>
+    <entry key="Dates" value="दिनांक"/>
+    <entry key="Logic" value="तर्क"/>
+    <entry key="Numbers" value="संख्याएँ"/>
+    <entry key="Texts" value="टेक्स्ट"/>
+    <entry key="The average distance of the values from their average." value="मानों की उनके औसत से औसत दूरी।"/>
+    <entry key="The average of the values." value="मानों का औसत।"/>
+    <entry key="How many records; of a value: how many have it not empty." value="कितने रिकॉर्ड; किसी मान की: कितनों में वह खाली नहीं है।"/>
+    <entry key="How many records have the value empty." value="कितने रिकॉर्ड में वह मान खाली है।"/>
+    <entry key="How many different values." value="कितने भिन्न मान।"/>
+    <entry key="The value of the first record (by record number)." value="पहले रिकॉर्ड का मान (रिकॉर्ड संख्या के अनुसार)।"/>
+    <entry key="The geometric mean of positive values: for growth rates." value="धनात्मक मानों का गुणोत्तर माध्य: वृद्धि दरों के लिए।"/>
+    <entry key="The harmonic mean of positive values: for averages of speeds or rates." value="धनात्मक मानों का हरात्मक माध्य: गतियों या दरों के औसत के लिए।"/>
+    <entry key="How heavy the tails are compared with a normal distribution (above 0: more extreme values)." value="सामान्य बंटन की तुलना में पूँछें कितनी भारी हैं (0 से ऊपर: अधिक चरम मान)।"/>
+    <entry key="The value of the last record (by record number)." value="अंतिम रिकॉर्ड का मान (रिकॉर्ड संख्या के अनुसार)।"/>
+    <entry key="The different values, joined by commas." value="भिन्न मान, अल्पविरामों से जुड़े हुए।"/>
+    <entry key="The largest value (of dates: the latest)." value="सबसे बड़ा मान (दिनांकों में: सबसे बाद की)।"/>
+    <entry key="The middle value: half of the values are below it, half above." value="बीच का मान: आधे मान उससे नीचे हैं, आधे ऊपर।"/>
+    <entry key="The smallest value (of dates: the earliest)." value="सबसे छोटा मान (दिनांकों में: सबसे पहली)।"/>
+    <entry key="The value found most often (the first one when several are as frequent)." value="सबसे अधिक बार मिलने वाला मान (जब कई समान रूप से बार-बार हों तो पहला)।"/>
+    <entry key="A tenth of the values are below it." value="मानों का दसवाँ भाग इससे नीचे है।"/>
+    <entry key="Nine tenths of the values are below it." value="मानों के नौ दसवें भाग इससे नीचे हैं।"/>
+    <entry key="The values multiplied together." value="मानों को आपस में गुणा करने पर।"/>
+    <entry key="A quarter of the values are below it." value="एक चौथाई मान इससे नीचे हैं।"/>
+    <entry key="Three quarters of the values are below it." value="तीन चौथाई मान इससे नीचे हैं।"/>
+    <entry key="The largest value minus the smallest." value="सबसे बड़ा मान घटा सबसे छोटा।"/>
+    <entry key="How lopsided the values are: above 0, a long tail of large values." value="मान कितने एकतरफ़ा हैं: 0 से ऊपर, बड़े मानों की एक लंबी पूँछ।"/>
+    <entry key="How far the values are spread, as a sample of a larger whole." value="मान कितने फैले हुए हैं, किसी बड़े समूह के नमूने के रूप में।"/>
+    <entry key="How far the values are spread, when they are all the values." value="मान कितने फैले हुए हैं, जब वे सभी मान हों।"/>
+    <entry key="The total of the values." value="मानों का कुल।"/>
+    <entry key="The sum of the squares of the values." value="मानों के वर्गों का योग।"/>
+    <entry key="The variance, as a sample of a larger whole (the square of the standard deviation)." value="प्रसरण, किसी बड़े समूह के नमूने के रूप में (मानक विचलन का वर्ग)।"/>
+    <entry key="The variance, when they are all the values." value="प्रसरण, जब वे सभी मान हों।"/>
     <entry key="Value" value="मान"/>
+    <entry key="x without its sign." value="चिह्न के बिना x।"/>
+    <entry key="The angle (in radians) whose cosine is x." value="वह कोण (रेडियन में) जिसकी कोज्या x है।"/>
+    <entry key="The date n days later (n below 0: earlier)." value="n दिन बाद की दिनांक (n 0 से कम: पहले)।"/>
+    <entry key="The date n months later; a day the month does not have becomes its last day." value="n माह बाद की दिनांक; जो दिन उस माह में नहीं है, वह उसका अंतिम दिन बन जाता है।"/>
+    <entry key="The date n years later (29 February becomes 28 February)." value="n वर्ष बाद की दिनांक (29 फ़रवरी 28 फ़रवरी बन जाती है)।"/>
+    <entry key="True if every condition holds." value="सही, यदि हर शर्त सही हो।"/>
+    <entry key="The angle (in radians) whose sine is x." value="वह कोण (रेडियन में) जिसकी ज्या x है।"/>
+    <entry key="The angle (in radians) whose tangent is x." value="वह कोण (रेडियन में) जिसकी स्पर्शज्या x है।"/>
+    <entry key="The angle (in radians) of the point x, y." value="बिंदु x, y का कोण (रेडियन में)।"/>
+    <entry key="True if x is from low to high, both included." value="सही, यदि x low से high तक हो, दोनों शामिल।"/>
+    <entry key="The smallest whole number not below x." value="सबसे छोटी पूर्ण संख्या जो x से कम न हो।"/>
+    <entry key="The character of a code (Unicode)." value="किसी कोड (Unicode) का अक्षर।"/>
+    <entry key="The n-th of the values after n." value="n के बाद के मानों में से n-वाँ।"/>
+    <entry key="The first value that is not empty." value="पहला मान जो खाली नहीं है।"/>
+    <entry key="The code (Unicode) of the first character of the text." value="टेक्स्ट के पहले अक्षर का कोड (Unicode)।"/>
+    <entry key="The values joined into one text (&amp; does the same)." value="मान एक टेक्स्ट में जोड़े गए (&amp; भी यही करता है)।"/>
+    <entry key="True if the text contains the part (without regard to case)." value="सही, यदि टेक्स्ट में वह भाग हो (बड़े-छोटे अक्षरों का भेद किए बिना)।"/>
+    <entry key="The cosine of an angle in radians." value="रेडियन में किसी कोण की कोज्या।"/>
+    <entry key="The date of a value (its time left out)." value="किसी मान की दिनांक (उसका समय छोड़कर)।"/>
+    <entry key="The day of the month of a date (1-31)." value="किसी दिनांक में माह का दिन (1-31)।"/>
+    <entry key="The days from d1 to d2." value="d1 से d2 तक के दिन।"/>
+    <entry key="An angle in radians turned into degrees." value="रेडियन में कोई कोण, अंशों में बदला गया।"/>
+    <entry key="True if the text ends with the part (without regard to case)." value="सही, यदि टेक्स्ट उस भाग पर समाप्त हो (बड़े-छोटे अक्षरों का भेद किए बिना)।"/>
+    <entry key="The last day of the month of d, months later." value="d से months माह बाद वाले माह का अंतिम दिन।"/>
+    <entry key="x rounded away from zero to an even whole number." value="शून्य से दूर की ओर किसी सम पूर्ण संख्या तक पूर्णांकित x।"/>
+    <entry key="True if the two texts are the same, capital and small letters too (= does not tell them apart)." value="सही, यदि दोनों टेक्स्ट बड़े और छोटे अक्षरों सहित एक जैसे हों (= यह भेद नहीं करता)।"/>
+    <entry key="e to the power x." value="e की घात x।"/>
+    <entry key="The factorial of n (1 x 2 x ... x n)." value="n का क्रमगुणित (1 x 2 x ... x n)।"/>
+    <entry key="Where the part starts in the text (0 = not there); capital and small letters count." value="टेक्स्ट में वह भाग कहाँ आरंभ होता है (0 = नहीं है); बड़े और छोटे अक्षरों का भेद होता है।"/>
+    <entry key="The largest whole number not above x." value="सबसे बड़ी पूर्ण संख्या जो x से अधिक न हो।"/>
+    <entry key="The hour of a time (0-23)." value="किसी समय का घंटा (0-23)।"/>
+    <entry key="The second value if the test holds, else the third." value="परीक्षण सही हो तो दूसरा मान, अन्यथा तीसरा।"/>
+    <entry key="x, or the second value when x cannot be worked out (a division by zero...)." value="x, या दूसरा मान जब x की गणना न हो सके (शून्य से भाग...)।"/>
+    <entry key="The value of the first test that holds." value="पहले सही परीक्षण का मान।"/>
+    <entry key="True if the value is empty." value="सही, यदि मान खाली हो।"/>
+    <entry key="True if the value is a number." value="सही, यदि मान एक संख्या हो।"/>
+    <entry key="The ISO week of the year (1-53)." value="वर्ष का ISO सप्ताह (1-53)।"/>
+    <entry key="True if the value is a text." value="सही, यदि मान एक टेक्स्ट हो।"/>
+    <entry key="The first n characters of the text." value="टेक्स्ट के पहले n अक्षर।"/>
+    <entry key="The number of characters of the text." value="टेक्स्ट के अक्षरों की संख्या।"/>
+    <entry key="The natural logarithm of x." value="x का प्राकृतिक लघुगणक।"/>
+    <entry key="The logarithm of x in the base given (10 if none)." value="दिए गए आधार में x का लघुगणक (कोई न हो तो 10)।"/>
+    <entry key="The logarithm of x in base 10." value="आधार 10 में x का लघुगणक।"/>
+    <entry key="The text in small letters." value="छोटे अक्षरों में टेक्स्ट।"/>
+    <entry key="The largest of the values." value="मानों में सबसे बड़ा।"/>
+    <entry key="n characters of the text from the position start (1 = the first)." value="स्थान start से टेक्स्ट के n अक्षर (1 = पहला)।"/>
+    <entry key="The smallest of the values." value="मानों में सबसे छोटा।"/>
+    <entry key="The minute of a time (0-59)." value="किसी समय का मिनट (0-59)।"/>
+    <entry key="The remainder of a divided by b, with the sign of b." value="a को b से भाग देने पर शेषफल, b के चिह्न के साथ।"/>
+    <entry key="The month of a date (1-12)." value="किसी दिनांक का माह (1-12)।"/>
+    <entry key="The whole months from d1 to d2." value="d1 से d2 तक के पूरे माह।"/>
+    <entry key="The working days (Monday to Friday) from d1 to d2, both counted." value="d1 से d2 तक के कार्य दिवस (सोमवार से शुक्रवार), दोनों गिने जाते हैं।"/>
+    <entry key="True if the condition does not hold." value="सही, यदि शर्त सही न हो।"/>
+    <entry key="The date and time now." value="अभी की दिनांक और समय।"/>
+    <entry key="The number written in a text (a decimal comma is accepted)." value="किसी टेक्स्ट में लिखी गई संख्या (दशमलव अल्पविराम स्वीकार्य है)।"/>
+    <entry key="x rounded away from zero to an odd whole number." value="शून्य से दूर की ओर किसी विषम पूर्ण संख्या तक पूर्णांकित x।"/>
+    <entry key="True if at least one condition holds." value="सही, यदि कम से कम एक शर्त सही हो।"/>
+    <entry key="The number pi (3.14159...)." value="संख्या pi (3.14159...)।"/>
+    <entry key="x to the power y." value="x की घात y।"/>
+    <entry key="Each word of the text with a capital first letter." value="टेक्स्ट का हर शब्द बड़े पहले अक्षर के साथ।"/>
+    <entry key="The whole part of a divided by b." value="a को b से भाग देने पर पूर्ण भाग।"/>
+    <entry key="An angle in degrees turned into radians." value="अंशों में कोई कोण, रेडियन में बदला गया।"/>
+    <entry key="The text with every old part replaced by the new one." value="टेक्स्ट, जिसमें हर old भाग को new से बदला गया हो।"/>
+    <entry key="The text repeated n times." value="n बार दोहराया गया टेक्स्ट।"/>
+    <entry key="The last n characters of the text." value="टेक्स्ट के अंतिम n अक्षर।"/>
+    <entry key="x rounded to the decimals given (none: to a whole number)." value="दिए गए दशमलव तक पूर्णांकित x (कोई नहीं: पूर्ण संख्या तक)।"/>
+    <entry key="x rounded towards zero." value="शून्य की ओर पूर्णांकित x।"/>
+    <entry key="x rounded away from zero." value="शून्य से दूर की ओर पूर्णांकित x।"/>
+    <entry key="Where the part starts in the text (0 = not there), without regard to case." value="टेक्स्ट में वह भाग कहाँ आरंभ होता है (0 = नहीं है), बड़े-छोटे अक्षरों का भेद किए बिना।"/>
+    <entry key="The second of a time (0-59)." value="किसी समय का सेकंड (0-59)।"/>
+    <entry key="1 for a positive x, -1 for a negative one, 0 for zero." value="धनात्मक x के लिए 1, ऋणात्मक के लिए -1, शून्य के लिए 0।"/>
+    <entry key="The sine of an angle in radians." value="रेडियन में किसी कोण की ज्या।"/>
+    <entry key="The square root of x." value="x का वर्गमूल।"/>
+    <entry key="True if the text starts with the part (without regard to case)." value="सही, यदि टेक्स्ट उस भाग से आरंभ हो (बड़े-छोटे अक्षरों का भेद किए बिना)।"/>
+    <entry key="The result paired with the value x is equal to; the last one otherwise." value="उस मान से जुड़ा परिणाम जिसके बराबर x है; अन्यथा अंतिम।"/>
+    <entry key="The tangent of an angle in radians." value="रेडियन में किसी कोण की स्पर्शज्या।"/>
+    <entry key="The number written with the decimals given." value="दिए गए दशमलवों के साथ लिखी गई संख्या।"/>
+    <entry key="The part of the text after the separator." value="टेक्स्ट का विभाजक के बाद का भाग।"/>
+    <entry key="The part of the text before the separator." value="टेक्स्ट का विभाजक से पहले का भाग।"/>
+    <entry key="Today's date." value="आज की दिनांक।"/>
+    <entry key="The text without the spaces before and after it." value="आगे और पीछे की खाली जगहों के बिना टेक्स्ट।"/>
+    <entry key="x with the decimals after the ones given cut off." value="दिए गए दशमलवों के बाद के दशमलव काटकर x।"/>
+    <entry key="The text in capital letters." value="बड़े अक्षरों में टेक्स्ट।"/>
+    <entry key="The day of the week (1 = Sunday ... 7 = Saturday)." value="सप्ताह का दिन (1 = रविवार ... 7 = शनिवार)।"/>
+    <entry key="The week of the year (weeks start on Monday; before the first Monday: 0)." value="वर्ष का सप्ताह (सप्ताह सोमवार को आरंभ होते हैं; पहले सोमवार से पहले: 0)।"/>
+    <entry key="The year of a date." value="किसी दिनांक का वर्ष।"/>
+    <entry key="The whole years from d1 to d2 (an age)." value="d1 से d2 तक के पूरे वर्ष (एक आयु)।"/>
     <entry key="The statistic cannot be calculated: %s" value="आँकड़े की गणना नहीं की जा सकती: %s"/>
+    <entry key="Average deviation" value="औसत विचलन"/>
     <entry key="Average" value="औसत"/>
     <entry key="Count" value="गणना"/>
+    <entry key="Count of empty values" value="खाली मानों की गणना"/>
     <entry key="Count of different values" value="भिन्न मानों की गणना"/>
     <entry key="First value" value="पहला मान"/>
     <entry key="Formula of the measures" value="मापों का सूत्र"/>
+    <entry key="Geometric mean" value="गुणोत्तर माध्य"/>
+    <entry key="Harmonic mean" value="हरात्मक माध्य"/>
+    <entry key="Kurtosis" value="ककुदता"/>
     <entry key="Last value" value="अंतिम मान"/>
+    <entry key="List of the values" value="मानों की सूची"/>
     <entry key="Maximum" value="अधिकतम"/>
     <entry key="Median" value="माध्यिका"/>
     <entry key="Minimum" value="न्यूनतम"/>
+    <entry key="Most frequent value (mode)" value="सबसे अधिक बार आने वाला मान (बहुलक)"/>
     <entry key="(none)" value="(कोई नहीं)"/>
+    <entry key="10th percentile" value="10वाँ शतमक"/>
+    <entry key="90th percentile" value="90वाँ शतमक"/>
     <entry key="Product" value="गुणनफल"/>
+    <entry key="First quartile" value="प्रथम चतुर्थक"/>
+    <entry key="Third quartile" value="तृतीय चतुर्थक"/>
+    <entry key="Range (maximum - minimum)" value="परास (अधिकतम - न्यूनतम)"/>
+    <entry key="Skewness" value="विषमता"/>
     <entry key="Standard deviation (sample)" value="मानक विचलन (नमूना)"/>
     <entry key="Standard deviation (all)" value="मानक विचलन (सभी)"/>
     <entry key="Sum" value="योग"/>
+    <entry key="Sum of squares" value="वर्गों का योग"/>
     <entry key="Variance (sample)" value="प्रसरण (नमूना)"/>
     <entry key="Variance (all)" value="प्रसरण (सभी)"/>
     <entry key="from" value="से"/>
@@ -1172,6 +1427,10 @@
     <entry key="%s - locked" value="%s - लॉक है"/>
     <entry key="No database open" value="कोई डेटाबेस खुला नहीं है"/>
     <entry key="Ready" value="तैयार"/>
+    <entry key="An alcohol-free beer - %s EUR" value="एक अल्कोहल-रहित बीयर - %s EUR"/>
+    <entry key="A coffee - %s EUR" value="एक कॉफ़ी - %s EUR"/>
+    <entry key="A tea - %s EUR" value="एक चाय - %s EUR"/>
+    <entry key="SQLite DB Tools is free and stays free: a gift unlocks nothing and changes nothing. If the program is useful to you, you can offer its developer a drink - alcohol free - through PayPal. Each button opens the PayPal page with that amount, which you can still change there." value="SQLite DB Tools निःशुल्क है और निःशुल्क रहेगा: उपहार कुछ भी अनलॉक नहीं करता और कुछ नहीं बदलता। यदि प्रोग्राम आपके काम का है, तो आप PayPal से इसके डेवलपर को एक पेय - बिना अल्कोहल - भेंट कर सकते हैं। हर बटन उस राशि के साथ PayPal पेज खोलता है, जिसे आप वहाँ बदल भी सकते हैं।"/>
     <entry key="Computer" value="कंप्यूटर"/>
     <entry key="Copy to the clipboard" value="क्लिपबोर्ड पर कॉपी करें"/>
     <entry key="Architecture" value="आर्किटेक्चर"/>
@@ -1209,6 +1468,7 @@
     <entry key="Light" value="हल्का"/>
     <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="नई थीम का उपयोग एप्लिकेशन के रंगों के लिए किया जाता है, अब से खोली जाने वाली विंडो सहित। सिस्टम द्वारा बनाए गए भाग (शीर्षक पट्टियाँ, स्क्रॉल पट्टियाँ) अगली बार प्रारंभ होने पर बदलते हैं।"/>
     <entry key="Select the theme:" value="थीम चुनें:"/>
+    <entry key="As Windows" value="Windows जैसा"/>
     <entry key="Theme" value="थीम"/>
     <entry key="Attachment (file)" value="अनुलग्नक (फ़ाइल)"/>
     <entry key="Yes / No" value="हाँ / नहीं"/>

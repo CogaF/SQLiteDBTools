@@ -29,9 +29,22 @@ The source code of the program is not published; it remains private to the autho
 
 The program includes or links components by other people (wxWidgets, SQLite, SQLite3 Multiple Ciphers, libsodium,
 PoDoFo and the libraries PoDoFo needs, the Microsoft Visual C++ runtime). Each stays the property of its owners and
-is used under its own license, listed in THIRD-PARTY-NOTICES.md (also in Help > About). Nothing in this license
+is used under its own license, listed in THIRD-PARTY-NOTICES.md (also in Help > About; the full texts in the folder
+licenses next to the program). Nothing in this license
 limits the rights those licenses give you on those components. SQLite is a registered trademark of Hipp, Wyrick &
 Company, Inc.; the program is not made, endorsed or supported by the SQLite developers.
+
+## Your data
+
+The program collects no data about you and sends nothing anywhere by itself: no ads, no analytics, no tracking, no
+account with the author. Your databases and files leave your computer or phone only when you send them yourself - a copy
+saved elsewhere, an export, a print, a share, or Google Drive when you choose it in the Android app.
+
+## Supporting the author
+
+The program stays free of charge. Whoever wishes can offer the author a drink - a coffee, a tea or an alcohol-free beer -
+through PayPal (Help > Support the Developer). It is a gift: it unlocks nothing, changes nothing in the program and is
+never asked for. ("What you may not do" above is about others selling the program, not about this.)
 
 ## No warranty
 
@@ -45,11 +58,19 @@ Using the program means accepting this license. If you do not accept it, do not 
 
 ## A smaller wish
 
-The author of SQLite, D. Richard Hipp, gave his code to the public domain and, in place of a legal notice, a
-blessing: may you do good and not evil, may you find forgiveness for yourself and forgive others, may you share
-freely, never taking more than you give. This program does not share its source, so it cannot claim that blessing; it
-gives what it can - itself, free of charge - and asks only for a smaller wish in return:
+The author of SQLite, D. Richard Hipp, gave his code to the public domain and, in place of a legal notice, a blessing:
+
+> May you do good and not evil.
+>
+> May you find forgiveness for yourself and forgive others.
+>
+> May you share freely, never taking more than you give.
+
+This program does not share its source, so it cannot claim that blessing. It gives what it can - itself, free of
+charge - and asks only for a smaller wish in return:
 
 > May your backups be recent and your restores never needed.
+>
 > May every query return what you meant to ask.
+>
 > May you keep your data in order, and may it keep you out of trouble.

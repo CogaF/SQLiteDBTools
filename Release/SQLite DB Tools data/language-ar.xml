@@ -9,6 +9,11 @@
     <entry key="Third-party notices" value="إشعارات الجهات الخارجية"/>
     <entry key="About %s" value="حول %s"/>
     <entry key="Version %s - commit %d, built %s (%s)" value="الإصدار %s - الإيداع %d، بُني في %s (%s)"/>
+    <entry key="Blue" value="أزرق"/>
+    <entry key="Green" value="أخضر"/>
+    <entry key="Orange" value="برتقالي"/>
+    <entry key="Purple" value="بنفسجي"/>
+    <entry key="Red" value="أحمر"/>
     <entry key="Active" value="نشط"/>
     <entry key="Full access account name:" value="اسم حساب الوصول الكامل:"/>
     <entry key="Created" value="تاريخ الإنشاء"/>
@@ -51,6 +56,12 @@
     <entry key="Password:" value="كلمة المرور:"/>
     <entry key="Add column..." value="إضافة عمود..."/>
     <entry key="Admin password:" value="كلمة مرور المسؤول:"/>
+    <entry key="Accent colour:" value="لون التمييز:"/>
+    <entry key="Simple view shows the everyday tools, Pro view every tool; nothing is removed. The accent colour marks Home's buttons, tiles and switch, in small touches." value="يعرض العرض البسيط أدوات الاستخدام اليومي، ويعرض العرض الاحترافي كل الأدوات؛ ولا يُحذف شيء. يميّز لون التمييز أزرار الرئيسية ومربعاتها ومفتاح التبديل، بلمسات صغيرة."/>
+    <entry key="Preview:" value="معاينة:"/>
+    <entry key="Theme:" value="السمة:"/>
+    <entry key="Appearance" value="المظهر"/>
+    <entry key="View:" value="العرض:"/>
     <entry key="Apply" value="تطبيق"/>
     <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="لا يُطبَّق التغيير بالكامل إلا عند بدء تشغيل التطبيق.&#10;&#10;إعادة التشغيل الآن: حفظه وإعادة تشغيل التطبيق تلقائياً.&#10;الاستخدام الآن: حفظه واستخدامه فوراً - بعض الأجزاء لا تتغير إلا عند التشغيل التالي.&#10;الحفظ للتشغيل التالي: حفظه فقط."/>
     <entry key="Apply changes" value="تطبيق التغييرات"/>
@@ -160,6 +171,18 @@
     <entry key="A Table with This Name" value="جدول بهذا الاسم"/>
     <entry key="Clear" value="مسح"/>
     <entry key="Clear Log" value="مسح السجل"/>
+    <entry key="All the %d copied cells fall outside the table from here: nothing is pasted." value="تقع كل الخلايا المنسوخة (%d) خارج الجدول من هنا: لم يُلصق شيء."/>
+    <entry key="Paste the copied cells (%d rows by %d columns) with their first cell in the column %s of the record %s?" value="هل تلصق الخلايا المنسوخة (%d صفوف × %d أعمدة) بحيث تكون خليتها الأولى في العمود %s من السجل %s؟"/>
+    <entry key="The copied cells start at the record %s; the focus is on the record %s. Paste them from there?" value="تبدأ الخلايا المنسوخة من السجل %s؛ والخلية النشطة على السجل %s. هل تلصقها من هناك؟"/>
+    <entry key="The copied cells start in the column %s; the focus is in the column %s. Paste them from there?" value="تبدأ الخلايا المنسوخة في العمود %s؛ والخلية النشطة في العمود %s. هل تلصقها من هناك؟"/>
+    <entry key="%d cell(s) copied: Ctrl+V pastes them from the cell in focus, with the same gaps." value="نُسخت %d خلية: Ctrl+V يلصقها بدءًا من الخلية النشطة، بالفجوات نفسها."/>
+    <entry key="%d of the rows the cells go to are not being edited. Put them in edit and paste?" value="%d من الصفوف التي تذهب إليها الخلايا ليست قيد التحرير. هل تضعها قيد التحرير وتلصق؟"/>
+    <entry key="There are no cells to paste: copy cells first (Ctrl+C), here or in another program." value="لا توجد خلايا للصق: انسخ خلايا أولًا (Ctrl+C)، هنا أو في برنامج آخر."/>
+    <entry key="The records of this table cannot be changed here (read-only, or your account may not change them)." value="لا يمكن تغيير سجلات هذا الجدول هنا (للقراءة فقط، أو لا يحق لحسابك تغييرها)."/>
+    <entry key="%d of the copied cells fall outside the table (beyond its last row or column). Paste only the %d that fit?" value="تقع %d من الخلايا المنسوخة خارج الجدول (بعد آخر صف أو عمود). هل تلصق فقط الـ %d التي تتسع؟"/>
+    <entry key="%d cell(s) pasted: Apply modifications saves them." value="لُصقت %d خلية: تطبيق التعديلات يحفظها."/>
+    <entry key="Paste Those" value="لصق تلك"/>
+    <entry key="%d cell(s) are in columns that cannot be typed (attachments, quantities): they stay as they are." value="%d خلية في أعمدة لا يمكن الكتابة فيها (مرفقات، كميات): تبقى كما هي."/>
     <entry key="Close" value="إغلاق"/>
     <entry key="Existing columns cannot be removed: tables only grow." value="لا يمكن إزالة الأعمدة الموجودة: الجداول تنمو فقط."/>
     <entry key="Detail %d" value="تفصيل %d"/>
@@ -286,11 +309,13 @@
     <entry key="database engine" value="محرك قاعدة البيانات"/>
     <entry key="user interface" value="واجهة المستخدم"/>
     <entry key="PDF documents and reports" value="مستندات وتقارير PDF"/>
+    <entry key="PDF: used by PoDoFo" value="PDF: يستخدمه PoDoFo"/>
     <entry key="C++ runtime" value="وقت تشغيل C++"/>
     <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="كلمة مرور المسؤول ومفتاح الاسترداد (Argon2id، XChaCha20-Poly1305)"/>
     <entry key="Version in use" value="الإصدار المستخدم"/>
     <entry key="Website" value="موقع الويب"/>
     <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="نقر مزدوج: موقع ويب المالك. كل مكوّن ملك لأصحابه ويُستخدم بموجب ترخيصه."/>
+    <entry key="with PoDoFo" value="مع PoDoFo"/>
     <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="الأتمتة قواعد تنفّذها قاعدة البيانات كلما تمت إضافة سجل أو تغييره أو حذفه - من هذا البرنامج أو أي برنامج آخر. مثلاً: تخصم الحركة كميتها من مخزون الصنف؛ قيمة الصنف دائماً المخزون x السعر؛ يُرفض أي تغيير يجعل المخزون سالباً."/>
     <entry key="Automations" value="الأتمتة"/>
     <entry key="Change..." value="تغيير..."/>
@@ -434,6 +459,7 @@
     <entry key="Clear the selection" value="مسح التحديد"/>
     <entry key="%ld records copied to the clipboard." value="تم نسخ %ld سجل إلى الحافظة."/>
     <entry key="Copy the value" value="نسخ القيمة"/>
+    <entry key="Copy the Selected Cells&#9;Ctrl+C" value="نسخ الخلايا المحددة&#9;Ctrl+C"/>
     <entry key="Copy the selected records (for a spreadsheet)" value="نسخ السجلات المحددة (لجدول بيانات)"/>
     <entry key="Copy to a new entry" value="نسخ إلى إدخال جديد"/>
     <entry key="%zu record(s)" value="%zu سجل"/>
@@ -447,10 +473,12 @@
     <entry key="The modifications cannot be applied" value="تعذّر تطبيق التعديلات"/>
     <entry key="text in any column" value="نص في أي عمود"/>
     <entry key="Find:" value="بحث:"/>
-    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="انقر بزر الماوس الأيمن على صف لعرض إجراءاته. في صف قيد التحرير، انقر نقرًا مزدوجًا على خلية (أو اكتب فيها) لتغييرها. المفاتيح: F2 تحرير، Ctrl+S تطبيق، Esc إلغاء، Del حذف، Ctrl+D نسخ إلى إدخال جديد."/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry. Ctrl+click selects several cells; Ctrl+C copies them, Ctrl+V pastes them from the cell in focus." value="انقر بزر الماوس الأيمن على صف لعرض إجراءاته. في صف قيد التحرير، انقر نقرًا مزدوجًا على خلية (أو اكتب فيها) لتغييرها. المفاتيح: F2 تحرير، Ctrl+S تطبيق، Esc إلغاء، Del حذف، Ctrl+D نسخ إلى إدخال جديد. Ctrl+نقر يحدد عدة خلايا؛ Ctrl+C ينسخها، وCtrl+V يلصقها من الخلية النشطة."/>
     <entry key="History of this record..." value="محفوظات هذا السجل..."/>
     <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="ينطبق هذا على %ld سجل ويستغرق %s (يتوقف الوقت على الكمبيوتر). يظهر التقدم والوقت في شريط الحالة، مع زر الإيقاف.&#10;&#10;هل تريد المتابعة؟"/>
     <entry key="Open the attachment" value="فتح المرفق"/>
+    <entry key="Paste the Copied Cells&#9;Ctrl+V" value="لصق الخلايا المنسوخة&#9;Ctrl+V"/>
+    <entry key="Paste" value="لصق"/>
     <entry key=" - %zu row(s) in edit, %zu changed" value=" - %zu صف قيد التحرير، %zu تم تغييره"/>
     <entry key="Print..." value="طباعة..."/>
     <entry key="Print the selected records..." value="طباعة السجلات المحددة..."/>
@@ -465,9 +493,55 @@
     <entry key="Part of:" value="جزء من:"/>
     <entry key="Reason:" value="السبب:"/>
     <entry key="Browse" value="استعراض"/>
+    <entry key="Change Database..." value="تغيير قاعدة البيانات..."/>
+    <entry key="{HOME_DO_ADD}Add" value="إضافة"/>
+    <entry key="a new record" value="سجل جديد"/>
+    <entry key="Find" value="بحث"/>
+    <entry key="records of a table" value="سجلات جدول"/>
+    <entry key="Share" value="مشاركة"/>
+    <entry key="export, print, PDF" value="تصدير، طباعة، PDF"/>
     <entry key="Edit structure..." value="تحرير البنية..."/>
+    <entry key="Find a tool or a table" value="ابحث عن أداة أو جدول"/>
+    <entry key="Database and tables" value="قاعدة البيانات والجداول"/>
+    <entry key="Attachments and history" value="المرفقات وسجل التغييرات"/>
+    <entry key="Bring in, send out" value="إدخال وإخراج البيانات"/>
+    <entry key="Work with records" value="العمل مع السجلات"/>
+    <entry key="Security and users" value="الأمان والمستخدمون"/>
     <entry key="New table..." value="جدول جديد..."/>
+    <entry key="Nothing found." value="لم يُعثر على شيء."/>
+    <entry key="Not available now: no database open, no table, or your account may not do it." value="غير متاح الآن: لا توجد قاعدة بيانات مفتوحة، أو لا يوجد جدول، أو لا يُسمح لحسابك بذلك."/>
+    <entry key="Pin to the Top" value="تثبيت في الأعلى"/>
+    <entry key="Pinned - right-click a tool to take it off" value="مثبّت - انقر بزر الماوس الأيمن على أداة لإزالتها"/>
+    <entry key="Right-click a tool to pin it here, at the top." value="انقر بزر الماوس الأيمن على أداة لتثبيتها هنا، في الأعلى."/>
+    <entry key="Recent:" value="الأخيرة:"/>
+    <entry key="%s records" value="%s سجل"/>
+    <entry key="Import, merge, statistics, SQL, print profiles, attachments, passwords and users are in Pro view." value="الاستيراد والدمج والإحصاءات وSQL وملفات تعريف الطباعة والمرفقات وكلمات المرور والمستخدمون موجودة في العرض الاحترافي."/>
+    <entry key="a new record" value="سجل جديد"/>
+    <entry key="where the files are kept" value="مكان حفظ الملفات"/>
+    <entry key="the records of a table" value="سجلات جدول"/>
+    <entry key="missing, moved files" value="ملفات مفقودة أو منقولة"/>
+    <entry key="columns and rules" value="الأعمدة والقواعد"/>
+    <entry key="SQL, CSV, JSON, a copy" value="SQL، CSV، JSON، نسخة"/>
+    <entry key="CSV, Excel, OpenDocument" value="CSV، Excel، OpenDocument"/>
+    <entry key="every change" value="كل تغيير"/>
+    <entry key="with a preview of the rows" value="مع معاينة للصفوف"/>
+    <entry key="plain or protected" value="عادية أو محمية"/>
+    <entry key="the folder of the files" value="مجلد الملفات"/>
+    <entry key="a database file" value="ملف قاعدة بيانات"/>
+    <entry key="documents and PDFs of records" value="مستندات وملفات PDF للسجلات"/>
+    <entry key="ready-made examples" value="أمثلة جاهزة"/>
+    <entry key="find with conditions" value="بحث بشروط"/>
+    <entry key="read-only queries" value="استعلامات للقراءة فقط"/>
+    <entry key="group, measure, chart" value="تجميع، قياس، رسم بياني"/>
+    <entry key="accounts and their levels" value="الحسابات ومستوياتها"/>
+    <entry key="%d table(s) - %s record(s) - %s" value="%d جدول - %s سجل - %s"/>
+    <entry key="Switch to Pro View" value="التبديل إلى العرض الاحترافي"/>
     <entry key="Home" value="الرئيسية"/>
+    <entry key="Take Off the Top" value="إزالة من الأعلى"/>
+    <entry key="Pro" value="احترافي"/>
+    <entry key="Simple" value="بسيط"/>
+    <entry key="What do you want to do?" value="ماذا تريد أن تفعل؟"/>
+    <entry key="Your tables" value="جداولك"/>
     <entry key="Add image..." value="إضافة صورة..."/>
     <entry key="Choose an image (logo, stamp, signature ...)" value="اختيار صورة (شعار، ختم، توقيع ...)"/>
     <entry key="Also as watermark" value="أيضًا كعلامة مائية"/>
@@ -508,6 +582,8 @@
     <entry key="&lt; Back" value="&lt; رجوع"/>
     <entry key="Change the columns" value="تغيير الأعمدة"/>
     <entry key="Choose a file first." value="اختر ملفًا أولاً."/>
+    <entry key="Choose the rows before importing" value="اختيار الصفوف قبل الاستيراد"/>
+    <entry key="Shows every row of the file to take or leave out (by hand or by row numbers), change and put in order before anything is written; it opens by itself when some rows cannot be written as they are" value="يعرض كل صف من الملف لأخذه أو استبعاده (يدويًا أو بأرقام الصفوف) وتغييره ووضعه في الترتيب قبل كتابة أي شيء؛ يُفتح تلقائيًا عندما لا يمكن كتابة بعض الصفوف كما هي"/>
     <entry key="Check at least one sheet." value="حدد ورقة واحدة على الأقل."/>
     <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="أعمدة الجدول الجديد، مستنتجة من القيم: النوع، و&quot;مطلوب&quot; (بلا قيمة فارغة) و&quot;فريد&quot; (كل قيمة مختلفة). تحقق منها، وغيّر ما هو خاطئ، وألغِ تحديد الأعمدة المراد استبعادها. لا يُكتب شيء قبل الاستيراد."/>
     <entry key="Examples" value="أمثلة"/>
@@ -573,6 +649,11 @@
     <entry key="The file cannot be read: %s" value="تعذّرت قراءة الملف: %s"/>
     <entry key="%d rows of %d do not fit the columns as they are:" value="%d صف من %d لا تتوافق مع الأعمدة كما هي:"/>
     <entry key="row %d, %s &quot;%s&quot;: %s" value="الصف %d، %s &quot;%s&quot;: %s"/>
+    <entry key="Import these rows" value="استيراد هذه الصفوف"/>
+    <entry key="The rows of %s, as they will be written into %s: %d rows, %d of them cannot be written as they are (red). Nothing is written until Import." value="صفوف %s، كما ستُكتب في %s: %d صف، منها %d لا يمكن كتابتها كما هي (حمراء). لا يُكتب شيء حتى استيراد."/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Import the others?" value="%s صف بها قيم لا يمكن حفظها: سيتم استبعادها. هل تريد استيراد البقية؟"/>
+    <entry key="%s rows - %s to import - %s already here - %s with values that cannot be saved" value="%s صف - %s للاستيراد - %s موجود هنا بالفعل - %s بقيم لا يمكن حفظها"/>
+    <entry key="Import into %s: the rows" value="الاستيراد إلى %s: الصفوف"/>
     <entry key="Separator:" value="الفاصل:"/>
     <entry key="Found by itself" value="يُكتشف تلقائيًا"/>
     <entry key="Comma ," value="فاصلة ,"/>
@@ -642,6 +723,7 @@
     <entry key="Largest (empty = any):" value="الأكبر (فارغ = أي قيمة):"/>
     <entry key="&amp;About..." value="حول(&amp;A)..."/>
     <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="إضافة إدخال(&amp;A)...&#9;Ctrl-Shift-N"/>
+    <entry key="Appea&amp;rance..." value="المظهر(&amp;R)..."/>
     <entry key="Attac&amp;hment Folder Location..." value="موقع مجلد المرفقات(&amp;H)..."/>
     <entry key="&amp;Browse Records...&#9;Ctrl-B" value="استعراض السجلات(&amp;B)...&#9;Ctrl-B"/>
     <entry key="Change &amp;My Password..." value="تغيير كلمة المرور الخاصة بي(&amp;M)..."/>
@@ -676,6 +758,7 @@
     <entry key="Print P&amp;rofiles..." value="ملفات تعريف الطباعة(&amp;R)..."/>
     <entry key="Protect with an &amp;Admin Password..." value="حماية بكلمة مرور المسؤول(&amp;A)..."/>
     <entry key="Protect with a Passp&amp;hrase..." value="حماية بعبارة مرور(&amp;H)..."/>
+    <entry key="&amp;Pro View" value="العرض الاحترافي(&amp;P)"/>
     <entry key="Open &amp;Recent" value="فتح الأخيرة(&amp;R)"/>
     <entry key="Re&amp;move the Encryption..." value="إزالة التشفير(&amp;M)..."/>
     <entry key="Rotate the &amp;Encryption Key..." value="تدوير مفتاح التشفير(&amp;E)..."/>
@@ -687,6 +770,7 @@
     <entry key="Application L&amp;og" value="سجل التطبيق(&amp;O)"/>
     <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="استعلام SQL (للقراءة فقط)(&amp;Q)...&#9;Ctrl-Q"/>
     <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="الإحصاءات(&amp;I)...&#9;Ctrl-Shift-T"/>
+    <entry key="&amp;Support the Developer..." value="دعم المطوّر(&amp;S)..."/>
     <entry key="S&amp;witch User..." value="تبديل المستخدم(&amp;W)..."/>
     <entry key="&amp;Theme..." value="السمة(&amp;T)..."/>
     <entry key="&amp;Users and Access..." value="المستخدمون والوصول(&amp;U)..."/>
@@ -978,6 +1062,7 @@
     <entry key="To" value="إلى"/>
     <entry key="Up" value="لأعلى"/>
     <entry key="Width (relative):" value="العرض (نسبي):"/>
+    <entry key="Your data stays yours: the program collects nothing about you and sends nothing anywhere by itself - no ads, no analytics, no tracking. Your files leave your device only when you send them yourself (a copy, an export, a print, a share; Google Drive when you choose it in the Android app)." value="بياناتك تبقى ملكك: البرنامج لا يجمع عنك شيئًا ولا يرسل شيئًا إلى أي مكان من تلقاء نفسه - لا إعلانات ولا إحصاءات ولا تتبّع. لا تغادر ملفاتك جهازك إلا عندما ترسلها بنفسك (نسخة، تصدير، طباعة، مشاركة؛ Google Drive عندما تختاره في تطبيق Android)."/>
     <entry key="The database is now encrypted." value="أصبحت قاعدة البيانات الآن مشفّرة."/>
     <entry key="not encrypted" value="غير مشفّرة"/>
     <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="كيف تريد حماية %s؟ يمكن تغيير ذلك لاحقاً (قاعدة البيانات &gt; الأمان)."/>
@@ -1045,6 +1130,30 @@
     <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="تمت إعادة تشفير قاعدة البيانات بمفتاح جديد. يلي ذلك مفتاح الاسترداد الجديد."/>
     <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="ينشئ مفتاح تشفير جديداً، ويعيد تشفير قاعدة البيانات بالكامل به، وينشئ مفتاح استرداد جديداً. استخدمه إذا كان من المحتمل أن تكون نسخة من قاعدة البيانات مع ملف مفتاحها (أو كلمة مرور المسؤول) قد تسرّبت: تبقى النسخ المأخوذة سابقاً قابلة للقراءة بالأسرار القديمة، لكن كل ما يأتي من الآن فصاعداً يحتاج إلى المفتاح الجديد. أدخل كلمة مرور المسؤول للمتابعة."/>
     <entry key="Rotate the encryption key" value="تدوير مفتاح التشفير"/>
+    <entry key="Add New Group" value="إضافة مجموعة جديدة"/>
+    <entry key="This row cannot be written as it is: right-click it to change the values that are refused." value="لا يمكن كتابة هذا الصف كما هو: انقر عليه بزر الماوس الأيمن لتغيير القيم المرفوضة."/>
+    <entry key=" - %s cannot be written as they are (red)" value=" - %s لا يمكن كتابتها كما هي (حمراء)"/>
+    <entry key="Row" value="الصف"/>
+    <entry key="%lld (copy %d)" value="%lld (النسخة %d)"/>
+    <entry key="Double copies of the rows in two groups" value="نسخ مزدوجة من الصفوف الموجودة في مجموعتين"/>
+    <entry key="The row can be written now." value="يمكن كتابة الصف الآن."/>
+    <entry key="The row still cannot be written." value="لا يزال الصف غير قابل للكتابة."/>
+    <entry key="Only the values that cannot be written can be changed here. Each one is checked as you type: green can be written, red cannot." value="يمكن هنا تغيير القيم التي لا يمكن كتابتها فقط. يتم فحص كل قيمة أثناء الكتابة: الأخضر يمكن كتابته، والأحمر لا."/>
+    <entry key="Change the Refused Values..." value="تغيير القيم المرفوضة..."/>
+    <entry key="Row %s: the values to change" value="الصف %s: القيم المطلوب تغييرها"/>
+    <entry key="Rows by number:" value="الصفوف حسب الرقم:"/>
+    <entry key="Give both row numbers." value="أدخل رقمي الصفين كليهما."/>
+    <entry key="No place in the order (another group took it): choose one." value="لا يوجد مكان في الترتيب (أخذته مجموعة أخرى): اختر مكانًا."/>
+    <entry key="The rows are numbered from 1 to %lld." value="الصفوف مرقمة من 1 إلى %lld."/>
+    <entry key="&quot;from&quot; is after &quot;to&quot;." value="&quot;من&quot; بعد &quot;إلى&quot;."/>
+    <entry key="Choose the rows: Ctrl+click a row (any cell of it) or its tick to take it or leave it out; Shift+click or drag to take several; or give groups of rows by number. A red row cannot be written as it is: right-click it to change the values that are refused. A green row was changed here and can be written." value="اختر الصفوف: Ctrl+click على صف (أي خلية فيه) أو على علامة تحديده لأخذه أو استبعاده؛ Shift+click أو السحب لأخذ عدة صفوف؛ أو حدّد مجموعات من الصفوف بأرقامها. الصف الأحمر لا يمكن كتابته كما هو: انقر عليه بزر الماوس الأيمن لتغيير القيم المرفوضة. الصف الأخضر تم تغييره هنا ويمكن كتابته."/>
+    <entry key="The rows taken by hand make %d groups, too many to list. Add New Group starts again from row numbers." value="الصفوف المأخوذة يدويًا تشكّل %d مجموعة، وهذا أكثر من أن يُعرض في قائمة. إضافة مجموعة جديدة يبدأ من جديد من أرقام الصفوف."/>
+    <entry key="Every group of rows needs both numbers and its place in the order before anything is written." value="تحتاج كل مجموعة صفوف إلى الرقمين كليهما ومكانها في الترتيب قبل كتابة أي شيء."/>
+    <entry key="Order:" value="الترتيب:"/>
+    <entry key="Rows from %lld to %lld are selected twice (groups %d and %d). Do you want to have double copies of them?" value="الصفوف من %lld إلى %lld محددة مرتين (المجموعتان %d و%d). هل تريد الحصول على نسخ مزدوجة منها؟"/>
+    <entry key="Remove this group" value="إزالة هذه المجموعة"/>
+    <entry key="rows %lld - %lld are in two groups: written twice (double copies)" value="الصفوف %lld - %lld في مجموعتين: تُكتب مرتين (نسخ مزدوجة)"/>
+    <entry key="rows %lld - %lld are in two groups: written once" value="الصفوف %lld - %lld في مجموعتين: تُكتب مرة واحدة"/>
     <entry key="Rules" value="القواعد"/>
     <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="لديك بالفعل نسخة من قاعدة البيانات النموذجية هذه:&#10;%s&#10;&#10;هل تريد فتحها مع تغييراتك، أم البدء من جديد من نسخة جديدة (ستفقد تغييراتك عليها)؟"/>
     <entry key="The sample database could not be copied." value="تعذّر نسخ قاعدة البيانات النموذجية."/>
@@ -1097,22 +1206,168 @@
     <entry key="Delete the saved statistic &quot;%s&quot;?" value="هل تريد حذف الإحصائية المحفوظة &quot;%s&quot;؟"/>
     <entry key="descending" value="تنازلي"/>
     <entry key="End:" value="النهاية:"/>
+    <entry key="Examples..." value="أمثلة..."/>
+    <entry key="What it does" value="ما تفعله"/>
+    <entry key="Example" value="مثال"/>
+    <entry key="Result" value="النتيجة"/>
+    <entry key="Copied: %s" value="تم النسخ: %s"/>
+    <entry key="Double-click an example to copy its formula." value="انقر نقراً مزدوجاً على مثال لنسخ صيغته."/>
+    <entry key="Every function a statistic can use, with examples worked out by the program itself on the sample records below: a formula of a value on the first record, a measure over all of them." value="كل دالة يمكن أن تستخدمها الإحصائية، مع أمثلة يحسبها البرنامج نفسه على سجلات العينة أدناه: صيغة لقيمة على السجل الأول، ومقياس على جميعها."/>
+    <entry key="%s of %s" value="%s لـ %s"/>
+    <entry key="%s - only when %s" value="%s - فقط عندما %s"/>
+    <entry key="the records" value="السجلات"/>
+    <entry key="The same as %s." value="مثل %s."/>
+    <entry key="Sample records (Sales)" value="سجلات العينة (المبيعات)"/>
+    <entry key="Examples of the functions" value="أمثلة على الدوال"/>
+    <entry key="Dates" value="التواريخ"/>
+    <entry key="Logic" value="المنطق"/>
+    <entry key="Numbers" value="الأرقام"/>
+    <entry key="Texts" value="النصوص"/>
+    <entry key="The average distance of the values from their average." value="متوسط بُعد القيم عن متوسطها."/>
+    <entry key="The average of the values." value="متوسط القيم."/>
+    <entry key="How many records; of a value: how many have it not empty." value="عدد السجلات؛ ولقيمة: عدد السجلات التي ليست فيها فارغة."/>
+    <entry key="How many records have the value empty." value="عدد السجلات التي تكون فيها القيمة فارغة."/>
+    <entry key="How many different values." value="عدد القيم المختلفة."/>
+    <entry key="The value of the first record (by record number)." value="قيمة السجل الأول (حسب رقم السجل)."/>
+    <entry key="The geometric mean of positive values: for growth rates." value="الوسط الهندسي لقيم موجبة: لمعدلات النمو."/>
+    <entry key="The harmonic mean of positive values: for averages of speeds or rates." value="الوسط التوافقي لقيم موجبة: لمتوسطات السرعات أو المعدلات."/>
+    <entry key="How heavy the tails are compared with a normal distribution (above 0: more extreme values)." value="مدى ثقل الذيلين مقارنة بالتوزيع الطبيعي (فوق 0: قيم متطرفة أكثر)."/>
+    <entry key="The value of the last record (by record number)." value="قيمة السجل الأخير (حسب رقم السجل)."/>
+    <entry key="The different values, joined by commas." value="القيم المختلفة، مفصولة بفواصل."/>
+    <entry key="The largest value (of dates: the latest)." value="أكبر قيمة (للتواريخ: الأحدث)."/>
+    <entry key="The middle value: half of the values are below it, half above." value="القيمة الوسطى: نصف القيم أقل منها، ونصفها أكبر."/>
+    <entry key="The smallest value (of dates: the earliest)." value="أصغر قيمة (للتواريخ: الأقدم)."/>
+    <entry key="The value found most often (the first one when several are as frequent)." value="القيمة الأكثر تكراراً (الأولى عندما تتساوى عدة قيم في التكرار)."/>
+    <entry key="A tenth of the values are below it." value="عُشر القيم أقل منه."/>
+    <entry key="Nine tenths of the values are below it." value="تسعة أعشار القيم أقل منه."/>
+    <entry key="The values multiplied together." value="حاصل ضرب القيم بعضها في بعض."/>
+    <entry key="A quarter of the values are below it." value="ربع القيم أقل منه."/>
+    <entry key="Three quarters of the values are below it." value="ثلاثة أرباع القيم أقل منه."/>
+    <entry key="The largest value minus the smallest." value="أكبر قيمة مطروحاً منها أصغر قيمة."/>
+    <entry key="How lopsided the values are: above 0, a long tail of large values." value="مدى عدم تناظر القيم: فوق 0، ذيل طويل من القيم الكبيرة."/>
+    <entry key="How far the values are spread, as a sample of a larger whole." value="مدى تشتت القيم، كعينة من مجموعة أكبر."/>
+    <entry key="How far the values are spread, when they are all the values." value="مدى تشتت القيم، عندما تكون هي كل القيم."/>
+    <entry key="The total of the values." value="إجمالي القيم."/>
+    <entry key="The sum of the squares of the values." value="مجموع مربعات القيم."/>
+    <entry key="The variance, as a sample of a larger whole (the square of the standard deviation)." value="التباين، كعينة من مجموعة أكبر (مربع الانحراف المعياري)."/>
+    <entry key="The variance, when they are all the values." value="التباين، عندما تكون هي كل القيم."/>
     <entry key="Value" value="القيمة"/>
+    <entry key="x without its sign." value="x بدون إشارتها."/>
+    <entry key="The angle (in radians) whose cosine is x." value="الزاوية (بالراديان) التي جيب تمامها x."/>
+    <entry key="The date n days later (n below 0: earlier)." value="التاريخ بعد n يوماً (n أقل من 0: قبل)."/>
+    <entry key="The date n months later; a day the month does not have becomes its last day." value="التاريخ بعد n شهراً؛ اليوم غير الموجود في الشهر يصبح آخر يوم فيه."/>
+    <entry key="The date n years later (29 February becomes 28 February)." value="التاريخ بعد n سنة (29 فبراير يصبح 28 فبراير)."/>
+    <entry key="True if every condition holds." value="صحيح إذا تحققت كل الشروط."/>
+    <entry key="The angle (in radians) whose sine is x." value="الزاوية (بالراديان) التي جيبها x."/>
+    <entry key="The angle (in radians) whose tangent is x." value="الزاوية (بالراديان) التي ظلها x."/>
+    <entry key="The angle (in radians) of the point x, y." value="زاوية النقطة x، y (بالراديان)."/>
+    <entry key="True if x is from low to high, both included." value="صحيح إذا كانت x من low إلى high، بما فيهما."/>
+    <entry key="The smallest whole number not below x." value="أصغر عدد صحيح لا يقل عن x."/>
+    <entry key="The character of a code (Unicode)." value="الحرف المقابل لرمز (Unicode)."/>
+    <entry key="The n-th of the values after n." value="القيمة رقم n من القيم التي تلي n."/>
+    <entry key="The first value that is not empty." value="أول قيمة غير فارغة."/>
+    <entry key="The code (Unicode) of the first character of the text." value="رمز (Unicode) أول حرف من النص."/>
+    <entry key="The values joined into one text (&amp; does the same)." value="القيم مدموجة في نص واحد (&amp; يفعل الشيء نفسه)."/>
+    <entry key="True if the text contains the part (without regard to case)." value="صحيح إذا احتوى النص على الجزء (دون تمييز بين الأحرف الكبيرة والصغيرة)."/>
+    <entry key="The cosine of an angle in radians." value="جيب تمام زاوية بالراديان."/>
+    <entry key="The date of a value (its time left out)." value="تاريخ قيمة (بدون وقتها)."/>
+    <entry key="The day of the month of a date (1-31)." value="يوم الشهر من التاريخ (1-31)."/>
+    <entry key="The days from d1 to d2." value="الأيام من d1 إلى d2."/>
+    <entry key="An angle in radians turned into degrees." value="زاوية بالراديان محوّلة إلى درجات."/>
+    <entry key="True if the text ends with the part (without regard to case)." value="صحيح إذا انتهى النص بالجزء (دون تمييز بين الأحرف الكبيرة والصغيرة)."/>
+    <entry key="The last day of the month of d, months later." value="آخر يوم من شهر d بعد months شهراً."/>
+    <entry key="x rounded away from zero to an even whole number." value="x مقرّبة بعيداً عن الصفر إلى عدد صحيح زوجي."/>
+    <entry key="True if the two texts are the same, capital and small letters too (= does not tell them apart)." value="صحيح إذا كان النصان متطابقين، بما في ذلك الأحرف الكبيرة والصغيرة (= لا يميّز بينها)."/>
+    <entry key="e to the power x." value="e مرفوعة للأس x."/>
+    <entry key="The factorial of n (1 x 2 x ... x n)." value="مضروب n (1 x 2 x ... x n)."/>
+    <entry key="Where the part starts in the text (0 = not there); capital and small letters count." value="موضع بداية الجزء في النص (0 = غير موجود)؛ مع التمييز بين الأحرف الكبيرة والصغيرة."/>
+    <entry key="The largest whole number not above x." value="أكبر عدد صحيح لا يزيد على x."/>
+    <entry key="The hour of a time (0-23)." value="ساعة الوقت (0-23)."/>
+    <entry key="The second value if the test holds, else the third." value="القيمة الثانية إذا تحقق الاختبار، وإلا الثالثة."/>
+    <entry key="x, or the second value when x cannot be worked out (a division by zero...)." value="x، أو القيمة الثانية عندما يتعذّر حساب x (قسمة على صفر...)."/>
+    <entry key="The value of the first test that holds." value="قيمة أول اختبار يتحقق."/>
+    <entry key="True if the value is empty." value="صحيح إذا كانت القيمة فارغة."/>
+    <entry key="True if the value is a number." value="صحيح إذا كانت القيمة رقماً."/>
+    <entry key="The ISO week of the year (1-53)." value="أسبوع ISO من السنة (1-53)."/>
+    <entry key="True if the value is a text." value="صحيح إذا كانت القيمة نصاً."/>
+    <entry key="The first n characters of the text." value="أول n حرفاً من النص."/>
+    <entry key="The number of characters of the text." value="عدد أحرف النص."/>
+    <entry key="The natural logarithm of x." value="اللوغاريتم الطبيعي لـ x."/>
+    <entry key="The logarithm of x in the base given (10 if none)." value="لوغاريتم x للأساس المحدد (10 إذا لم يُحدَّد)."/>
+    <entry key="The logarithm of x in base 10." value="لوغاريتم x للأساس 10."/>
+    <entry key="The text in small letters." value="النص بالأحرف الصغيرة."/>
+    <entry key="The largest of the values." value="أكبر القيم."/>
+    <entry key="n characters of the text from the position start (1 = the first)." value="n حرفاً من النص بدءاً من الموضع start (1 = الأول)."/>
+    <entry key="The smallest of the values." value="أصغر القيم."/>
+    <entry key="The minute of a time (0-59)." value="دقيقة الوقت (0-59)."/>
+    <entry key="The remainder of a divided by b, with the sign of b." value="باقي قسمة a على b، بإشارة b."/>
+    <entry key="The month of a date (1-12)." value="شهر التاريخ (1-12)."/>
+    <entry key="The whole months from d1 to d2." value="الأشهر الكاملة من d1 إلى d2."/>
+    <entry key="The working days (Monday to Friday) from d1 to d2, both counted." value="أيام العمل (من الاثنين إلى الجمعة) من d1 إلى d2، مع احتسابهما."/>
+    <entry key="True if the condition does not hold." value="صحيح إذا لم يتحقق الشرط."/>
+    <entry key="The date and time now." value="التاريخ والوقت الحاليان."/>
+    <entry key="The number written in a text (a decimal comma is accepted)." value="الرقم المكتوب في نص (تُقبل الفاصلة العشرية)."/>
+    <entry key="x rounded away from zero to an odd whole number." value="x مقرّبة بعيداً عن الصفر إلى عدد صحيح فردي."/>
+    <entry key="True if at least one condition holds." value="صحيح إذا تحقق شرط واحد على الأقل."/>
+    <entry key="The number pi (3.14159...)." value="العدد pi (3.14159...)."/>
+    <entry key="x to the power y." value="x مرفوعة للأس y."/>
+    <entry key="Each word of the text with a capital first letter." value="كل كلمة من النص بحرف أول كبير."/>
+    <entry key="The whole part of a divided by b." value="الجزء الصحيح من قسمة a على b."/>
+    <entry key="An angle in degrees turned into radians." value="زاوية بالدرجات محوّلة إلى راديان."/>
+    <entry key="The text with every old part replaced by the new one." value="النص مع استبدال كل جزء old بالجزء new."/>
+    <entry key="The text repeated n times." value="النص مكرراً n مرة."/>
+    <entry key="The last n characters of the text." value="آخر n حرفاً من النص."/>
+    <entry key="x rounded to the decimals given (none: to a whole number)." value="x مقرّبة إلى المنازل العشرية المحددة (بدونها: إلى عدد صحيح)."/>
+    <entry key="x rounded towards zero." value="x مقرّبة نحو الصفر."/>
+    <entry key="x rounded away from zero." value="x مقرّبة بعيداً عن الصفر."/>
+    <entry key="Where the part starts in the text (0 = not there), without regard to case." value="موضع بداية الجزء في النص (0 = غير موجود)، دون تمييز بين الأحرف الكبيرة والصغيرة."/>
+    <entry key="The second of a time (0-59)." value="ثانية الوقت (0-59)."/>
+    <entry key="1 for a positive x, -1 for a negative one, 0 for zero." value="1 لـ x موجبة، و-1 لسالبة، و0 للصفر."/>
+    <entry key="The sine of an angle in radians." value="جيب زاوية بالراديان."/>
+    <entry key="The square root of x." value="الجذر التربيعي لـ x."/>
+    <entry key="True if the text starts with the part (without regard to case)." value="صحيح إذا بدأ النص بالجزء (دون تمييز بين الأحرف الكبيرة والصغيرة)."/>
+    <entry key="The result paired with the value x is equal to; the last one otherwise." value="النتيجة المقترنة بالقيمة التي تساويها x؛ وإلا الأخيرة."/>
+    <entry key="The tangent of an angle in radians." value="ظل زاوية بالراديان."/>
+    <entry key="The number written with the decimals given." value="الرقم مكتوباً بالمنازل العشرية المحددة."/>
+    <entry key="The part of the text after the separator." value="جزء النص بعد الفاصل."/>
+    <entry key="The part of the text before the separator." value="جزء النص قبل الفاصل."/>
+    <entry key="Today's date." value="تاريخ اليوم."/>
+    <entry key="The text without the spaces before and after it." value="النص بدون المسافات قبله وبعده."/>
+    <entry key="x with the decimals after the ones given cut off." value="x مع حذف المنازل العشرية التي تتجاوز العدد المحدد."/>
+    <entry key="The text in capital letters." value="النص بالأحرف الكبيرة."/>
+    <entry key="The day of the week (1 = Sunday ... 7 = Saturday)." value="يوم الأسبوع (1 = الأحد ... 7 = السبت)."/>
+    <entry key="The week of the year (weeks start on Monday; before the first Monday: 0)." value="أسبوع السنة (تبدأ الأسابيع يوم الاثنين؛ قبل أول اثنين: 0)."/>
+    <entry key="The year of a date." value="سنة التاريخ."/>
+    <entry key="The whole years from d1 to d2 (an age)." value="السنوات الكاملة من d1 إلى d2 (العمر)."/>
     <entry key="The statistic cannot be calculated: %s" value="تعذّر حساب الإحصائية: %s"/>
+    <entry key="Average deviation" value="متوسط الانحراف"/>
     <entry key="Average" value="المتوسط"/>
     <entry key="Count" value="العدد"/>
+    <entry key="Count of empty values" value="عدد القيم الفارغة"/>
     <entry key="Count of different values" value="عدد القيم المختلفة"/>
     <entry key="First value" value="القيمة الأولى"/>
     <entry key="Formula of the measures" value="صيغة المقاييس"/>
+    <entry key="Geometric mean" value="الوسط الهندسي"/>
+    <entry key="Harmonic mean" value="الوسط التوافقي"/>
+    <entry key="Kurtosis" value="التفلطح"/>
     <entry key="Last value" value="القيمة الأخيرة"/>
+    <entry key="List of the values" value="قائمة القيم"/>
     <entry key="Maximum" value="الحد الأقصى"/>
     <entry key="Median" value="الوسيط"/>
     <entry key="Minimum" value="الحد الأدنى"/>
+    <entry key="Most frequent value (mode)" value="القيمة الأكثر تكراراً (المنوال)"/>
     <entry key="(none)" value="(لا شيء)"/>
+    <entry key="10th percentile" value="المئين العاشر"/>
+    <entry key="90th percentile" value="المئين التسعون"/>
     <entry key="Product" value="حاصل الضرب"/>
+    <entry key="First quartile" value="الربيع الأول"/>
+    <entry key="Third quartile" value="الربيع الثالث"/>
+    <entry key="Range (maximum - minimum)" value="المدى (الحد الأقصى - الحد الأدنى)"/>
+    <entry key="Skewness" value="الالتواء"/>
     <entry key="Standard deviation (sample)" value="الانحراف المعياري (عينة)"/>
     <entry key="Standard deviation (all)" value="الانحراف المعياري (الكل)"/>
     <entry key="Sum" value="المجموع"/>
+    <entry key="Sum of squares" value="مجموع المربعات"/>
     <entry key="Variance (sample)" value="التباين (عينة)"/>
     <entry key="Variance (all)" value="التباين (الكل)"/>
     <entry key="from" value="من"/>
@@ -1172,6 +1427,10 @@
     <entry key="%s - locked" value="%s - مقفلة"/>
     <entry key="No database open" value="لا توجد قاعدة بيانات مفتوحة"/>
     <entry key="Ready" value="جاهز"/>
+    <entry key="An alcohol-free beer - %s EUR" value="بيرة خالية من الكحول - %s EUR"/>
+    <entry key="A coffee - %s EUR" value="قهوة - %s EUR"/>
+    <entry key="A tea - %s EUR" value="شاي - %s EUR"/>
+    <entry key="SQLite DB Tools is free and stays free: a gift unlocks nothing and changes nothing. If the program is useful to you, you can offer its developer a drink - alcohol free - through PayPal. Each button opens the PayPal page with that amount, which you can still change there." value="SQLite DB Tools مجاني وسيبقى مجانيًا: الهدية لا تفتح شيئًا ولا تغيّر شيئًا. إن كان البرنامج مفيدًا لك، يمكنك أن تقدّم لمطوّره مشروبًا - خاليًا من الكحول - عبر PayPal. كل زر يفتح صفحة PayPal بذلك المبلغ، ويمكنك تغييره هناك."/>
     <entry key="Computer" value="الكمبيوتر"/>
     <entry key="Copy to the clipboard" value="نسخ إلى الحافظة"/>
     <entry key="Architecture" value="البنية"/>
@@ -1209,6 +1468,7 @@
     <entry key="Light" value="فاتح"/>
     <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="تُستخدم السمة الجديدة لألوان التطبيق، بما في ذلك النوافذ التي تُفتح من الآن فصاعداً. الأجزاء التي يرسمها النظام (أشرطة العنوان، أشرطة التمرير) تتغير عند بدء التشغيل التالي."/>
     <entry key="Select the theme:" value="حدد السمة:"/>
+    <entry key="As Windows" value="مثل Windows"/>
     <entry key="Theme" value="السمة"/>
     <entry key="Attachment (file)" value="مرفق (ملف)"/>
     <entry key="Yes / No" value="نعم / لا"/>

@@ -9,6 +9,11 @@
     <entry key="Third-party notices" value="Уведомления третьих сторон"/>
     <entry key="About %s" value="О программе %s"/>
     <entry key="Version %s - commit %d, built %s (%s)" value="Версия %s - коммит %d, собрана %s (%s)"/>
+    <entry key="Blue" value="Синий"/>
+    <entry key="Green" value="Зелёный"/>
+    <entry key="Orange" value="Оранжевый"/>
+    <entry key="Purple" value="Фиолетовый"/>
+    <entry key="Red" value="Красный"/>
     <entry key="Active" value="Активна"/>
     <entry key="Full access account name:" value="Имя учётной записи «Полный доступ»:"/>
     <entry key="Created" value="Создана"/>
@@ -51,6 +56,12 @@
     <entry key="Password:" value="Пароль:"/>
     <entry key="Add column..." value="Добавить столбец..."/>
     <entry key="Admin password:" value="Пароль администратора:"/>
+    <entry key="Accent colour:" value="Цвет акцента:"/>
+    <entry key="Simple view shows the everyday tools, Pro view every tool; nothing is removed. The accent colour marks Home's buttons, tiles and switch, in small touches." value="Простой вид показывает повседневные инструменты, вид Pro - все инструменты; ничего не удаляется. Цвет акцента выделяет кнопки, плитки и переключатель «Главной» небольшими штрихами."/>
+    <entry key="Preview:" value="Предпросмотр:"/>
+    <entry key="Theme:" value="Тема:"/>
+    <entry key="Appearance" value="Внешний вид"/>
+    <entry key="View:" value="Вид:"/>
     <entry key="Apply" value="Применить"/>
     <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="Изменение полностью применяется только при запуске приложения.&#10;&#10;Перезапустить сейчас: сохранить его и автоматически перезапустить приложение.&#10;Использовать сейчас: сохранить его и сразу использовать - некоторые части изменятся только при следующем запуске.&#10;Сохранить до следующего запуска: только сохранить."/>
     <entry key="Apply changes" value="Применить изменения"/>
@@ -160,6 +171,18 @@
     <entry key="A Table with This Name" value="Таблица с таким именем"/>
     <entry key="Clear" value="Очистить"/>
     <entry key="Clear Log" value="Очистить журнал"/>
+    <entry key="All the %d copied cells fall outside the table from here: nothing is pasted." value="Все %d скопированных ячеек отсюда выходят за пределы таблицы: ничего не вставлено."/>
+    <entry key="Paste the copied cells (%d rows by %d columns) with their first cell in the column %s of the record %s?" value="Вставить скопированные ячейки (%d строк на %d столбцов) так, чтобы первая ячейка была в столбце %s записи %s?"/>
+    <entry key="The copied cells start at the record %s; the focus is on the record %s. Paste them from there?" value="Скопированные ячейки начинаются с записи %s; активная ячейка на записи %s. Вставить их оттуда?"/>
+    <entry key="The copied cells start in the column %s; the focus is in the column %s. Paste them from there?" value="Скопированные ячейки начинаются в столбце %s; активная ячейка в столбце %s. Вставить их оттуда?"/>
+    <entry key="%d cell(s) copied: Ctrl+V pastes them from the cell in focus, with the same gaps." value="Скопировано ячеек: %d. Ctrl+V вставляет их от активной ячейки, с теми же промежутками."/>
+    <entry key="%d of the rows the cells go to are not being edited. Put them in edit and paste?" value="Строк, куда идут ячейки, не в режиме правки: %d. Перевести их в правку и вставить?"/>
+    <entry key="There are no cells to paste: copy cells first (Ctrl+C), here or in another program." value="Нет ячеек для вставки: сначала скопируйте ячейки (Ctrl+C) здесь или в другой программе."/>
+    <entry key="The records of this table cannot be changed here (read-only, or your account may not change them)." value="Записи этой таблицы нельзя изменить здесь (только чтение, или вашей учётной записи нельзя их менять)."/>
+    <entry key="%d of the copied cells fall outside the table (beyond its last row or column). Paste only the %d that fit?" value="%d скопированных ячеек выходят за пределы таблицы (за её последнюю строку или столбец). Вставить только %d, которые помещаются?"/>
+    <entry key="%d cell(s) pasted: Apply modifications saves them." value="Вставлено ячеек: %d. «Применить изменения» сохраняет их."/>
+    <entry key="Paste Those" value="Вставить эти"/>
+    <entry key="%d cell(s) are in columns that cannot be typed (attachments, quantities): they stay as they are." value="Ячеек в столбцах, где нельзя вводить (вложения, количества): %d. Они остаются как есть."/>
     <entry key="Close" value="Закрыть"/>
     <entry key="Existing columns cannot be removed: tables only grow." value="Существующие столбцы удалить нельзя: таблицы только растут."/>
     <entry key="Detail %d" value="Свойство %d"/>
@@ -286,11 +309,13 @@
     <entry key="database engine" value="ядро базы данных"/>
     <entry key="user interface" value="пользовательский интерфейс"/>
     <entry key="PDF documents and reports" value="документы PDF и отчёты"/>
+    <entry key="PDF: used by PoDoFo" value="PDF: используется PoDoFo"/>
     <entry key="C++ runtime" value="среда выполнения C++"/>
     <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="пароль администратора и ключ восстановления (Argon2id, XChaCha20-Poly1305)"/>
     <entry key="Version in use" value="Используемая версия"/>
     <entry key="Website" value="Веб-сайт"/>
     <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="Двойной щелчок: веб-сайт владельца. Каждый компонент принадлежит своим владельцам и используется на условиях своей лицензии."/>
+    <entry key="with PoDoFo" value="вместе с PoDoFo"/>
     <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="Автоматизации - это правила, которые база данных выполняет при каждом добавлении, изменении или удалении записи - из этой программы или любой другой. Например: движение списывает своё количество с остатка товара; стоимость товара всегда равна остатку x цену; изменение, из-за которого остаток стал бы отрицательным, отклоняется."/>
     <entry key="Automations" value="Автоматизации"/>
     <entry key="Change..." value="Изменить..."/>
@@ -434,6 +459,7 @@
     <entry key="Clear the selection" value="Снять выделение"/>
     <entry key="%ld records copied to the clipboard." value="Записей скопировано в буфер обмена: %ld."/>
     <entry key="Copy the value" value="Копировать значение"/>
+    <entry key="Copy the Selected Cells&#9;Ctrl+C" value="Копировать выбранные ячейки&#9;Ctrl+C"/>
     <entry key="Copy the selected records (for a spreadsheet)" value="Копировать выделенные записи (для электронной таблицы)"/>
     <entry key="Copy to a new entry" value="Копировать в новую запись"/>
     <entry key="%zu record(s)" value="Записей: %zu"/>
@@ -447,10 +473,12 @@
     <entry key="The modifications cannot be applied" value="Изменения не могут быть применены"/>
     <entry key="text in any column" value="текст в любом столбце"/>
     <entry key="Find:" value="Найти:"/>
-    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="Щёлкните строку правой кнопкой, чтобы увидеть её действия. В редактируемой строке дважды щёлкните ячейку (или начните ввод), чтобы изменить её. Клавиши: F2 - изменить, Ctrl+S - применить, Esc - отменить, Del - удалить, Ctrl+D - копировать в новую запись."/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry. Ctrl+click selects several cells; Ctrl+C copies them, Ctrl+V pastes them from the cell in focus." value="Щёлкните строку правой кнопкой, чтобы увидеть её действия. В редактируемой строке дважды щёлкните ячейку (или начните ввод), чтобы изменить её. Клавиши: F2 - изменить, Ctrl+S - применить, Esc - отменить, Del - удалить, Ctrl+D - копировать в новую запись. Ctrl+щелчок выбирает несколько ячеек; Ctrl+C копирует их, Ctrl+V вставляет от активной ячейки."/>
     <entry key="History of this record..." value="История этой записи..."/>
     <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="Затрагивается записей: %ld; это займёт %s (время зависит от компьютера). Ход выполнения и время показываются в строке состояния, там же кнопка «Остановить».&#10;&#10;Продолжить?"/>
     <entry key="Open the attachment" value="Открыть вложение"/>
+    <entry key="Paste the Copied Cells&#9;Ctrl+V" value="Вставить скопированные ячейки&#9;Ctrl+V"/>
+    <entry key="Paste" value="Вставка"/>
     <entry key=" - %zu row(s) in edit, %zu changed" value=" - строк в редактировании: %zu, изменено: %zu"/>
     <entry key="Print..." value="Печать..."/>
     <entry key="Print the selected records..." value="Печать выделенных записей..."/>
@@ -465,9 +493,55 @@
     <entry key="Part of:" value="Часть операции:"/>
     <entry key="Reason:" value="Причина:"/>
     <entry key="Browse" value="Просмотр"/>
+    <entry key="Change Database..." value="Сменить базу данных..."/>
+    <entry key="{HOME_DO_ADD}Add" value="Добавить"/>
+    <entry key="a new record" value="новая запись"/>
+    <entry key="Find" value="Найти"/>
+    <entry key="records of a table" value="записи таблицы"/>
+    <entry key="Share" value="Поделиться"/>
+    <entry key="export, print, PDF" value="экспорт, печать, PDF"/>
     <entry key="Edit structure..." value="Изменить структуру..."/>
+    <entry key="Find a tool or a table" value="Найти инструмент или таблицу"/>
+    <entry key="Database and tables" value="База данных и таблицы"/>
+    <entry key="Attachments and history" value="Вложения и история"/>
+    <entry key="Bring in, send out" value="Ввод и вывод данных"/>
+    <entry key="Work with records" value="Работа с записями"/>
+    <entry key="Security and users" value="Безопасность и пользователи"/>
     <entry key="New table..." value="Новая таблица..."/>
+    <entry key="Nothing found." value="Ничего не найдено."/>
+    <entry key="Not available now: no database open, no table, or your account may not do it." value="Сейчас недоступно: нет открытой базы данных, нет таблицы или вашей учётной записи это не разрешено."/>
+    <entry key="Pin to the Top" value="Закрепить вверху"/>
+    <entry key="Pinned - right-click a tool to take it off" value="Закреплённые - щёлкните инструмент правой кнопкой, чтобы открепить"/>
+    <entry key="Right-click a tool to pin it here, at the top." value="Щёлкните инструмент правой кнопкой, чтобы закрепить его здесь, вверху."/>
+    <entry key="Recent:" value="Последние:"/>
+    <entry key="%s records" value="записей: %s"/>
+    <entry key="Import, merge, statistics, SQL, print profiles, attachments, passwords and users are in Pro view." value="Импорт, объединение, статистика, SQL, профили печати, вложения, пароли и пользователи - в виде Pro."/>
+    <entry key="a new record" value="новая запись"/>
+    <entry key="where the files are kept" value="где хранятся файлы"/>
+    <entry key="the records of a table" value="записи таблицы"/>
+    <entry key="missing, moved files" value="пропавшие, перемещённые файлы"/>
+    <entry key="columns and rules" value="столбцы и правила"/>
+    <entry key="SQL, CSV, JSON, a copy" value="SQL, CSV, JSON, копия"/>
+    <entry key="CSV, Excel, OpenDocument" value="CSV, Excel, OpenDocument"/>
+    <entry key="every change" value="каждое изменение"/>
+    <entry key="with a preview of the rows" value="с предпросмотром строк"/>
+    <entry key="plain or protected" value="обычная или защищённая"/>
+    <entry key="the folder of the files" value="папка файлов"/>
+    <entry key="a database file" value="файл базы данных"/>
+    <entry key="documents and PDFs of records" value="документы и PDF записей"/>
+    <entry key="ready-made examples" value="готовые примеры"/>
+    <entry key="find with conditions" value="поиск по условиям"/>
+    <entry key="read-only queries" value="запросы только для чтения"/>
+    <entry key="group, measure, chart" value="группы, меры, диаграммы"/>
+    <entry key="accounts and their levels" value="учётные записи и их уровни"/>
+    <entry key="%d table(s) - %s record(s) - %s" value="таблиц: %d - записей: %s - %s"/>
+    <entry key="Switch to Pro View" value="Перейти к виду Pro"/>
     <entry key="Home" value="Главная"/>
+    <entry key="Take Off the Top" value="Открепить"/>
+    <entry key="Pro" value="Pro"/>
+    <entry key="Simple" value="Простой"/>
+    <entry key="What do you want to do?" value="Что вы хотите сделать?"/>
+    <entry key="Your tables" value="Ваши таблицы"/>
     <entry key="Add image..." value="Добавить изображение..."/>
     <entry key="Choose an image (logo, stamp, signature ...)" value="Выберите изображение (логотип, печать, подпись ...)"/>
     <entry key="Also as watermark" value="Также как водяной знак"/>
@@ -508,6 +582,8 @@
     <entry key="&lt; Back" value="&lt; Назад"/>
     <entry key="Change the columns" value="Изменить столбцы"/>
     <entry key="Choose a file first." value="Сначала выберите файл."/>
+    <entry key="Choose the rows before importing" value="Выбрать строки перед импортом"/>
+    <entry key="Shows every row of the file to take or leave out (by hand or by row numbers), change and put in order before anything is written; it opens by itself when some rows cannot be written as they are" value="Показывает все строки файла, чтобы включить или исключить их (вручную или по номерам строк), изменить и упорядочить до того, как что-либо будет записано; открывается само, если некоторые строки нельзя записать как есть"/>
     <entry key="Check at least one sheet." value="Отметьте хотя бы один лист."/>
     <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="Столбцы новой таблицы, определённые по значениям: тип, «обязательный» (без пустых значений) и «уникальный» (все значения разные). Проверьте их, исправьте неверное, снимите отметку со столбцов, которые нужно пропустить. До нажатия «Импорт» ничего не записывается."/>
     <entry key="Examples" value="Примеры"/>
@@ -573,6 +649,11 @@
     <entry key="The file cannot be read: %s" value="Не удаётся прочитать файл: %s"/>
     <entry key="%d rows of %d do not fit the columns as they are:" value="Строк, не подходящих к столбцам в текущем виде: %d из %d:"/>
     <entry key="row %d, %s &quot;%s&quot;: %s" value="строка %d, %s «%s»: %s"/>
+    <entry key="Import these rows" value="Импортировать эти строки"/>
+    <entry key="The rows of %s, as they will be written into %s: %d rows, %d of them cannot be written as they are (red). Nothing is written until Import." value="Строки %s в том виде, в каком они будут записаны в %s: строк — %d, из них %d нельзя записать как есть (красные). Ничего не записывается до нажатия «Импорт»."/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Import the others?" value="Строк со значениями, которые нельзя сохранить: %s; они будут исключены. Импортировать остальные?"/>
+    <entry key="%s rows - %s to import - %s already here - %s with values that cannot be saved" value="Строк: %s - к импорту: %s - уже здесь: %s - со значениями, которые нельзя сохранить: %s"/>
+    <entry key="Import into %s: the rows" value="Импорт в %s: строки"/>
     <entry key="Separator:" value="Разделитель:"/>
     <entry key="Found by itself" value="Определить автоматически"/>
     <entry key="Comma ," value="Запятая ,"/>
@@ -642,6 +723,7 @@
     <entry key="Largest (empty = any):" value="Наибольшее (пусто = любое):"/>
     <entry key="&amp;About..." value="&amp;О программе..."/>
     <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="&amp;Добавить запись...&#9;Ctrl-Shift-N"/>
+    <entry key="Appea&amp;rance..." value="&amp;Внешний вид..."/>
     <entry key="Attac&amp;hment Folder Location..." value="Расположение папки вло&amp;жений..."/>
     <entry key="&amp;Browse Records...&#9;Ctrl-B" value="&amp;Просмотр записей...&#9;Ctrl-B"/>
     <entry key="Change &amp;My Password..." value="Сменить &amp;мой пароль..."/>
@@ -676,6 +758,7 @@
     <entry key="Print P&amp;rofiles..." value="Про&amp;фили печати..."/>
     <entry key="Protect with an &amp;Admin Password..." value="Защитить паролем &amp;администратора..."/>
     <entry key="Protect with a Passp&amp;hrase..." value="&amp;Защитить парольной фразой..."/>
+    <entry key="&amp;Pro View" value="Вид &amp;Pro"/>
     <entry key="Open &amp;Recent" value="&amp;Недавние базы данных"/>
     <entry key="Re&amp;move the Encryption..." value="Сн&amp;ять шифрование..."/>
     <entry key="Rotate the &amp;Encryption Key..." value="Заменить ключ &amp;шифрования..."/>
@@ -687,6 +770,7 @@
     <entry key="Application L&amp;og" value="&amp;Журнал приложения"/>
     <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="SQL-&amp;запрос (только чтение)...&#9;Ctrl-Q"/>
     <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="&amp;Статистика...&#9;Ctrl-Shift-T"/>
+    <entry key="&amp;Support the Developer..." value="&amp;Поддержать разработчика..."/>
     <entry key="S&amp;witch User..." value="См&amp;енить пользователя..."/>
     <entry key="&amp;Theme..." value="&amp;Тема..."/>
     <entry key="&amp;Users and Access..." value="По&amp;льзователи и доступ..."/>
@@ -978,6 +1062,7 @@
     <entry key="To" value="Кому"/>
     <entry key="Up" value="Вверх"/>
     <entry key="Width (relative):" value="Ширина (относительная):"/>
+    <entry key="Your data stays yours: the program collects nothing about you and sends nothing anywhere by itself - no ads, no analytics, no tracking. Your files leave your device only when you send them yourself (a copy, an export, a print, a share; Google Drive when you choose it in the Android app)." value="Ваши данные остаются вашими: программа ничего о вас не собирает и сама ничего никуда не отправляет - ни рекламы, ни статистики, ни отслеживания. Ваши файлы покидают устройство, только когда вы сами их отправляете (копия, экспорт, печать, «Поделиться»; Google Диск, если вы выберете его в приложении для Android)."/>
     <entry key="The database is now encrypted." value="Теперь база данных зашифрована."/>
     <entry key="not encrypted" value="не зашифрована"/>
     <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="Как защитить %s? Это можно изменить позже (База данных &gt; Безопасность)."/>
@@ -1045,6 +1130,30 @@
     <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="База данных перешифрована новым ключом. Далее показан новый ключ восстановления."/>
     <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="Создаёт новый ключ шифрования, перешифровывает им всю базу данных и создаёт новый ключ восстановления. Используйте это, если копия базы данных с её файлом ключа (или пароль администратора) могла попасть в чужие руки: копии, сделанные ранее, остаются читаемыми со старыми секретами, но всё, что будет после, требует нового ключа. Введите пароль администратора, чтобы продолжить."/>
     <entry key="Rotate the encryption key" value="Замена ключа шифрования"/>
+    <entry key="Add New Group" value="Добавить новую группу"/>
+    <entry key="This row cannot be written as it is: right-click it to change the values that are refused." value="Эту строку нельзя записать как есть: щёлкните её правой кнопкой, чтобы изменить отклонённые значения."/>
+    <entry key=" - %s cannot be written as they are (red)" value=" - нельзя записать как есть (красные): %s"/>
+    <entry key="Row" value="Строка"/>
+    <entry key="%lld (copy %d)" value="%lld (копия %d)"/>
+    <entry key="Double copies of the rows in two groups" value="Двойные копии строк, которые есть в двух группах"/>
+    <entry key="The row can be written now." value="Теперь строку можно записать."/>
+    <entry key="The row still cannot be written." value="Строку всё ещё нельзя записать."/>
+    <entry key="Only the values that cannot be written can be changed here. Each one is checked as you type: green can be written, red cannot." value="Здесь можно изменить только значения, которые нельзя записать. Каждое проверяется при вводе: зелёное можно записать, красное — нет."/>
+    <entry key="Change the Refused Values..." value="Изменить отклонённые значения..."/>
+    <entry key="Row %s: the values to change" value="Строка %s: значения для изменения"/>
+    <entry key="Rows by number:" value="Строки по номерам:"/>
+    <entry key="Give both row numbers." value="Укажите оба номера строк."/>
+    <entry key="No place in the order (another group took it): choose one." value="Нет места в порядке (его заняла другая группа): выберите место."/>
+    <entry key="The rows are numbered from 1 to %lld." value="Строки пронумерованы от 1 до %lld."/>
+    <entry key="&quot;from&quot; is after &quot;to&quot;." value="«с» стоит после «по»."/>
+    <entry key="Choose the rows: Ctrl+click a row (any cell of it) or its tick to take it or leave it out; Shift+click or drag to take several; or give groups of rows by number. A red row cannot be written as it is: right-click it to change the values that are refused. A green row was changed here and can be written." value="Выберите строки: Ctrl+click по строке (по любой её ячейке) или по её отметке включает или исключает её; Shift+click или перетаскивание выбирает несколько; либо укажите группы строк по номерам. Красную строку нельзя записать как есть: щёлкните её правой кнопкой, чтобы изменить отклонённые значения. Зелёная строка изменена здесь и может быть записана."/>
+    <entry key="The rows taken by hand make %d groups, too many to list. Add New Group starts again from row numbers." value="Строки, выбранные вручную, образуют слишком много групп для списка (%d). «Добавить новую группу» начинает заново с номеров строк."/>
+    <entry key="Every group of rows needs both numbers and its place in the order before anything is written." value="Прежде чем что-либо будет записано, у каждой группы строк должны быть оба номера и место в порядке."/>
+    <entry key="Order:" value="Порядок:"/>
+    <entry key="Rows from %lld to %lld are selected twice (groups %d and %d). Do you want to have double copies of them?" value="Строки с %lld по %lld выбраны дважды (группы %d и %d). Создать для них двойные копии?"/>
+    <entry key="Remove this group" value="Удалить эту группу"/>
+    <entry key="rows %lld - %lld are in two groups: written twice (double copies)" value="строки %lld - %lld есть в двух группах: записываются дважды (двойные копии)"/>
+    <entry key="rows %lld - %lld are in two groups: written once" value="строки %lld - %lld есть в двух группах: записываются один раз"/>
     <entry key="Rules" value="Правила"/>
     <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="У вас уже есть копия этого примера базы данных:&#10;%s&#10;&#10;Открыть её с вашими изменениями или начать заново с новой копии (ваши изменения в ней будут потеряны)?"/>
     <entry key="The sample database could not be copied." value="Не удалось скопировать пример базы данных."/>
@@ -1097,22 +1206,168 @@
     <entry key="Delete the saved statistic &quot;%s&quot;?" value="Удалить сохранённую статистику «%s»?"/>
     <entry key="descending" value="по убыванию"/>
     <entry key="End:" value="Конец:"/>
+    <entry key="Examples..." value="Примеры..."/>
+    <entry key="What it does" value="Что делает"/>
+    <entry key="Example" value="Пример"/>
+    <entry key="Result" value="Результат"/>
+    <entry key="Copied: %s" value="Скопировано: %s"/>
+    <entry key="Double-click an example to copy its formula." value="Дважды щёлкните пример, чтобы скопировать его формулу."/>
+    <entry key="Every function a statistic can use, with examples worked out by the program itself on the sample records below: a formula of a value on the first record, a measure over all of them." value="Все функции, которые может использовать статистика, с примерами, рассчитанными самой программой на примерах записей ниже: формула значения - на первой записи, показатель - по всем записям."/>
+    <entry key="%s of %s" value="%s по %s"/>
+    <entry key="%s - only when %s" value="%s - только если %s"/>
+    <entry key="the records" value="записям"/>
+    <entry key="The same as %s." value="То же, что %s."/>
+    <entry key="Sample records (Sales)" value="Примеры записей (Продажи)"/>
+    <entry key="Examples of the functions" value="Примеры функций"/>
+    <entry key="Dates" value="Даты"/>
+    <entry key="Logic" value="Логика"/>
+    <entry key="Numbers" value="Числа"/>
+    <entry key="Texts" value="Тексты"/>
+    <entry key="The average distance of the values from their average." value="Среднее расстояние значений от их среднего."/>
+    <entry key="The average of the values." value="Среднее значений."/>
+    <entry key="How many records; of a value: how many have it not empty." value="Сколько записей; для значения: у скольких оно не пустое."/>
+    <entry key="How many records have the value empty." value="У скольких записей значение пустое."/>
+    <entry key="How many different values." value="Сколько различных значений."/>
+    <entry key="The value of the first record (by record number)." value="Значение первой записи (по номеру записи)."/>
+    <entry key="The geometric mean of positive values: for growth rates." value="Среднее геометрическое положительных значений: для темпов роста."/>
+    <entry key="The harmonic mean of positive values: for averages of speeds or rates." value="Среднее гармоническое положительных значений: для средних скоростей или ставок."/>
+    <entry key="How heavy the tails are compared with a normal distribution (above 0: more extreme values)." value="Насколько тяжелы хвосты по сравнению с нормальным распределением (больше 0: больше крайних значений)."/>
+    <entry key="The value of the last record (by record number)." value="Значение последней записи (по номеру записи)."/>
+    <entry key="The different values, joined by commas." value="Различные значения через запятую."/>
+    <entry key="The largest value (of dates: the latest)." value="Наибольшее значение (для дат: самая поздняя)."/>
+    <entry key="The middle value: half of the values are below it, half above." value="Серединное значение: половина значений меньше него, половина больше."/>
+    <entry key="The smallest value (of dates: the earliest)." value="Наименьшее значение (для дат: самая ранняя)."/>
+    <entry key="The value found most often (the first one when several are as frequent)." value="Значение, встречающееся чаще всего (первое, если таких несколько)."/>
+    <entry key="A tenth of the values are below it." value="Десятая часть значений меньше него."/>
+    <entry key="Nine tenths of the values are below it." value="Девять десятых значений меньше него."/>
+    <entry key="The values multiplied together." value="Значения, перемноженные между собой."/>
+    <entry key="A quarter of the values are below it." value="Четверть значений меньше него."/>
+    <entry key="Three quarters of the values are below it." value="Три четверти значений меньше него."/>
+    <entry key="The largest value minus the smallest." value="Наибольшее значение минус наименьшее."/>
+    <entry key="How lopsided the values are: above 0, a long tail of large values." value="Насколько несимметричны значения: больше 0 - длинный хвост больших значений."/>
+    <entry key="How far the values are spread, as a sample of a larger whole." value="Насколько разбросаны значения, как выборка из большей совокупности."/>
+    <entry key="How far the values are spread, when they are all the values." value="Насколько разбросаны значения, когда это все значения."/>
+    <entry key="The total of the values." value="Сумма значений."/>
+    <entry key="The sum of the squares of the values." value="Сумма квадратов значений."/>
+    <entry key="The variance, as a sample of a larger whole (the square of the standard deviation)." value="Дисперсия, как выборка из большей совокупности (квадрат стандартного отклонения)."/>
+    <entry key="The variance, when they are all the values." value="Дисперсия, когда это все значения."/>
     <entry key="Value" value="Значение"/>
+    <entry key="x without its sign." value="x без знака."/>
+    <entry key="The angle (in radians) whose cosine is x." value="Угол (в радианах), косинус которого равен x."/>
+    <entry key="The date n days later (n below 0: earlier)." value="Дата через n дней (n меньше 0: раньше)."/>
+    <entry key="The date n months later; a day the month does not have becomes its last day." value="Дата через n месяцев; день, которого нет в месяце, становится его последним днём."/>
+    <entry key="The date n years later (29 February becomes 28 February)." value="Дата через n лет (29 февраля становится 28 февраля)."/>
+    <entry key="True if every condition holds." value="Истина, если выполняются все условия."/>
+    <entry key="The angle (in radians) whose sine is x." value="Угол (в радианах), синус которого равен x."/>
+    <entry key="The angle (in radians) whose tangent is x." value="Угол (в радианах), тангенс которого равен x."/>
+    <entry key="The angle (in radians) of the point x, y." value="Угол (в радианах) точки x, y."/>
+    <entry key="True if x is from low to high, both included." value="Истина, если x от low до high включительно."/>
+    <entry key="The smallest whole number not below x." value="Наименьшее целое число, не меньшее x."/>
+    <entry key="The character of a code (Unicode)." value="Символ по коду (Unicode)."/>
+    <entry key="The n-th of the values after n." value="n-е из значений после n."/>
+    <entry key="The first value that is not empty." value="Первое непустое значение."/>
+    <entry key="The code (Unicode) of the first character of the text." value="Код (Unicode) первого символа текста."/>
+    <entry key="The values joined into one text (&amp; does the same)." value="Значения, объединённые в один текст (&amp; делает то же самое)."/>
+    <entry key="True if the text contains the part (without regard to case)." value="Истина, если текст содержит часть (без учёта регистра)."/>
+    <entry key="The cosine of an angle in radians." value="Косинус угла в радианах."/>
+    <entry key="The date of a value (its time left out)." value="Дата значения (без времени)."/>
+    <entry key="The day of the month of a date (1-31)." value="День месяца даты (1-31)."/>
+    <entry key="The days from d1 to d2." value="Дни от d1 до d2."/>
+    <entry key="An angle in radians turned into degrees." value="Угол в радианах, переведённый в градусы."/>
+    <entry key="True if the text ends with the part (without regard to case)." value="Истина, если текст заканчивается частью (без учёта регистра)."/>
+    <entry key="The last day of the month of d, months later." value="Последний день месяца даты d через months месяцев."/>
+    <entry key="x rounded away from zero to an even whole number." value="x, округлённое от нуля до чётного целого."/>
+    <entry key="True if the two texts are the same, capital and small letters too (= does not tell them apart)." value="Истина, если два текста совпадают, в том числе по регистру (= его не различает)."/>
+    <entry key="e to the power x." value="e в степени x."/>
+    <entry key="The factorial of n (1 x 2 x ... x n)." value="Факториал n (1 x 2 x ... x n)."/>
+    <entry key="Where the part starts in the text (0 = not there); capital and small letters count." value="Где в тексте начинается часть (0 = её нет); с учётом регистра."/>
+    <entry key="The largest whole number not above x." value="Наибольшее целое число, не большее x."/>
+    <entry key="The hour of a time (0-23)." value="Час времени (0-23)."/>
+    <entry key="The second value if the test holds, else the third." value="Второе значение, если проверка истинна, иначе третье."/>
+    <entry key="x, or the second value when x cannot be worked out (a division by zero...)." value="x или второе значение, если x не удаётся вычислить (деление на ноль...)."/>
+    <entry key="The value of the first test that holds." value="Значение первой истинной проверки."/>
+    <entry key="True if the value is empty." value="Истина, если значение пустое."/>
+    <entry key="True if the value is a number." value="Истина, если значение - число."/>
+    <entry key="The ISO week of the year (1-53)." value="Неделя года по ISO (1-53)."/>
+    <entry key="True if the value is a text." value="Истина, если значение - текст."/>
+    <entry key="The first n characters of the text." value="Первые n символов текста."/>
+    <entry key="The number of characters of the text." value="Количество символов текста."/>
+    <entry key="The natural logarithm of x." value="Натуральный логарифм x."/>
+    <entry key="The logarithm of x in the base given (10 if none)." value="Логарифм x по указанному основанию (если не указано, 10)."/>
+    <entry key="The logarithm of x in base 10." value="Логарифм x по основанию 10."/>
+    <entry key="The text in small letters." value="Текст строчными буквами."/>
+    <entry key="The largest of the values." value="Наибольшее из значений."/>
+    <entry key="n characters of the text from the position start (1 = the first)." value="n символов текста начиная с позиции start (1 = первый)."/>
+    <entry key="The smallest of the values." value="Наименьшее из значений."/>
+    <entry key="The minute of a time (0-59)." value="Минута времени (0-59)."/>
+    <entry key="The remainder of a divided by b, with the sign of b." value="Остаток от деления a на b, со знаком b."/>
+    <entry key="The month of a date (1-12)." value="Месяц даты (1-12)."/>
+    <entry key="The whole months from d1 to d2." value="Полные месяцы от d1 до d2."/>
+    <entry key="The working days (Monday to Friday) from d1 to d2, both counted." value="Рабочие дни (с понедельника по пятницу) от d1 до d2, оба включительно."/>
+    <entry key="True if the condition does not hold." value="Истина, если условие не выполняется."/>
+    <entry key="The date and time now." value="Текущие дата и время."/>
+    <entry key="The number written in a text (a decimal comma is accepted)." value="Число, записанное в тексте (десятичная запятая допускается)."/>
+    <entry key="x rounded away from zero to an odd whole number." value="x, округлённое от нуля до нечётного целого."/>
+    <entry key="True if at least one condition holds." value="Истина, если выполняется хотя бы одно условие."/>
+    <entry key="The number pi (3.14159...)." value="Число пи (3,14159...)."/>
+    <entry key="x to the power y." value="x в степени y."/>
+    <entry key="Each word of the text with a capital first letter." value="Каждое слово текста с прописной первой буквы."/>
+    <entry key="The whole part of a divided by b." value="Целая часть от деления a на b."/>
+    <entry key="An angle in degrees turned into radians." value="Угол в градусах, переведённый в радианы."/>
+    <entry key="The text with every old part replaced by the new one." value="Текст, в котором каждая часть old заменена на new."/>
+    <entry key="The text repeated n times." value="Текст, повторённый n раз."/>
+    <entry key="The last n characters of the text." value="Последние n символов текста."/>
+    <entry key="x rounded to the decimals given (none: to a whole number)." value="x, округлённое до указанного числа знаков после запятой (без него: до целого)."/>
+    <entry key="x rounded towards zero." value="x, округлённое к нулю."/>
+    <entry key="x rounded away from zero." value="x, округлённое от нуля."/>
+    <entry key="Where the part starts in the text (0 = not there), without regard to case." value="Где в тексте начинается часть (0 = её нет), без учёта регистра."/>
+    <entry key="The second of a time (0-59)." value="Секунда времени (0-59)."/>
+    <entry key="1 for a positive x, -1 for a negative one, 0 for zero." value="1 для положительного x, -1 для отрицательного, 0 для нуля."/>
+    <entry key="The sine of an angle in radians." value="Синус угла в радианах."/>
+    <entry key="The square root of x." value="Квадратный корень из x."/>
+    <entry key="True if the text starts with the part (without regard to case)." value="Истина, если текст начинается с части (без учёта регистра)."/>
+    <entry key="The result paired with the value x is equal to; the last one otherwise." value="Результат, парный значению, которому равно x; иначе последний."/>
+    <entry key="The tangent of an angle in radians." value="Тангенс угла в радианах."/>
+    <entry key="The number written with the decimals given." value="Число, записанное с указанным числом знаков после запятой."/>
+    <entry key="The part of the text after the separator." value="Часть текста после разделителя."/>
+    <entry key="The part of the text before the separator." value="Часть текста до разделителя."/>
+    <entry key="Today's date." value="Сегодняшняя дата."/>
+    <entry key="The text without the spaces before and after it." value="Текст без пробелов в начале и в конце."/>
+    <entry key="x with the decimals after the ones given cut off." value="x с отброшенными знаками после указанных."/>
+    <entry key="The text in capital letters." value="Текст прописными буквами."/>
+    <entry key="The day of the week (1 = Sunday ... 7 = Saturday)." value="День недели (1 = воскресенье ... 7 = суббота)."/>
+    <entry key="The week of the year (weeks start on Monday; before the first Monday: 0)." value="Неделя года (недели начинаются с понедельника; до первого понедельника: 0)."/>
+    <entry key="The year of a date." value="Год даты."/>
+    <entry key="The whole years from d1 to d2 (an age)." value="Полные годы от d1 до d2 (возраст)."/>
     <entry key="The statistic cannot be calculated: %s" value="Не удаётся рассчитать статистику: %s"/>
+    <entry key="Average deviation" value="Среднее отклонение"/>
     <entry key="Average" value="Среднее"/>
     <entry key="Count" value="Количество"/>
+    <entry key="Count of empty values" value="Количество пустых значений"/>
     <entry key="Count of different values" value="Количество различных значений"/>
     <entry key="First value" value="Первое значение"/>
     <entry key="Formula of the measures" value="Формула показателей"/>
+    <entry key="Geometric mean" value="Среднее геометрическое"/>
+    <entry key="Harmonic mean" value="Среднее гармоническое"/>
+    <entry key="Kurtosis" value="Эксцесс"/>
     <entry key="Last value" value="Последнее значение"/>
+    <entry key="List of the values" value="Список значений"/>
     <entry key="Maximum" value="Максимум"/>
     <entry key="Median" value="Медиана"/>
     <entry key="Minimum" value="Минимум"/>
+    <entry key="Most frequent value (mode)" value="Самое частое значение (мода)"/>
     <entry key="(none)" value="(нет)"/>
+    <entry key="10th percentile" value="10-й процентиль"/>
+    <entry key="90th percentile" value="90-й процентиль"/>
     <entry key="Product" value="Произведение"/>
+    <entry key="First quartile" value="Первый квартиль"/>
+    <entry key="Third quartile" value="Третий квартиль"/>
+    <entry key="Range (maximum - minimum)" value="Размах (максимум - минимум)"/>
+    <entry key="Skewness" value="Асимметрия"/>
     <entry key="Standard deviation (sample)" value="Стандартное отклонение (выборка)"/>
     <entry key="Standard deviation (all)" value="Стандартное отклонение (все)"/>
     <entry key="Sum" value="Сумма"/>
+    <entry key="Sum of squares" value="Сумма квадратов"/>
     <entry key="Variance (sample)" value="Дисперсия (выборка)"/>
     <entry key="Variance (all)" value="Дисперсия (все)"/>
     <entry key="from" value="с"/>
@@ -1172,6 +1427,10 @@
     <entry key="%s - locked" value="%s - заблокировано"/>
     <entry key="No database open" value="Нет открытой базы данных"/>
     <entry key="Ready" value="Готово"/>
+    <entry key="An alcohol-free beer - %s EUR" value="Безалкогольное пиво - %s EUR"/>
+    <entry key="A coffee - %s EUR" value="Кофе - %s EUR"/>
+    <entry key="A tea - %s EUR" value="Чай - %s EUR"/>
+    <entry key="SQLite DB Tools is free and stays free: a gift unlocks nothing and changes nothing. If the program is useful to you, you can offer its developer a drink - alcohol free - through PayPal. Each button opens the PayPal page with that amount, which you can still change there." value="SQLite DB Tools бесплатна и останется бесплатной: подарок ничего не открывает и ничего не меняет. Если программа вам полезна, вы можете угостить разработчика напитком - безалкогольным - через PayPal. Каждая кнопка открывает страницу PayPal с этой суммой, которую там ещё можно изменить."/>
     <entry key="Computer" value="Компьютер"/>
     <entry key="Copy to the clipboard" value="Копировать в буфер обмена"/>
     <entry key="Architecture" value="Архитектура"/>
@@ -1209,6 +1468,7 @@
     <entry key="Light" value="Светлая"/>
     <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="Новая тема используется для цветов приложения, в том числе в окнах, открываемых с этого момента. Части, которые рисует система (заголовки окон, полосы прокрутки), изменятся при следующем запуске."/>
     <entry key="Select the theme:" value="Выберите тему:"/>
+    <entry key="As Windows" value="Как в Windows"/>
     <entry key="Theme" value="Тема"/>
     <entry key="Attachment (file)" value="Вложение (файл)"/>
     <entry key="Yes / No" value="Да / Нет"/>

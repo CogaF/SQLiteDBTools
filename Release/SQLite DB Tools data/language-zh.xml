@@ -9,6 +9,11 @@
     <entry key="Third-party notices" value="第三方声明"/>
     <entry key="About %s" value="关于 %s"/>
     <entry key="Version %s - commit %d, built %s (%s)" value="版本 %s - 第 %d 次提交，生成于 %s (%s)"/>
+    <entry key="Blue" value="蓝色"/>
+    <entry key="Green" value="绿色"/>
+    <entry key="Orange" value="橙色"/>
+    <entry key="Purple" value="紫色"/>
+    <entry key="Red" value="红色"/>
     <entry key="Active" value="活动"/>
     <entry key="Full access account name:" value="完全访问账户名称："/>
     <entry key="Created" value="创建时间"/>
@@ -51,6 +56,12 @@
     <entry key="Password:" value="密码："/>
     <entry key="Add column..." value="添加列..."/>
     <entry key="Admin password:" value="管理员密码："/>
+    <entry key="Accent colour:" value="强调色："/>
+    <entry key="Simple view shows the everyday tools, Pro view every tool; nothing is removed. The accent colour marks Home's buttons, tiles and switch, in small touches." value="简洁视图显示日常工具，专业视图显示所有工具；不会删除任何内容。强调色以细微之处标示主页的按钮、磁贴和切换开关。"/>
+    <entry key="Preview:" value="预览："/>
+    <entry key="Theme:" value="主题："/>
+    <entry key="Appearance" value="外观"/>
+    <entry key="View:" value="视图："/>
     <entry key="Apply" value="应用"/>
     <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="只有在应用程序启动时，此更改才会完全生效。&#10;&#10;立即重启：保存更改并自动重启应用程序。&#10;立即使用：保存更改并马上使用 - 某些部分要到下次启动时才会更改。&#10;下次启动时生效：仅保存更改。"/>
     <entry key="Apply changes" value="应用更改"/>
@@ -160,6 +171,18 @@
     <entry key="A Table with This Name" value="同名的表"/>
     <entry key="Clear" value="清除"/>
     <entry key="Clear Log" value="清除日志"/>
+    <entry key="All the %d copied cells fall outside the table from here: nothing is pasted." value="从这里开始，复制的 %d 个单元格全部落在表外：未粘贴任何内容。"/>
+    <entry key="Paste the copied cells (%d rows by %d columns) with their first cell in the column %s of the record %s?" value="粘贴复制的单元格（%d 行 × %d 列），使其第一个单元格位于列 %s、记录 %s 吗？"/>
+    <entry key="The copied cells start at the record %s; the focus is on the record %s. Paste them from there?" value="复制的单元格从记录 %s 开始；当前单元格在记录 %s 上。从那里粘贴吗？"/>
+    <entry key="The copied cells start in the column %s; the focus is in the column %s. Paste them from there?" value="复制的单元格从列 %s 开始；当前单元格在列 %s。从那里粘贴吗？"/>
+    <entry key="%d cell(s) copied: Ctrl+V pastes them from the cell in focus, with the same gaps." value="已复制 %d 个单元格：Ctrl+V 会从当前单元格开始粘贴，间隔相同。"/>
+    <entry key="%d of the rows the cells go to are not being edited. Put them in edit and paste?" value="单元格要粘贴到的行中有 %d 行未处于编辑状态。将其置于编辑状态并粘贴吗？"/>
+    <entry key="There are no cells to paste: copy cells first (Ctrl+C), here or in another program." value="没有可粘贴的单元格：请先复制单元格（Ctrl+C），在此处或其他程序中。"/>
+    <entry key="The records of this table cannot be changed here (read-only, or your account may not change them)." value="此表的记录不能在此更改（只读，或您的账户无权更改）。"/>
+    <entry key="%d of the copied cells fall outside the table (beyond its last row or column). Paste only the %d that fit?" value="复制的单元格中有 %d 个落在表外（超出最后一行或最后一列）。只粘贴能放下的 %d 个吗？"/>
+    <entry key="%d cell(s) pasted: Apply modifications saves them." value="已粘贴 %d 个单元格：“应用修改”会保存它们。"/>
+    <entry key="Paste Those" value="粘贴这些"/>
+    <entry key="%d cell(s) are in columns that cannot be typed (attachments, quantities): they stay as they are." value="%d 个单元格位于不能输入的列（附件、数量）：保持不变。"/>
     <entry key="Close" value="关闭"/>
     <entry key="Existing columns cannot be removed: tables only grow." value="不能删除现有的列：表只能增加列。"/>
     <entry key="Detail %d" value="详细信息 %d"/>
@@ -286,11 +309,13 @@
     <entry key="database engine" value="数据库引擎"/>
     <entry key="user interface" value="用户界面"/>
     <entry key="PDF documents and reports" value="PDF 文档和报表"/>
+    <entry key="PDF: used by PoDoFo" value="PDF：由 PoDoFo 使用"/>
     <entry key="C++ runtime" value="C++ 运行时"/>
     <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="管理员密码和恢复密钥 (Argon2id, XChaCha20-Poly1305)"/>
     <entry key="Version in use" value="使用的版本"/>
     <entry key="Website" value="网站"/>
     <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="双击：打开所有者的网站。每个组件都归其所有者所有，并依据其许可证使用。"/>
+    <entry key="with PoDoFo" value="随 PoDoFo 提供"/>
     <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="自动化是由数据库在每次添加、更改或删除记录时执行的规则 - 无论操作来自本程序还是其他任何程序。例如：一条出入库记录从物品的库存中扣除其数量；物品的价值始终为库存 x 价格；会使库存变为负数的更改将被拒绝。"/>
     <entry key="Automations" value="自动化"/>
     <entry key="Change..." value="更改..."/>
@@ -434,6 +459,7 @@
     <entry key="Clear the selection" value="清除选择"/>
     <entry key="%ld records copied to the clipboard." value="已将 %ld 条记录复制到剪贴板。"/>
     <entry key="Copy the value" value="复制值"/>
+    <entry key="Copy the Selected Cells&#9;Ctrl+C" value="复制所选单元格&#9;Ctrl+C"/>
     <entry key="Copy the selected records (for a spreadsheet)" value="复制所选记录（用于电子表格）"/>
     <entry key="Copy to a new entry" value="复制到新条目"/>
     <entry key="%zu record(s)" value="%zu 条记录"/>
@@ -447,10 +473,12 @@
     <entry key="The modifications cannot be applied" value="无法应用修改"/>
     <entry key="text in any column" value="任意列中的文本"/>
     <entry key="Find:" value="查找："/>
-    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="右键单击某行可查看其操作。在正在编辑的行中，双击单元格（或直接输入）即可更改。快捷键：F2 编辑，Ctrl+S 应用，Esc 取消，Del 删除，Ctrl+D 复制到新条目。"/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry. Ctrl+click selects several cells; Ctrl+C copies them, Ctrl+V pastes them from the cell in focus." value="右键单击某行可查看其操作。在正在编辑的行中，双击单元格（或直接输入）即可更改。快捷键：F2 编辑，Ctrl+S 应用，Esc 取消，Del 删除，Ctrl+D 复制到新条目。 Ctrl+单击可选择多个单元格；Ctrl+C 复制，Ctrl+V 从当前单元格开始粘贴。"/>
     <entry key="History of this record..." value="此记录的历史记录..."/>
     <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="此操作将应用于 %ld 条记录，需要 %s（时间取决于计算机）。进度和时间显示在状态栏中，并提供“停止”按钮。&#10;&#10;是否继续？"/>
     <entry key="Open the attachment" value="打开附件"/>
+    <entry key="Paste the Copied Cells&#9;Ctrl+V" value="粘贴复制的单元格&#9;Ctrl+V"/>
+    <entry key="Paste" value="粘贴"/>
     <entry key=" - %zu row(s) in edit, %zu changed" value=" - %zu 行正在编辑，%zu 行已更改"/>
     <entry key="Print..." value="打印..."/>
     <entry key="Print the selected records..." value="打印所选记录..."/>
@@ -465,9 +493,55 @@
     <entry key="Part of:" value="所属："/>
     <entry key="Reason:" value="原因："/>
     <entry key="Browse" value="浏览"/>
+    <entry key="Change Database..." value="更换数据库..."/>
+    <entry key="{HOME_DO_ADD}Add" value="添加"/>
+    <entry key="a new record" value="一条新记录"/>
+    <entry key="Find" value="查找"/>
+    <entry key="records of a table" value="表中的记录"/>
+    <entry key="Share" value="分享"/>
+    <entry key="export, print, PDF" value="导出、打印、PDF"/>
     <entry key="Edit structure..." value="编辑结构..."/>
+    <entry key="Find a tool or a table" value="查找工具或表"/>
+    <entry key="Database and tables" value="数据库和表"/>
+    <entry key="Attachments and history" value="附件和历史"/>
+    <entry key="Bring in, send out" value="导入、导出"/>
+    <entry key="Work with records" value="处理记录"/>
+    <entry key="Security and users" value="安全和用户"/>
     <entry key="New table..." value="新建表..."/>
+    <entry key="Nothing found." value="未找到任何内容。"/>
+    <entry key="Not available now: no database open, no table, or your account may not do it." value="当前不可用：没有打开的数据库、没有表，或者你的账户无权执行此操作。"/>
+    <entry key="Pin to the Top" value="固定到顶部"/>
+    <entry key="Pinned - right-click a tool to take it off" value="已固定 - 右键单击工具可将其取消"/>
+    <entry key="Right-click a tool to pin it here, at the top." value="右键单击工具，可将其固定在此处顶部。"/>
+    <entry key="Recent:" value="最近："/>
+    <entry key="%s records" value="%s 条记录"/>
+    <entry key="Import, merge, statistics, SQL, print profiles, attachments, passwords and users are in Pro view." value="导入、合并、统计、SQL、打印配置文件、附件、密码和用户都在专业视图中。"/>
+    <entry key="a new record" value="一条新记录"/>
+    <entry key="where the files are kept" value="文件的存放位置"/>
+    <entry key="the records of a table" value="表中的记录"/>
+    <entry key="missing, moved files" value="缺失、移动的文件"/>
+    <entry key="columns and rules" value="列和规则"/>
+    <entry key="SQL, CSV, JSON, a copy" value="SQL、CSV、JSON、副本"/>
+    <entry key="CSV, Excel, OpenDocument" value="CSV、Excel、OpenDocument"/>
+    <entry key="every change" value="每一次更改"/>
+    <entry key="with a preview of the rows" value="可预览各行"/>
+    <entry key="plain or protected" value="普通或受保护"/>
+    <entry key="the folder of the files" value="文件所在的文件夹"/>
+    <entry key="a database file" value="数据库文件"/>
+    <entry key="documents and PDFs of records" value="记录的文档和 PDF"/>
+    <entry key="ready-made examples" value="现成的示例"/>
+    <entry key="find with conditions" value="按条件查找"/>
+    <entry key="read-only queries" value="只读查询"/>
+    <entry key="group, measure, chart" value="分组、度量、图表"/>
+    <entry key="accounts and their levels" value="账户及其级别"/>
+    <entry key="%d table(s) - %s record(s) - %s" value="%d 个表 - %s 条记录 - %s"/>
+    <entry key="Switch to Pro View" value="切换到专业视图"/>
     <entry key="Home" value="主页"/>
+    <entry key="Take Off the Top" value="从顶部取消"/>
+    <entry key="Pro" value="专业"/>
+    <entry key="Simple" value="简洁"/>
+    <entry key="What do you want to do?" value="你想做什么？"/>
+    <entry key="Your tables" value="你的表"/>
     <entry key="Add image..." value="添加图像..."/>
     <entry key="Choose an image (logo, stamp, signature ...)" value="选择图像（徽标、印章、签名 ...）"/>
     <entry key="Also as watermark" value="同时用作水印"/>
@@ -508,6 +582,8 @@
     <entry key="&lt; Back" value="&lt; 上一步"/>
     <entry key="Change the columns" value="更改列"/>
     <entry key="Choose a file first." value="请先选择一个文件。"/>
+    <entry key="Choose the rows before importing" value="导入前选择行"/>
+    <entry key="Shows every row of the file to take or leave out (by hand or by row numbers), change and put in order before anything is written; it opens by itself when some rows cannot be written as they are" value="在写入任何内容之前显示文件的每一行，以便选取或排除（手动或按行号）、更改并排列顺序；当某些行无法按原样写入时会自动打开"/>
     <entry key="Check at least one sheet." value="请至少勾选一个工作表。"/>
     <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="新表的列，根据值推测而来：类型、“必填”（没有空值）和“唯一”（每个值都不同）。请检查它们，更改不正确之处，取消勾选要略去的列。在“导入”之前不会写入任何内容。"/>
     <entry key="Examples" value="示例"/>
@@ -573,6 +649,11 @@
     <entry key="The file cannot be read: %s" value="无法读取文件：%s"/>
     <entry key="%d rows of %d do not fit the columns as they are:" value="%d 行（共 %d 行）不符合当前的列："/>
     <entry key="row %d, %s &quot;%s&quot;: %s" value="第 %d 行，%s“%s”：%s"/>
+    <entry key="Import these rows" value="导入这些行"/>
+    <entry key="The rows of %s, as they will be written into %s: %d rows, %d of them cannot be written as they are (red). Nothing is written until Import." value="%s 的行，即将写入 %s 中的样子：共 %d 行，其中 %d 行无法按原样写入（红色）。在点击“导入”之前不会写入任何内容。"/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Import the others?" value="%s 行含有无法保存的值：这些行将被排除。是否导入其他行？"/>
+    <entry key="%s rows - %s to import - %s already here - %s with values that cannot be saved" value="%s 行 - %s 行待导入 - %s 行此处已有 - %s 行含无法保存的值"/>
+    <entry key="Import into %s: the rows" value="导入到 %s：行"/>
     <entry key="Separator:" value="分隔符："/>
     <entry key="Found by itself" value="自动检测"/>
     <entry key="Comma ," value="逗号 ,"/>
@@ -642,6 +723,7 @@
     <entry key="Largest (empty = any):" value="最大值（空 = 不限）："/>
     <entry key="&amp;About..." value="关于(&amp;A)..."/>
     <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="添加条目(&amp;A)...&#9;Ctrl-Shift-N"/>
+    <entry key="Appea&amp;rance..." value="外观(&amp;R)..."/>
     <entry key="Attac&amp;hment Folder Location..." value="附件文件夹位置(&amp;H)..."/>
     <entry key="&amp;Browse Records...&#9;Ctrl-B" value="浏览记录(&amp;B)...&#9;Ctrl-B"/>
     <entry key="Change &amp;My Password..." value="更改我的密码(&amp;M)..."/>
@@ -676,6 +758,7 @@
     <entry key="Print P&amp;rofiles..." value="打印配置文件(&amp;R)..."/>
     <entry key="Protect with an &amp;Admin Password..." value="使用管理员密码保护(&amp;A)..."/>
     <entry key="Protect with a Passp&amp;hrase..." value="使用密码短语保护(&amp;H)..."/>
+    <entry key="&amp;Pro View" value="专业视图(&amp;P)"/>
     <entry key="Open &amp;Recent" value="最近打开(&amp;R)"/>
     <entry key="Re&amp;move the Encryption..." value="取消加密(&amp;M)..."/>
     <entry key="Rotate the &amp;Encryption Key..." value="轮换加密密钥(&amp;E)..."/>
@@ -687,6 +770,7 @@
     <entry key="Application L&amp;og" value="应用程序日志(&amp;O)"/>
     <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="SQL 查询（只读）(&amp;Q)...&#9;Ctrl-Q"/>
     <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="统计(&amp;I)...&#9;Ctrl-Shift-T"/>
+    <entry key="&amp;Support the Developer..." value="支持开发者(&amp;S)..."/>
     <entry key="S&amp;witch User..." value="切换用户(&amp;W)..."/>
     <entry key="&amp;Theme..." value="主题(&amp;T)..."/>
     <entry key="&amp;Users and Access..." value="用户和访问权限(&amp;U)..."/>
@@ -978,6 +1062,7 @@
     <entry key="To" value="致"/>
     <entry key="Up" value="上移"/>
     <entry key="Width (relative):" value="宽度（相对）："/>
+    <entry key="Your data stays yours: the program collects nothing about you and sends nothing anywhere by itself - no ads, no analytics, no tracking. Your files leave your device only when you send them yourself (a copy, an export, a print, a share; Google Drive when you choose it in the Android app)." value="你的数据仍归你所有：本程序不收集任何关于你的信息，也不会自行向任何地方发送数据——没有广告、没有统计、没有跟踪。只有你自己发送时，文件才会离开设备（副本、导出、打印、分享；在 Android 应用中选择 Google 云端硬盘时）。"/>
     <entry key="The database is now encrypted." value="数据库现已加密。"/>
     <entry key="not encrypted" value="未加密"/>
     <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="应如何保护 %s？以后可以更改（数据库 &gt; 安全）。"/>
@@ -1045,6 +1130,30 @@
     <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="数据库已使用新密钥重新加密。接下来显示新的恢复密钥。"/>
     <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="生成新的加密密钥，用它重新加密整个数据库，并生成新的恢复密钥。如果数据库副本及其密钥文件（或管理员密码）可能已泄露，请使用此功能：之前获取的副本仍可用旧的机密信息读取，但从现在起的所有内容都需要新密钥。请输入管理员密码以继续。"/>
     <entry key="Rotate the encryption key" value="轮换加密密钥"/>
+    <entry key="Add New Group" value="添加新组"/>
+    <entry key="This row cannot be written as it is: right-click it to change the values that are refused." value="此行无法按原样写入：右键单击它可更改被拒绝的值。"/>
+    <entry key=" - %s cannot be written as they are (red)" value=" - %s 行无法按原样写入（红色）"/>
+    <entry key="Row" value="行"/>
+    <entry key="%lld (copy %d)" value="%lld（副本 %d）"/>
+    <entry key="Double copies of the rows in two groups" value="位于两个组中的行写入双份副本"/>
+    <entry key="The row can be written now." value="现在可以写入该行。"/>
+    <entry key="The row still cannot be written." value="该行仍无法写入。"/>
+    <entry key="Only the values that cannot be written can be changed here. Each one is checked as you type: green can be written, red cannot." value="此处只能更改无法写入的值。输入时会逐一检查：绿色可以写入，红色不能。"/>
+    <entry key="Change the Refused Values..." value="更改被拒绝的值..."/>
+    <entry key="Row %s: the values to change" value="第 %s 行：要更改的值"/>
+    <entry key="Rows by number:" value="按编号选行："/>
+    <entry key="Give both row numbers." value="请填写两个行号。"/>
+    <entry key="No place in the order (another group took it): choose one." value="在顺序中没有位置（已被另一组占用）：请选择一个。"/>
+    <entry key="The rows are numbered from 1 to %lld." value="行的编号为 1 到 %lld。"/>
+    <entry key="&quot;from&quot; is after &quot;to&quot;." value="“从”在“到”之后。"/>
+    <entry key="Choose the rows: Ctrl+click a row (any cell of it) or its tick to take it or leave it out; Shift+click or drag to take several; or give groups of rows by number. A red row cannot be written as it is: right-click it to change the values that are refused. A green row was changed here and can be written." value="选择行：Ctrl+click 某行（其中任意单元格）或其勾选框可选取或排除该行；Shift+click 或拖动可选取多行；也可以按编号指定行组。红色的行无法按原样写入：右键单击它可更改被拒绝的值。绿色的行已在此处更改，可以写入。"/>
+    <entry key="The rows taken by hand make %d groups, too many to list. Add New Group starts again from row numbers." value="手动选取的行组成了 %d 个组，太多而无法列出。“添加新组”将重新从行号开始。"/>
+    <entry key="Every group of rows needs both numbers and its place in the order before anything is written." value="在写入任何内容之前，每个行组都需要填写两个编号并在顺序中有位置。"/>
+    <entry key="Order:" value="顺序："/>
+    <entry key="Rows from %lld to %lld are selected twice (groups %d and %d). Do you want to have double copies of them?" value="第 %lld 至 %lld 行被选择了两次（第 %d 组和第 %d 组）。是否要为它们写入双份副本？"/>
+    <entry key="Remove this group" value="删除此组"/>
+    <entry key="rows %lld - %lld are in two groups: written twice (double copies)" value="第 %lld - %lld 行在两个组中：写入两次（双份副本）"/>
+    <entry key="rows %lld - %lld are in two groups: written once" value="第 %lld - %lld 行在两个组中：写入一次"/>
     <entry key="Rules" value="规则"/>
     <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="您已经有此示例数据库的副本：&#10;%s&#10;&#10;要打开它并保留您的更改，还是从新副本重新开始（您对它的更改将丢失）？"/>
     <entry key="The sample database could not be copied." value="无法复制示例数据库。"/>
@@ -1097,22 +1206,168 @@
     <entry key="Delete the saved statistic &quot;%s&quot;?" value="删除已保存的统计“%s”？"/>
     <entry key="descending" value="降序"/>
     <entry key="End:" value="结束："/>
+    <entry key="Examples..." value="示例..."/>
+    <entry key="What it does" value="作用"/>
+    <entry key="Example" value="示例"/>
+    <entry key="Result" value="结果"/>
+    <entry key="Copied: %s" value="已复制：%s"/>
+    <entry key="Double-click an example to copy its formula." value="双击示例即可复制其公式。"/>
+    <entry key="Every function a statistic can use, with examples worked out by the program itself on the sample records below: a formula of a value on the first record, a measure over all of them." value="统计可以使用的所有函数，附有程序自己在下方示例记录上算出的示例：值的公式作用于第一条记录，度量作用于所有记录。"/>
+    <entry key="%s of %s" value="%s（%s）"/>
+    <entry key="%s - only when %s" value="%s - 仅当 %s"/>
+    <entry key="the records" value="记录"/>
+    <entry key="The same as %s." value="与 %s 相同。"/>
+    <entry key="Sample records (Sales)" value="示例记录（销售）"/>
+    <entry key="Examples of the functions" value="函数示例"/>
+    <entry key="Dates" value="日期"/>
+    <entry key="Logic" value="逻辑"/>
+    <entry key="Numbers" value="数字"/>
+    <entry key="Texts" value="文本"/>
+    <entry key="The average distance of the values from their average." value="这些值与其平均值的平均距离。"/>
+    <entry key="The average of the values." value="这些值的平均值。"/>
+    <entry key="How many records; of a value: how many have it not empty." value="记录的数量；对某个值：该值非空的记录数量。"/>
+    <entry key="How many records have the value empty." value="该值为空的记录数量。"/>
+    <entry key="How many different values." value="不同值的数量。"/>
+    <entry key="The value of the first record (by record number)." value="第一条记录的值（按记录编号）。"/>
+    <entry key="The geometric mean of positive values: for growth rates." value="正值的几何平均值：用于增长率。"/>
+    <entry key="The harmonic mean of positive values: for averages of speeds or rates." value="正值的调和平均值：用于速度或比率的平均。"/>
+    <entry key="How heavy the tails are compared with a normal distribution (above 0: more extreme values)." value="与正态分布相比尾部的厚重程度（大于 0：极端值更多）。"/>
+    <entry key="The value of the last record (by record number)." value="最后一条记录的值（按记录编号）。"/>
+    <entry key="The different values, joined by commas." value="不同的值，用逗号连接。"/>
+    <entry key="The largest value (of dates: the latest)." value="最大的值（日期：最晚的）。"/>
+    <entry key="The middle value: half of the values are below it, half above." value="中间的值：一半的值低于它，一半高于它。"/>
+    <entry key="The smallest value (of dates: the earliest)." value="最小的值（日期：最早的）。"/>
+    <entry key="The value found most often (the first one when several are as frequent)." value="出现次数最多的值（几个值同样频繁时取第一个）。"/>
+    <entry key="A tenth of the values are below it." value="十分之一的值低于它。"/>
+    <entry key="Nine tenths of the values are below it." value="十分之九的值低于它。"/>
+    <entry key="The values multiplied together." value="这些值相乘的结果。"/>
+    <entry key="A quarter of the values are below it." value="四分之一的值低于它。"/>
+    <entry key="Three quarters of the values are below it." value="四分之三的值低于它。"/>
+    <entry key="The largest value minus the smallest." value="最大值减去最小值。"/>
+    <entry key="How lopsided the values are: above 0, a long tail of large values." value="这些值的偏斜程度：大于 0 表示较大值有长尾。"/>
+    <entry key="How far the values are spread, as a sample of a larger whole." value="这些值的分散程度，作为更大总体的样本。"/>
+    <entry key="How far the values are spread, when they are all the values." value="这些值的分散程度，当它们就是全部的值时。"/>
+    <entry key="The total of the values." value="这些值的合计。"/>
+    <entry key="The sum of the squares of the values." value="这些值的平方之和。"/>
+    <entry key="The variance, as a sample of a larger whole (the square of the standard deviation)." value="方差，作为更大总体的样本（标准差的平方）。"/>
+    <entry key="The variance, when they are all the values." value="方差，当它们就是全部的值时。"/>
     <entry key="Value" value="值"/>
+    <entry key="x without its sign." value="x 去掉符号后的值。"/>
+    <entry key="The angle (in radians) whose cosine is x." value="余弦为 x 的角（以弧度表示）。"/>
+    <entry key="The date n days later (n below 0: earlier)." value="n 天之后的日期（n 小于 0：之前）。"/>
+    <entry key="The date n months later; a day the month does not have becomes its last day." value="n 个月之后的日期；该月没有的日子变为该月的最后一天。"/>
+    <entry key="The date n years later (29 February becomes 28 February)." value="n 年之后的日期（2 月 29 日变为 2 月 28 日）。"/>
+    <entry key="True if every condition holds." value="所有条件都成立时为真。"/>
+    <entry key="The angle (in radians) whose sine is x." value="正弦为 x 的角（以弧度表示）。"/>
+    <entry key="The angle (in radians) whose tangent is x." value="正切为 x 的角（以弧度表示）。"/>
+    <entry key="The angle (in radians) of the point x, y." value="点 x, y 的角（以弧度表示）。"/>
+    <entry key="True if x is from low to high, both included." value="x 在 low 到 high 之间（含两端）时为真。"/>
+    <entry key="The smallest whole number not below x." value="不小于 x 的最小整数。"/>
+    <entry key="The character of a code (Unicode)." value="代码（Unicode）对应的字符。"/>
+    <entry key="The n-th of the values after n." value="n 之后的值中的第 n 个。"/>
+    <entry key="The first value that is not empty." value="第一个非空值。"/>
+    <entry key="The code (Unicode) of the first character of the text." value="文本第一个字符的代码（Unicode）。"/>
+    <entry key="The values joined into one text (&amp; does the same)." value="将这些值连接成一个文本（&amp; 的作用相同）。"/>
+    <entry key="True if the text contains the part (without regard to case)." value="文本包含该部分时为真（不区分大小写）。"/>
+    <entry key="The cosine of an angle in radians." value="以弧度表示的角的余弦。"/>
+    <entry key="The date of a value (its time left out)." value="值的日期（去掉其时间）。"/>
+    <entry key="The day of the month of a date (1-31)." value="日期是当月的第几天（1-31）。"/>
+    <entry key="The days from d1 to d2." value="从 d1 到 d2 的天数。"/>
+    <entry key="An angle in radians turned into degrees." value="将以弧度表示的角转换为度。"/>
+    <entry key="True if the text ends with the part (without regard to case)." value="文本以该部分结尾时为真（不区分大小写）。"/>
+    <entry key="The last day of the month of d, months later." value="d 之后 months 个月的那个月的最后一天。"/>
+    <entry key="x rounded away from zero to an even whole number." value="x 向远离零的方向舍入到偶数。"/>
+    <entry key="True if the two texts are the same, capital and small letters too (= does not tell them apart)." value="两个文本完全相同（包括大小写）时为真（= 不区分大小写）。"/>
+    <entry key="e to the power x." value="e 的 x 次幂。"/>
+    <entry key="The factorial of n (1 x 2 x ... x n)." value="n 的阶乘（1 x 2 x ... x n）。"/>
+    <entry key="Where the part starts in the text (0 = not there); capital and small letters count." value="该部分在文本中开始的位置（0 = 不存在）；区分大小写。"/>
+    <entry key="The largest whole number not above x." value="不大于 x 的最大整数。"/>
+    <entry key="The hour of a time (0-23)." value="时间的小时（0-23）。"/>
+    <entry key="The second value if the test holds, else the third." value="测试成立时取第二个值，否则取第三个值。"/>
+    <entry key="x, or the second value when x cannot be worked out (a division by zero...)." value="x；当 x 无法计算时（除以零...）取第二个值。"/>
+    <entry key="The value of the first test that holds." value="第一个成立的测试所对应的值。"/>
+    <entry key="True if the value is empty." value="值为空时为真。"/>
+    <entry key="True if the value is a number." value="值为数字时为真。"/>
+    <entry key="The ISO week of the year (1-53)." value="一年中的 ISO 周数（1-53）。"/>
+    <entry key="True if the value is a text." value="值为文本时为真。"/>
+    <entry key="The first n characters of the text." value="文本的前 n 个字符。"/>
+    <entry key="The number of characters of the text." value="文本的字符数。"/>
+    <entry key="The natural logarithm of x." value="x 的自然对数。"/>
+    <entry key="The logarithm of x in the base given (10 if none)." value="以指定底数的 x 的对数（未指定时为 10）。"/>
+    <entry key="The logarithm of x in base 10." value="以 10 为底的 x 的对数。"/>
+    <entry key="The text in small letters." value="转换为小写字母的文本。"/>
+    <entry key="The largest of the values." value="这些值中最大的一个。"/>
+    <entry key="n characters of the text from the position start (1 = the first)." value="文本从位置 start 起的 n 个字符（1 = 第一个）。"/>
+    <entry key="The smallest of the values." value="这些值中最小的一个。"/>
+    <entry key="The minute of a time (0-59)." value="时间的分钟（0-59）。"/>
+    <entry key="The remainder of a divided by b, with the sign of b." value="a 除以 b 的余数，符号与 b 相同。"/>
+    <entry key="The month of a date (1-12)." value="日期的月份（1-12）。"/>
+    <entry key="The whole months from d1 to d2." value="从 d1 到 d2 的完整月数。"/>
+    <entry key="The working days (Monday to Friday) from d1 to d2, both counted." value="从 d1 到 d2 的工作日（星期一至星期五），两端都计入。"/>
+    <entry key="True if the condition does not hold." value="条件不成立时为真。"/>
+    <entry key="The date and time now." value="当前的日期和时间。"/>
+    <entry key="The number written in a text (a decimal comma is accepted)." value="文本中写的数字（接受小数逗号）。"/>
+    <entry key="x rounded away from zero to an odd whole number." value="x 向远离零的方向舍入到奇数。"/>
+    <entry key="True if at least one condition holds." value="至少一个条件成立时为真。"/>
+    <entry key="The number pi (3.14159...)." value="圆周率 pi（3.14159...）。"/>
+    <entry key="x to the power y." value="x 的 y 次幂。"/>
+    <entry key="Each word of the text with a capital first letter." value="文本中每个单词的首字母大写。"/>
+    <entry key="The whole part of a divided by b." value="a 除以 b 的整数部分。"/>
+    <entry key="An angle in degrees turned into radians." value="将以度表示的角转换为弧度。"/>
+    <entry key="The text with every old part replaced by the new one." value="将每个 old 部分替换为 new 后的文本。"/>
+    <entry key="The text repeated n times." value="重复 n 次的文本。"/>
+    <entry key="The last n characters of the text." value="文本的后 n 个字符。"/>
+    <entry key="x rounded to the decimals given (none: to a whole number)." value="x 四舍五入到指定的小数位数（未指定：取整数）。"/>
+    <entry key="x rounded towards zero." value="x 向零的方向舍入。"/>
+    <entry key="x rounded away from zero." value="x 向远离零的方向舍入。"/>
+    <entry key="Where the part starts in the text (0 = not there), without regard to case." value="该部分在文本中开始的位置（0 = 不存在），不区分大小写。"/>
+    <entry key="The second of a time (0-59)." value="时间的秒（0-59）。"/>
+    <entry key="1 for a positive x, -1 for a negative one, 0 for zero." value="x 为正数时为 1，负数时为 -1，零时为 0。"/>
+    <entry key="The sine of an angle in radians." value="以弧度表示的角的正弦。"/>
+    <entry key="The square root of x." value="x 的平方根。"/>
+    <entry key="True if the text starts with the part (without regard to case)." value="文本以该部分开头时为真（不区分大小写）。"/>
+    <entry key="The result paired with the value x is equal to; the last one otherwise." value="与 x 相等的值所对应的结果；否则取最后一个。"/>
+    <entry key="The tangent of an angle in radians." value="以弧度表示的角的正切。"/>
+    <entry key="The number written with the decimals given." value="按指定小数位数写出的数字。"/>
+    <entry key="The part of the text after the separator." value="文本中分隔符之后的部分。"/>
+    <entry key="The part of the text before the separator." value="文本中分隔符之前的部分。"/>
+    <entry key="Today's date." value="今天的日期。"/>
+    <entry key="The text without the spaces before and after it." value="去掉前后空格的文本。"/>
+    <entry key="x with the decimals after the ones given cut off." value="x 截去指定位数之后的小数。"/>
+    <entry key="The text in capital letters." value="转换为大写字母的文本。"/>
+    <entry key="The day of the week (1 = Sunday ... 7 = Saturday)." value="星期几（1 = 星期日 ... 7 = 星期六）。"/>
+    <entry key="The week of the year (weeks start on Monday; before the first Monday: 0)." value="一年中的第几周（每周从星期一开始；第一个星期一之前：0）。"/>
+    <entry key="The year of a date." value="日期的年份。"/>
+    <entry key="The whole years from d1 to d2 (an age)." value="从 d1 到 d2 的完整年数（年龄）。"/>
     <entry key="The statistic cannot be calculated: %s" value="无法计算该统计：%s"/>
+    <entry key="Average deviation" value="平均偏差"/>
     <entry key="Average" value="平均值"/>
     <entry key="Count" value="计数"/>
+    <entry key="Count of empty values" value="空值的计数"/>
     <entry key="Count of different values" value="不同值的计数"/>
     <entry key="First value" value="第一个值"/>
     <entry key="Formula of the measures" value="度量的公式"/>
+    <entry key="Geometric mean" value="几何平均值"/>
+    <entry key="Harmonic mean" value="调和平均值"/>
+    <entry key="Kurtosis" value="峰度"/>
     <entry key="Last value" value="最后一个值"/>
+    <entry key="List of the values" value="值的列表"/>
     <entry key="Maximum" value="最大值"/>
     <entry key="Median" value="中位数"/>
     <entry key="Minimum" value="最小值"/>
+    <entry key="Most frequent value (mode)" value="出现最多的值（众数）"/>
     <entry key="(none)" value="（无）"/>
+    <entry key="10th percentile" value="第 10 百分位数"/>
+    <entry key="90th percentile" value="第 90 百分位数"/>
     <entry key="Product" value="乘积"/>
+    <entry key="First quartile" value="第一四分位数"/>
+    <entry key="Third quartile" value="第三四分位数"/>
+    <entry key="Range (maximum - minimum)" value="极差（最大值 - 最小值）"/>
+    <entry key="Skewness" value="偏度"/>
     <entry key="Standard deviation (sample)" value="标准差（样本）"/>
     <entry key="Standard deviation (all)" value="标准差（全部）"/>
     <entry key="Sum" value="求和"/>
+    <entry key="Sum of squares" value="平方和"/>
     <entry key="Variance (sample)" value="方差（样本）"/>
     <entry key="Variance (all)" value="方差（全部）"/>
     <entry key="from" value="从"/>
@@ -1172,6 +1427,10 @@
     <entry key="%s - locked" value="%s - 已锁定"/>
     <entry key="No database open" value="未打开数据库"/>
     <entry key="Ready" value="就绪"/>
+    <entry key="An alcohol-free beer - %s EUR" value="一杯无醇啤酒 - %s EUR"/>
+    <entry key="A coffee - %s EUR" value="一杯咖啡 - %s EUR"/>
+    <entry key="A tea - %s EUR" value="一杯茶 - %s EUR"/>
+    <entry key="SQLite DB Tools is free and stays free: a gift unlocks nothing and changes nothing. If the program is useful to you, you can offer its developer a drink - alcohol free - through PayPal. Each button opens the PayPal page with that amount, which you can still change there." value="SQLite DB Tools 免费，并将一直免费：赠送不会解锁任何内容，也不会改变任何东西。如果本程序对你有用，可以通过 PayPal 请开发者喝一杯（无酒精）。每个按钮都会打开带有该金额的 PayPal 页面，你仍可在那里修改金额。"/>
     <entry key="Computer" value="计算机"/>
     <entry key="Copy to the clipboard" value="复制到剪贴板"/>
     <entry key="Architecture" value="体系结构"/>
@@ -1209,6 +1468,7 @@
     <entry key="Light" value="浅色"/>
     <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="新主题将用于应用程序的颜色，包括从现在起打开的窗口。由系统绘制的部分（标题栏、滚动条）在下次启动时更改。"/>
     <entry key="Select the theme:" value="选择主题："/>
+    <entry key="As Windows" value="跟随 Windows"/>
     <entry key="Theme" value="主题"/>
     <entry key="Attachment (file)" value="附件（文件）"/>
     <entry key="Yes / No" value="是/否"/>

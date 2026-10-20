@@ -9,6 +9,11 @@
     <entry key="Third-party notices" value="Avisos de terceros"/>
     <entry key="About %s" value="Acerca de %s"/>
     <entry key="Version %s - commit %d, built %s (%s)" value="Versión %s - commit %d, compilada el %s (%s)"/>
+    <entry key="Blue" value="Azul"/>
+    <entry key="Green" value="Verde"/>
+    <entry key="Orange" value="Naranja"/>
+    <entry key="Purple" value="Morado"/>
+    <entry key="Red" value="Rojo"/>
     <entry key="Active" value="Activa"/>
     <entry key="Full access account name:" value="Nombre de la cuenta de acceso completo:"/>
     <entry key="Created" value="Creada"/>
@@ -51,6 +56,12 @@
     <entry key="Password:" value="Contraseña:"/>
     <entry key="Add column..." value="Agregar columna..."/>
     <entry key="Admin password:" value="Contraseña de administrador:"/>
+    <entry key="Accent colour:" value="Color de acento:"/>
+    <entry key="Simple view shows the everyday tools, Pro view every tool; nothing is removed. The accent colour marks Home's buttons, tiles and switch, in small touches." value="La vista Simple muestra las herramientas de cada día, la vista Pro todas; no se quita nada. El color de acento marca los botones, las fichas y el selector de Inicio, con pequeños toques."/>
+    <entry key="Preview:" value="Vista previa:"/>
+    <entry key="Theme:" value="Tema:"/>
+    <entry key="Appearance" value="Apariencia"/>
+    <entry key="View:" value="Vista:"/>
     <entry key="Apply" value="Aplicar"/>
     <entry key="The change is applied completely only when the application starts.&#10;&#10;Restart now: save it and restart the application automatically.&#10;Use now: save it and use it right away - some parts change only at the next start.&#10;Save for next start: save it only." value="El cambio se aplica por completo solo al iniciar la aplicación.&#10;&#10;Reiniciar ahora: se guarda y la aplicación se reinicia automáticamente.&#10;Usar ahora: se guarda y se usa de inmediato; algunas partes cambian solo en el próximo inicio.&#10;Guardar para el próximo inicio: solo se guarda."/>
     <entry key="Apply changes" value="Aplicar cambios"/>
@@ -160,6 +171,18 @@
     <entry key="A Table with This Name" value="Una tabla con este nombre"/>
     <entry key="Clear" value="Borrar"/>
     <entry key="Clear Log" value="Borrar registro"/>
+    <entry key="All the %d copied cells fall outside the table from here: nothing is pasted." value="Las %d celdas copiadas caen todas fuera de la tabla desde aquí: no se pega nada."/>
+    <entry key="Paste the copied cells (%d rows by %d columns) with their first cell in the column %s of the record %s?" value="¿Pegar las celdas copiadas (%d filas por %d columnas) con su primera celda en la columna %s del registro %s?"/>
+    <entry key="The copied cells start at the record %s; the focus is on the record %s. Paste them from there?" value="Las celdas copiadas empiezan en el registro %s; la celda activa está en el registro %s. ¿Pegarlas desde ahí?"/>
+    <entry key="The copied cells start in the column %s; the focus is in the column %s. Paste them from there?" value="Las celdas copiadas empiezan en la columna %s; la celda activa está en la columna %s. ¿Pegarlas desde ahí?"/>
+    <entry key="%d cell(s) copied: Ctrl+V pastes them from the cell in focus, with the same gaps." value="%d celda(s) copiada(s): Ctrl+V las pega desde la celda activa, con los mismos huecos."/>
+    <entry key="%d of the rows the cells go to are not being edited. Put them in edit and paste?" value="%d de las filas a las que van las celdas no están en edición. ¿Ponerlas en edición y pegar?"/>
+    <entry key="There are no cells to paste: copy cells first (Ctrl+C), here or in another program." value="No hay celdas que pegar: copia primero celdas (Ctrl+C), aquí o en otro programa."/>
+    <entry key="The records of this table cannot be changed here (read-only, or your account may not change them)." value="Los registros de esta tabla no se pueden cambiar aquí (solo lectura, o tu cuenta no puede cambiarlos)."/>
+    <entry key="%d of the copied cells fall outside the table (beyond its last row or column). Paste only the %d that fit?" value="%d de las celdas copiadas caen fuera de la tabla (más allá de su última fila o columna). ¿Pegar solo las %d que caben?"/>
+    <entry key="%d cell(s) pasted: Apply modifications saves them." value="%d celda(s) pegada(s): Aplicar modificaciones las guarda."/>
+    <entry key="Paste Those" value="Pegar esas"/>
+    <entry key="%d cell(s) are in columns that cannot be typed (attachments, quantities): they stay as they are." value="%d celda(s) están en columnas donde no se puede escribir (adjuntos, cantidades): se quedan como están."/>
     <entry key="Close" value="Cerrar"/>
     <entry key="Existing columns cannot be removed: tables only grow." value="Las columnas existentes no se pueden quitar: las tablas solo crecen."/>
     <entry key="Detail %d" value="Detalle %d"/>
@@ -286,11 +309,13 @@
     <entry key="database engine" value="motor de base de datos"/>
     <entry key="user interface" value="interfaz de usuario"/>
     <entry key="PDF documents and reports" value="documentos e informes PDF"/>
+    <entry key="PDF: used by PoDoFo" value="PDF: usado por PoDoFo"/>
     <entry key="C++ runtime" value="runtime de C++"/>
     <entry key="admin password and recovery key (Argon2id, XChaCha20-Poly1305)" value="contraseña de administrador y clave de recuperación (Argon2id, XChaCha20-Poly1305)"/>
     <entry key="Version in use" value="Versión en uso"/>
     <entry key="Website" value="Sitio web"/>
     <entry key="Double-click: the owner's website. Every component belongs to its owners and is used under its licence." value="Doble clic: el sitio web del propietario. Cada componente pertenece a sus propietarios y se usa según su licencia."/>
+    <entry key="with PoDoFo" value="con PoDoFo"/>
     <entry key="Automations are rules run by the database whenever a record is added, changed or deleted - from this program or any other. For example: a movement takes its quantity from the stock of the item; the value of an item is always stock x price; a change that would make the stock negative is refused." value="Las automatizaciones son reglas que ejecuta la base de datos cada vez que se agrega, modifica o elimina un registro, desde este programa o desde cualquier otro. Por ejemplo: un movimiento resta su cantidad de las existencias del artículo; el valor de un artículo es siempre existencias x precio; se rechaza un cambio que dejaría las existencias en negativo."/>
     <entry key="Automations" value="Automatizaciones"/>
     <entry key="Change..." value="Cambiar..."/>
@@ -434,6 +459,7 @@
     <entry key="Clear the selection" value="Borrar la selección"/>
     <entry key="%ld records copied to the clipboard." value="%ld registros copiados al Portapapeles."/>
     <entry key="Copy the value" value="Copiar el valor"/>
+    <entry key="Copy the Selected Cells&#9;Ctrl+C" value="Copiar las celdas seleccionadas&#9;Ctrl+C"/>
     <entry key="Copy the selected records (for a spreadsheet)" value="Copiar los registros seleccionados (para una hoja de cálculo)"/>
     <entry key="Copy to a new entry" value="Copiar a una nueva entrada"/>
     <entry key="%zu record(s)" value="%zu registro(s)"/>
@@ -447,10 +473,12 @@
     <entry key="The modifications cannot be applied" value="No se pueden aplicar las modificaciones"/>
     <entry key="text in any column" value="texto en cualquier columna"/>
     <entry key="Find:" value="Buscar:"/>
-    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry." value="Haga clic con el botón derecho en una fila para ver sus acciones. En una fila en edición, haga doble clic en una celda (o escriba en ella) para cambiarla. Teclas: F2 editar, Ctrl+S aplicar, Esc cancelar, Supr eliminar, Ctrl+D copiar a una nueva entrada."/>
+    <entry key="Right-click a row for its actions. In a row being edited, double-click (or type in) a cell to change it. Keys: F2 edit, Ctrl+S apply, Esc cancel, Del delete, Ctrl+D copy to a new entry. Ctrl+click selects several cells; Ctrl+C copies them, Ctrl+V pastes them from the cell in focus." value="Haga clic con el botón derecho en una fila para ver sus acciones. En una fila en edición, haga doble clic en una celda (o escriba en ella) para cambiarla. Teclas: F2 editar, Ctrl+S aplicar, Esc cancelar, Supr eliminar, Ctrl+D copiar a una nueva entrada. Ctrl+clic selecciona varias celdas; Ctrl+C las copia, Ctrl+V las pega desde la celda activa."/>
     <entry key="History of this record..." value="Historial de este registro..."/>
     <entry key="This applies to %ld records and takes %s (the time depends on the computer). The progress and the time are in the status bar, with Stop.&#10;&#10;Continue?" value="Esto se aplica a %ld registros y tarda %s (el tiempo depende del equipo). El progreso y el tiempo aparecen en la barra de estado, con Detener.&#10;&#10;¿Continuar?"/>
     <entry key="Open the attachment" value="Abrir el adjunto"/>
+    <entry key="Paste the Copied Cells&#9;Ctrl+V" value="Pegar las celdas copiadas&#9;Ctrl+V"/>
+    <entry key="Paste" value="Pegar"/>
     <entry key=" - %zu row(s) in edit, %zu changed" value=" - %zu fila(s) en edición, %zu modificada(s)"/>
     <entry key="Print..." value="Imprimir..."/>
     <entry key="Print the selected records..." value="Imprimir los registros seleccionados..."/>
@@ -465,9 +493,55 @@
     <entry key="Part of:" value="Parte de:"/>
     <entry key="Reason:" value="Motivo:"/>
     <entry key="Browse" value="Examinar"/>
+    <entry key="Change Database..." value="Cambiar base de datos..."/>
+    <entry key="{HOME_DO_ADD}Add" value="Agregar"/>
+    <entry key="a new record" value="un registro nuevo"/>
+    <entry key="Find" value="Buscar"/>
+    <entry key="records of a table" value="registros de una tabla"/>
+    <entry key="Share" value="Compartir"/>
+    <entry key="export, print, PDF" value="exportar, imprimir, PDF"/>
     <entry key="Edit structure..." value="Editar estructura..."/>
+    <entry key="Find a tool or a table" value="Buscar una herramienta o una tabla"/>
+    <entry key="Database and tables" value="Base de datos y tablas"/>
+    <entry key="Attachments and history" value="Adjuntos e historial"/>
+    <entry key="Bring in, send out" value="Traer, enviar"/>
+    <entry key="Work with records" value="Trabajar con registros"/>
+    <entry key="Security and users" value="Seguridad y usuarios"/>
     <entry key="New table..." value="Nueva tabla..."/>
+    <entry key="Nothing found." value="No se encontró nada."/>
+    <entry key="Not available now: no database open, no table, or your account may not do it." value="No disponible ahora: no hay base de datos abierta, no hay tabla, o su cuenta no puede hacerlo."/>
+    <entry key="Pin to the Top" value="Fijar arriba"/>
+    <entry key="Pinned - right-click a tool to take it off" value="Fijadas - clic derecho en una herramienta para quitarla"/>
+    <entry key="Right-click a tool to pin it here, at the top." value="Haga clic derecho en una herramienta para fijarla aquí, arriba."/>
+    <entry key="Recent:" value="Recientes:"/>
+    <entry key="%s records" value="%s registros"/>
+    <entry key="Import, merge, statistics, SQL, print profiles, attachments, passwords and users are in Pro view." value="Importar, combinar, estadísticas, SQL, perfiles de impresión, adjuntos, contraseñas y usuarios están en la vista Pro."/>
+    <entry key="a new record" value="un registro nuevo"/>
+    <entry key="where the files are kept" value="dónde se guardan los archivos"/>
+    <entry key="the records of a table" value="los registros de una tabla"/>
+    <entry key="missing, moved files" value="archivos que faltan o movidos"/>
+    <entry key="columns and rules" value="columnas y reglas"/>
+    <entry key="SQL, CSV, JSON, a copy" value="SQL, CSV, JSON, una copia"/>
+    <entry key="CSV, Excel, OpenDocument" value="CSV, Excel, OpenDocument"/>
+    <entry key="every change" value="cada cambio"/>
+    <entry key="with a preview of the rows" value="con vista previa de las filas"/>
+    <entry key="plain or protected" value="simple o protegida"/>
+    <entry key="the folder of the files" value="la carpeta de los archivos"/>
+    <entry key="a database file" value="un archivo de base de datos"/>
+    <entry key="documents and PDFs of records" value="documentos y PDF de registros"/>
+    <entry key="ready-made examples" value="ejemplos listos"/>
+    <entry key="find with conditions" value="buscar con condiciones"/>
+    <entry key="read-only queries" value="consultas de solo lectura"/>
+    <entry key="group, measure, chart" value="agrupar, medir, graficar"/>
+    <entry key="accounts and their levels" value="cuentas y sus niveles"/>
+    <entry key="%d table(s) - %s record(s) - %s" value="%d tabla(s) - %s registro(s) - %s"/>
+    <entry key="Switch to Pro View" value="Cambiar a la vista Pro"/>
     <entry key="Home" value="Inicio"/>
+    <entry key="Take Off the Top" value="Quitar de arriba"/>
+    <entry key="Pro" value="Pro"/>
+    <entry key="Simple" value="Simple"/>
+    <entry key="What do you want to do?" value="¿Qué desea hacer?"/>
+    <entry key="Your tables" value="Sus tablas"/>
     <entry key="Add image..." value="Agregar imagen..."/>
     <entry key="Choose an image (logo, stamp, signature ...)" value="Elija una imagen (logotipo, sello, firma...)"/>
     <entry key="Also as watermark" value="También como marca de agua"/>
@@ -508,6 +582,8 @@
     <entry key="&lt; Back" value="&lt; Atrás"/>
     <entry key="Change the columns" value="Cambiar las columnas"/>
     <entry key="Choose a file first." value="Elija primero un archivo."/>
+    <entry key="Choose the rows before importing" value="Elegir las filas antes de importar"/>
+    <entry key="Shows every row of the file to take or leave out (by hand or by row numbers), change and put in order before anything is written; it opens by itself when some rows cannot be written as they are" value="Muestra cada fila del archivo para tomarla o excluirla (a mano o por números de fila), cambiarla y ordenarla antes de escribir nada; se abre sola cuando algunas filas no se pueden escribir tal como están"/>
     <entry key="Check at least one sheet." value="Marque al menos una hoja."/>
     <entry key="The columns of the new table, guessed from the values: the type, &quot;required&quot; (no empty value) and &quot;unique&quot; (every value different). Check them, change what is wrong, untick the columns to leave out. Nothing is written before Import." value="Las columnas de la nueva tabla, deducidas de los valores: el tipo, &quot;obligatoria&quot; (ningún valor vacío) y &quot;única&quot; (todos los valores distintos). Revíselas, cambie lo que esté mal y desmarque las columnas que quiera omitir. No se escribe nada antes de Importar."/>
     <entry key="Examples" value="Ejemplos"/>
@@ -573,6 +649,11 @@
     <entry key="The file cannot be read: %s" value="No se puede leer el archivo: %s"/>
     <entry key="%d rows of %d do not fit the columns as they are:" value="%d filas de %d no encajan en las columnas tal como están:"/>
     <entry key="row %d, %s &quot;%s&quot;: %s" value="fila %d, %s &quot;%s&quot;: %s"/>
+    <entry key="Import these rows" value="Importar estas filas"/>
+    <entry key="The rows of %s, as they will be written into %s: %d rows, %d of them cannot be written as they are (red). Nothing is written until Import." value="Las filas de %s, tal como se escribirán en %s: %d filas, %d de ellas no se pueden escribir tal como están (en rojo). No se escribe nada hasta Importar."/>
+    <entry key="%s rows have values that cannot be saved: they will be left out. Import the others?" value="%s filas tienen valores que no se pueden guardar: se excluirán. ¿Importar las demás?"/>
+    <entry key="%s rows - %s to import - %s already here - %s with values that cannot be saved" value="%s filas - %s para importar - %s ya aquí - %s con valores que no se pueden guardar"/>
+    <entry key="Import into %s: the rows" value="Importar en %s: las filas"/>
     <entry key="Separator:" value="Separador:"/>
     <entry key="Found by itself" value="Detectado automáticamente"/>
     <entry key="Comma ," value="Coma ,"/>
@@ -642,6 +723,7 @@
     <entry key="Largest (empty = any):" value="Máximo (vacío = cualquiera):"/>
     <entry key="&amp;About..." value="&amp;Acerca de..."/>
     <entry key="&amp;Add Entry...&#9;Ctrl-Shift-N" value="&amp;Agregar entrada...&#9;Ctrl-Shift-N"/>
+    <entry key="Appea&amp;rance..." value="Apa&amp;riencia..."/>
     <entry key="Attac&amp;hment Folder Location..." value="Ubi&amp;cación de la carpeta de adjuntos..."/>
     <entry key="&amp;Browse Records...&#9;Ctrl-B" value="E&amp;xaminar registros...&#9;Ctrl-B"/>
     <entry key="Change &amp;My Password..." value="Cambiar &amp;mi contraseña..."/>
@@ -676,6 +758,7 @@
     <entry key="Print P&amp;rofiles..." value="Pe&amp;rfiles de impresión..."/>
     <entry key="Protect with an &amp;Admin Password..." value="Proteger con contraseña de a&amp;dministrador..."/>
     <entry key="Protect with a Passp&amp;hrase..." value="&amp;Proteger con una frase de contraseña..."/>
+    <entry key="&amp;Pro View" value="&amp;Vista Pro"/>
     <entry key="Open &amp;Recent" value="Abrir &amp;recientes"/>
     <entry key="Re&amp;move the Encryption..." value="&amp;Quitar el cifrado..."/>
     <entry key="Rotate the &amp;Encryption Key..." value="Rotar la clave de &amp;cifrado..."/>
@@ -687,6 +770,7 @@
     <entry key="Application L&amp;og" value="&amp;Registro de la aplicación"/>
     <entry key="S&amp;QL Query (read-only)...&#9;Ctrl-Q" value="Consulta S&amp;QL (solo lectura)...&#9;Ctrl-Q"/>
     <entry key="Stat&amp;istics...&#9;Ctrl-Shift-T" value="Estadíst&amp;icas...&#9;Ctrl-Shift-T"/>
+    <entry key="&amp;Support the Developer..." value="&amp;Apoyar al desarrollador..."/>
     <entry key="S&amp;witch User..." value="&amp;Cambiar de usuario..."/>
     <entry key="&amp;Theme..." value="&amp;Tema..."/>
     <entry key="&amp;Users and Access..." value="&amp;Usuarios y acceso..."/>
@@ -978,6 +1062,7 @@
     <entry key="To" value="Para"/>
     <entry key="Up" value="Subir"/>
     <entry key="Width (relative):" value="Ancho (relativo):"/>
+    <entry key="Your data stays yours: the program collects nothing about you and sends nothing anywhere by itself - no ads, no analytics, no tracking. Your files leave your device only when you send them yourself (a copy, an export, a print, a share; Google Drive when you choose it in the Android app)." value="Sus datos siguen siendo suyos: el programa no recoge nada sobre usted ni envía nada a ningún sitio por sí mismo - sin anuncios, sin estadísticas, sin rastreo. Sus archivos salen del dispositivo solo cuando usted los envía (una copia, una exportación, una impresión, un compartir; Google Drive cuando lo elige en la aplicación de Android)."/>
     <entry key="The database is now encrypted." value="La base de datos ahora está cifrada."/>
     <entry key="not encrypted" value="sin cifrar"/>
     <entry key="How should %s be protected? It can be changed later (Database &gt; Security)." value="¿Cómo se debe proteger %s? Se puede cambiar más adelante (Base de datos &gt; Seguridad)."/>
@@ -1045,6 +1130,30 @@
     <entry key="The database was re-encrypted with a new key. The new recovery key follows." value="La base de datos se volvió a cifrar con una nueva clave. A continuación se muestra la nueva clave de recuperación."/>
     <entry key="Makes a new encryption key, re-encrypts the whole database with it and makes a new recovery key. Use it if a copy of the database with its key file (or the admin password) may have leaked: copies taken earlier stay readable with the old secrets, but everything from now on needs the new key. Enter the admin password to continue." value="Crea una nueva clave de cifrado, vuelve a cifrar toda la base de datos con ella y crea una nueva clave de recuperación. Úselo si una copia de la base de datos con su archivo de claves (o la contraseña de administrador) puede haberse filtrado: las copias hechas antes siguen siendo legibles con los secretos antiguos, pero todo lo que venga a partir de ahora necesita la nueva clave. Escriba la contraseña de administrador para continuar."/>
     <entry key="Rotate the encryption key" value="Rotar la clave de cifrado"/>
+    <entry key="Add New Group" value="Añadir nuevo grupo"/>
+    <entry key="This row cannot be written as it is: right-click it to change the values that are refused." value="Esta fila no se puede escribir tal como está: haga clic con el botón derecho en ella para cambiar los valores rechazados."/>
+    <entry key=" - %s cannot be written as they are (red)" value=" - %s no se pueden escribir tal como están (en rojo)"/>
+    <entry key="Row" value="Fila"/>
+    <entry key="%lld (copy %d)" value="%lld (copia %d)"/>
+    <entry key="Double copies of the rows in two groups" value="Copias dobles de las filas que están en dos grupos"/>
+    <entry key="The row can be written now." value="Ahora la fila se puede escribir."/>
+    <entry key="The row still cannot be written." value="La fila todavía no se puede escribir."/>
+    <entry key="Only the values that cannot be written can be changed here. Each one is checked as you type: green can be written, red cannot." value="Aquí solo se pueden cambiar los valores que no se pueden escribir. Cada uno se comprueba mientras escribe: en verde se puede escribir, en rojo no."/>
+    <entry key="Change the Refused Values..." value="Cambiar los valores rechazados..."/>
+    <entry key="Row %s: the values to change" value="Fila %s: los valores que cambiar"/>
+    <entry key="Rows by number:" value="Filas por número:"/>
+    <entry key="Give both row numbers." value="Indique los dos números de fila."/>
+    <entry key="No place in the order (another group took it): choose one." value="Sin lugar en el orden (otro grupo lo tomó): elija uno."/>
+    <entry key="The rows are numbered from 1 to %lld." value="Las filas están numeradas del 1 al %lld."/>
+    <entry key="&quot;from&quot; is after &quot;to&quot;." value="&quot;desde&quot; está después de &quot;hasta&quot;."/>
+    <entry key="Choose the rows: Ctrl+click a row (any cell of it) or its tick to take it or leave it out; Shift+click or drag to take several; or give groups of rows by number. A red row cannot be written as it is: right-click it to change the values that are refused. A green row was changed here and can be written." value="Elija las filas: Ctrl+click en una fila (cualquier celda) o en su marca para tomarla o excluirla; Shift+click o arrastre para tomar varias; o indique grupos de filas por número. Una fila en rojo no se puede escribir tal como está: haga clic con el botón derecho en ella para cambiar los valores rechazados. Una fila en verde se cambió aquí y se puede escribir."/>
+    <entry key="The rows taken by hand make %d groups, too many to list. Add New Group starts again from row numbers." value="Las filas tomadas a mano forman %d grupos, demasiados para listarlos. Añadir nuevo grupo vuelve a empezar desde los números de fila."/>
+    <entry key="Every group of rows needs both numbers and its place in the order before anything is written." value="Cada grupo de filas necesita sus dos números y su lugar en el orden antes de escribir nada."/>
+    <entry key="Order:" value="Orden:"/>
+    <entry key="Rows from %lld to %lld are selected twice (groups %d and %d). Do you want to have double copies of them?" value="Las filas de la %lld a la %lld están seleccionadas dos veces (grupos %d y %d). ¿Desea tener copias dobles de ellas?"/>
+    <entry key="Remove this group" value="Quitar este grupo"/>
+    <entry key="rows %lld - %lld are in two groups: written twice (double copies)" value="las filas %lld - %lld están en dos grupos: se escriben dos veces (copias dobles)"/>
+    <entry key="rows %lld - %lld are in two groups: written once" value="las filas %lld - %lld están en dos grupos: se escriben una vez"/>
     <entry key="Rules" value="Reglas"/>
     <entry key="You already have a copy of this sample database:&#10;%s&#10;&#10;Open it with your changes, or start again from a fresh copy (your changes to it are lost)?" value="Ya tiene una copia de esta base de datos de ejemplo:&#10;%s&#10;&#10;¿Abrirla con sus cambios o empezar de nuevo desde una copia nueva (se perderán sus cambios en ella)?"/>
     <entry key="The sample database could not be copied." value="No se pudo copiar la base de datos de ejemplo."/>
@@ -1097,22 +1206,168 @@
     <entry key="Delete the saved statistic &quot;%s&quot;?" value="¿Eliminar la estadística guardada &quot;%s&quot;?"/>
     <entry key="descending" value="descendente"/>
     <entry key="End:" value="Fin:"/>
+    <entry key="Examples..." value="Ejemplos..."/>
+    <entry key="What it does" value="Qué hace"/>
+    <entry key="Example" value="Ejemplo"/>
+    <entry key="Result" value="Resultado"/>
+    <entry key="Copied: %s" value="Copiado: %s"/>
+    <entry key="Double-click an example to copy its formula." value="Haga doble clic en un ejemplo para copiar su fórmula."/>
+    <entry key="Every function a statistic can use, with examples worked out by the program itself on the sample records below: a formula of a value on the first record, a measure over all of them." value="Cada función que puede usar una estadística, con ejemplos calculados por el propio programa sobre los registros de ejemplo de abajo: una fórmula de un valor sobre el primer registro, una medida sobre todos ellos."/>
+    <entry key="%s of %s" value="%s de %s"/>
+    <entry key="%s - only when %s" value="%s - solo cuando %s"/>
+    <entry key="the records" value="los registros"/>
+    <entry key="The same as %s." value="Igual que %s."/>
+    <entry key="Sample records (Sales)" value="Registros de ejemplo (Ventas)"/>
+    <entry key="Examples of the functions" value="Ejemplos de las funciones"/>
+    <entry key="Dates" value="Fechas"/>
+    <entry key="Logic" value="Lógica"/>
+    <entry key="Numbers" value="Números"/>
+    <entry key="Texts" value="Textos"/>
+    <entry key="The average distance of the values from their average." value="La distancia media de los valores respecto a su promedio."/>
+    <entry key="The average of the values." value="El promedio de los valores."/>
+    <entry key="How many records; of a value: how many have it not empty." value="Cuántos registros; de un valor: cuántos lo tienen no vacío."/>
+    <entry key="How many records have the value empty." value="Cuántos registros tienen el valor vacío."/>
+    <entry key="How many different values." value="Cuántos valores distintos."/>
+    <entry key="The value of the first record (by record number)." value="El valor del primer registro (por número de registro)."/>
+    <entry key="The geometric mean of positive values: for growth rates." value="La media geométrica de valores positivos: para tasas de crecimiento."/>
+    <entry key="The harmonic mean of positive values: for averages of speeds or rates." value="La media armónica de valores positivos: para promedios de velocidades o tasas."/>
+    <entry key="How heavy the tails are compared with a normal distribution (above 0: more extreme values)." value="Cuán pesadas son las colas en comparación con una distribución normal (por encima de 0: más valores extremos)."/>
+    <entry key="The value of the last record (by record number)." value="El valor del último registro (por número de registro)."/>
+    <entry key="The different values, joined by commas." value="Los valores distintos, unidos por comas."/>
+    <entry key="The largest value (of dates: the latest)." value="El valor más grande (de fechas: la más reciente)."/>
+    <entry key="The middle value: half of the values are below it, half above." value="El valor central: la mitad de los valores está por debajo, la mitad por encima."/>
+    <entry key="The smallest value (of dates: the earliest)." value="El valor más pequeño (de fechas: la más antigua)."/>
+    <entry key="The value found most often (the first one when several are as frequent)." value="El valor que aparece más a menudo (el primero cuando varios son igual de frecuentes)."/>
+    <entry key="A tenth of the values are below it." value="Una décima parte de los valores está por debajo."/>
+    <entry key="Nine tenths of the values are below it." value="Nueve décimas partes de los valores están por debajo."/>
+    <entry key="The values multiplied together." value="Los valores multiplicados entre sí."/>
+    <entry key="A quarter of the values are below it." value="Una cuarta parte de los valores está por debajo."/>
+    <entry key="Three quarters of the values are below it." value="Tres cuartas partes de los valores están por debajo."/>
+    <entry key="The largest value minus the smallest." value="El valor más grande menos el más pequeño."/>
+    <entry key="How lopsided the values are: above 0, a long tail of large values." value="Cuán desequilibrados están los valores: por encima de 0, una cola larga de valores grandes."/>
+    <entry key="How far the values are spread, as a sample of a larger whole." value="Cuánto se dispersan los valores, como muestra de un conjunto mayor."/>
+    <entry key="How far the values are spread, when they are all the values." value="Cuánto se dispersan los valores, cuando son todos los valores."/>
+    <entry key="The total of the values." value="El total de los valores."/>
+    <entry key="The sum of the squares of the values." value="La suma de los cuadrados de los valores."/>
+    <entry key="The variance, as a sample of a larger whole (the square of the standard deviation)." value="La varianza, como muestra de un conjunto mayor (el cuadrado de la desviación estándar)."/>
+    <entry key="The variance, when they are all the values." value="La varianza, cuando son todos los valores."/>
     <entry key="Value" value="Valor"/>
+    <entry key="x without its sign." value="x sin su signo."/>
+    <entry key="The angle (in radians) whose cosine is x." value="El ángulo (en radianes) cuyo coseno es x."/>
+    <entry key="The date n days later (n below 0: earlier)." value="La fecha n días después (n menor que 0: antes)."/>
+    <entry key="The date n months later; a day the month does not have becomes its last day." value="La fecha n meses después; un día que el mes no tiene pasa a ser su último día."/>
+    <entry key="The date n years later (29 February becomes 28 February)." value="La fecha n años después (el 29 de febrero pasa a ser el 28 de febrero)."/>
+    <entry key="True if every condition holds." value="Verdadero si se cumplen todas las condiciones."/>
+    <entry key="The angle (in radians) whose sine is x." value="El ángulo (en radianes) cuyo seno es x."/>
+    <entry key="The angle (in radians) whose tangent is x." value="El ángulo (en radianes) cuya tangente es x."/>
+    <entry key="The angle (in radians) of the point x, y." value="El ángulo (en radianes) del punto x, y."/>
+    <entry key="True if x is from low to high, both included." value="Verdadero si x está entre low y high, ambos incluidos."/>
+    <entry key="The smallest whole number not below x." value="El menor número entero no inferior a x."/>
+    <entry key="The character of a code (Unicode)." value="El carácter de un código (Unicode)."/>
+    <entry key="The n-th of the values after n." value="El n-ésimo de los valores que siguen a n."/>
+    <entry key="The first value that is not empty." value="El primer valor que no está vacío."/>
+    <entry key="The code (Unicode) of the first character of the text." value="El código (Unicode) del primer carácter del texto."/>
+    <entry key="The values joined into one text (&amp; does the same)." value="Los valores unidos en un solo texto (&amp; hace lo mismo)."/>
+    <entry key="True if the text contains the part (without regard to case)." value="Verdadero si el texto contiene la parte (sin distinguir mayúsculas y minúsculas)."/>
+    <entry key="The cosine of an angle in radians." value="El coseno de un ángulo en radianes."/>
+    <entry key="The date of a value (its time left out)." value="La fecha de un valor (sin su hora)."/>
+    <entry key="The day of the month of a date (1-31)." value="El día del mes de una fecha (1-31)."/>
+    <entry key="The days from d1 to d2." value="Los días de d1 a d2."/>
+    <entry key="An angle in radians turned into degrees." value="Un ángulo en radianes convertido a grados."/>
+    <entry key="True if the text ends with the part (without regard to case)." value="Verdadero si el texto termina en la parte (sin distinguir mayúsculas y minúsculas)."/>
+    <entry key="The last day of the month of d, months later." value="El último día del mes de d, months meses después."/>
+    <entry key="x rounded away from zero to an even whole number." value="x redondeado alejándose de cero a un número entero par."/>
+    <entry key="True if the two texts are the same, capital and small letters too (= does not tell them apart)." value="Verdadero si los dos textos son iguales, también en mayúsculas y minúsculas (= no las distingue)."/>
+    <entry key="e to the power x." value="e elevado a la potencia x."/>
+    <entry key="The factorial of n (1 x 2 x ... x n)." value="El factorial de n (1 x 2 x ... x n)."/>
+    <entry key="Where the part starts in the text (0 = not there); capital and small letters count." value="Dónde empieza la parte en el texto (0 = no está); las mayúsculas y minúsculas cuentan."/>
+    <entry key="The largest whole number not above x." value="El mayor número entero no superior a x."/>
+    <entry key="The hour of a time (0-23)." value="La hora de un valor horario (0-23)."/>
+    <entry key="The second value if the test holds, else the third." value="El segundo valor si se cumple la prueba; si no, el tercero."/>
+    <entry key="x, or the second value when x cannot be worked out (a division by zero...)." value="x, o el segundo valor cuando x no se puede calcular (una división por cero...)."/>
+    <entry key="The value of the first test that holds." value="El valor de la primera prueba que se cumple."/>
+    <entry key="True if the value is empty." value="Verdadero si el valor está vacío."/>
+    <entry key="True if the value is a number." value="Verdadero si el valor es un número."/>
+    <entry key="The ISO week of the year (1-53)." value="La semana ISO del año (1-53)."/>
+    <entry key="True if the value is a text." value="Verdadero si el valor es un texto."/>
+    <entry key="The first n characters of the text." value="Los primeros n caracteres del texto."/>
+    <entry key="The number of characters of the text." value="El número de caracteres del texto."/>
+    <entry key="The natural logarithm of x." value="El logaritmo natural de x."/>
+    <entry key="The logarithm of x in the base given (10 if none)." value="El logaritmo de x en la base indicada (10 si no se indica)."/>
+    <entry key="The logarithm of x in base 10." value="El logaritmo de x en base 10."/>
+    <entry key="The text in small letters." value="El texto en minúsculas."/>
+    <entry key="The largest of the values." value="El mayor de los valores."/>
+    <entry key="n characters of the text from the position start (1 = the first)." value="n caracteres del texto desde la posición start (1 = el primero)."/>
+    <entry key="The smallest of the values." value="El menor de los valores."/>
+    <entry key="The minute of a time (0-59)." value="El minuto de un valor horario (0-59)."/>
+    <entry key="The remainder of a divided by b, with the sign of b." value="El resto de a dividido entre b, con el signo de b."/>
+    <entry key="The month of a date (1-12)." value="El mes de una fecha (1-12)."/>
+    <entry key="The whole months from d1 to d2." value="Los meses completos de d1 a d2."/>
+    <entry key="The working days (Monday to Friday) from d1 to d2, both counted." value="Los días laborables (de lunes a viernes) de d1 a d2, ambos contados."/>
+    <entry key="True if the condition does not hold." value="Verdadero si la condición no se cumple."/>
+    <entry key="The date and time now." value="La fecha y la hora actuales."/>
+    <entry key="The number written in a text (a decimal comma is accepted)." value="El número escrito en un texto (se acepta la coma decimal)."/>
+    <entry key="x rounded away from zero to an odd whole number." value="x redondeado alejándose de cero a un número entero impar."/>
+    <entry key="True if at least one condition holds." value="Verdadero si se cumple al menos una condición."/>
+    <entry key="The number pi (3.14159...)." value="El número pi (3,14159...)."/>
+    <entry key="x to the power y." value="x elevado a la potencia y."/>
+    <entry key="Each word of the text with a capital first letter." value="Cada palabra del texto con la primera letra en mayúscula."/>
+    <entry key="The whole part of a divided by b." value="La parte entera de a dividido entre b."/>
+    <entry key="An angle in degrees turned into radians." value="Un ángulo en grados convertido a radianes."/>
+    <entry key="The text with every old part replaced by the new one." value="El texto con cada parte old sustituida por la new."/>
+    <entry key="The text repeated n times." value="El texto repetido n veces."/>
+    <entry key="The last n characters of the text." value="Los últimos n caracteres del texto."/>
+    <entry key="x rounded to the decimals given (none: to a whole number)." value="x redondeado a los decimales indicados (ninguno: a un número entero)."/>
+    <entry key="x rounded towards zero." value="x redondeado hacia cero."/>
+    <entry key="x rounded away from zero." value="x redondeado alejándose de cero."/>
+    <entry key="Where the part starts in the text (0 = not there), without regard to case." value="Dónde empieza la parte en el texto (0 = no está), sin distinguir mayúsculas y minúsculas."/>
+    <entry key="The second of a time (0-59)." value="El segundo de un valor horario (0-59)."/>
+    <entry key="1 for a positive x, -1 for a negative one, 0 for zero." value="1 para un x positivo, -1 para uno negativo, 0 para cero."/>
+    <entry key="The sine of an angle in radians." value="El seno de un ángulo en radianes."/>
+    <entry key="The square root of x." value="La raíz cuadrada de x."/>
+    <entry key="True if the text starts with the part (without regard to case)." value="Verdadero si el texto empieza por la parte (sin distinguir mayúsculas y minúsculas)."/>
+    <entry key="The result paired with the value x is equal to; the last one otherwise." value="El resultado emparejado con el valor al que x es igual; si no, el último."/>
+    <entry key="The tangent of an angle in radians." value="La tangente de un ángulo en radianes."/>
+    <entry key="The number written with the decimals given." value="El número escrito con los decimales indicados."/>
+    <entry key="The part of the text after the separator." value="La parte del texto después del separador."/>
+    <entry key="The part of the text before the separator." value="La parte del texto antes del separador."/>
+    <entry key="Today's date." value="La fecha de hoy."/>
+    <entry key="The text without the spaces before and after it." value="El texto sin los espacios de delante y de detrás."/>
+    <entry key="x with the decimals after the ones given cut off." value="x con los decimales más allá de los indicados cortados."/>
+    <entry key="The text in capital letters." value="El texto en mayúsculas."/>
+    <entry key="The day of the week (1 = Sunday ... 7 = Saturday)." value="El día de la semana (1 = domingo ... 7 = sábado)."/>
+    <entry key="The week of the year (weeks start on Monday; before the first Monday: 0)." value="La semana del año (las semanas empiezan el lunes; antes del primer lunes: 0)."/>
+    <entry key="The year of a date." value="El año de una fecha."/>
+    <entry key="The whole years from d1 to d2 (an age)." value="Los años completos de d1 a d2 (una edad)."/>
     <entry key="The statistic cannot be calculated: %s" value="No se puede calcular la estadística: %s"/>
+    <entry key="Average deviation" value="Desviación media"/>
     <entry key="Average" value="Promedio"/>
     <entry key="Count" value="Recuento"/>
+    <entry key="Count of empty values" value="Recuento de valores vacíos"/>
     <entry key="Count of different values" value="Recuento de valores distintos"/>
     <entry key="First value" value="Primer valor"/>
     <entry key="Formula of the measures" value="Fórmula de las medidas"/>
+    <entry key="Geometric mean" value="Media geométrica"/>
+    <entry key="Harmonic mean" value="Media armónica"/>
+    <entry key="Kurtosis" value="Curtosis"/>
     <entry key="Last value" value="Último valor"/>
+    <entry key="List of the values" value="Lista de los valores"/>
     <entry key="Maximum" value="Máximo"/>
     <entry key="Median" value="Mediana"/>
     <entry key="Minimum" value="Mínimo"/>
+    <entry key="Most frequent value (mode)" value="Valor más frecuente (moda)"/>
     <entry key="(none)" value="(ninguna)"/>
+    <entry key="10th percentile" value="Percentil 10"/>
+    <entry key="90th percentile" value="Percentil 90"/>
     <entry key="Product" value="Producto"/>
+    <entry key="First quartile" value="Primer cuartil"/>
+    <entry key="Third quartile" value="Tercer cuartil"/>
+    <entry key="Range (maximum - minimum)" value="Rango (máximo - mínimo)"/>
+    <entry key="Skewness" value="Asimetría"/>
     <entry key="Standard deviation (sample)" value="Desviación estándar (muestra)"/>
     <entry key="Standard deviation (all)" value="Desviación estándar (todos)"/>
     <entry key="Sum" value="Suma"/>
+    <entry key="Sum of squares" value="Suma de cuadrados"/>
     <entry key="Variance (sample)" value="Varianza (muestra)"/>
     <entry key="Variance (all)" value="Varianza (todos)"/>
     <entry key="from" value="desde"/>
@@ -1172,6 +1427,10 @@
     <entry key="%s - locked" value="%s - bloqueada"/>
     <entry key="No database open" value="Ninguna base de datos abierta"/>
     <entry key="Ready" value="Listo"/>
+    <entry key="An alcohol-free beer - %s EUR" value="Una cerveza sin alcohol - %s EUR"/>
+    <entry key="A coffee - %s EUR" value="Un café - %s EUR"/>
+    <entry key="A tea - %s EUR" value="Un té - %s EUR"/>
+    <entry key="SQLite DB Tools is free and stays free: a gift unlocks nothing and changes nothing. If the program is useful to you, you can offer its developer a drink - alcohol free - through PayPal. Each button opens the PayPal page with that amount, which you can still change there." value="SQLite DB Tools es gratuito y seguirá siéndolo: un regalo no desbloquea nada ni cambia nada. Si el programa le resulta útil, puede invitar a su desarrollador a una bebida - sin alcohol - mediante PayPal. Cada botón abre la página de PayPal con ese importe, que allí aún puede cambiar."/>
     <entry key="Computer" value="Equipo"/>
     <entry key="Copy to the clipboard" value="Copiar al Portapapeles"/>
     <entry key="Architecture" value="Arquitectura"/>
@@ -1209,6 +1468,7 @@
     <entry key="Light" value="Claro"/>
     <entry key="The new theme is used for the application's colours, including the windows opened from now on. Parts drawn by the system (title bars, scroll bars) change at the next start." value="El nuevo tema se usa para los colores de la aplicación, incluidas las ventanas que se abran a partir de ahora. Las partes que dibuja el sistema (barras de título, barras de desplazamiento) cambian en el próximo inicio."/>
     <entry key="Select the theme:" value="Seleccione el tema:"/>
+    <entry key="As Windows" value="Como Windows"/>
     <entry key="Theme" value="Tema"/>
     <entry key="Attachment (file)" value="Adjunto (archivo)"/>
     <entry key="Yes / No" value="Sí / No"/>

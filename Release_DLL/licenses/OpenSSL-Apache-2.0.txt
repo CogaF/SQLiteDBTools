@@ -1,0 +1,11 @@
+OpenSSL
+=======
+
+Copyright (c) 1998-2025 The OpenSSL Project Authors
+Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson
+
+Source: https://www.openssl.org/
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (https://www.openssl.org/).
+
+OpenSSL 3 is licensed under the Apache License 2.0: see Apache-2.0.txt.
